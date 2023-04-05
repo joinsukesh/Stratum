@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\out\Stratum</_PublishTargetUrl>
+    <History>True|2023-03-22T11:20:19.1787665Z;True|2023-02-22T16:17:17.5823765+05:30;True|2023-02-22T12:17:00.6647535+05:30;True|2023-02-03T19:35:55.6004253+05:30;True|2023-01-29T15:18:18.4549860+05:30;True|2023-01-25T20:41:37.0422951+05:30;True|2023-01-25T10:03:22.7620057+05:30;True|2023-01-23T16:59:27.9620569+05:30;True|2023-01-23T12:34:36.3878326+05:30;True|2023-01-20T13:33:19.5515382+05:30;True|2023-01-20T11:08:05.7360092+05:30;True|2023-01-19T19:37:34.7204768+05:30;True|2023-01-19T16:42:11.3646845+05:30;True|2023-01-17T12:51:41.1297376+05:30;True|2023-01-16T20:14:49.4602854+05:30;True|2023-01-16T20:08:02.8202102+05:30;True|2023-01-07T19:58:54.9518363+05:30;True|2023-01-06T22:56:32.6960756+05:30;True|2023-01-06T16:49:19.2891636+05:30;True|2023-01-05T15:35:32.6986517+05:30;True|2023-01-05T15:32:35.5869963+05:30;True|2022-12-23T18:57:04.6289782+05:30;True|2022-12-23T18:04:34.4690390+05:30;True|2022-12-22T19:11:05.4274160+05:30;True|2022-12-22T18:58:35.9136507+05:30;True|2022-12-22T17:40:25.3767844+05:30;True|2022-12-22T15:45:05.4350670+05:30;True|2022-12-20T16:34:19.8759350+05:30;True|2022-12-20T16:32:39.0904546+05:30;True|2022-12-20T16:26:48.5675018+05:30;True|2022-12-20T16:13:43.0320458+05:30;True|2022-12-19T11:45:10.5760617+05:30;True|2022-12-19T11:35:50.7002852+05:30;True|2022-12-19T11:22:08.8015982+05:30;True|2022-12-19T11:13:50.1199536+05:30;True|2022-12-19T10:38:57.2893775+05:30;True|2022-12-19T10:14:14.8471324+05:30;True|2022-12-19T09:43:41.3746150+05:30;True|2022-12-19T09:29:55.2190063+05:30;False|2022-12-19T09:26:18.0874496+05:30;False|2022-12-19T09:24:14.3367956+05:30;False|2022-12-19T09:19:13.1779557+05:30;False|2022-12-19T09:14:53.5968482+05:30;False|2022-12-19T09:11:19.4142826+05:30;False|2022-12-19T09:08:01.6281472+05:30;False|2022-12-19T08:58:13.3189894+05:30;False|2022-12-19T08:56:56.3503664+05:30;False|2022-12-19T08:54:19.8766150+05:30;False|2022-12-19T08:48:37.7892268+05:30;True|2022-12-19T08:46:07.3945315+05:30;True|2022-12-19T08:41:55.4595764+05:30;True|2022-12-16T20:12:49.2284704+05:30;True|2022-12-16T20:08:52.5175261+05:30;True|2022-12-16T20:06:28.5149221+05:30;True|2022-12-16T20:02:33.3301766+05:30;True|2022-12-16T20:02:12.4965913+05:30;True|2022-12-16T19:59:14.6566096+05:30;True|2022-12-16T19:57:32.1514854+05:30;True|2022-12-16T19:49:08.0321608+05:30;True|2022-12-16T19:48:33.7803814+05:30;True|2022-12-16T19:47:45.9989124+05:30;True|2022-12-16T19:44:06.3015805+05:30;True|2022-12-16T19:40:31.9162146+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/zzz.Stratum/Feature/Stratum.Feature.Forms.config">
+      <publishTime>01/25/2023 20:22:22</publishTime>
+    </File>
+    <File Include="App_Config/Include/zzz.Stratum/Feature/Stratum.Feature.Navigation.config">
+      <publishTime>12/20/2022 16:32:01</publishTime>
+    </File>
+    <File Include="App_Config/Include/zzz.Stratum/Feature/Stratum.Solr.Index.Products.Master.config">
+      <publishTime>02/16/2023 18:07:01</publishTime>
+    </File>
+    <File Include="App_Config/Include/zzz.Stratum/Foundation/Stratum.Foundation.Common.config">
+      <publishTime>03/22/2023 16:35:41</publishTime>
+    </File>
+    <File Include="App_Config/Include/zzz.Stratum/Foundation/Stratum.Foundation.Logging.config">
+      <publishTime>03/22/2023 16:38:18</publishTime>
+    </File>
+    <File Include="App_Config/Include/zzz.Stratum/Project/Stratum.Project.Website.config">
+      <publishTime>02/01/2023 11:38:35</publishTime>
+    </File>
+    <File Include="App_Config/Include/zzz.Stratum/Project/Stratum.SiteDefinition.Classic.config">
+      <publishTime>01/31/2023 15:08:11</publishTime>
+    </File>
+    <File Include="AssemblyLists/Exclude.csv">
+      <publishTime>12/19/2022 09:19:36</publishTime>
+    </File>
+    <File Include="assets/stratum/css/dev.css">
+      <publishTime>03/22/2023 11:09:05</publishTime>
+    </File>
+    <File Include="assets/stratum/css/fonts/boxicons.ttf">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/fonts/boxicons.woff">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/fonts/boxicons.woff2">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/aos.css">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/bootstrap-icons.css">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/bootstrap.min.css">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/bootstrap.min.css.map">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/boxicons.min.css">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/fonts/bootstrap-icons.woff">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/fonts/bootstrap-icons.woff2">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/glightbox.min.css">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/jquery.dataTables.min.css">
+      <publishTime>01/29/2023 12:07:37</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/swiper-bundle.min.css">
+      <publishTime>01/23/2023 14:29:23</publishTime>
+    </File>
+    <File Include="assets/stratum/css/vendor/toastr.min.css">
+      <publishTime>01/26/2023 13:20:10</publishTime>
+    </File>
+    <File Include="assets/stratum/img/wait.gif">
+      <publishTime>01/26/2023 15:32:49</publishTime>
+    </File>
+    <File Include="assets/stratum/js/accounts.js">
+      <publishTime>02/01/2023 20:33:11</publishTime>
+    </File>
+    <File Include="assets/stratum/js/dev.js">
+      <publishTime>03/22/2023 10:20:10</publishTime>
+    </File>
+    <File Include="assets/stratum/js/gallery.js">
+      <publishTime>01/29/2023 19:00:16</publishTime>
+    </File>
+    <File Include="assets/stratum/js/products.js">
+      <publishTime>02/16/2023 13:43:05</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/aos.js">
+      <publishTime>01/23/2023 13:30:56</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/bootstrap.bundle.min.js">
+      <publishTime>01/23/2023 13:31:26</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/bootstrap.bundle.min.js.map">
+      <publishTime>01/23/2023 14:07:54</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/glightbox.min.js">
+      <publishTime>01/23/2023 13:31:45</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/isotope.pkgd.min.js">
+      <publishTime>01/23/2023 13:31:54</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/jquery-3.6.3.min.js">
+      <publishTime>01/23/2023 13:22:56</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/jquery.dataTables.min.js">
+      <publishTime>01/29/2023 12:08:26</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/jquery.unobtrusive-ajax.min.js">
+      <publishTime>01/23/2023 13:22:56</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/jquery.validate.min.js">
+      <publishTime>01/23/2023 13:22:56</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/23/2023 13:22:56</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/swiper-bundle.min.js">
+      <publishTime>01/23/2023 13:32:03</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/swiper-bundle.min.js.map">
+      <publishTime>01/23/2023 14:11:45</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/toastr.js.map">
+      <publishTime>01/26/2023 13:46:17</publishTime>
+    </File>
+    <File Include="assets/stratum/js/vendor/toastr.min.js">
+      <publishTime>01/26/2023 13:19:43</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>12/18/2018 08:56:38</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>06/13/2022 19:29:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Serilog.dll">
+      <publishTime>09/13/2022 09:49:20</publishTime>
+    </File>
+    <File Include="bin/Serilog.Enrichers.Environment.dll">
+      <publishTime>08/16/2021 04:17:02</publishTime>
+    </File>
+    <File Include="bin/Serilog.Enrichers.Memory.dll">
+      <publishTime>08/24/2017 03:15:58</publishTime>
+    </File>
+    <File Include="bin/Serilog.Enrichers.Process.dll">
+      <publishTime>08/16/2021 04:23:36</publishTime>
+    </File>
+    <File Include="bin/Serilog.Enrichers.Process.pdb">
+      <publishTime>08/16/2021 04:23:36</publishTime>
+    </File>
+    <File Include="bin/Serilog.Exceptions.dll">
+      <publishTime>08/15/2022 18:51:34</publishTime>
+    </File>
+    <File Include="bin/Serilog.Formatting.Compact.dll">
+      <publishTime>10/17/2019 10:48:44</publishTime>
+    </File>
+    <File Include="bin/Serilog.Sinks.File.dll">
+      <publishTime>06/25/2021 13:30:44</publishTime>
+    </File>
+    <File Include="bin/Serilog.Sinks.File.pdb">
+      <publishTime>06/25/2021 13:30:44</publishTime>
+    </File>
+    <File Include="bin/Serilog.Sinks.PeriodicBatching.dll">
+      <publishTime>09/27/2022 13:35:50</publishTime>
+    </File>
+    <File Include="bin/Serilog.Sinks.Seq.dll">
+      <publishTime>11/15/2022 07:33:52</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Analytics.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.CES.GeoIp.Core.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ContentSearch.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.dll">
+      <publishTime>09/22/2021 19:33:30</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>10/20/2021 21:44:24</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Accounts.dll">
+      <publishTime>03/22/2023 16:46:38</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.AdminPages.dll">
+      <publishTime>03/22/2023 16:46:34</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.AdminPages.dll.config">
+      <publishTime>12/16/2022 19:20:45</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.AdminPages.pdb">
+      <publishTime>01/05/2023 15:29:03</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Base.dll">
+      <publishTime>03/22/2023 16:46:29</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Base.dll.config">
+      <publishTime>12/16/2022 19:20:41</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Base.pdb">
+      <publishTime>01/05/2023 15:28:58</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Forms.dll">
+      <publishTime>03/22/2023 16:46:35</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Metadata.dll">
+      <publishTime>03/22/2023 16:46:36</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Metadata.dll.config">
+      <publishTime>12/22/2022 18:35:08</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Metadata.pdb">
+      <publishTime>01/05/2023 15:29:06</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Navigation.dll">
+      <publishTime>03/22/2023 16:46:32</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Navigation.dll.config">
+      <publishTime>12/16/2022 19:20:41</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.Navigation.pdb">
+      <publishTime>01/05/2023 15:29:01</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.PageContent.dll">
+      <publishTime>03/22/2023 16:46:34</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.PageContent.dll.config">
+      <publishTime>12/16/2022 19:20:41</publishTime>
+    </File>
+    <File Include="bin/Stratum.Feature.PageContent.pdb">
+      <publishTime>01/05/2023 15:29:04</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Accounts.dll">
+      <publishTime>03/22/2023 16:46:27</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Accounts.pdb">
+      <publishTime>01/05/2023 15:28:53</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Api.dll">
+      <publishTime>03/22/2023 16:46:31</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Api.pdb">
+      <publishTime>01/05/2023 15:29:02</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Assets.dll">
+      <publishTime>03/22/2023 16:46:31</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Common.dll">
+      <publishTime>03/22/2023 16:46:28</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Common.pdb">
+      <publishTime>01/05/2023 15:28:53</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.DependencyInjection.dll">
+      <publishTime>02/22/2023 16:04:31</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Forms.dll">
+      <publishTime>03/22/2023 16:46:31</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Logging.dll">
+      <publishTime>03/22/2023 16:52:14</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Logging.pdb">
+      <publishTime>01/16/2023 20:04:19</publishTime>
+    </File>
+    <File Include="bin/Stratum.Foundation.Search.dll">
+      <publishTime>03/22/2023 16:46:29</publishTime>
+    </File>
+    <File Include="bin/Stratum.Project.Website.dll">
+      <publishTime>03/22/2023 16:46:36</publishTime>
+    </File>
+    <File Include="bin/Stratum.Project.Website.dll.config">
+      <publishTime>12/12/2022 11:22:38</publishTime>
+    </File>
+    <File Include="bin/Stratum.Project.Website.pdb">
+      <publishTime>01/05/2023 15:29:00</publishTime>
+    </File>
+    <File Include="bin/Stratum.Publish.Website.dll">
+      <publishTime>12/19/2022 11:35:49</publishTime>
+    </File>
+    <File Include="bin/Stratum.Publish.Website.pdb">
+      <publishTime>12/19/2022 11:35:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="Directory.build.props">
+      <publishTime>12/16/2022 19:23:27</publishTime>
+    </File>
+    <File Include="download/default.aspx">
+      <publishTime>01/29/2023 14:53:09</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>01/29/2023 13:39:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/06/2023 18:13:31</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/app-logs.aspx">
+      <publishTime>03/22/2023 10:53:49</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/assets/css/app.css">
+      <publishTime>03/22/2023 11:06:33</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/assets/css/bootstrap.min.css">
+      <publishTime>12/16/2022 18:36:41</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/assets/images/denim.png">
+      <publishTime>12/16/2022 18:31:16</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/assets/js/app.js">
+      <publishTime>03/21/2023 09:23:12</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/assets/js/bootstrap.min.js">
+      <publishTime>12/16/2022 18:37:09</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/assets/js/jquery-3.5.1.min.js">
+      <publishTime>12/16/2022 18:31:17</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/Default.Master">
+      <publishTime>02/02/2023 20:39:13</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/encrypt-decrypt.aspx">
+      <publishTime>01/29/2023 14:43:15</publishTime>
+    </File>
+    <File Include="sitecore/admin/Stratum/scform-report.aspx">
+      <publishTime>01/29/2023 19:25:50</publishTime>
+    </File>
+    <File Include="SQLScripts/ScFormReport/usp_GetSitecoreFormData.sql">
+      <publishTime>01/29/2023 12:47:12</publishTime>
+    </File>
+    <File Include="SQLScripts/ScFormReport/uv_ScFormData.sql">
+      <publishTime>01/28/2023 12:34:07</publishTime>
+    </File>
+    <File Include="static/errors/500.html">
+      <publishTime>01/07/2023 01:13:11</publishTime>
+    </File>
+    <File Include="Stratum.Publish.Website.wpp.targets">
+      <publishTime>12/19/2022 11:44:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>12/12/2022 18:37:40</publishTime>
+    </File>
+    <File Include="Views/Stratum/Accounts/ConfirmSignUp.cshtml">
+      <publishTime>02/01/2023 12:07:18</publishTime>
+    </File>
+    <File Include="Views/Stratum/Accounts/ForgotPassword.cshtml">
+      <publishTime>03/22/2023 15:16:21</publishTime>
+    </File>
+    <File Include="Views/Stratum/Accounts/ResetPassword.cshtml">
+      <publishTime>02/01/2023 18:57:04</publishTime>
+    </File>
+    <File Include="Views/Stratum/Accounts/SignIn.cshtml">
+      <publishTime>02/01/2023 16:53:00</publishTime>
+    </File>
+    <File Include="Views/Stratum/Accounts/SignUp.cshtml">
+      <publishTime>02/03/2023 16:13:26</publishTime>
+    </File>
+    <File Include="Views/Stratum/Base/CommonError.cshtml">
+      <publishTime>02/01/2023 20:09:54</publishTime>
+    </File>
+    <File Include="Views/Stratum/Base/_Pagination.cshtml">
+      <publishTime>02/09/2023 10:58:18</publishTime>
+    </File>
+    <File Include="Views/Stratum/Base/_WaitImage.cshtml">
+      <publishTime>01/26/2023 15:14:52</publishTime>
+    </File>
+    <File Include="Views/Stratum/Forms/ContactUs.cshtml">
+      <publishTime>01/24/2023 14:45:03</publishTime>
+    </File>
+    <File Include="Views/Stratum/Forms/ContactUsForm.cshtml">
+      <publishTime>01/31/2023 16:43:10</publishTime>
+    </File>
+    <File Include="Views/Stratum/Layouts/Default.cshtml">
+      <publishTime>01/23/2023 16:46:27</publishTime>
+    </File>
+    <File Include="Views/Stratum/Metadata/Metadata.cshtml">
+      <publishTime>01/19/2023 16:57:31</publishTime>
+    </File>
+    <File Include="Views/Stratum/Navigation/Footer.cshtml">
+      <publishTime>03/22/2023 15:15:59</publishTime>
+    </File>
+    <File Include="Views/Stratum/Navigation/Header.cshtml">
+      <publishTime>02/06/2023 16:23:33</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/Accordion.cshtml">
+      <publishTime>01/21/2023 16:21:02</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/ColumnsSection.cshtml">
+      <publishTime>01/31/2023 14:23:15</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/Gallery.cshtml">
+      <publishTime>01/29/2023 19:00:34</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/HeroBanner.cshtml">
+      <publishTime>02/22/2023 13:08:55</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/NumberedGridTilesSection.cshtml">
+      <publishTime>01/21/2023 16:23:32</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/ProductsListing.cshtml">
+      <publishTime>02/22/2023 13:18:26</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/RichTextSection.cshtml">
+      <publishTime>01/25/2023 10:56:09</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/TeaserTilesSection.cshtml">
+      <publishTime>01/21/2023 16:24:50</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/TestimonialsSection.cshtml">
+      <publishTime>01/21/2023 16:26:03</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/_GalleryImages.cshtml">
+      <publishTime>01/23/2023 18:34:19</publishTime>
+    </File>
+    <File Include="Views/Stratum/PageContent/_ProductTiles.cshtml">
+      <publishTime>02/16/2023 16:42:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

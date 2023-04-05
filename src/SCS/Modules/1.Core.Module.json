@@ -1,0 +1,60 @@
+{
+  "namespace": "Core",
+  "references": [ "" ],
+  "items": {
+    "includes": [
+      {
+	    ///For disabling the publish site option for all users except admin,
+		///by denying read access to these roles - "sitecore\Sitecore Client Users" & "siecore\Sitecore Client Publishing" 
+        "name": "core-ribbon-publishsite",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/content/Applications/Content Editor/Menues/Publish/Publish Site",
+        "database":"core",
+        "alias": "core-ribbon-ps"
+      },
+	  {
+	    ///For disabling the publish site option for all users except admin,
+		///by denying read access to these roles "sitecore\Sitecore Client Users" & "siecore\Sitecore Client Publishing" 
+        "name": "core-startmenu-publishsite",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/content/Documents and settings/All users/Start menu/Left/Publish Site",
+        "database":"core",
+        "alias": "core-sm-ps"
+      },
+	  {
+	    ///For disabling the publish site option for all users except admin,
+		///by denying read access to these roles - "sitecore\Sitecore Client Users" & "siecore\Sitecore Client Publishing" 
+        "name": "core-keymap-publishsite",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/system/Settings/Key Map/Ctrl-F9",
+        "database":"core",
+        "alias": "core-km-ps"
+      },
+	  {
+	    ///Launchpad buttons 
+        "name": "core-launchpad-buttons",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/client/Applications/Launchpad/PageSettings/Buttons/Stratum",
+		"scope": "ItemAndDescendants",
+        "database":"core",
+        "alias": "core-lp-btns"
+      },
+	  {
+	    ///Stratum User Template
+        "name": "core-sut",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/templates/System/Security/Stratum User",		
+        "database":"core",
+        "alias": "core-sut"
+      },
+	  {
+	    ///Stratum User Profile
+        "name": "core-sup",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/system/Settings/Security/Profiles/Stratum User",		
+        "database":"core",
+        "alias": "core-sup"
+      }
+    ]
+  }
+}

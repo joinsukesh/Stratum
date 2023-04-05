@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishProfile>Local</PublishProfile>
+    <LangVersion>latestMajor</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Foundation\code\*\*.csproj" />
+    <ProjectReference Include="..\..\..\..\Feature\code\*\*.csproj" />
+    <ProjectReference Include="..\..\..\..\Project\code\*\*.csproj" />
+  </ItemGroup>
+</Project>

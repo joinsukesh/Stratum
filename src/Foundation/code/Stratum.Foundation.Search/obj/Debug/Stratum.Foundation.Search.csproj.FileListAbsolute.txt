@@ -1,0 +1,30 @@
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Stratum.Foundation.Search.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Stratum.Foundation.Search.pdb
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Sitecore.ContentSearch.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Sitecore.ContentSearch.Linq.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Sitecore.Kernel.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Newtonsoft.Json.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\HtmlAgilityPack.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.csproj.AssemblyReference.cache
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.csproj.CoreCompileInputs.cache
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.csproj.CopyComplete
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Stratum.Foundation.Search.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Stratum.Foundation.Search.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Sitecore.ContentSearch.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Sitecore.ContentSearch.Linq.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Sitecore.Kernel.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Newtonsoft.Json.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\HtmlAgilityPack.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.csproj.AssemblyReference.cache
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.csproj.CoreCompileInputs.cache
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.csproj.CopyComplete
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Search\obj\Debug\Stratum.Foundation.Search.pdb

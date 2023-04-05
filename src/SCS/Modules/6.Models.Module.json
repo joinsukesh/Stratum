@@ -1,0 +1,15 @@
+{
+  "namespace": "Models",
+  "references": [ "" ],
+  "items": {
+    "includes": [
+      {
+        "name": "models",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/layout/Models/Stratum",
+		"scope": "ItemAndDescendants",
+        "alias": "models"
+      }
+    ]
+  }
+}

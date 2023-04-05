@@ -1,0 +1,44 @@
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Stratum.Foundation.Assets.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Stratum.Foundation.Assets.pdb
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.Kernel.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.Mvc.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Stratum.Foundation.Common.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\System.Web.Mvc.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\HtmlAgilityPack.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\ClosedXML.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.Analytics.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.CES.GeoIp.Core.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.ContentSearch.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Newtonsoft.Json.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.ContentSearch.Linq.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Stratum.Foundation.Common.pdb
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.csproj.AssemblyReference.cache
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.csproj.CoreCompileInputs.cache
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.csproj.CopyComplete
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.dll
+D:\projects\internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Stratum.Foundation.Assets.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Stratum.Foundation.Assets.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.Kernel.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.Mvc.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Stratum.Foundation.Common.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\System.Web.Mvc.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\HtmlAgilityPack.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\ClosedXML.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.Analytics.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.CES.GeoIp.Core.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.ContentSearch.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Newtonsoft.Json.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Sitecore.ContentSearch.Linq.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\bin\Debug\Stratum.Foundation.Common.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.csproj.AssemblyReference.cache
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.csproj.CoreCompileInputs.cache
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.csproj.CopyComplete
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Foundation\code\Stratum.Foundation.Assets\obj\Debug\Stratum.Foundation.Assets.pdb

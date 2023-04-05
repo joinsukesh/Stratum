@@ -1,0 +1,28 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Stratum.Foundation.Assets.Services
+@using Stratum.Feature.Base
+@{
+    Layout = null;
+    AssetsService assetsService = new AssetsService();
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @Html.Sitecore().ControllerRendering("Metadata", "RenderMetadata")
+    @Html.Sitecore().Placeholder("head")
+    @assetsService.GetAssets(Stratum.Foundation.Assets.Constants.AssetPosition.Head)
+</head>
+<body>
+    @Html.Sitecore().VisitorIdentification()
+    @Html.Sitecore().Placeholder("header")
+    <main>
+        @Html.Sitecore().Placeholder("main")
+    </main>
+    @Html.Sitecore().Placeholder("footer")
+    @Html.Partial(BaseConstants.WaitImageViewPath)
+    @assetsService.GetAssets(Stratum.Foundation.Assets.Constants.AssetPosition.Body)
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "namespace": "Forms",
+  "references": [ "" ],
+  "items": {
+    "includes": [      
+      {
+        "name": "forms",
+        "allowedPushOperations": "CreateOnly",
+        "path": "/sitecore/Forms/Stratum",
+		"scope": "ItemAndDescendants",
+        "alias": "forms"
+      }
+    ]
+  }
+}

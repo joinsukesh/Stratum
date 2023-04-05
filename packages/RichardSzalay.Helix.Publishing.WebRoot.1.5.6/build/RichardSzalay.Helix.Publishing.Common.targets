@@ -1,0 +1,59 @@
+<Project>
+  <!-- CollectHelixModules -->
+  <PropertyGroup>
+    <CollectHelixModulesDependsOn>
+      $(CollectHelixModulesDependsOn);
+      CollectHelixModulesProjectDependencies;
+    </CollectHelixModulesDependsOn>
+  </PropertyGroup>
+
+  <Target Name="CollectHelixModules" DependsOnTargets="$(CollectHelixModulesDependsOn)" />
+
+  <!-- Content -->
+  <PropertyGroup>
+   <CollectFilesFromHelixModules Condition="'$(CollectFilesFromHelixModules)' == ''">true</CollectFilesFromHelixModules>
+   <ExcludeHelixModuleConfigFiles Condition="'$(ExcludeHelixModuleConfigFiles)' == ''">true</ExcludeHelixModuleConfigFiles>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(CollectFilesFromHelixModules)' == 'true'">
+    <PipelineCollectFilesPhaseDependsOn>
+      $(PipelineCollectFilesPhaseDependsOn);
+      CollectFilesFromHelixModules;
+    </PipelineCollectFilesPhaseDependsOn>
+    <CollectFilesFromHelixModulesDependsOn>
+      $(CollectFilesFromHelixModulesDependsOn);
+      CollectHelixModules;
+      CollectFilesFromHelixModulesContent;
+      CollectFilesFromHelixModulesAdditional
+    </CollectFilesFromHelixModulesDependsOn>
+    <PreTransformWebConfigDependsOn>
+      $(PreTransformWebConfigDependsOn);
+      ExcludeHelixModuleWebConfigsFromTransform
+    </PreTransformWebConfigDependsOn>
+  </PropertyGroup>
+
+  <Target Name="CollectFilesFromHelixModules" DependsOnTargets="$(CollectFilesFromHelixModulesDependsOn)">
+    <ItemGroup Condition="'$(ExcludeHelixModuleConfigFiles)' == 'true'">
+      <_HelixModuleWebConfigsToExclude Include="@(FilesForPackagingFromHelixModules)"
+                                       Condition="'%(DestinationRelativePath)' == '$(ProjectConfigFileName)' OR '%(DestinationRelativePath)' == 'Views\$(ProjectConfigFileName)'" />
+
+      <FilesForPackagingFromHelixModules Remove="@(_HelixModuleWebConfigsToExclude)" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <FilesForPackagingFromProject Include="@(FilesForPackagingFromHelixModules)" />
+    </ItemGroup>
+  </Target>
+
+  <Target Name="ExcludeHelixModuleWebConfigsFromTransform">
+    <ItemGroup>
+      <_HelixModuleWebConfigFiles
+        Include="@(FilesForPackagingFromHelixModules)"
+        Condition="'%(Filename)%(Extension)' == '$(ProjectConfigFileName)'" />
+      <WebConfigsToTransform Remove="@(_HelixModuleWebConfigFiles)" />
+    </ItemGroup>
+  </Target>
+
+  <!-- Plugins -->
+  <Import Project="Helix.Publishing.Plugins\*.targets" />
+</Project>

@@ -1,0 +1,63 @@
+﻿@using Stratum.Feature.PageContent.Models.Product
+@using Sitecore.Mvc
+@using Stratum.Foundation.Common
+@using Stratum.Foundation.Common.Models
+@using Stratum.Foundation.Common.Utilities
+@using Stratum.Foundation.Common.Services
+@model ProductsListing
+@{
+    Layout = null;
+    bool isExperienceEditor = SitecoreUtility.IsExperienceEditorMode();
+    BaseRenderingParams brParams = new CommonService().GetBaseRenderingParams(Stratum.Feature.PageContent.Templates.ProductsListingRenderingParameters.ID);
+}
+
+@if (Model != null)
+{
+    <section id="@brParams.SectionId" class="portfolio @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
+        <div class="container">
+            @if ((!MvcHtmlString.IsNullOrEmpty(Model.Title)) ||
+                (!MvcHtmlString.IsNullOrEmpty(Model.Description)) || isExperienceEditor)
+            {
+                <div class="section-title" data-aos="fade-up">
+                    @if ((!MvcHtmlString.IsNullOrEmpty(Model.Title)) || isExperienceEditor)
+                    {
+                        @Model.Title
+                    }
+                    @if ((!MvcHtmlString.IsNullOrEmpty(Model.Description)) || isExperienceEditor)
+                    {
+                        @Model.Description
+                    }
+                </div>
+            }
+            <div class="row no-gutters justify-content-center">
+                <div class="col-lg-12">
+                    @using (Ajax.BeginForm("GetProductsByPage", "Products",
+                    new AjaxOptions
+                    {
+                        HttpMethod = "Post",
+                        OnBegin = "OnBegin_SearchProducts",
+                        OnSuccess = "OnSuccess_SearchProducts",
+                        OnFailure = "OnFailure_SearchProducts"
+                    }, new { @class = "php-email-for", id = "formSearchProducts" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="form-group mt-3">
+                            @Html.HiddenFor(x => x.PageSize, new { id = "PageSize" })
+                            @Html.TextBoxFor(x => x.SearchKeyword, new { @class = "form-control", type = "text", maxlength = "20", id = "SearchKeyword", placeholder = CommonDictionaryValues.Labels.Search, style = "display:inline-block;width:57%" })
+                            &nbsp;@Html.DropDownListFor(x => x.TagId, Model.Tags, new { @class = "form-select", id = "ddlTags", style = "display:inline-block;width:30%" })
+                            &nbsp;<button id="btnSearch" class="btn btn-info" type="submit" style="margin-top:-3px;">@CommonDictionaryValues.Labels.Search</button>
+                        </div>
+                    }
+
+                    <div id="pdt-tiles-container" class="mt-3">
+                        @Html.Partial(Stratum.Feature.PageContent.Constants.ViewsFolderPath + "_ProductTiles.cshtml", Model)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <span></span>
+}

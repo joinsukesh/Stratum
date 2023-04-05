@@ -1,0 +1,3109 @@
+<?xml version="1.0"?>
+<Project>
+  <ItemGroup>
+    <SitecoreAssemblies Include="Antlr3.Runtime.dll">
+      <Name>Antlr3.Runtime.dll</Name>
+      <Version>3.4.1.9004</Version>
+      <FileVersion>3.4.1.9004</FileVersion>
+      <InfoVersion>3.4.1.9004</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="ChilkatDotNet48.dll">
+      <Name>ChilkatDotNet48.dll</Name>
+      <Version>9.5.0.89</Version>
+      <FileVersion>9.5.0.89</FileVersion>
+      <InfoVersion>9.5.0.89</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="CommonServiceLocator.dll">
+      <Name>CommonServiceLocator.dll</Name>
+      <Version>2.0.3.0</Version>
+      <FileVersion>2.0.3.0</FileVersion>
+      <InfoVersion>2.0.3</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="CommonServiceLocator.SolrNet.dll">
+      <Name>CommonServiceLocator.SolrNet.dll</Name>
+      <Version>1.0.19.0</Version>
+      <FileVersion>1.0.19.0</FileVersion>
+      <InfoVersion>1.0.19</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="ComponentArt.Web.UI.dll">
+      <Name>ComponentArt.Web.UI.dll</Name>
+      <Version>2010.1.2637.35</Version>
+      <FileVersion>2010.1.2637.35</FileVersion>
+      <InfoVersion>2010.1.2637.35</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="DocumentFormat.OpenXml.dll">
+      <Name>DocumentFormat.OpenXml.dll</Name>
+      <Version>2.7.2.0</Version>
+      <FileVersion>2.7.2.0</FileVersion>
+      <InfoVersion>2.7.2</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="EcmaScript.NET.dll">
+      <Name>EcmaScript.NET.dll</Name>
+      <Version>1.0.1.0</Version>
+      <FileVersion>1.0.1.0</FileVersion>
+      <InfoVersion>1.0.1.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.Caching.dll">
+      <Name>FiftyOne.Caching.dll</Name>
+      <Version>4.4.1.0</Version>
+      <FileVersion>4.4.1.0</FileVersion>
+      <InfoVersion>4.4.1+78f2f08bd09a77f5257ef67a7e00299e6e41178b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.Common.dll">
+      <Name>FiftyOne.Common.dll</Name>
+      <Version>4.4.1.0</Version>
+      <FileVersion>4.4.1.0</FileVersion>
+      <InfoVersion>4.4.1+9a6831f229c4db7bce9d15d73d9b1c162a932c76</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.DeviceDetection.Cloud.dll">
+      <Name>FiftyOne.DeviceDetection.Cloud.dll</Name>
+      <Version>4.4.8.0</Version>
+      <FileVersion>4.4.8.0</FileVersion>
+      <InfoVersion>4.4.8+b97f607ad7564f722b38979fcc3a709259bd29dd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.DeviceDetection.dll">
+      <Name>FiftyOne.DeviceDetection.dll</Name>
+      <Version>4.4.8.0</Version>
+      <FileVersion>4.4.8.0</FileVersion>
+      <InfoVersion>4.4.8+b97f607ad7564f722b38979fcc3a709259bd29dd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.DeviceDetection.Hash.Engine.OnPremise.dll">
+      <Name>FiftyOne.DeviceDetection.Hash.Engine.OnPremise.dll</Name>
+      <Version>4.4.8.0</Version>
+      <FileVersion>4.4.8.0</FileVersion>
+      <InfoVersion>4.4.8+b97f607ad7564f722b38979fcc3a709259bd29dd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.DeviceDetection.Hash.Engine.OnPremise.Native.dll">
+      <Name>FiftyOne.DeviceDetection.Hash.Engine.OnPremise.Native.dll</Name>
+      <Version>
+      </Version>
+      <FileVersion>
+      </FileVersion>
+      <InfoVersion>
+      </InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.DeviceDetection.Shared.dll">
+      <Name>FiftyOne.DeviceDetection.Shared.dll</Name>
+      <Version>4.4.8.0</Version>
+      <FileVersion>4.4.8.0</FileVersion>
+      <InfoVersion>4.4.8+b97f607ad7564f722b38979fcc3a709259bd29dd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.Foundation.dll">
+      <Name>FiftyOne.Foundation.dll</Name>
+      <Version>3.2.17.2</Version>
+      <FileVersion>3.2.17.2</FileVersion>
+      <InfoVersion>3.2.17.2</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.Pipeline.CloudRequestEngine.dll">
+      <Name>FiftyOne.Pipeline.CloudRequestEngine.dll</Name>
+      <Version>4.4.4.0</Version>
+      <FileVersion>4.4.4.0</FileVersion>
+      <InfoVersion>4.4.4+903ea1cf09f705ce73a548fde5b20a37fdc3716e</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.Pipeline.Core.dll">
+      <Name>FiftyOne.Pipeline.Core.dll</Name>
+      <Version>4.4.4.0</Version>
+      <FileVersion>4.4.4.0</FileVersion>
+      <InfoVersion>4.4.4+903ea1cf09f705ce73a548fde5b20a37fdc3716e</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.Pipeline.Engines.dll">
+      <Name>FiftyOne.Pipeline.Engines.dll</Name>
+      <Version>4.4.4.0</Version>
+      <FileVersion>4.4.4.0</FileVersion>
+      <InfoVersion>4.4.4+903ea1cf09f705ce73a548fde5b20a37fdc3716e</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="FiftyOne.Pipeline.Engines.FiftyOne.dll">
+      <Name>FiftyOne.Pipeline.Engines.FiftyOne.dll</Name>
+      <Version>4.4.4.0</Version>
+      <FileVersion>4.4.4.0</FileVersion>
+      <InfoVersion>4.4.4+903ea1cf09f705ce73a548fde5b20a37fdc3716e</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="GreenDonut.dll">
+      <Name>GreenDonut.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Abstractions.dll">
+      <Name>HotChocolate.Abstractions.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.AspNetClassic.Abstractions.dll">
+      <Name>HotChocolate.AspNetClassic.Abstractions.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.AspNetClassic.Authorization.dll">
+      <Name>HotChocolate.AspNetClassic.Authorization.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.AspNetClassic.dll">
+      <Name>HotChocolate.AspNetClassic.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.AspNetClassic.HttpGet.dll">
+      <Name>HotChocolate.AspNetClassic.HttpGet.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.AspNetClassic.HttpGetSchema.dll">
+      <Name>HotChocolate.AspNetClassic.HttpGetSchema.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.AspNetClassic.HttpPost.dll">
+      <Name>HotChocolate.AspNetClassic.HttpPost.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.AspNetClassic.Playground.dll">
+      <Name>HotChocolate.AspNetClassic.Playground.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Core.dll">
+      <Name>HotChocolate.Core.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Language.dll">
+      <Name>HotChocolate.Language.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Server.dll">
+      <Name>HotChocolate.Server.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Subscriptions.dll">
+      <Name>HotChocolate.Subscriptions.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Subscriptions.InMemory.dll">
+      <Name>HotChocolate.Subscriptions.InMemory.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Subscriptions.Redis.dll">
+      <Name>HotChocolate.Subscriptions.Redis.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Types.dll">
+      <Name>HotChocolate.Types.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HotChocolate.Utilities.dll">
+      <Name>HotChocolate.Utilities.dll</Name>
+      <Version>10.5.5.0</Version>
+      <FileVersion>10.5.5.0</FileVersion>
+      <InfoVersion>10.5.5+fcfaa05fb24b2406abef28bdca60484022f0e89b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="HtmlAgilityPack.dll">
+      <Name>HtmlAgilityPack.dll</Name>
+      <Version>1.4.9.5</Version>
+      <FileVersion>1.4.9.5</FileVersion>
+      <InfoVersion>1.4.9.5</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="ICSharpCode.SharpZipLib.dll">
+      <Name>ICSharpCode.SharpZipLib.dll</Name>
+      <Version>1.3.2.10</Version>
+      <FileVersion>1.3.2.10</FileVersion>
+      <InfoVersion>1.3.2+34879bef2b28c2b0fa991da64da83057a0b806b7</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="IdentityModel.dll">
+      <Name>IdentityModel.dll</Name>
+      <Version>3.10.10.0</Version>
+      <FileVersion>3.10.10.0</FileVersion>
+      <InfoVersion>3.10.10+2572065ecb18282e9d19f1cc28a1ff7ba2211830</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="MarkdownSharp.dll">
+      <Name>MarkdownSharp.dll</Name>
+      <Version>1.14.5.0</Version>
+      <FileVersion>1.14.5.0</FileVersion>
+      <InfoVersion>1.14.5.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNet.Identity.Core.dll">
+      <Name>Microsoft.AspNet.Identity.Core.dll</Name>
+      <Version>2.0.0.0</Version>
+      <FileVersion>2.2.1.40403.0</FileVersion>
+      <InfoVersion>2.2.1.40403.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNet.Identity.Owin.dll">
+      <Name>Microsoft.AspNet.Identity.Owin.dll</Name>
+      <Version>2.0.0.0</Version>
+      <FileVersion>2.2.1.40403.0</FileVersion>
+      <InfoVersion>2.2.1.40403.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNet.OData.dll">
+      <Name>Microsoft.AspNet.OData.dll</Name>
+      <Version>7.5.9.0</Version>
+      <FileVersion>7.5.9.20812</FileVersion>
+      <InfoVersion>7.5.9.20812</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNet.SessionState.SessionStateModule.dll">
+      <Name>Microsoft.AspNet.SessionState.SessionStateModule.dll</Name>
+      <Version>1.1.0.0</Version>
+      <FileVersion>1.1.20502.0</FileVersion>
+      <InfoVersion>1.1.0-20502</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNet.WebApi.Extensions.Compression.Server.dll">
+      <Name>Microsoft.AspNet.WebApi.Extensions.Compression.Server.dll</Name>
+      <Version>2.0.0.0</Version>
+      <FileVersion>2.0.3</FileVersion>
+      <InfoVersion>2.0.3</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNetCore.Hosting.Abstractions.dll">
+      <Name>Microsoft.AspNetCore.Hosting.Abstractions.dll</Name>
+      <Version>2.2.0.0</Version>
+      <FileVersion>2.2.0.18316</FileVersion>
+      <InfoVersion>2.2.0-rtm-35687</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNetCore.Hosting.Server.Abstractions.dll">
+      <Name>Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</Name>
+      <Version>2.2.0.0</Version>
+      <FileVersion>2.2.0.18316</FileVersion>
+      <InfoVersion>2.2.0-rtm-35687</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNetCore.Http.Abstractions.dll">
+      <Name>Microsoft.AspNetCore.Http.Abstractions.dll</Name>
+      <Version>2.2.0.0</Version>
+      <FileVersion>2.2.0.18316</FileVersion>
+      <InfoVersion>2.2.0-rtm-35687</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.AspNetCore.Http.Features.dll">
+      <Name>Microsoft.AspNetCore.Http.Features.dll</Name>
+      <Version>2.2.0.0</Version>
+      <FileVersion>2.2.0.18316</FileVersion>
+      <InfoVersion>2.2.0-rtm-35687</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Azure.Amqp.dll">
+      <Name>Microsoft.Azure.Amqp.dll</Name>
+      <Version>2.4.0.0</Version>
+      <FileVersion>2.2.0.0</FileVersion>
+      <InfoVersion>2.4.2</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Azure.ServiceBus.dll">
+      <Name>Microsoft.Azure.ServiceBus.dll</Name>
+      <Version>4.1.2.0</Version>
+      <FileVersion>4.100.220.15305</FileVersion>
+      <InfoVersion>4.1.2+7793c0ed902c9e57b3e78a00af2332d200f11756</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Azure.Services.AppAuthentication.dll">
+      <Name>Microsoft.Azure.Services.AppAuthentication.dll</Name>
+      <Version>1.3.1.0</Version>
+      <FileVersion>1.3.1.0</FileVersion>
+      <InfoVersion>1.3.1</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <Name>Microsoft.Bcl.AsyncInterfaces.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Configuration.ConfigurationBuilders.Base.dll">
+      <Name>Microsoft.Configuration.ConfigurationBuilders.Base.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.0.30709.0</FileVersion>
+      <InfoVersion>1.0.2-30709</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Configuration.ConfigurationBuilders.Environment.dll">
+      <Name>Microsoft.Configuration.ConfigurationBuilders.Environment.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.0.30709.0</FileVersion>
+      <InfoVersion>1.0.2-30709</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <Name>Microsoft.Extensions.Caching.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Caching.Memory.dll">
+      <Name>Microsoft.Extensions.Caching.Memory.dll</Name>
+      <Version>6.0.0.1</Version>
+      <FileVersion>6.0.222.6406</FileVersion>
+      <InfoVersion>6.0.2+839cdfb0ecca5e0be3dbccd926e7651ef50fdf10</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <Name>Microsoft.Extensions.Configuration.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.Binder.dll">
+      <Name>Microsoft.Extensions.Configuration.Binder.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.CommandLine.dll">
+      <Name>Microsoft.Extensions.Configuration.CommandLine.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.dll">
+      <Name>Microsoft.Extensions.Configuration.dll</Name>
+      <Version>6.0.0.1</Version>
+      <FileVersion>6.0.322.12309</FileVersion>
+      <InfoVersion>6.0.3+c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.EnvironmentVariables.dll">
+      <Name>Microsoft.Extensions.Configuration.EnvironmentVariables.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.FileExtensions.dll">
+      <Name>Microsoft.Extensions.Configuration.FileExtensions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.Ini.dll">
+      <Name>Microsoft.Extensions.Configuration.Ini.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.Json.dll">
+      <Name>Microsoft.Extensions.Configuration.Json.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Configuration.Xml.dll">
+      <Name>Microsoft.Extensions.Configuration.Xml.dll</Name>
+      <Version>2.2.0.0</Version>
+      <FileVersion>2.2.0.18315</FileVersion>
+      <InfoVersion>2.2.0-rtm-181110-01+pb-20181110-02</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <Name>Microsoft.Extensions.DependencyInjection.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.DependencyInjection.dll">
+      <Name>Microsoft.Extensions.DependencyInjection.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.DependencyModel.dll">
+      <Name>Microsoft.Extensions.DependencyModel.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.DiagnosticAdapter.dll">
+      <Name>Microsoft.Extensions.DiagnosticAdapter.dll</Name>
+      <Version>2.1.0.0</Version>
+      <FileVersion>2.1.0.18136</FileVersion>
+      <InfoVersion>2.1.0-rtm-30799</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll">
+      <Name>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52608</FileVersion>
+      <InfoVersion>6.0.0+ae1a6cbe225b99c0bf38b7e31bf60cb653b73a52</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <Name>Microsoft.Extensions.FileProviders.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.FileProviders.Physical.dll">
+      <Name>Microsoft.Extensions.FileProviders.Physical.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.FileSystemGlobbing.dll">
+      <Name>Microsoft.Extensions.FileSystemGlobbing.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Hosting.Abstractions.dll">
+      <Name>Microsoft.Extensions.Hosting.Abstractions.dll</Name>
+      <Version>2.2.0.0</Version>
+      <FileVersion>2.2.0.18316</FileVersion>
+      <InfoVersion>2.2.0-rtm-35687</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <Name>Microsoft.Extensions.Logging.Abstractions.dll</Name>
+      <Version>6.0.0.1</Version>
+      <FileVersion>6.0.322.12309</FileVersion>
+      <InfoVersion>6.0.3+c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Logging.dll">
+      <Name>Microsoft.Extensions.Logging.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.ObjectPool.dll">
+      <Name>Microsoft.Extensions.ObjectPool.dll</Name>
+      <Version>2.1.0.0</Version>
+      <FileVersion>2.1.0.18136</FileVersion>
+      <InfoVersion>2.1.0-rtm-30799</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Options.dll">
+      <Name>Microsoft.Extensions.Options.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Extensions.Primitives.dll">
+      <Name>Microsoft.Extensions.Primitives.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <Name>Microsoft.IdentityModel.Clients.ActiveDirectory.dll</Name>
+      <Version>4.5.0.0</Version>
+      <FileVersion>4.5.0.0</FileVersion>
+      <InfoVersion>4.5.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <Name>Microsoft.IdentityModel.JsonWebTokens.dll</Name>
+      <Version>5.4.0.0</Version>
+      <FileVersion>5.4.0.60123</FileVersion>
+      <InfoVersion>5.4.0.60123010533.1300b19eae77801a05906bc061fe52e158b513e8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.Logging.dll">
+      <Name>Microsoft.IdentityModel.Logging.dll</Name>
+      <Version>5.4.0.0</Version>
+      <FileVersion>5.4.0.60123</FileVersion>
+      <InfoVersion>5.4.0.60123010533.1300b19eae77801a05906bc061fe52e158b513e8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.Protocols.dll">
+      <Name>Microsoft.IdentityModel.Protocols.dll</Name>
+      <Version>5.3.0.0</Version>
+      <FileVersion>5.3.0.51005</FileVersion>
+      <InfoVersion>5.3.0.51005192532.4cbe149003954f9ca8df2cac3845e35d8ee5f386</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <Name>Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</Name>
+      <Version>5.3.0.0</Version>
+      <FileVersion>5.3.0.51005</FileVersion>
+      <InfoVersion>5.3.0.51005192532.4cbe149003954f9ca8df2cac3845e35d8ee5f386</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.Protocols.WsFederation.dll">
+      <Name>Microsoft.IdentityModel.Protocols.WsFederation.dll</Name>
+      <Version>5.3.0.0</Version>
+      <FileVersion>5.3.0.51005</FileVersion>
+      <InfoVersion>5.3.0.51005192532.4cbe149003954f9ca8df2cac3845e35d8ee5f386</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.Tokens.dll">
+      <Name>Microsoft.IdentityModel.Tokens.dll</Name>
+      <Version>5.4.0.0</Version>
+      <FileVersion>5.4.0.60123</FileVersion>
+      <InfoVersion>5.4.0.60123010533.1300b19eae77801a05906bc061fe52e158b513e8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.Tokens.Saml.dll">
+      <Name>Microsoft.IdentityModel.Tokens.Saml.dll</Name>
+      <Version>5.3.0.0</Version>
+      <FileVersion>5.3.0.51005</FileVersion>
+      <InfoVersion>5.3.0.51005192532.4cbe149003954f9ca8df2cac3845e35d8ee5f386</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.IdentityModel.Xml.dll">
+      <Name>Microsoft.IdentityModel.Xml.dll</Name>
+      <Version>5.3.0.0</Version>
+      <FileVersion>5.3.0.51005</FileVersion>
+      <InfoVersion>5.3.0.51005192532.4cbe149003954f9ca8df2cac3845e35d8ee5f386</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.OData.Core.dll">
+      <Name>Microsoft.OData.Core.dll</Name>
+      <Version>7.9.0.0</Version>
+      <FileVersion>7.9.0.20512</FileVersion>
+      <InfoVersion>7.9.0.20512</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.OData.Edm.dll">
+      <Name>Microsoft.OData.Edm.dll</Name>
+      <Version>7.9.0.0</Version>
+      <FileVersion>7.9.0.20512</FileVersion>
+      <InfoVersion>7.9.0.20512</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.Cors.dll">
+      <Name>Microsoft.Owin.Cors.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.dll">
+      <Name>Microsoft.Owin.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.FileSystems.dll">
+      <Name>Microsoft.Owin.FileSystems.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.70213.103</FileVersion>
+      <InfoVersion>4.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.Host.SystemWeb.dll">
+      <Name>Microsoft.Owin.Host.SystemWeb.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.Security.ActiveDirectory.dll">
+      <Name>Microsoft.Owin.Security.ActiveDirectory.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.Security.Cookies.dll">
+      <Name>Microsoft.Owin.Security.Cookies.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.Security.dll">
+      <Name>Microsoft.Owin.Security.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.Security.Jwt.dll">
+      <Name>Microsoft.Owin.Security.Jwt.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.Security.OAuth.dll">
+      <Name>Microsoft.Owin.Security.OAuth.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.Security.OpenIdConnect.dll">
+      <Name>Microsoft.Owin.Security.OpenIdConnect.dll</Name>
+      <Version>4.2.2.0</Version>
+      <FileVersion>4.200.222.26002</FileVersion>
+      <InfoVersion>4.2.2+dbecd0d61958f8bb48263e31bd7344b25fc2d4da</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Owin.StaticFiles.dll">
+      <Name>Microsoft.Owin.StaticFiles.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.70213.103</FileVersion>
+      <InfoVersion>4.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <Name>Microsoft.Practices.EnterpriseLibrary.Common.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.1304.0</FileVersion>
+      <InfoVersion>6.0.1304.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Caching.dll">
+      <Name>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Caching.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.1304.0</FileVersion>
+      <InfoVersion>6.0.1304.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.dll">
+      <Name>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Configuration.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.1304.0</FileVersion>
+      <InfoVersion>6.0.1304.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll">
+      <Name>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.1304.1</FileVersion>
+      <InfoVersion>6.0.1304.1</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll">
+      <Name>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.1304.0</FileVersion>
+      <InfoVersion>6.0.1304.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ServiceBus.dll">
+      <Name>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.ServiceBus.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.1304.0</FileVersion>
+      <InfoVersion>6.0.1304.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.dll">
+      <Name>Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.1304.0</FileVersion>
+      <InfoVersion>6.0.1304.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Spatial.dll">
+      <Name>Microsoft.Spatial.dll</Name>
+      <Version>7.9.0.0</Version>
+      <FileVersion>7.9.0.20512</FileVersion>
+      <InfoVersion>7.9.0.20512</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Microsoft.Web.Infrastructure.dll">
+      <Name>Microsoft.Web.Infrastructure.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.0.20105.407</FileVersion>
+      <InfoVersion>1.0.20105.407</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Mvp.Xml.dll">
+      <Name>Mvp.Xml.dll</Name>
+      <Version>2.3.0.0</Version>
+      <FileVersion>2.3.0.0</FileVersion>
+      <InfoVersion>2.3.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Newtonsoft.Json.dll">
+      <Name>Newtonsoft.Json.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.1.25517</FileVersion>
+      <InfoVersion>13.0.1+ae9fe44e1323e91bcbd185ca1a14099fba7c021f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Owin.dll">
+      <Name>Owin.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.0</FileVersion>
+      <InfoVersion>1.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="PdfSharp.Charting.dll">
+      <Name>PdfSharp.Charting.dll</Name>
+      <Version>1.50.4740.0</Version>
+      <FileVersion>1.50.4740.0</FileVersion>
+      <InfoVersion>1.50.4740.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="PdfSharp.Charting.resources.dll">
+      <Name>PdfSharp.Charting.resources.dll</Name>
+      <Version>1.50.4740.0</Version>
+      <FileVersion>1.50.4740.0</FileVersion>
+      <InfoVersion>1.50.4740.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="PdfSharp.dll">
+      <Name>PdfSharp.dll</Name>
+      <Version>1.50.4740.0</Version>
+      <FileVersion>1.50.4740.0</FileVersion>
+      <InfoVersion>1.50.4740.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="PdfSharp.resources.dll">
+      <Name>PdfSharp.resources.dll</Name>
+      <Version>1.50.4740.0</Version>
+      <FileVersion>1.50.4740.0</FileVersion>
+      <InfoVersion>1.50.4740.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Pipelines.Sockets.Unofficial.dll">
+      <Name>Pipelines.Sockets.Unofficial.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>2.2.2.34088</FileVersion>
+      <InfoVersion>2.2.2+28852d69e4</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Polly.dll">
+      <Name>Polly.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.1.2.0</FileVersion>
+      <InfoVersion>6.1.2.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="protobuf-net.dll">
+      <Name>protobuf-net.dll</Name>
+      <Version>2.0.0.668</Version>
+      <FileVersion>2.0.0.668</FileVersion>
+      <InfoVersion>2.0.0.668</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="RazorGenerator.Mvc.dll">
+      <Name>RazorGenerator.Mvc.dll</Name>
+      <Version>2.0.0.0</Version>
+      <FileVersion>2.0.0.0</FileVersion>
+      <InfoVersion>2.4.9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Rebus.AzureServiceBus.dll">
+      <Name>Rebus.AzureServiceBus.dll</Name>
+      <Version>7.1.3.0</Version>
+      <FileVersion>7.1.3.0</FileVersion>
+      <InfoVersion>7.1.3.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Rebus.dll">
+      <Name>Rebus.dll</Name>
+      <Version>6.2.1.0</Version>
+      <FileVersion>6.2.1.0</FileVersion>
+      <InfoVersion>6.2.1+234a785d1bd65050e38f7bebbfc1931c30f4f5a1</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Rebus.SqlServer.dll">
+      <Name>Rebus.SqlServer.dll</Name>
+      <Version>6.1.2.0</Version>
+      <FileVersion>6.1.2.0</FileVersion>
+      <InfoVersion>6.1.2.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Remotion.Linq.dll">
+      <Name>Remotion.Linq.dll</Name>
+      <Version>2.2.0.0</Version>
+      <FileVersion>2.2.0.30000</FileVersion>
+      <InfoVersion>2.2.0+Release.Commit-9be8fec0618f02a0e66edb058c390c8fa40d92a7</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.Aggregation.dll">
+      <Name>Sitecore.Analytics.Aggregation.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.Core.dll">
+      <Name>Sitecore.Analytics.Core.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.DataAccess.dll">
+      <Name>Sitecore.Analytics.DataAccess.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1124.10146</FileVersion>
+      <InfoVersion>18.0.1124+dbbedcedacbfea094ad4c0b8c8bdfc426838132b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.dll">
+      <Name>Sitecore.Analytics.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1124.10146</FileVersion>
+      <InfoVersion>18.0.1124+dbbedcedacbfea094ad4c0b8c8bdfc426838132b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.Model.dll">
+      <Name>Sitecore.Analytics.Model.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.OmniChannel.dll">
+      <Name>Sitecore.Analytics.OmniChannel.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1124.10146</FileVersion>
+      <InfoVersion>18.0.1124+dbbedcedacbfea094ad4c0b8c8bdfc426838132b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.Processing.dll">
+      <Name>Sitecore.Analytics.Processing.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.RobotDetection.dll">
+      <Name>Sitecore.Analytics.RobotDetection.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1124.10146</FileVersion>
+      <InfoVersion>18.0.1124+dbbedcedacbfea094ad4c0b8c8bdfc426838132b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.Sql.dll">
+      <Name>Sitecore.Analytics.Sql.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Analytics.XConnect.dll">
+      <Name>Sitecore.Analytics.XConnect.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1124.10146</FileVersion>
+      <InfoVersion>18.0.1124+dbbedcedacbfea094ad4c0b8c8bdfc426838132b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Annotations.dll">
+      <Name>Sitecore.Annotations.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.0.0.0</FileVersion>
+      <InfoVersion>1.0.0-r00023</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Async.Extensions.Legacy.dll">
+      <Name>Sitecore.Async.Extensions.Legacy.dll</Name>
+      <Version>5.0.0.0</Version>
+      <FileVersion>5.0.273.2918</FileVersion>
+      <InfoVersion>5.0.273+66d2ea6da89643bbff09af487c8de656bf20e25f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Buckets.Client.dll">
+      <Name>Sitecore.Buckets.Client.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.216.3311</FileVersion>
+      <InfoVersion>10.0.216+2b3c300d518e0cb861e4e6d3a252236597cc66fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Buckets.dll">
+      <Name>Sitecore.Buckets.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.216.3311</FileVersion>
+      <InfoVersion>10.0.216+2b3c300d518e0cb861e4e6d3a252236597cc66fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.CES.DeviceDetection.dll">
+      <Name>Sitecore.CES.DeviceDetection.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.12.3424</FileVersion>
+      <InfoVersion>10.0.12+7f2eb27e48e0db411083c7799076aca7f160dba9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.CES.DeviceDetection.Rules.dll">
+      <Name>Sitecore.CES.DeviceDetection.Rules.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.12.3424</FileVersion>
+      <InfoVersion>10.0.12+7f2eb27e48e0db411083c7799076aca7f160dba9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.CES.dll">
+      <Name>Sitecore.CES.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.172.2712</FileVersion>
+      <InfoVersion>9.0.172+3fd262365348d59a7ecee110f883f9a3d5ab7a66</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.CES.GeoIp.Core.dll">
+      <Name>Sitecore.CES.GeoIp.Core.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.315.3120</FileVersion>
+      <InfoVersion>9.0.315+ad7309443e1d347d7574f77594465eb3c66b7a14</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.CES.GeoIp.dll">
+      <Name>Sitecore.CES.GeoIp.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.315.3120</FileVersion>
+      <InfoVersion>9.0.315+ad7309443e1d347d7574f77594465eb3c66b7a14</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.CES.GeoIp.IpFiltering.dll">
+      <Name>Sitecore.CES.GeoIp.IpFiltering.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.46.1810</FileVersion>
+      <InfoVersion>7.0.46+395370dee3c623e92d1b4aae578b0cfdeb9750a7</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Cintel.Client.dll">
+      <Name>Sitecore.Cintel.Client.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1133.5535</FileVersion>
+      <InfoVersion>10.0.1133+5ead02de6983cacc699f3704c32e5560fff0af51</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Cintel.dll">
+      <Name>Sitecore.Cintel.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1133.5535</FileVersion>
+      <InfoVersion>10.0.1133+5ead02de6983cacc699f3704c32e5560fff0af51</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Client.dll">
+      <Name>Sitecore.Client.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1582.14403</FileVersion>
+      <InfoVersion>18.0.1582+576bf0c5c640e0dba6ebf317be2b4a0ec3742291</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Client.LicenseOptions.dll">
+      <Name>Sitecore.Client.LicenseOptions.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.198.2363</FileVersion>
+      <InfoVersion>9.0.198+3a0d0092875ce4cc70a90ced6104ac1d63b05b54</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Cloud.Nexus.dll">
+      <Name>Sitecore.Cloud.Nexus.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.11.50</FileVersion>
+      <InfoVersion>4.0.11+8f356d437403fc011d85b0388025c2051de7027f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Content.Services.dll">
+      <Name>Sitecore.Content.Services.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.884.5416</FileVersion>
+      <InfoVersion>9.0.884+7dda0f5cb8ffce02efff05db369ff6e1ab84a293</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentSearch.Client.dll">
+      <Name>Sitecore.ContentSearch.Client.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.1.11.6478</FileVersion>
+      <InfoVersion>10.1.11+93ce55f7b2f11d97169cf87a7906cf2435834b29</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentSearch.ContentExtraction.dll">
+      <Name>Sitecore.ContentSearch.ContentExtraction.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.1.11.6478</FileVersion>
+      <InfoVersion>10.1.11+93ce55f7b2f11d97169cf87a7906cf2435834b29</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentSearch.Data.dll">
+      <Name>Sitecore.ContentSearch.Data.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.1.11.6478</FileVersion>
+      <InfoVersion>10.1.11+93ce55f7b2f11d97169cf87a7906cf2435834b29</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentSearch.dll">
+      <Name>Sitecore.ContentSearch.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.1.11.6478</FileVersion>
+      <InfoVersion>10.1.11+93ce55f7b2f11d97169cf87a7906cf2435834b29</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentSearch.Linq.dll">
+      <Name>Sitecore.ContentSearch.Linq.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.1.11.6478</FileVersion>
+      <InfoVersion>10.1.11+93ce55f7b2f11d97169cf87a7906cf2435834b29</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentSearch.Linq.Solr.dll">
+      <Name>Sitecore.ContentSearch.Linq.Solr.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.1.11.6478</FileVersion>
+      <InfoVersion>10.1.11+93ce55f7b2f11d97169cf87a7906cf2435834b29</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentSearch.SolrNetExtension.dll">
+      <Name>Sitecore.ContentSearch.SolrNetExtension.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.1.11.6478</FileVersion>
+      <InfoVersion>10.1.11+93ce55f7b2f11d97169cf87a7906cf2435834b29</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentSearch.SolrProvider.dll">
+      <Name>Sitecore.ContentSearch.SolrProvider.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.1.11.6478</FileVersion>
+      <InfoVersion>10.1.11+93ce55f7b2f11d97169cf87a7906cf2435834b29</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTagging.Core.dll">
+      <Name>Sitecore.ContentTagging.Core.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.359.3771</FileVersion>
+      <InfoVersion>7.0.359+fe27cd6496a13e873b235c3d8003718a2e1ae24d</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTagging.dll">
+      <Name>Sitecore.ContentTagging.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.359.3771</FileVersion>
+      <InfoVersion>7.0.359+fe27cd6496a13e873b235c3d8003718a2e1ae24d</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTagging.OpenCalais.dll">
+      <Name>Sitecore.ContentTagging.OpenCalais.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.359.3771</FileVersion>
+      <InfoVersion>7.0.359+fe27cd6496a13e873b235c3d8003718a2e1ae24d</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTesting.dll">
+      <Name>Sitecore.ContentTesting.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.4605.14830</FileVersion>
+      <InfoVersion>19.0.4605+031b3759900fa2c42e3e6a5302b47e809224f7dc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTesting.Intelligence.dll">
+      <Name>Sitecore.ContentTesting.Intelligence.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.4605.14830</FileVersion>
+      <InfoVersion>19.0.4605+031b3759900fa2c42e3e6a5302b47e809224f7dc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTesting.Model.dll">
+      <Name>Sitecore.ContentTesting.Model.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.4605.14830</FileVersion>
+      <InfoVersion>19.0.4605+031b3759900fa2c42e3e6a5302b47e809224f7dc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTesting.Model.xConnect.dll">
+      <Name>Sitecore.ContentTesting.Model.xConnect.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.4605.14830</FileVersion>
+      <InfoVersion>19.0.4605+031b3759900fa2c42e3e6a5302b47e809224f7dc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTesting.Mvc.dll">
+      <Name>Sitecore.ContentTesting.Mvc.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.4605.14830</FileVersion>
+      <InfoVersion>19.0.4605+031b3759900fa2c42e3e6a5302b47e809224f7dc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ContentTesting.Reporting.Model.dll">
+      <Name>Sitecore.ContentTesting.Reporting.Model.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.4605.14830</FileVersion>
+      <InfoVersion>19.0.4605+031b3759900fa2c42e3e6a5302b47e809224f7dc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ControlPanel.dll">
+      <Name>Sitecore.ControlPanel.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.198.2363</FileVersion>
+      <InfoVersion>9.0.198+3a0d0092875ce4cc70a90ced6104ac1d63b05b54</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Data.ResourceItems.Abstractions.dll">
+      <Name>Sitecore.Data.ResourceItems.Abstractions.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1582.14403</FileVersion>
+      <InfoVersion>18.0.1582+576bf0c5c640e0dba6ebf317be2b4a0ec3742291</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Data.ResourceItems.ProtobufNet.dll">
+      <Name>Sitecore.Data.ResourceItems.ProtobufNet.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1582.14403</FileVersion>
+      <InfoVersion>18.0.1582+576bf0c5c640e0dba6ebf317be2b4a0ec3742291</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EDS.Client.dll">
+      <Name>Sitecore.EDS.Client.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EDS.Core.dll">
+      <Name>Sitecore.EDS.Core.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EDS.Providers.CustomSMTP.dll">
+      <Name>Sitecore.EDS.Providers.CustomSMTP.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EDS.Providers.SparkPost.dll">
+      <Name>Sitecore.EDS.Providers.SparkPost.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EDS.SparkPost.ClientServices.dll">
+      <Name>Sitecore.EDS.SparkPost.ClientServices.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Activities.dll">
+      <Name>Sitecore.EmailCampaign.Activities.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Application.dll">
+      <Name>Sitecore.EmailCampaign.Application.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Cd.dll">
+      <Name>Sitecore.EmailCampaign.Cd.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Cm.dll">
+      <Name>Sitecore.EmailCampaign.Cm.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Cm.UI.dll">
+      <Name>Sitecore.EmailCampaign.Cm.UI.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Core.dll">
+      <Name>Sitecore.EmailCampaign.Core.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.dll">
+      <Name>Sitecore.EmailCampaign.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.ExperienceAnalytics.dll">
+      <Name>Sitecore.EmailCampaign.ExperienceAnalytics.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Model.dll">
+      <Name>Sitecore.EmailCampaign.Model.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Model.Web.dll">
+      <Name>Sitecore.EmailCampaign.Model.Web.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.SampleNewsletter.dll">
+      <Name>Sitecore.EmailCampaign.SampleNewsletter.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Server.dll">
+      <Name>Sitecore.EmailCampaign.Server.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.Templates.dll">
+      <Name>Sitecore.EmailCampaign.Templates.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.XConnect.dll">
+      <Name>Sitecore.EmailCampaign.XConnect.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.EmailCampaign.XConnect.Web.dll">
+      <Name>Sitecore.EmailCampaign.XConnect.Web.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExM.Framework.dll">
+      <Name>Sitecore.ExM.Framework.dll</Name>
+      <Version>13.0.0.0</Version>
+      <FileVersion>13.0.5326.15537</FileVersion>
+      <InfoVersion>13.0.5326+a77f719eae2444aede823a3106c94f0e6e1082fd</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceAnalytics.Aggregation.dll">
+      <Name>Sitecore.ExperienceAnalytics.Aggregation.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.3158.10709</FileVersion>
+      <InfoVersion>10.0.3158+7db76c8abe976bcefc971176a95510cf299c20fe</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceAnalytics.Api.dll">
+      <Name>Sitecore.ExperienceAnalytics.Api.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.3158.10709</FileVersion>
+      <InfoVersion>10.0.3158+7db76c8abe976bcefc971176a95510cf299c20fe</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceAnalytics.Client.dll">
+      <Name>Sitecore.ExperienceAnalytics.Client.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.3158.10709</FileVersion>
+      <InfoVersion>10.0.3158+7db76c8abe976bcefc971176a95510cf299c20fe</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceAnalytics.Core.dll">
+      <Name>Sitecore.ExperienceAnalytics.Core.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.3158.10709</FileVersion>
+      <InfoVersion>10.0.3158+7db76c8abe976bcefc971176a95510cf299c20fe</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceAnalytics.ReAggregation.dll">
+      <Name>Sitecore.ExperienceAnalytics.ReAggregation.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.3158.10709</FileVersion>
+      <InfoVersion>10.0.3158+7db76c8abe976bcefc971176a95510cf299c20fe</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceAnalytics.Reduce.dll">
+      <Name>Sitecore.ExperienceAnalytics.Reduce.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.3158.10709</FileVersion>
+      <InfoVersion>10.0.3158+7db76c8abe976bcefc971176a95510cf299c20fe</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceContentManagement.Administration.dll">
+      <Name>Sitecore.ExperienceContentManagement.Administration.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.525.3014</FileVersion>
+      <InfoVersion>9.0.525+ccdb154baff19c583e52615f56f0bf86c2672bac</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceEditor.dll">
+      <Name>Sitecore.ExperienceEditor.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.1530.7895</FileVersion>
+      <InfoVersion>11.0.1530+8d48e0dd855f4f993ab4933309d4ff546d297145</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceEditor.Speak.dll">
+      <Name>Sitecore.ExperienceEditor.Speak.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.1530.7895</FileVersion>
+      <InfoVersion>11.0.1530+8d48e0dd855f4f993ab4933309d4ff546d297145</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceEditor.Speak.Ribbon.dll">
+      <Name>Sitecore.ExperienceEditor.Speak.Ribbon.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.1530.7895</FileVersion>
+      <InfoVersion>11.0.1530+8d48e0dd855f4f993ab4933309d4ff546d297145</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceExplorer.Analytics.dll">
+      <Name>Sitecore.ExperienceExplorer.Analytics.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1051.5189</FileVersion>
+      <InfoVersion>10.0.1051+f590a6e30e761de8eb38f171c64035da0df26873</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceExplorer.Core.dll">
+      <Name>Sitecore.ExperienceExplorer.Core.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1051.5189</FileVersion>
+      <InfoVersion>10.0.1051+f590a6e30e761de8eb38f171c64035da0df26873</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceExplorer.dll">
+      <Name>Sitecore.ExperienceExplorer.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1051.5189</FileVersion>
+      <InfoVersion>10.0.1051+f590a6e30e761de8eb38f171c64035da0df26873</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceExplorer.Web.dll">
+      <Name>Sitecore.ExperienceExplorer.Web.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1051.5189</FileVersion>
+      <InfoVersion>10.0.1051+f590a6e30e761de8eb38f171c64035da0df26873</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceForms.Analytics.dll">
+      <Name>Sitecore.ExperienceForms.Analytics.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.1116.7556</FileVersion>
+      <InfoVersion>8.0.1116+fa9f8868c64fb6aaf30113d3020cb90b67c84366</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceForms.Client.dll">
+      <Name>Sitecore.ExperienceForms.Client.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.1116.7556</FileVersion>
+      <InfoVersion>8.0.1116+fa9f8868c64fb6aaf30113d3020cb90b67c84366</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceForms.Data.SqlServer.dll">
+      <Name>Sitecore.ExperienceForms.Data.SqlServer.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.1116.7556</FileVersion>
+      <InfoVersion>8.0.1116+fa9f8868c64fb6aaf30113d3020cb90b67c84366</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceForms.dll">
+      <Name>Sitecore.ExperienceForms.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.1116.7556</FileVersion>
+      <InfoVersion>8.0.1116+fa9f8868c64fb6aaf30113d3020cb90b67c84366</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceForms.Mvc.dll">
+      <Name>Sitecore.ExperienceForms.Mvc.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.1116.7556</FileVersion>
+      <InfoVersion>8.0.1116+fa9f8868c64fb6aaf30113d3020cb90b67c84366</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ExperienceForms.SubmitActions.dll">
+      <Name>Sitecore.ExperienceForms.SubmitActions.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.1116.7556</FileVersion>
+      <InfoVersion>8.0.1116+fa9f8868c64fb6aaf30113d3020cb90b67c84366</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Extensions.HotChocolate.dll">
+      <Name>Sitecore.Extensions.HotChocolate.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.1.110.1800</FileVersion>
+      <InfoVersion>1.1.110+6d8f7e6d0fa9eb053538aa8495233596dc6e764f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Common.Abstractions.dll">
+      <Name>Sitecore.Framework.Common.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Common.dll">
+      <Name>Sitecore.Framework.Common.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Common.WildcardMatch.dll">
+      <Name>Sitecore.Framework.Common.WildcardMatch.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Conditions.dll">
+      <Name>Sitecore.Framework.Conditions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Configuration.Abstractions.dll">
+      <Name>Sitecore.Framework.Configuration.Abstractions.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.0.154</FileVersion>
+      <InfoVersion>7.0.0+6c4e4b8cf0ed76ea55bf4191daace30bb2bc870b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Configuration.Common.dll">
+      <Name>Sitecore.Framework.Configuration.Common.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.0.154</FileVersion>
+      <InfoVersion>7.0.0+6c4e4b8cf0ed76ea55bf4191daace30bb2bc870b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Configuration.dll">
+      <Name>Sitecore.Framework.Configuration.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.0.154</FileVersion>
+      <InfoVersion>7.0.0+6c4e4b8cf0ed76ea55bf4191daace30bb2bc870b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Configuration.Extensions.dll">
+      <Name>Sitecore.Framework.Configuration.Extensions.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.0.154</FileVersion>
+      <InfoVersion>7.0.0+6c4e4b8cf0ed76ea55bf4191daace30bb2bc870b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Configuration.Xml.dll">
+      <Name>Sitecore.Framework.Configuration.Xml.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.0.154</FileVersion>
+      <InfoVersion>7.0.0+6c4e4b8cf0ed76ea55bf4191daace30bb2bc870b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Data.Blobs.Abstractions.dll">
+      <Name>Sitecore.Framework.Data.Blobs.Abstractions.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.1.0</FileVersion>
+      <InfoVersion>3.0.1</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Data.Blobs.dll">
+      <Name>Sitecore.Framework.Data.Blobs.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.1.0</FileVersion>
+      <InfoVersion>3.0.1</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Messaging.Abstractions.dll">
+      <Name>Sitecore.Framework.Messaging.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.224</FileVersion>
+      <InfoVersion>6.0.0+b7ab08c8972ac46d9e409f59afe69efb0a939152</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Messaging.Configuration.dll">
+      <Name>Sitecore.Framework.Messaging.Configuration.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.224</FileVersion>
+      <InfoVersion>6.0.0+b7ab08c8972ac46d9e409f59afe69efb0a939152</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Messaging.Rebus.Azure.dll">
+      <Name>Sitecore.Framework.Messaging.Rebus.Azure.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.224</FileVersion>
+      <InfoVersion>6.0.0+b7ab08c8972ac46d9e409f59afe69efb0a939152</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Messaging.Rebus.Configuration.dll">
+      <Name>Sitecore.Framework.Messaging.Rebus.Configuration.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.224</FileVersion>
+      <InfoVersion>6.0.0+b7ab08c8972ac46d9e409f59afe69efb0a939152</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Messaging.Rebus.dll">
+      <Name>Sitecore.Framework.Messaging.Rebus.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.224</FileVersion>
+      <InfoVersion>6.0.0+b7ab08c8972ac46d9e409f59afe69efb0a939152</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Messaging.Rebus.SqlServer.dll">
+      <Name>Sitecore.Framework.Messaging.Rebus.SqlServer.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.224</FileVersion>
+      <InfoVersion>6.0.0+b7ab08c8972ac46d9e409f59afe69efb0a939152</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Rules.Abstractions.dll">
+      <Name>Sitecore.Framework.Rules.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Rules.Api.dll">
+      <Name>Sitecore.Framework.Rules.Api.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Rules.Core.dll">
+      <Name>Sitecore.Framework.Rules.Core.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Rules.dll">
+      <Name>Sitecore.Framework.Rules.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Rules.Model.dll">
+      <Name>Sitecore.Framework.Rules.Model.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Rules.Registry.dll">
+      <Name>Sitecore.Framework.Rules.Registry.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.Rules.Serialization.dll">
+      <Name>Sitecore.Framework.Rules.Serialization.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.0.0</FileVersion>
+      <InfoVersion>6.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.TransientFaultHandling.Abstractions.dll">
+      <Name>Sitecore.Framework.TransientFaultHandling.Abstractions.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.0.0</FileVersion>
+      <InfoVersion>4.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.TransientFaultHandling.dll">
+      <Name>Sitecore.Framework.TransientFaultHandling.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.0.0</FileVersion>
+      <InfoVersion>4.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.TransientFaultHandling.EntLib.dll">
+      <Name>Sitecore.Framework.TransientFaultHandling.EntLib.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.0.0</FileVersion>
+      <InfoVersion>4.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Framework.TransientFaultHandling.Sql.dll">
+      <Name>Sitecore.Framework.TransientFaultHandling.Sql.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.0.0</FileVersion>
+      <InfoVersion>4.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.FXM.Client.dll">
+      <Name>Sitecore.FXM.Client.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.3118.8288</FileVersion>
+      <InfoVersion>11.0.3118+e13f5747ae85f44a571445721c2e98db0c163676</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.FXM.dll">
+      <Name>Sitecore.FXM.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.3118.8288</FileVersion>
+      <InfoVersion>11.0.3118+e13f5747ae85f44a571445721c2e98db0c163676</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.FXM.Service.dll">
+      <Name>Sitecore.FXM.Service.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.3118.8288</FileVersion>
+      <InfoVersion>11.0.3118+e13f5747ae85f44a571445721c2e98db0c163676</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.FXM.Speak.dll">
+      <Name>Sitecore.FXM.Speak.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.3118.8288</FileVersion>
+      <InfoVersion>11.0.3118+e13f5747ae85f44a571445721c2e98db0c163676</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.GraphQL.Core.dll">
+      <Name>Sitecore.GraphQL.Core.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.1.110.1800</FileVersion>
+      <InfoVersion>1.1.110+6d8f7e6d0fa9eb053538aa8495233596dc6e764f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.GraphQL.NetFxHost.dll">
+      <Name>Sitecore.GraphQL.NetFxHost.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.1.110.1800</FileVersion>
+      <InfoVersion>1.1.110+6d8f7e6d0fa9eb053538aa8495233596dc6e764f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.GraphQL.Schema.dll">
+      <Name>Sitecore.GraphQL.Schema.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.1.110.1800</FileVersion>
+      <InfoVersion>1.1.110+6d8f7e6d0fa9eb053538aa8495233596dc6e764f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.GraphQL.Services.Abstractions.dll">
+      <Name>Sitecore.GraphQL.Services.Abstractions.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.1.110.1800</FileVersion>
+      <InfoVersion>1.1.110+6d8f7e6d0fa9eb053538aa8495233596dc6e764f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.GraphQL.Services.dll">
+      <Name>Sitecore.GraphQL.Services.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.1.110.1800</FileVersion>
+      <InfoVersion>1.1.110+6d8f7e6d0fa9eb053538aa8495233596dc6e764f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ItemWebApi.dll">
+      <Name>Sitecore.ItemWebApi.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.112.2489</FileVersion>
+      <InfoVersion>9.0.112+7a72dc1d00b583ecd94ba00cdb8ca9fb671b75be</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Kernel.dll">
+      <Name>Sitecore.Kernel.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1582.14403</FileVersion>
+      <InfoVersion>18.0.1582+576bf0c5c640e0dba6ebf317be2b4a0ec3742291</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Kernel.Portable.dll">
+      <Name>Sitecore.Kernel.Portable.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1582.14403</FileVersion>
+      <InfoVersion>18.0.1582+576bf0c5c640e0dba6ebf317be2b4a0ec3742291</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.LaunchPad.dll">
+      <Name>Sitecore.LaunchPad.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.146.2447</FileVersion>
+      <InfoVersion>9.0.146+06db766df82e2c04276052f7e6e66a030e36cdd9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ListManagement.Client.dll">
+      <Name>Sitecore.ListManagement.Client.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.3377.9116</FileVersion>
+      <InfoVersion>9.0.3377+6261dc2763973ba1f8f147cb779d445f7a0b5c4b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ListManagement.dll">
+      <Name>Sitecore.ListManagement.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.3377.9116</FileVersion>
+      <InfoVersion>9.0.3377+6261dc2763973ba1f8f147cb779d445f7a0b5c4b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ListManagement.Services.dll">
+      <Name>Sitecore.ListManagement.Services.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.3377.9116</FileVersion>
+      <InfoVersion>9.0.3377+6261dc2763973ba1f8f147cb779d445f7a0b5c4b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ListManagement.XConnect.dll">
+      <Name>Sitecore.ListManagement.XConnect.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.3377.9116</FileVersion>
+      <InfoVersion>9.0.3377+6261dc2763973ba1f8f147cb779d445f7a0b5c4b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.ListManagement.XConnect.Web.dll">
+      <Name>Sitecore.ListManagement.XConnect.Web.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.3377.9116</FileVersion>
+      <InfoVersion>9.0.3377+6261dc2763973ba1f8f147cb779d445f7a0b5c4b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Logging.Client.dll">
+      <Name>Sitecore.Logging.Client.dll</Name>
+      <Version>15.0.0.0</Version>
+      <FileVersion>15.0.56.3660</FileVersion>
+      <InfoVersion>15.0.56+3a6065b99a4f1c4f67640de94468b3d08b8da9a2</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Logging.dll">
+      <Name>Sitecore.Logging.dll</Name>
+      <Version>15.0.0.0</Version>
+      <FileVersion>15.0.56.3660</FileVersion>
+      <InfoVersion>15.0.56+3a6065b99a4f1c4f67640de94468b3d08b8da9a2</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Automation.Activity.dll">
+      <Name>Sitecore.Marketing.Automation.Activity.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.1273.2693</FileVersion>
+      <InfoVersion>9.0.1273+044f512bd30642bcf20d034754046dc73dd8f9db</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Automation.ActivityDescriptors.Client.dll">
+      <Name>Sitecore.Marketing.Automation.ActivityDescriptors.Client.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.2889.13030</FileVersion>
+      <InfoVersion>9.0.2889+68b6092b7287821b4388f002db3e7e5d8af75b0c</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Automation.ActivityDescriptors.dll">
+      <Name>Sitecore.Marketing.Automation.ActivityDescriptors.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.2889.13030</FileVersion>
+      <InfoVersion>9.0.2889+68b6092b7287821b4388f002db3e7e5d8af75b0c</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Automation.Client.dll">
+      <Name>Sitecore.Marketing.Automation.Client.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.2889.13030</FileVersion>
+      <InfoVersion>9.0.2889+68b6092b7287821b4388f002db3e7e5d8af75b0c</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Automation.dll">
+      <Name>Sitecore.Marketing.Automation.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.2889.13030</FileVersion>
+      <InfoVersion>9.0.2889+68b6092b7287821b4388f002db3e7e5d8af75b0c</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Automation.Models.dll">
+      <Name>Sitecore.Marketing.Automation.Models.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.1273.2693</FileVersion>
+      <InfoVersion>9.0.1273+044f512bd30642bcf20d034754046dc73dd8f9db</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Campaigns.Client.dll">
+      <Name>Sitecore.Marketing.Campaigns.Client.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.805.5135</FileVersion>
+      <InfoVersion>9.0.805+8c334110e5654e04e591bbe2c937221336f62fe8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Campaigns.Services.dll">
+      <Name>Sitecore.Marketing.Campaigns.Services.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.805.5135</FileVersion>
+      <InfoVersion>9.0.805+8c334110e5654e04e591bbe2c937221336f62fe8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Client.dll">
+      <Name>Sitecore.Marketing.Client.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.697.4288</FileVersion>
+      <InfoVersion>18.0.697+1dd4726c3455bf0c64a97bec22db7ccfe6337d55</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Core.dll">
+      <Name>Sitecore.Marketing.Core.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Definitions.MarketingAssets.Repositories.dll">
+      <Name>Sitecore.Marketing.Definitions.MarketingAssets.Repositories.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.357.3095</FileVersion>
+      <InfoVersion>18.0.357+41353abec28c218dfd8ff1765f35f729576f1b26</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.dll">
+      <Name>Sitecore.Marketing.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Operations.Xdb.ReferenceData.dll">
+      <Name>Sitecore.Marketing.Operations.Xdb.ReferenceData.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Operations.Xdb.ReferenceData.Model.dll">
+      <Name>Sitecore.Marketing.Operations.Xdb.ReferenceData.Model.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Operations.Xdb.ReferenceData.Service.dll">
+      <Name>Sitecore.Marketing.Operations.Xdb.ReferenceData.Service.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Search.dll">
+      <Name>Sitecore.Marketing.Search.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Segmentation.xMgmt.dll">
+      <Name>Sitecore.Marketing.Segmentation.xMgmt.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.579.3126</FileVersion>
+      <InfoVersion>11.0.579+ffbca6fe508dbf710f8fc4a2e2a7ee4a64ac4bfa</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Taxonomy.dll">
+      <Name>Sitecore.Marketing.Taxonomy.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.Taxonomy.xMgmt.dll">
+      <Name>Sitecore.Marketing.Taxonomy.xMgmt.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.xMgmt.dll">
+      <Name>Sitecore.Marketing.xMgmt.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Marketing.xMgmt.ReferenceData.dll">
+      <Name>Sitecore.Marketing.xMgmt.ReferenceData.dll</Name>
+      <Version>19.0.0.0</Version>
+      <FileVersion>19.0.508.2879</FileVersion>
+      <InfoVersion>19.0.508+c8dc451fe25b4af9d5650e0cb53d5ecff77b8974</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Messaging.Azure.dll">
+      <Name>Sitecore.Messaging.Azure.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.264.3528</FileVersion>
+      <InfoVersion>9.0.264+ea5e05c4e7f0ce456dd36c51f1b10a6122f1815a</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Messaging.dll">
+      <Name>Sitecore.Messaging.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.264.3528</FileVersion>
+      <InfoVersion>9.0.264+ea5e05c4e7f0ce456dd36c51f1b10a6122f1815a</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Messaging.SqlServer.dll">
+      <Name>Sitecore.Messaging.SqlServer.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.264.3528</FileVersion>
+      <InfoVersion>9.0.264+ea5e05c4e7f0ce456dd36c51f1b10a6122f1815a</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Mvc.Analytics.dll">
+      <Name>Sitecore.Mvc.Analytics.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1124.10146</FileVersion>
+      <InfoVersion>18.0.1124+dbbedcedacbfea094ad4c0b8c8bdfc426838132b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Mvc.DeviceSimulator.dll">
+      <Name>Sitecore.Mvc.DeviceSimulator.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.171.2039</FileVersion>
+      <InfoVersion>9.0.171+d51ecd0754cb7e0a76357f4b3469ae83c64eaf10</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Mvc.dll">
+      <Name>Sitecore.Mvc.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.442.3895</FileVersion>
+      <InfoVersion>9.0.442+76ea742a9b13d8ca83be807a0c6c7cb79f6e7dde</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Mvc.ExperienceEditor.dll">
+      <Name>Sitecore.Mvc.ExperienceEditor.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.1530.7895</FileVersion>
+      <InfoVersion>11.0.1530+8d48e0dd855f4f993ab4933309d4ff546d297145</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Nexus.Consumption.dll">
+      <Name>Sitecore.Nexus.Consumption.dll</Name>
+      <Version>1.0.0.0</Version>
+      <FileVersion>1.5.0.0</FileVersion>
+      <InfoVersion>1.5.0-r00146</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Nexus.Licensing.dll">
+      <Name>Sitecore.Nexus.Licensing.dll</Name>
+      <Version>2.0.0.0</Version>
+      <FileVersion>2.0.6.0</FileVersion>
+      <InfoVersion>2.0.6-r00062</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Owin.Authentication.dll">
+      <Name>Sitecore.Owin.Authentication.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.1.50.4407</FileVersion>
+      <InfoVersion>8.1.50+86ca150b80c888651c268ffccd02f4a29a2987ed</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Owin.Authentication.IdentityServer.dll">
+      <Name>Sitecore.Owin.Authentication.IdentityServer.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.229.2755</FileVersion>
+      <InfoVersion>7.0.229+029f6da087867d94c951cfb7ad7d374c50c75ee8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Owin.dll">
+      <Name>Sitecore.Owin.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.1.50.4407</FileVersion>
+      <InfoVersion>8.1.50+86ca150b80c888651c268ffccd02f4a29a2987ed</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.PathAnalyzer.Client.dll">
+      <Name>Sitecore.PathAnalyzer.Client.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.2542.7143</FileVersion>
+      <InfoVersion>10.0.2542+abae02f5c22eccc8bc4e9b8a658b56aac6b7c147</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.PathAnalyzer.dll">
+      <Name>Sitecore.PathAnalyzer.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.2542.7143</FileVersion>
+      <InfoVersion>10.0.2542+abae02f5c22eccc8bc4e9b8a658b56aac6b7c147</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.PathAnalyzer.Services.dll">
+      <Name>Sitecore.PathAnalyzer.Services.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.2542.7143</FileVersion>
+      <InfoVersion>10.0.2542+abae02f5c22eccc8bc4e9b8a658b56aac6b7c147</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Personalization.dll">
+      <Name>Sitecore.Personalization.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.344.2488</FileVersion>
+      <InfoVersion>4.0.344+e5d68515db7e888973956ee8d281ca9114d42940</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Personalization.Mvc.dll">
+      <Name>Sitecore.Personalization.Mvc.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.344.2488</FileVersion>
+      <InfoVersion>4.0.344+e5d68515db7e888973956ee8d281ca9114d42940</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Processing.Common.dll">
+      <Name>Sitecore.Processing.Common.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.684.8417</FileVersion>
+      <InfoVersion>7.0.684+d38b1ca1c888131ffd9fb129974ae91237e56738</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Processing.Cursors.Abstractions.dll">
+      <Name>Sitecore.Processing.Cursors.Abstractions.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.684.8417</FileVersion>
+      <InfoVersion>7.0.684+d38b1ca1c888131ffd9fb129974ae91237e56738</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Processing.Engine.Abstractions.dll">
+      <Name>Sitecore.Processing.Engine.Abstractions.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.684.8417</FileVersion>
+      <InfoVersion>7.0.684+d38b1ca1c888131ffd9fb129974ae91237e56738</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Processing.Engine.Client.dll">
+      <Name>Sitecore.Processing.Engine.Client.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.684.8417</FileVersion>
+      <InfoVersion>7.0.684+d38b1ca1c888131ffd9fb129974ae91237e56738</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Processing.Engine.Model.dll">
+      <Name>Sitecore.Processing.Engine.Model.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.684.8417</FileVersion>
+      <InfoVersion>7.0.684+d38b1ca1c888131ffd9fb129974ae91237e56738</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Processing.Tasks.Abstractions.dll">
+      <Name>Sitecore.Processing.Tasks.Abstractions.dll</Name>
+      <Version>7.0.0.0</Version>
+      <FileVersion>7.0.684.8417</FileVersion>
+      <InfoVersion>7.0.684+d38b1ca1c888131ffd9fb129974ae91237e56738</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Reporting.Client.dll">
+      <Name>Sitecore.Reporting.Client.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.275.5897</FileVersion>
+      <InfoVersion>6.0.275+b137dadf7ce2014f69f2e541d5eaa1f44cf5011f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Reporting.Core.dll">
+      <Name>Sitecore.Reporting.Core.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.275.5897</FileVersion>
+      <InfoVersion>6.0.275+b137dadf7ce2014f69f2e541d5eaa1f44cf5011f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Reporting.Service.Abstractions.dll">
+      <Name>Sitecore.Reporting.Service.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.275.5897</FileVersion>
+      <InfoVersion>6.0.275+b137dadf7ce2014f69f2e541d5eaa1f44cf5011f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Reporting.Service.Http.Abstractions.dll">
+      <Name>Sitecore.Reporting.Service.Http.Abstractions.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.275.5897</FileVersion>
+      <InfoVersion>6.0.275+b137dadf7ce2014f69f2e541d5eaa1f44cf5011f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Reporting.Service.Http.XConnectClient.dll">
+      <Name>Sitecore.Reporting.Service.Http.XConnectClient.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.275.5897</FileVersion>
+      <InfoVersion>6.0.275+b137dadf7ce2014f69f2e541d5eaa1f44cf5011f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Reporting.xMgmt.dll">
+      <Name>Sitecore.Reporting.xMgmt.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.275.5897</FileVersion>
+      <InfoVersion>6.0.275+b137dadf7ce2014f69f2e541d5eaa1f44cf5011f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Security.AntiCsrf.dll">
+      <Name>Sitecore.Security.AntiCsrf.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.118.2503</FileVersion>
+      <InfoVersion>9.0.118+d11b0877bbea82cdb1840baab16c5c8f055b0e06</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.SequenceAnalyzer.dll">
+      <Name>Sitecore.SequenceAnalyzer.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.2542.7143</FileVersion>
+      <InfoVersion>10.0.2542+abae02f5c22eccc8bc4e9b8a658b56aac6b7c147</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Services.Client.dll">
+      <Name>Sitecore.Services.Client.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.884.5416</FileVersion>
+      <InfoVersion>9.0.884+7dda0f5cb8ffce02efff05db369ff6e1ab84a293</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Services.Core.dll">
+      <Name>Sitecore.Services.Core.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.884.5416</FileVersion>
+      <InfoVersion>9.0.884+7dda0f5cb8ffce02efff05db369ff6e1ab84a293</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Services.Infrastructure.dll">
+      <Name>Sitecore.Services.Infrastructure.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.884.5416</FileVersion>
+      <InfoVersion>9.0.884+7dda0f5cb8ffce02efff05db369ff6e1ab84a293</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Services.Infrastructure.Sitecore.dll">
+      <Name>Sitecore.Services.Infrastructure.Sitecore.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.884.5416</FileVersion>
+      <InfoVersion>9.0.884+7dda0f5cb8ffce02efff05db369ff6e1ab84a293</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.SessionProvider.dll">
+      <Name>Sitecore.SessionProvider.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.199.3489</FileVersion>
+      <InfoVersion>18.0.199+f9b5532cc07c4a93aeebcb40aa485ca14d2ccbc6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.SessionProvider.Memory.dll">
+      <Name>Sitecore.SessionProvider.Memory.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.199.3489</FileVersion>
+      <InfoVersion>18.0.199+f9b5532cc07c4a93aeebcb40aa485ca14d2ccbc6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.SessionProvider.Redis.dll">
+      <Name>Sitecore.SessionProvider.Redis.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.199.3489</FileVersion>
+      <InfoVersion>18.0.199+f9b5532cc07c4a93aeebcb40aa485ca14d2ccbc6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.SessionProvider.Sql.dll">
+      <Name>Sitecore.SessionProvider.Sql.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.199.3489</FileVersion>
+      <InfoVersion>18.0.199+f9b5532cc07c4a93aeebcb40aa485ca14d2ccbc6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.Applications.dll">
+      <Name>Sitecore.Speak.Applications.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.198.2363</FileVersion>
+      <InfoVersion>9.0.198+3a0d0092875ce4cc70a90ced6104ac1d63b05b54</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.Client.dll">
+      <Name>Sitecore.Speak.Client.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.690.2985</FileVersion>
+      <InfoVersion>10.0.690+c4ce625e73bb3f4e569a8614c34382c7a9325502</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.Components.dll">
+      <Name>Sitecore.Speak.Components.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1472.3282</FileVersion>
+      <InfoVersion>10.0.1472+27919a48418a58b855202429d28e476469e5addc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.Components.Guidance.dll">
+      <Name>Sitecore.Speak.Components.Guidance.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1472.3282</FileVersion>
+      <InfoVersion>10.0.1472+27919a48418a58b855202429d28e476469e5addc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.Components.Web.dll">
+      <Name>Sitecore.Speak.Components.Web.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.1472.3282</FileVersion>
+      <InfoVersion>10.0.1472+27919a48418a58b855202429d28e476469e5addc</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.Integration.Services.dll">
+      <Name>Sitecore.Speak.Integration.Services.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.181.2117</FileVersion>
+      <InfoVersion>8.0.181+f96954c4b86d446e20416d92d431894dd4692dd8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.Integration.Spa.dll">
+      <Name>Sitecore.Speak.Integration.Spa.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.181.2117</FileVersion>
+      <InfoVersion>8.0.181+f96954c4b86d446e20416d92d431894dd4692dd8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.ItemWebApi.dll">
+      <Name>Sitecore.Speak.ItemWebApi.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.690.2985</FileVersion>
+      <InfoVersion>10.0.690+c4ce625e73bb3f4e569a8614c34382c7a9325502</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Speak.Web.dll">
+      <Name>Sitecore.Speak.Web.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.690.2985</FileVersion>
+      <InfoVersion>10.0.690+c4ce625e73bb3f4e569a8614c34382c7a9325502</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.TransientFaultHandling.dll">
+      <Name>Sitecore.TransientFaultHandling.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.77.2250</FileVersion>
+      <InfoVersion>6.0.77+af571709d5f26cbd2f1b99add5947d8743059b47</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Update.dll">
+      <Name>Sitecore.Update.dll</Name>
+      <Version>10.0.0.0</Version>
+      <FileVersion>10.0.272.3556</FileVersion>
+      <InfoVersion>10.0.272+10a523a6e9fd4f33c2e874bac0b0ad556118e07b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.UpdateCenter.Core.dll">
+      <Name>Sitecore.UpdateCenter.Core.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.476.3660</FileVersion>
+      <InfoVersion>8.0.476+9f2db442bc576b25f3cd31b8448d183d1da323d0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.UpdateCenter.dll">
+      <Name>Sitecore.UpdateCenter.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.476.3660</FileVersion>
+      <InfoVersion>8.0.476+9f2db442bc576b25f3cd31b8448d183d1da323d0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.UpdateCenter.ServiceClient.dll">
+      <Name>Sitecore.UpdateCenter.ServiceClient.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.476.3660</FileVersion>
+      <InfoVersion>8.0.476+9f2db442bc576b25f3cd31b8448d183d1da323d0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Web.dll">
+      <Name>Sitecore.Web.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.195.2655</FileVersion>
+      <InfoVersion>9.0.195+d3823436610f26a96282a585b785a415e60bae93</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Client.Configuration.dll">
+      <Name>Sitecore.XConnect.Client.Configuration.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.371.3253</FileVersion>
+      <InfoVersion>8.0.371+2c19577dfdf63956c5a44238267a47ed8a0819a1</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Client.dll">
+      <Name>Sitecore.XConnect.Client.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.699.4564</FileVersion>
+      <InfoVersion>8.0.699+d4948bb0b36c48b93755f2253c64e044f3f05fa7</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Collection.Model.dll">
+      <Name>Sitecore.XConnect.Collection.Model.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.699.4564</FileVersion>
+      <InfoVersion>8.0.699+d4948bb0b36c48b93755f2253c64e044f3f05fa7</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Core.dll">
+      <Name>Sitecore.XConnect.Core.dll</Name>
+      <Version>5.0.0.0</Version>
+      <FileVersion>5.0.273.2918</FileVersion>
+      <InfoVersion>5.0.273+66d2ea6da89643bbff09af487c8de656bf20e25f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.DataPurge.Tasks.Options.dll">
+      <Name>Sitecore.XConnect.DataPurge.Tasks.Options.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.708.1889</FileVersion>
+      <InfoVersion>3.0.708+6f449ccd919c1f6dc0c21baa02e7c254b6abbc89</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.DataPurge.Xmgmt.dll">
+      <Name>Sitecore.XConnect.DataPurge.Xmgmt.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.708.1889</FileVersion>
+      <InfoVersion>3.0.708+6f449ccd919c1f6dc0c21baa02e7c254b6abbc89</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.DataTools.Tasks.Options.dll">
+      <Name>Sitecore.XConnect.DataTools.Tasks.Options.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.708.1889</FileVersion>
+      <InfoVersion>3.0.708+6f449ccd919c1f6dc0c21baa02e7c254b6abbc89</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.DataTools.Xmgmt.Core.dll">
+      <Name>Sitecore.XConnect.DataTools.Xmgmt.Core.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.708.1889</FileVersion>
+      <InfoVersion>3.0.708+6f449ccd919c1f6dc0c21baa02e7c254b6abbc89</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.DataTools.Xmgmt.dll">
+      <Name>Sitecore.XConnect.DataTools.Xmgmt.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.708.1889</FileVersion>
+      <InfoVersion>3.0.708+6f449ccd919c1f6dc0c21baa02e7c254b6abbc89</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Diagnostics.dll">
+      <Name>Sitecore.XConnect.Diagnostics.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.144.2591</FileVersion>
+      <InfoVersion>4.0.144+21240d2d7f2a8e2239153a742878f2ea3cc2515f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.dll">
+      <Name>Sitecore.XConnect.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.699.4564</FileVersion>
+      <InfoVersion>8.0.699+d4948bb0b36c48b93755f2253c64e044f3f05fa7</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Search.dll">
+      <Name>Sitecore.XConnect.Search.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.97.1964</FileVersion>
+      <InfoVersion>4.0.97+abbcfc33b7007654ca8319ccfa64b5e3a4fcde48</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Segmentation.Conditions.dll">
+      <Name>Sitecore.XConnect.Segmentation.Conditions.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.560.3264</FileVersion>
+      <InfoVersion>11.0.560+2701446ab488a67247cd02c38033ec06646d94ab</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Segmentation.Engine.dll">
+      <Name>Sitecore.XConnect.Segmentation.Engine.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.560.3264</FileVersion>
+      <InfoVersion>11.0.560+2701446ab488a67247cd02c38033ec06646d94ab</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Segmentation.ExpressionBuilder.Model.dll">
+      <Name>Sitecore.XConnect.Segmentation.ExpressionBuilder.Model.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.560.3264</FileVersion>
+      <InfoVersion>11.0.560+2701446ab488a67247cd02c38033ec06646d94ab</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Segmentation.Predicates.dll">
+      <Name>Sitecore.XConnect.Segmentation.Predicates.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.560.3264</FileVersion>
+      <InfoVersion>11.0.560+2701446ab488a67247cd02c38033ec06646d94ab</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Segmentation.Predicates.Model.dll">
+      <Name>Sitecore.XConnect.Segmentation.Predicates.Model.dll</Name>
+      <Version>11.0.0.0</Version>
+      <FileVersion>11.0.560.3264</FileVersion>
+      <InfoVersion>11.0.560+2701446ab488a67247cd02c38033ec06646d94ab</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Service.dll">
+      <Name>Sitecore.XConnect.Service.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.699.4564</FileVersion>
+      <InfoVersion>8.0.699+d4948bb0b36c48b93755f2253c64e044f3f05fa7</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.XConnect.Service.Plugins.dll">
+      <Name>Sitecore.XConnect.Service.Plugins.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.699.4564</FileVersion>
+      <InfoVersion>8.0.699+d4948bb0b36c48b93755f2253c64e044f3f05fa7</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Client.dll">
+      <Name>Sitecore.Xdb.Client.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Collection.dll">
+      <Name>Sitecore.Xdb.Collection.dll</Name>
+      <Version>5.0.0.0</Version>
+      <FileVersion>5.0.264.2585</FileVersion>
+      <InfoVersion>5.0.264+fb582ae0f87d4c9fcf71642eadc4d9563e1a203c</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Common.HttpTransientFaultHandling.dll">
+      <Name>Sitecore.Xdb.Common.HttpTransientFaultHandling.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.138.2321</FileVersion>
+      <InfoVersion>6.0.138+782302be52240c4f35c06f32b152f4f11e19709e</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Common.Web.dll">
+      <Name>Sitecore.Xdb.Common.Web.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.138.2321</FileVersion>
+      <InfoVersion>6.0.138+782302be52240c4f35c06f32b152f4f11e19709e</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Common.Web.Xmgmt.dll">
+      <Name>Sitecore.Xdb.Common.Web.Xmgmt.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.138.2321</FileVersion>
+      <InfoVersion>6.0.138+782302be52240c4f35c06f32b152f4f11e19709e</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Configuration.dll">
+      <Name>Sitecore.Xdb.Configuration.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.MarketingAutomation.Core.dll">
+      <Name>Sitecore.Xdb.MarketingAutomation.Core.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.388.2580</FileVersion>
+      <InfoVersion>9.0.388+74380c7fa99143a7f19acabd3e91d99d953a2aa5</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.MarketingAutomation.Locators.dll">
+      <Name>Sitecore.Xdb.MarketingAutomation.Locators.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.223.2753</FileVersion>
+      <InfoVersion>8.0.223+5f034a652c8224b41d75f8a9f45d20ab60df5506</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.MarketingAutomation.Locators.Xmgmt.dll">
+      <Name>Sitecore.Xdb.MarketingAutomation.Locators.Xmgmt.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.223.2753</FileVersion>
+      <InfoVersion>8.0.223+5f034a652c8224b41d75f8a9f45d20ab60df5506</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.MarketingAutomation.OperationsClient.Configuration.dll">
+      <Name>Sitecore.Xdb.MarketingAutomation.OperationsClient.Configuration.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.2146.7545</FileVersion>
+      <InfoVersion>9.0.2146+27761352c25f8c984ab220f6b6fe5274e143e6b0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.MarketingAutomation.OperationsClient.dll">
+      <Name>Sitecore.Xdb.MarketingAutomation.OperationsClient.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.2146.7545</FileVersion>
+      <InfoVersion>9.0.2146+27761352c25f8c984ab220f6b6fe5274e143e6b0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.MarketingAutomation.ReportingClient.Configuration.dll">
+      <Name>Sitecore.Xdb.MarketingAutomation.ReportingClient.Configuration.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.2146.7545</FileVersion>
+      <InfoVersion>9.0.2146+27761352c25f8c984ab220f6b6fe5274e143e6b0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.MarketingAutomation.ReportingClient.dll">
+      <Name>Sitecore.Xdb.MarketingAutomation.ReportingClient.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.2146.7545</FileVersion>
+      <InfoVersion>9.0.2146+27761352c25f8c984ab220f6b6fe5274e143e6b0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.MarketingAutomation.Tracking.dll">
+      <Name>Sitecore.Xdb.MarketingAutomation.Tracking.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.690.3066</FileVersion>
+      <InfoVersion>8.0.690+74479ac2a0dc6fe5572557d2832505aaab0dfaec</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Processing.ContactMerge.dll">
+      <Name>Sitecore.Xdb.Processing.ContactMerge.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Processing.ContactMerge.UI.dll">
+      <Name>Sitecore.Xdb.Processing.ContactMerge.UI.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Processing.Queue.dll">
+      <Name>Sitecore.Xdb.Processing.Queue.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.322.3175</FileVersion>
+      <InfoVersion>8.0.322+73cf4303a77af476eea38affcb666354fcc307d9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Processing.Queue.SqlServer.dll">
+      <Name>Sitecore.Xdb.Processing.Queue.SqlServer.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.322.3175</FileVersion>
+      <InfoVersion>8.0.322+73cf4303a77af476eea38affcb666354fcc307d9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.ReferenceData.Client.dll">
+      <Name>Sitecore.Xdb.ReferenceData.Client.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.388.4032</FileVersion>
+      <InfoVersion>8.0.388+adb518ae6bd0cdf59279f72839aee18651a1b9a0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.ReferenceData.Client.Xmgmt.dll">
+      <Name>Sitecore.Xdb.ReferenceData.Client.Xmgmt.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.388.4032</FileVersion>
+      <InfoVersion>8.0.388+adb518ae6bd0cdf59279f72839aee18651a1b9a0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.ReferenceData.Core.dll">
+      <Name>Sitecore.Xdb.ReferenceData.Core.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.388.4032</FileVersion>
+      <InfoVersion>8.0.388+adb518ae6bd0cdf59279f72839aee18651a1b9a0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.ReferenceData.Service.dll">
+      <Name>Sitecore.Xdb.ReferenceData.Service.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.388.4032</FileVersion>
+      <InfoVersion>8.0.388+adb518ae6bd0cdf59279f72839aee18651a1b9a0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.ReferenceData.Service.Xmgmt.dll">
+      <Name>Sitecore.Xdb.ReferenceData.Service.Xmgmt.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.388.4032</FileVersion>
+      <InfoVersion>8.0.388+adb518ae6bd0cdf59279f72839aee18651a1b9a0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.ReferenceData.SqlServer.dll">
+      <Name>Sitecore.Xdb.ReferenceData.SqlServer.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.388.4032</FileVersion>
+      <InfoVersion>8.0.388+adb518ae6bd0cdf59279f72839aee18651a1b9a0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.ReferenceData.SqlServer.Xmgmt.dll">
+      <Name>Sitecore.Xdb.ReferenceData.SqlServer.Xmgmt.dll</Name>
+      <Version>8.0.0.0</Version>
+      <FileVersion>8.0.388.4032</FileVersion>
+      <InfoVersion>8.0.388+adb518ae6bd0cdf59279f72839aee18651a1b9a0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Reporting.dll">
+      <Name>Sitecore.Xdb.Reporting.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1281.6733</FileVersion>
+      <InfoVersion>18.0.1281+e48301e26d7539c93d1cfc941e3d4f7b25f5d2b9</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Sql.Common.dll">
+      <Name>Sitecore.Xdb.Sql.Common.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.151.2758</FileVersion>
+      <InfoVersion>9.0.151+630167427eb8ffdcd2a585d34149044b7fdd8e53</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Sql.Common.Xmgmt.dll">
+      <Name>Sitecore.Xdb.Sql.Common.Xmgmt.dll</Name>
+      <Version>9.0.0.0</Version>
+      <FileVersion>9.0.151.2758</FileVersion>
+      <InfoVersion>9.0.151+630167427eb8ffdcd2a585d34149044b7fdd8e53</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Sitecore.Xdb.Tracking.Client.dll">
+      <Name>Sitecore.Xdb.Tracking.Client.dll</Name>
+      <Version>18.0.0.0</Version>
+      <FileVersion>18.0.1124.10146</FileVersion>
+      <InfoVersion>18.0.1124+dbbedcedacbfea094ad4c0b8c8bdfc426838132b</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="SolrNet.dll">
+      <Name>SolrNet.dll</Name>
+      <Version>1.0.19.0</Version>
+      <FileVersion>1.0.19.0</FileVersion>
+      <InfoVersion>1.0.19</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="StackExchange.Redis.dll">
+      <Name>StackExchange.Redis.dll</Name>
+      <Version>2.0.0.0</Version>
+      <FileVersion>2.5.43.42402</FileVersion>
+      <InfoVersion>2.5.43+a2a5ac6807</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Buffers.dll">
+      <Name>System.Buffers.dll</Name>
+      <Version>4.0.3.0</Version>
+      <FileVersion>4.6.28619.01</FileVersion>
+      <InfoVersion>4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Collections.Immutable.dll">
+      <Name>System.Collections.Immutable.dll</Name>
+      <Version>1.2.5.0</Version>
+      <FileVersion>4.700.20.21406</FileVersion>
+      <InfoVersion>3.1.4+c4164928b270ee2369808ab347d33423ef765216</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.ComponentModel.Annotations.dll">
+      <Name>System.ComponentModel.Annotations.dll</Name>
+      <Version>4.2.1.0</Version>
+      <FileVersion>4.6.26515.06</FileVersion>
+      <InfoVersion>4.6.26515.06 @BuiltBy: dlab-DDVSOWINAGE059 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/30ab651fcb4354552bd4891619a0bdd81e0ebdbf</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Configuration.ConfigurationManager.dll">
+      <Name>System.Configuration.ConfigurationManager.dll</Name>
+      <Version>4.0.1.0</Version>
+      <FileVersion>4.6.26515.06</FileVersion>
+      <InfoVersion>4.6.26515.06 @BuiltBy: dlab-DDVSOWINAGE059 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/30ab651fcb4354552bd4891619a0bdd81e0ebdbf</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Data.SqlClient.dll">
+      <Name>System.Data.SqlClient.dll</Name>
+      <Version>4.6.1.1</Version>
+      <FileVersion>4.700.20.6702</FileVersion>
+      <InfoVersion>3.1.2+e946cebe43a510e8c6476bbc8185d1445df33a1a</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Diagnostics.DiagnosticSource.dll">
+      <Name>System.Diagnostics.DiagnosticSource.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Diagnostics.PerformanceCounter.dll">
+      <Name>System.Diagnostics.PerformanceCounter.dll</Name>
+      <Version>5.0.0.0</Version>
+      <FileVersion>5.0.20.51904</FileVersion>
+      <InfoVersion>5.0.0+cf258a14b70ad9069470a108f13765e0e5988f51</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.IdentityModel.Tokens.Jwt.dll">
+      <Name>System.IdentityModel.Tokens.Jwt.dll</Name>
+      <Version>5.4.0.0</Version>
+      <FileVersion>5.4.0.60123</FileVersion>
+      <InfoVersion>5.4.0.60123010533.1300b19eae77801a05906bc061fe52e158b513e8</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Interactive.Async.dll">
+      <Name>System.Interactive.Async.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.0.2</FileVersion>
+      <InfoVersion>4.0.0+6ce573bea6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Interactive.Async.Providers.dll">
+      <Name>System.Interactive.Async.Providers.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.0.2</FileVersion>
+      <InfoVersion>4.0.0+6ce573bea6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.IO.dll">
+      <Name>System.IO.dll</Name>
+      <Version>4.1.1.0</Version>
+      <FileVersion>4.6.24705.01</FileVersion>
+      <InfoVersion>4.6.24705.01. Commit Hash: 4d1af962ca0fede10beb01d197367c2f90e92c97</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.IO.FileSystem.Primitives.dll">
+      <Name>System.IO.FileSystem.Primitives.dll</Name>
+      <Version>4.0.1.0</Version>
+      <FileVersion>1.0.24212.01</FileVersion>
+      <InfoVersion>1.0.24212.01. Commit Hash: 9688ddbb62c04189cac4c4a06e31e93377dccd41</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.IO.Packaging.dll">
+      <Name>System.IO.Packaging.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>1.0.24212.01</FileVersion>
+      <InfoVersion>1.0.24212.01. Commit Hash: 9688ddbb62c04189cac4c4a06e31e93377dccd41</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.IO.Pipelines.dll">
+      <Name>System.IO.Pipelines.dll</Name>
+      <Version>5.0.0.1</Version>
+      <FileVersion>5.0.120.57516</FileVersion>
+      <InfoVersion>5.0.1+b02e13abab3d6f499751af2ad1ae6333fb4e633d</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Linq.Async.dll">
+      <Name>System.Linq.Async.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.0.2</FileVersion>
+      <InfoVersion>4.0.0+6ce573bea6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Linq.Async.Queryable.dll">
+      <Name>System.Linq.Async.Queryable.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>4.0.0.2</FileVersion>
+      <InfoVersion>4.0.0+6ce573bea6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Memory.dll">
+      <Name>System.Memory.dll</Name>
+      <Version>4.0.1.1</Version>
+      <FileVersion>4.6.28619.01</FileVersion>
+      <InfoVersion>4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Net.Http.Extensions.Compression.Core.dll">
+      <Name>System.Net.Http.Extensions.Compression.Core.dll</Name>
+      <Version>2.0.0.0</Version>
+      <FileVersion>2.0.3</FileVersion>
+      <InfoVersion>2.0.3</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Net.Http.Formatting.dll">
+      <Name>System.Net.Http.Formatting.dll</Name>
+      <Version>5.2.6.0</Version>
+      <FileVersion>5.2.60510.0</FileVersion>
+      <InfoVersion>5.2.6-60510 (3155d174ba1d7e281ef0b9bbe78fb10a43aa7450)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Net.WebSockets.Client.dll">
+      <Name>System.Net.WebSockets.Client.dll</Name>
+      <Version>4.0.0.1</Version>
+      <FileVersion>1.0.25920.05</FileVersion>
+      <InfoVersion>1.0.25920.05. Commit Hash: 022243d9e63f4f4b0862ba54a5f85758e59d8feb</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Net.WebSockets.dll">
+      <Name>System.Net.WebSockets.dll</Name>
+      <Version>4.0.0.0</Version>
+      <FileVersion>1.0.24212.01</FileVersion>
+      <InfoVersion>1.0.24212.01. Commit Hash: 9688ddbb62c04189cac4c4a06e31e93377dccd41</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Numerics.Vectors.dll">
+      <Name>System.Numerics.Vectors.dll</Name>
+      <Version>4.1.4.0</Version>
+      <FileVersion>4.6.26515.06</FileVersion>
+      <InfoVersion>4.6.26515.06 @BuiltBy: dlab-DDVSOWINAGE059 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/30ab651fcb4354552bd4891619a0bdd81e0ebdbf</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Runtime.CompilerServices.Unsafe.dll">
+      <Name>System.Runtime.CompilerServices.Unsafe.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Runtime.dll">
+      <Name>System.Runtime.dll</Name>
+      <Version>4.1.1.0</Version>
+      <FileVersion>4.6.24705.01</FileVersion>
+      <InfoVersion>4.6.24705.01. Commit Hash: 4d1af962ca0fede10beb01d197367c2f90e92c97</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Runtime.InteropServices.RuntimeInformation.dll">
+      <Name>System.Runtime.InteropServices.RuntimeInformation.dll</Name>
+      <Version>4.0.1.0</Version>
+      <FileVersion>4.6.24705.01</FileVersion>
+      <InfoVersion>4.6.24705.01. Commit Hash: 4d1af962ca0fede10beb01d197367c2f90e92c97</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Runtime.Serialization.Primitives.dll">
+      <Name>System.Runtime.Serialization.Primitives.dll</Name>
+      <Version>4.1.1.0</Version>
+      <FileVersion>1.0.24212.01</FileVersion>
+      <InfoVersion>1.0.24212.01. Commit Hash: 9688ddbb62c04189cac4c4a06e31e93377dccd41</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Security.AccessControl.dll">
+      <Name>System.Security.AccessControl.dll</Name>
+      <Version>4.1.1.0</Version>
+      <FileVersion>4.6.26515.06</FileVersion>
+      <InfoVersion>4.6.26515.06 @BuiltBy: dlab-DDVSOWINAGE059 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/30ab651fcb4354552bd4891619a0bdd81e0ebdbf</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Security.Cryptography.Encoding.dll">
+      <Name>System.Security.Cryptography.Encoding.dll</Name>
+      <Version>4.0.1.0</Version>
+      <FileVersion>4.6.24705.01</FileVersion>
+      <InfoVersion>4.6.24705.01. Commit Hash: 4d1af962ca0fede10beb01d197367c2f90e92c97</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Security.Cryptography.Primitives.dll">
+      <Name>System.Security.Cryptography.Primitives.dll</Name>
+      <Version>4.0.1.0</Version>
+      <FileVersion>4.6.24705.01</FileVersion>
+      <InfoVersion>4.6.24705.01. Commit Hash: 4d1af962ca0fede10beb01d197367c2f90e92c97</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Security.Cryptography.X509Certificates.dll">
+      <Name>System.Security.Cryptography.X509Certificates.dll</Name>
+      <Version>4.1.0.0</Version>
+      <FileVersion>1.0.24212.01</FileVersion>
+      <InfoVersion>1.0.24212.01. Commit Hash: 9688ddbb62c04189cac4c4a06e31e93377dccd41</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Security.Cryptography.Xml.dll">
+      <Name>System.Security.Cryptography.Xml.dll</Name>
+      <Version>4.0.1.0</Version>
+      <FileVersion>4.6.26515.06</FileVersion>
+      <InfoVersion>4.6.26515.06 @BuiltBy: dlab-DDVSOWINAGE059 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/30ab651fcb4354552bd4891619a0bdd81e0ebdbf</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Security.Permissions.dll">
+      <Name>System.Security.Permissions.dll</Name>
+      <Version>4.0.1.0</Version>
+      <FileVersion>4.6.26515.06</FileVersion>
+      <InfoVersion>4.6.26515.06 @BuiltBy: dlab-DDVSOWINAGE059 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/30ab651fcb4354552bd4891619a0bdd81e0ebdbf</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Security.Principal.Windows.dll">
+      <Name>System.Security.Principal.Windows.dll</Name>
+      <Version>4.1.1.0</Version>
+      <FileVersion>4.6.26515.06</FileVersion>
+      <InfoVersion>4.6.26515.06 @BuiltBy: dlab-DDVSOWINAGE059 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/30ab651fcb4354552bd4891619a0bdd81e0ebdbf</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Text.Encodings.Web.dll">
+      <Name>System.Text.Encodings.Web.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Text.Json.dll">
+      <Name>System.Text.Json.dll</Name>
+      <Version>6.0.0.0</Version>
+      <FileVersion>6.0.21.52210</FileVersion>
+      <InfoVersion>6.0.0+4822e3c3aa77eb82b2fb33c9321f923cf11ddde6</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Threading.Channels.dll">
+      <Name>System.Threading.Channels.dll</Name>
+      <Version>5.0.0.0</Version>
+      <FileVersion>5.0.20.51904</FileVersion>
+      <InfoVersion>5.0.0+cf258a14b70ad9069470a108f13765e0e5988f51</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Threading.Tasks.Extensions.dll">
+      <Name>System.Threading.Tasks.Extensions.dll</Name>
+      <Version>4.2.0.1</Version>
+      <FileVersion>4.6.28619.01</FileVersion>
+      <InfoVersion>4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.ValueTuple.dll">
+      <Name>System.ValueTuple.dll</Name>
+      <Version>4.0.3.0</Version>
+      <FileVersion>4.6.26515.06</FileVersion>
+      <InfoVersion>4.6.26515.06 @BuiltBy: dlab-DDVSOWINAGE059 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/30ab651fcb4354552bd4891619a0bdd81e0ebdbf</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.Cors.dll">
+      <Name>System.Web.Cors.dll</Name>
+      <Version>5.2.6.0</Version>
+      <FileVersion>5.2.60510.0</FileVersion>
+      <InfoVersion>5.2.6-60510 (3155d174ba1d7e281ef0b9bbe78fb10a43aa7450)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.Helpers.dll">
+      <Name>System.Web.Helpers.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.60201.0</FileVersion>
+      <InfoVersion>3.0.4-60201 (2b669cace9446e436e1ddae0b0a578abfda35cd1)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.Http.Cors.dll">
+      <Name>System.Web.Http.Cors.dll</Name>
+      <Version>5.2.6.0</Version>
+      <FileVersion>5.2.60510.0</FileVersion>
+      <InfoVersion>5.2.6-60510 (3155d174ba1d7e281ef0b9bbe78fb10a43aa7450)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.Http.dll">
+      <Name>System.Web.Http.dll</Name>
+      <Version>5.2.6.0</Version>
+      <FileVersion>5.2.60510.0</FileVersion>
+      <InfoVersion>5.2.6-60510 (3155d174ba1d7e281ef0b9bbe78fb10a43aa7450)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.Http.WebHost.dll">
+      <Name>System.Web.Http.WebHost.dll</Name>
+      <Version>5.2.6.0</Version>
+      <FileVersion>5.2.60510.0</FileVersion>
+      <InfoVersion>5.2.6-60510 (3155d174ba1d7e281ef0b9bbe78fb10a43aa7450)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.Mvc.dll">
+      <Name>System.Web.Mvc.dll</Name>
+      <Version>5.2.4.0</Version>
+      <FileVersion>5.2.60201.0</FileVersion>
+      <InfoVersion>5.2.4-60201 (2b669cace9446e436e1ddae0b0a578abfda35cd1)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.Optimization.dll">
+      <Name>System.Web.Optimization.dll</Name>
+      <Version>1.1.0.0</Version>
+      <FileVersion>1.1.40211.0</FileVersion>
+      <InfoVersion>1.1.40211.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.Razor.dll">
+      <Name>System.Web.Razor.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.60201.0</FileVersion>
+      <InfoVersion>3.0.4-60201 (2b669cace9446e436e1ddae0b0a578abfda35cd1)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.WebPages.Deployment.dll">
+      <Name>System.Web.WebPages.Deployment.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.60201.0</FileVersion>
+      <InfoVersion>3.0.4-60201 (2b669cace9446e436e1ddae0b0a578abfda35cd1)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.WebPages.dll">
+      <Name>System.Web.WebPages.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.60201.0</FileVersion>
+      <InfoVersion>3.0.4-60201 (2b669cace9446e436e1ddae0b0a578abfda35cd1)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="System.Web.WebPages.Razor.dll">
+      <Name>System.Web.WebPages.Razor.dll</Name>
+      <Version>3.0.0.0</Version>
+      <FileVersion>3.0.60201.0</FileVersion>
+      <InfoVersion>3.0.4-60201 (2b669cace9446e436e1ddae0b0a578abfda35cd1)</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Telerik.Web.Design.dll">
+      <Name>Telerik.Web.Design.dll</Name>
+      <Version>2020.3.1021.45</Version>
+      <FileVersion>2020.3.1021.45</FileVersion>
+      <InfoVersion>2020.3.1021.45</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Telerik.Web.Device.Detection.dll">
+      <Name>Telerik.Web.Device.Detection.dll</Name>
+      <Version>2020.3.1021.45</Version>
+      <FileVersion>2020.3.1021.45</FileVersion>
+      <InfoVersion>2020.3.1021.45</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Telerik.Web.UI.dll">
+      <Name>Telerik.Web.UI.dll</Name>
+      <Version>2020.3.1021.45</Version>
+      <FileVersion>2020.3.1021.45</FileVersion>
+      <InfoVersion>2020.3.1021.45</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Telerik.Web.UI.Skins.dll">
+      <Name>Telerik.Web.UI.Skins.dll</Name>
+      <Version>2020.3.1021.45</Version>
+      <FileVersion>2020.3.1021.45</FileVersion>
+      <InfoVersion>2020.3.1021.45</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="WebActivatorEx.dll">
+      <Name>WebActivatorEx.dll</Name>
+      <Version>2.0.0.0</Version>
+      <FileVersion>2.0.3</FileVersion>
+      <InfoVersion>2.0.3</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="WebGrease.dll">
+      <Name>WebGrease.dll</Name>
+      <Version>1.5.2.14234</Version>
+      <FileVersion>1.5.2.14234</FileVersion>
+      <InfoVersion>1.5.2.14234</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+    <SitecoreAssemblies Include="Yahoo.Yui.Compressor.dll">
+      <Name>Yahoo.Yui.Compressor.dll</Name>
+      <Version>2.7.0.0</Version>
+      <FileVersion>2.7.0.0</FileVersion>
+      <InfoVersion>2.7.0.0</InfoVersion>
+      <Source>Sitecore.Assemblies.Platform</Source>
+    </SitecoreAssemblies>
+  </ItemGroup>
+</Project>

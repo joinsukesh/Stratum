@@ -1,0 +1,66 @@
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Project.Website.dll.config
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Project.Website.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Project.Website.pdb
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Microsoft.Web.Infrastructure.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Sitecore.Kernel.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Sitecore.Mvc.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Feature.Base.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Foundation.Assets.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Foundation.Common.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Helpers.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Mvc.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Razor.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.Deployment.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.Razor.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\ClosedXML.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Sitecore.ContentSearch.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Sitecore.ContentSearch.Linq.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Feature.Base.pdb
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Feature.Base.dll.config
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Foundation.Assets.pdb
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Foundation.Common.pdb
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Mvc.xml
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Razor.xml
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.xml
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.Deployment.xml
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.Razor.xml
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Helpers.xml
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.csproj.AssemblyReference.cache
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.csproj.CoreCompileInputs.cache
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.csproj.CopyComplete
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.dll
+D:\projects\internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Project.Website.dll.config
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Project.Website.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Project.Website.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Microsoft.Web.Infrastructure.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Sitecore.Kernel.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Sitecore.Mvc.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Feature.Base.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Foundation.Assets.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Foundation.Common.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Helpers.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Mvc.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Razor.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.Deployment.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.Razor.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\ClosedXML.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Sitecore.ContentSearch.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Sitecore.ContentSearch.Linq.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Feature.Base.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Feature.Base.dll.config
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Foundation.Assets.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\Stratum.Foundation.Common.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Mvc.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Razor.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.Deployment.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Webpages.Razor.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\bin\System.Web.Helpers.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.csproj.AssemblyReference.cache
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.csproj.CoreCompileInputs.cache
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.csproj.CopyComplete
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Project\code\Stratum.Project.Website\obj\Debug\Stratum.Project.Website.pdb

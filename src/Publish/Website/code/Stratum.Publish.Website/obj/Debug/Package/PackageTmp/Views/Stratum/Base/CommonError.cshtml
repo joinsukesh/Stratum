@@ -1,0 +1,16 @@
+﻿@using Stratum.Foundation.Common
+@using System
+@model Exception
+@{
+    Layout = null;
+}
+
+@if(Model != null)
+{
+    <div style="display:none">
+        @CommonDictionaryValues.Messages.Errors.Generic
+    </div>
+    <div class="div-component-error" style="display:none;">
+        @Convert.ToString(Model)
+    </div>
+}

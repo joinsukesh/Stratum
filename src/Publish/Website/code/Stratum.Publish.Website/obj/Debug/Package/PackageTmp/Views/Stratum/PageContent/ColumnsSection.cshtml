@@ -1,0 +1,45 @@
+﻿@using Stratum.Feature.PageContent.Models
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation;
+@using Stratum.Foundation.Common.Utilities
+@model ColumnsSection
+@{
+    Layout = null;
+    bool isExperienceEditor = SitecoreUtility.IsExperienceEditorMode();
+    string columnCssClass = "col-lg-{0} d-flex align-items-stretch";
+    columnCssClass = Model != null ? string.Format(columnCssClass, Model.ColumnWidth) : string.Format(columnCssClass, 12);
+}
+
+@if (Model != null)
+{
+    <section id="@Model.SectionId">
+        <div class="container">
+            @if ((!MvcHtmlString.IsNullOrEmpty(Model.Title)) || (!MvcHtmlString.IsNullOrEmpty(Model.Description)) || isExperienceEditor)
+            {
+                <div class="section-title" data-aos="fade-up">
+                    @if ((!MvcHtmlString.IsNullOrEmpty(Model.Title)) || isExperienceEditor)
+                    {
+                        @Model.Title
+                    }
+                    @if ((!MvcHtmlString.IsNullOrEmpty(Model.Description)) || isExperienceEditor)
+                    {
+                        @Model.Description
+                    }
+                </div>
+            }
+            <div class="row no-gutters justify-content-center" data-aos="fade-up">
+                @Html.Sitecore().DynamicPlaceholder(new DynamicPlaceholderDefinition("col-section")
+                       {
+                           Count = Model.NumberOfColumns,
+                           MaxCount = 12,
+                           Seed = 1,
+                           OutputModifier = (input, context) => new HtmlString("<div class=" + columnCssClass + ">" + input + "</div>"),
+                       })
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <span></span>
+}

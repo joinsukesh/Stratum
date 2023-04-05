@@ -1,0 +1,130 @@
+﻿@using Stratum.Feature.Navigation.Models
+@using Stratum.Foundation.Common
+@using Stratum.Foundation.Common.Utilities
+@using Sitecore.Mvc
+@model Footer
+@{
+    Layout = null;
+    bool isExperienceEditor = SitecoreUtility.IsExperienceEditorMode();
+    string currentPageUrl = HttpContext.Current.Request.Url.AbsolutePath;
+    bool isHomePage = currentPageUrl == "" || currentPageUrl == CommonConstants.Characters.ForwardSlash;
+}
+
+@if (Model != null)
+{
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    @if ((!string.IsNullOrWhiteSpace(Model.Address)) ||
+                        (Model.SocialLinks != null && Model.SocialLinks.Count > 0) ||
+                        isExperienceEditor)
+                    {
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer-info">
+                                @Html.Sitecore().Field(Model.AddressId, Model.InnerItem)
+
+                                <div class="social-links mt-3">
+                                    @if ((Model.SocialLinks == null || Model.SocialLinks.Count == 0) && isExperienceEditor)
+                                    {
+                                        <div>
+                                            <h3>Add Social Links</h3>
+                                        </div>
+                                    }
+                                    else if (Model.SocialLinks != null && Model.SocialLinks.Count > 0)
+                                    {
+                                        foreach (NavLink sociallink in Model.SocialLinks)
+                                        {
+                                            @Html.Sitecore().BeginField(sociallink.LinkId, sociallink.InnerItem, new { haschildren = true })
+                                            if (isExperienceEditor)
+                                            {
+                                                <div>
+                                                    Edit Css Class: @Html.Sitecore().Field(sociallink.CssClassId, sociallink.InnerItem)
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <i class="@sociallink.CssClass"></i>
+                                            }
+                                            @Html.Sitecore().EndField()
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    @if (isHomePage && ((!string.IsNullOrWhiteSpace(Model.Column2Title)) ||
+                        (Model.Column2Links != null && Model.Column2Links.Count > 0) ||
+                            isExperienceEditor))
+                    {
+                        <div class="col-lg-4 col-md-6 footer-links">
+                            @if ((!string.IsNullOrWhiteSpace(Model.Column2Title)) || isExperienceEditor)
+                            {
+                                <h4>
+                                    @Html.Sitecore().Field(Model.Column2TitleId, Model.InnerItem)
+                                </h4>
+                            }
+
+                            @if ((Model.Column2Links == null || Model.Column2Links.Count == 0) && isExperienceEditor)
+                            {
+                                <div>
+                                    <h3>Add Column 2 Links</h3>
+                                </div>
+                            }
+                            else if (Model.Column2Links != null && Model.Column2Links.Count > 0)
+                            {
+                                <ul>
+                                    @foreach (NavLink link in Model.Column2Links)
+                                    {
+                                        <li><i class="bx bx-chevron-right"></i> @Html.Sitecore().Field(link.LinkId, link.InnerItem)</li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    }
+
+                    @if (isHomePage && ((!string.IsNullOrWhiteSpace(Model.Column3Title)) ||
+                        (Model.Column3Links != null && Model.Column3Links.Count > 0) ||
+                            isExperienceEditor))
+                    {
+                        <div class="col-lg-4 col-md-6 footer-links">
+                            @if ((!string.IsNullOrWhiteSpace(Model.Column3Title)) || isExperienceEditor)
+                            {
+                                <h4>
+                                    @Html.Sitecore().Field(Model.Column3TitleId, Model.InnerItem)
+                                </h4>
+                            }
+
+                            @if ((Model.Column3Links == null || Model.Column3Links.Count == 0) && isExperienceEditor)
+                            {
+                                <div>
+                                    <h3>Add Column 3 Links</h3>
+                                </div>
+                            }
+                            else if (Model.Column3Links != null && Model.Column3Links.Count > 0)
+                            {
+                                <ul>
+                                    @foreach (NavLink link in Model.Column3Links)
+                                    {
+                                        <li><i class="bx bx-chevron-right"></i> @Html.Sitecore().Field(link.LinkId, link.InnerItem)</li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        @if ((!string.IsNullOrWhiteSpace(Model.CopyrightSection)) || isExperienceEditor)
+        {
+            @Html.Sitecore().Field(Model.CopyrightSectionId, Model.InnerItem)
+        }
+    </footer>
+}
+else
+{
+    <span></span>
+}

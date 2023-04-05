@@ -1,0 +1,16 @@
+<Project>
+  <!-- Disable downstream publishing -->
+  <PropertyGroup>
+    <DisableProjectReferenceDeployOnBuild Condition="'$(DisableProjectReferenceDeployOnBuild)'==''">true</DisableProjectReferenceDeployOnBuild>
+  </PropertyGroup>
+
+  <Target Name="PreventDownstreamPublishing" BeforeTargets="AssignProjectConfiguration">
+    <ItemGroup Condition="'$(DisableProjectReferenceDeployOnBuild)'=='true'">
+      <_ProjectReferenceTmp Include="@(ProjectReference)" />
+      <ProjectReference Remove="@(ProjectReference)" />
+      <ProjectReference Include="@(_ProjectReferenceTmp)">
+        <GlobalPropertiesToRemove>DeployOnBuild;PublishProfile;%(_ProjectReferenceTmp.GlobalPropertiesToRemove)</GlobalPropertiesToRemove>
+      </ProjectReference>
+    </ItemGroup>
+  </Target>
+</Project>

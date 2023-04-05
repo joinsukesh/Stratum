@@ -1,0 +1,134 @@
+﻿@using Stratum.Feature.Base.Models
+@model Pagination
+<!---
+    LOGIC: The pagination should have 9 cells, including 5 for digits.
+    First | << | 1 | 2 | 3 | 4 | 5 | >> | Last
+
+    When total pages > 5, the no. of digit cells to be displayed is always 5.
+    -->
+@{
+    Layout = null;
+    bool disableFirstAndPrevious = false;
+    bool disableNextAndLast = false;
+    int maxPaginationDigitCellsToDisplay = 5;
+    int firstPageNumToDisplay = 0;
+    int lastPageNumToDisplay = 0;
+    bool renderPagination = false;
+
+    if (Model != null && Model.ShowPagination && Model.TotalPages > 1 && Model.SelectedPage > 0 && Model.SelectedPage <= Model.TotalPages)
+    {
+        renderPagination = true;
+        int selectedPage = Model.SelectedPage;
+        int totalPages = Model.TotalPages;
+        disableFirstAndPrevious = selectedPage == 1;
+        disableNextAndLast = Model.SelectedPage == Model.TotalPages;
+
+        if ((totalPages <= maxPaginationDigitCellsToDisplay) || (selectedPage == 1 && totalPages <= maxPaginationDigitCellsToDisplay))
+        {
+            firstPageNumToDisplay = 1;
+            lastPageNumToDisplay = totalPages;
+        }
+        else if (selectedPage == totalPages)
+        {
+            lastPageNumToDisplay = totalPages;
+            firstPageNumToDisplay = lastPageNumToDisplay - (maxPaginationDigitCellsToDisplay - 1);
+        }
+        else
+        {
+            firstPageNumToDisplay = selectedPage <= 2 ? 1 : selectedPage - 2;
+            lastPageNumToDisplay = firstPageNumToDisplay;
+            for (int iteration = 1; iteration < maxPaginationDigitCellsToDisplay && lastPageNumToDisplay < totalPages; iteration++)
+            {
+                lastPageNumToDisplay++;
+            }
+
+            int numberOfDigitCells = lastPageNumToDisplay - firstPageNumToDisplay + 1;
+
+            if (numberOfDigitCells < maxPaginationDigitCellsToDisplay)
+            {
+                firstPageNumToDisplay = firstPageNumToDisplay - (maxPaginationDigitCellsToDisplay - numberOfDigitCells);
+            }
+        }
+    }
+}
+
+@if (renderPagination)
+{
+    <div class="row">
+        <div class="col-lg-4 col-md-4"></div>
+        <div class="col-lg-4 col-md-4">
+            <nav>
+                <ul data-containerId="@Model.ListContainerId" data-datasourceId="@Model.DatasourceId" class="pagination">
+                    <li class="page-item @(disableFirstAndPrevious ? "disabled" : "")">
+                        @if (disableFirstAndPrevious)
+                        {
+                            <span class="page-link">First</span>
+                        }
+                        else
+                        {
+                            <a class="page-link pagination-first" date-pagenum="1" href="javascript:void(0)">First</a>
+                        }
+                    </li>
+                    <li class="page-item @(disableFirstAndPrevious ? "disabled" : "")">
+                        @if (disableFirstAndPrevious)
+                        {
+                            <span class="page-link" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="visually-hidden">Previous</span>
+                            </span>
+                        }
+                        else
+                        {
+                            <a class="page-link pagination-previous" data-pagenum="@(Model.SelectedPage - 1)" href="javascript:void(0)" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                        }
+                    </li>
+
+                    @for (int index = firstPageNumToDisplay; index <= lastPageNumToDisplay; index++)
+                    {
+                        <li class="page-item @(index == Model.SelectedPage ? "active" : "")">
+                            @if (index == Model.SelectedPage)
+                            {
+                                <span class="page-link">@index</span>
+                            }
+                            else
+                            {
+                                <a class="page-link pagination-page" data-pagenum="@index" href="javascript:void(0)">@index</a>
+                            }
+                        </li>
+                    }
+
+                    <li class="page-item @(disableNextAndLast ? "disabled" : "")">
+                        @if (disableNextAndLast)
+                        {
+                            <span class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="visually-hidden">Next</span>
+                            </span>
+                        }
+                        else
+                        {
+                            <a class="page-link pagination-next" data-pagenum="@(Model.SelectedPage + 1)" href="javascript:void(0)" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
+                        }
+                    </li>
+                    <li class="page-item @(disableNextAndLast ? "disabled" : "")">
+                        @if (disableNextAndLast)
+                        {
+                            <span class="page-link">Last</span>
+                        }
+                        else
+                        {
+                            <a class="page-link pagination-last" data-pagenum="@Model.TotalPages" href="javascript:void(0)">Last</a>
+                        }
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-lg-4 col-md-4"></div>
+    </div>
+}

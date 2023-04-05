@@ -1,0 +1,101 @@
+﻿@using Stratum.Feature.PageContent.Models
+@using Sitecore.Mvc
+@using Stratum.Foundation.Common.Models
+@using Stratum.Foundation.Common.Services
+@using Stratum.Foundation.Common.Utilities
+@model TeaserTilesSection
+@{
+    Layout = null;
+    BaseRenderingParams brParams = new CommonService().GetBaseRenderingParams();
+    bool isExperienceEditor = SitecoreUtility.IsExperienceEditorMode();
+    int delaySeconds = 100;
+    TeaserTile tile = null;
+}
+
+@if (Model != null)
+{
+    <section id="@brParams.SectionId" class="services @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
+        <div class="container">
+
+            @if ((!string.IsNullOrWhiteSpace(Model.Title)) ||
+                (!string.IsNullOrWhiteSpace(Model.Description)) || isExperienceEditor)
+            {
+                <div class="section-title" data-aos="fade-up">
+                    @if ((!string.IsNullOrWhiteSpace(Model.Title)) || isExperienceEditor)
+                    {
+                        @Html.Sitecore().Field(Model.TitleId, Model.InnerItem)
+                    }
+                    @if ((!string.IsNullOrWhiteSpace(Model.Description)) || isExperienceEditor)
+                    {
+                        @Html.Sitecore().Field(Model.DescriptionId, Model.InnerItem)
+                    }
+                </div>
+            }
+            <div class="row">
+                @if ((Model.Tiles != null && Model.Tiles.Count > 0) || isExperienceEditor)
+                {
+                    if ((Model.Tiles == null || Model.Tiles.Count == 0) && isExperienceEditor)
+                    {
+                        <div>
+                            <h3>Add child teaser tiles</h3>
+                        </div>
+                    }
+                    else if (Model.Tiles != null && Model.Tiles.Count > 0)
+                    {
+                        for (int index = 0; index < Model.Tiles.Count; index++)
+                        {
+                            tile = Model.Tiles[index];
+
+                            if (tile != null)
+                            {
+                                <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="@(index * delaySeconds)">
+                                    @if (isExperienceEditor)
+                                    {
+                                        <div>
+                                            Edit CTA: @Html.Sitecore().Field(tile.CtaId, tile.InnerItem)
+                                        </div>
+                                        <div>
+                                            Edit Container CSS Class: @Html.Sitecore().Field(tile.ContainerCssClassId, tile.InnerItem)
+                                        </div>
+                                        <div>
+                                            Edit Icon CSS Class: @Html.Sitecore().Field(tile.IconCssClassId, tile.InnerItem)
+                                        </div>
+                                        <h4 class="title">
+                                            @Html.Sitecore().Field(tile.TitleId, tile.InnerItem)
+                                        </h4>
+                                        <p class="description">
+                                            @Html.Sitecore().Field(tile.DescriptionId, tile.InnerItem)
+                                        </p>
+                                    }
+                                    else
+                                    {
+                                        <a href="@tile.CtaUrl" target="@tile.CtaTargetType">
+                                            <div class="icon-box @tile.ContainerCssClass">
+                                                @if (!string.IsNullOrWhiteSpace(tile.IconCssClass))
+                                                {
+                                                    <div class="icon"><i class="@tile.IconCssClass"></i></div>
+                                                }
+                                                @if (!string.IsNullOrWhiteSpace(tile.Title))
+                                                {
+                                                    <h4 class="title">@tile.Title</h4>
+                                                }
+                                                @if (!string.IsNullOrWhiteSpace(tile.Description))
+                                                {
+                                                    <p class="description">@tile.Description</p>
+                                                }
+                                            </div>
+                                        </a>
+                                    }
+                                </div>
+                            }
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <span></span>
+}

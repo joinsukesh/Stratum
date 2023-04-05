@@ -1,0 +1,15 @@
+{
+  "namespace": "Layouts",
+  "references": [ "" ],
+  "items": {
+    "includes": [
+      {
+        "name": "layouts",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/layout/Layouts/Stratum",
+		"scope": "ItemAndDescendants",
+        "alias": "layouts"
+      }
+    ]
+  }
+}

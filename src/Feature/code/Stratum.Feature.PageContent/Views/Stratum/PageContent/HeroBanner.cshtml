@@ -1,0 +1,40 @@
+﻿@using Stratum.Feature.PageContent.Models
+@using Sitecore.Mvc
+@using Stratum.Foundation.Common.Models
+@using Stratum.Foundation.Common.Services
+@using Stratum.Foundation.Common.Utilities
+@model HeroBanner
+@{
+    Layout = null;
+    BaseRenderingParams brParams = new CommonService().GetBaseRenderingParams();
+    bool isExperienceEditor = SitecoreUtility.IsExperienceEditorMode();
+}
+
+@if (Model != null)
+{
+    <section id="@brParams.SectionId" class="d-flex flex-column justify-content-center align-items-center" style="@(isExperienceEditor ? "" : string.Format("background:url({0}) center center", Model.BannerImageUrl))">
+        <div class="container text-center text-md-left" data-aos="fade-up">
+            @if (isExperienceEditor)
+            {
+                @Html.Sitecore().Field(Model.BannerImageId, Model.InnerItem)
+            }
+
+            @if ((!string.IsNullOrWhiteSpace(Model.Title)) || isExperienceEditor)
+            {
+                @Html.Sitecore().Field(Model.TitleId, Model.InnerItem)
+            }
+            @if ((!string.IsNullOrWhiteSpace(Model.Description)) || isExperienceEditor)
+            {
+                @Html.Sitecore().Field(Model.DescriptionId, Model.InnerItem)
+            }
+            @if ((!string.IsNullOrWhiteSpace(Model.CtaDescription)) || isExperienceEditor)
+            {
+                @Html.Sitecore().Field(Model.CtaId, Model.InnerItem, new { @class = "btn-get-started" })
+            }
+        </div>
+    </section>
+}
+else
+{
+    <span></span>
+}

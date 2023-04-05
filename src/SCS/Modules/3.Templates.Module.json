@@ -1,0 +1,36 @@
+{
+  "namespace": "Templates",
+  "references": [ "" ],
+  "items": {
+    "includes": [      
+	  {
+        "name": "templates",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/templates/Stratum",
+		"scope": "ItemAndDescendants",
+        "alias": "templates"
+      },      
+	  {
+        "name": "templates-branches",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/templates/Branches/Stratum",
+		"scope": "ItemAndDescendants",
+        "alias": "templates-br"
+      },
+	  {
+        "name": "templates-sys-ren-cr",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/templates/System/Layout/Renderings/Controller rendering",
+		"scope": "SingleItem",
+        "alias": "templates-srcr"
+      },
+	  {
+        "name": "templates-sys-ren-vr",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/templates/System/Layout/Renderings/View rendering",
+		"scope": "SingleItem",
+        "alias": "templates-srvr"
+      }
+    ]
+  }
+}

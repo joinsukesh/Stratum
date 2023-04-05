@@ -1,0 +1,48 @@
+﻿@using Stratum.Feature.PageContent.Models
+@using Sitecore.Mvc
+@using Stratum.Foundation.Common.Extensions
+@using Stratum.Foundation.Common.Models
+@using Stratum.Foundation.Common.Utilities
+@using Stratum.Foundation.Common.Services
+@model Gallery
+@{
+    Layout = null;
+    bool isExperienceEditor = SitecoreUtility.IsExperienceEditorMode();
+    BaseRenderingParams brParams = new CommonService().GetBaseRenderingParams();
+    string listContainerId = brParams.SectionId + "-container";
+
+    if (Model != null && Model.Pagination != null)
+    {
+        Model.Pagination.ListContainerId = listContainerId;
+    }
+}
+
+@if (Model != null)
+{
+    <section id="@brParams.SectionId" class="portfolio @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
+        <div class="container">
+            @if ((!string.IsNullOrWhiteSpace(Model.Title)) ||
+                (!string.IsNullOrWhiteSpace(Model.Description)) || isExperienceEditor)
+            {
+                <div class="section-title" data-aos="fade-up">
+                    @if ((!string.IsNullOrWhiteSpace(Model.Title)) || isExperienceEditor)
+                    {
+                        @Html.Sitecore().Field(Model.TitleId, Model.InnerItem)
+                    }
+                    @if ((!string.IsNullOrWhiteSpace(Model.Description)) || isExperienceEditor)
+                    {
+                        @Html.Sitecore().Field(Model.DescriptionId, Model.InnerItem)
+                    }
+                </div>
+            }
+
+            <div id="@listContainerId">
+                @Html.Partial(Stratum.Feature.PageContent.Constants.ViewsFolderPath + "_GalleryImages.cshtml", Model)
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <span></span>
+}

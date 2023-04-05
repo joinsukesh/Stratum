@@ -1,0 +1,15 @@
+{
+  "namespace": "Media",
+  "references": [ "" ],
+  "items": {
+    "includes": [	  
+      {
+        "name": "media",
+        "allowedPushOperations": "CreateOnly",
+        "path": "/sitecore/media library/Stratum",
+		"scope": "ItemAndDescendants",
+        "alias": "media"
+      }
+    ]
+  }
+}

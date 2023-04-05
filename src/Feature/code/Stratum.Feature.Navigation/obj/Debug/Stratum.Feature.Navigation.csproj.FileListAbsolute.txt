@@ -1,0 +1,80 @@
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Navigation.dll.config
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Navigation.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Navigation.pdb
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Microsoft.Web.Infrastructure.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.Kernel.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Base.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Foundation.Accounts.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Foundation.Common.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Helpers.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Mvc.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Razor.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.Deployment.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.Razor.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\HtmlAgilityPack.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\ClosedXML.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.Mvc.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.Analytics.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.CES.GeoIp.Core.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.ContentSearch.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Newtonsoft.Json.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.ContentSearch.Linq.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Foundation.Accounts.pdb
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Foundation.Common.pdb
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Base.pdb
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Base.dll.config
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Mvc.xml
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Razor.xml
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.xml
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.Deployment.xml
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.Razor.xml
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Helpers.xml
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.csproj.AssemblyReference.cache
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.csproj.CoreCompileInputs.cache
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.csproj.CopyComplete
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.dll
+D:\projects\internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Navigation.dll.config
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Navigation.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Navigation.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Microsoft.Web.Infrastructure.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.Kernel.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Base.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Foundation.Accounts.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Foundation.Common.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Helpers.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Mvc.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Razor.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.Deployment.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.Razor.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\HtmlAgilityPack.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\ClosedXML.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.Mvc.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.Analytics.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.CES.GeoIp.Core.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.ContentSearch.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Newtonsoft.Json.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Sitecore.ContentSearch.Linq.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Foundation.Accounts.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Foundation.Common.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Base.pdb
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\Stratum.Feature.Base.dll.config
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Mvc.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Razor.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.Deployment.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Webpages.Razor.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\bin\System.Web.Helpers.xml
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.csproj.AssemblyReference.cache
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.csproj.CoreCompileInputs.cache
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.csproj.CopyComplete
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.dll
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Feature\code\Stratum.Feature.Navigation\obj\Debug\Stratum.Feature.Navigation.pdb

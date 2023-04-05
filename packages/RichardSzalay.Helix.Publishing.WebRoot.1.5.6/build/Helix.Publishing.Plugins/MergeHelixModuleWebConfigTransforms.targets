@@ -1,0 +1,71 @@
+<Project>
+  <!-- Web.config Transforms -->
+  <PropertyGroup>
+    <MergeHelixModuleWebConfigTransforms Condition="'$(MergeHelixModuleWebConfigTransforms)' == ''">true</MergeHelixModuleWebConfigTransforms>
+    <IncludeHelixWebConfigTransformInPackage Condition="'$(IncludeHelixWebConfigTransformInPackage)' == ''">false</IncludeHelixWebConfigTransformInPackage>
+  </PropertyGroup>
+
+  <UsingTask TaskName="RichardSzalay.Helix.Publishing.Tasks.MergeXmlTransforms" 
+              AssemblyFile="$(MSBuildThisFileDirectory)..\RichardSzalay.Helix.Publishing.Tasks.dll"
+              Condition="'$(MergeHelixModuleWebConfigTransforms)'=='true'"
+              />
+
+  <PropertyGroup>
+    <MergeHelixModuleWebConfigTransformsDependsOn>
+      $(MergeHelixModuleWebConfigTransformsDependsOn);
+      CollectHelixModuleWebConfigTransforms
+    </MergeHelixModuleWebConfigTransformsDependsOn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <HelixModuleWebConfigTransformFileNamePrefix>Web.Helix</HelixModuleWebConfigTransformFileNamePrefix>
+
+    <_HelixDefaultIntermediateOutputPath>$(IntermediateOutputPath)</_HelixDefaultIntermediateOutputPath>
+    <_HelixDefaultIntermediateOutputPath Condition="'$([System.IO.Path]::IsPathRooted($(IntermediateOutputPath)))' == 'False'">$(MSBuildProjectDirectory)\$(IntermediateOutputPath)</_HelixDefaultIntermediateOutputPath>
+
+    <HelixTransformWebConfigIntermediateOutput Condition="'$(HelixTransformWebConfigIntermediateOutput)' == ''">HelixTransformWebConfig</HelixTransformWebConfigIntermediateOutput>
+    <HelixTransformWebConfigIntermediateLocation Condition="'$(HelixTransformWebConfigIntermediateLocation)' == ''">$(_HelixDefaultIntermediateOutputPath)$(HelixTransformWebConfigIntermediateOutput)</HelixTransformWebConfigIntermediateLocation>
+  </PropertyGroup>
+
+  <Target Name="CollectHelixModuleWebConfigTransforms">
+    <ItemGroup>
+      <HelixModuleWebConfigTransforms Include="@(HelixModulePaths -> '%(RootDir)%(Directory)$(HelixModuleWebConfigTransformFileNamePrefix).config')" />
+      <HelixModuleWebConfigTransforms Include="@(HelixModulePaths -> '%(RootDir)%(Directory)$(HelixModuleWebConfigTransformFileNamePrefix).$(Configuration).config')" />
+    </ItemGroup>
+  </Target>
+
+  <Target Name="MergeHelixModuleWebConfigTransforms" BeforeTargets="PreTransformWebConfig" DependsOnTargets="$(MergeHelixModuleWebConfigTransformsDependsOn)" Condition="'$(MergeHelixModuleWebConfigTransforms)'=='true'">
+
+    <ItemGroup>
+      <_ProjectWebConfigTransform Include="@(WebConfigsToTransform)" Condition="'%(TransformScope)'==$([System.IO.Path]::GetFullPath($(WPPAllFilesInSingleFolder)\$(ProjectConfigFileName)))" />
+      <_ValidHelixWebConfigTransforms Include="@(HelixModuleWebConfigTransforms)" Condition="Exists(%(FullPath))" />
+      <_WebConfigTransformsToMerge Include="@(_ValidHelixWebConfigTransforms)" />
+      <_WebConfigTransformsToMerge Include="@(_ProjectWebConfigTransform->'%(TransformFile)')" Condition="Exists(%(_ProjectWebConfigTransform.TransformFile))" />
+
+    </ItemGroup>
+
+    <PropertyGroup>
+      <_MergeHelixWebConfigTransforms Condition="'@(_ValidHelixWebConfigTransforms)' != '' or ('@(_WebConfigTransformsToMerge)' != '' and '$(IncludeHelixWebConfigTransformInPackage)' == 'true')">true</_MergeHelixWebConfigTransforms>
+      <_MergedHelixWebConfigTransform>$(HelixTransformWebConfigIntermediateLocation)\$(HelixModuleWebConfigTransformFileNamePrefix).config</_MergedHelixWebConfigTransform>
+    </PropertyGroup>
+
+    <Warning Condition="'$(_MergeHelixWebConfigTransforms)' != 'true' and '$(IncludeHelixWebConfigTransformInPackage)' == 'true'"
+      Text="Unable to include Web.config transform in package as there are no transforms to merge" />
+
+    <MergeXmlTransforms Transforms="@(_WebConfigTransformsToMerge)"
+                        OutputPath="$(_MergedHelixWebConfigTransform)"
+                        Condition="'$(_MergeHelixWebConfigTransforms)'=='true'"
+                        />
+
+    <ItemGroup Condition="'$(_MergeHelixWebConfigTransforms)' == 'true'">
+      <FilesForPackagingFromProject Include="$(_MergedHelixWebConfigTransform)" Condition="'$(IncludeHelixWebConfigTransformInPackage)' == 'true'">
+        <DestinationRelativePath>$(HelixModuleWebConfigTransformFileNamePrefix).config</DestinationRelativePath>
+      </FilesForPackagingFromProject>
+
+      <WebConfigsToTransform Remove="@(_ProjectWebConfigTransform)" />
+      <WebConfigsToTransform Include="@(_ProjectWebConfigTransform)">
+        <TransformFile>$(_MergedHelixWebConfigTransform)</TransformFile>
+      </WebConfigsToTransform>
+    </ItemGroup>
+  </Target>
+</Project>

@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="Stratum.Feature.AdminPages.sitecore.admin.Stratum.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/assets/stratum/css/vendor/bootstrap.min.css" rel="stylesheet" />
+    <link href="/sitecore/admin/Stratum/assets/css/app.css" rel="stylesheet" />
+    <script src="/assets/stratum/js/vendor/jquery-3.6.3.min.js"></script>
+    <script src="/assets/stratum/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="/assets/stratum/js/vendor/toastr.min.js"></script>
+    <script src="/sitecore/admin/Stratum/assets/js/app.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a href="javascript:void(0)" class="navbar-brand d-flex align-items-center">
+                    <strong>Stratum</strong>
+                </a>
+                <span class="text-end">                    
+                    <asp:Hyperlink ID="ancLogout" runat="server" Text="Logout" style="color: white; text-decoration: none;"/>
+                </span>
+                <%--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>--%>
+            </div>
+        </div>
+    </header>
+    <main role="main" class="container">
+        <div class="content-wrapper">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </main>
+    <div id="mdlWait" class="modal mdlWait">
+        <div class="modal-dialog modal-dialog-centered mdlWait-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div>
+                        <img src="/assets/stratum/img/wait.gif" class="img-wait" alt="Wait..." />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

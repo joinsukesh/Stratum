@@ -1,0 +1,21 @@
+<Project>
+  <!-- Web Deploy Parameters -->
+  <PropertyGroup>
+    <ImportParametersFilesDependsOn>
+      $(ImportParametersFilesDependsOn);
+      CollectHelixParameterXMLFiles
+    </ImportParametersFilesDependsOn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <CollectHelixParameterXMLFilesDependsOn>
+      $(CollectHelixParameterXMLFilesDependsOn);
+      CollectHelixModules
+    </CollectHelixParameterXMLFilesDependsOn>
+  </PropertyGroup>
+  <Target Name="CollectHelixParameterXMLFiles" DependsOnTargets="$(CollectHelixParameterXMLFilesDependsOn)">
+    <ItemGroup>
+      <HelixModuleParameterFiles Include="@(HelixModulePaths -> '%(RootDir)%(Directory)Parameters.xml')" />
+      <ParametersXMLFiles Include="@(HelixModuleParameterFiles)" Condition="'%(HelixModuleParameterFiles.Identity)' != '' and Exists(%(HelixModuleParameterFiles.FullPath))" />
+    </ItemGroup>
+  </Target>
+</Project>

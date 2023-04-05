@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   
+  <ItemGroup>
+    <SitecoreAssembliesToExclude Include="@(SitecoreAssemblies)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--If you want to exclude all Sitecore dlls but want to include some-->
+    <!--<ExcludeFromPackageFiles Include="bin\Sitecore.*.dll;" Exclude="bin\Sitecore.Commerce.Proxy.dll"/>-->
+
+    <ExcludeFromPackageFiles Include="bin\Sitecore.*.dll;
+                             bin\*.pdb" />
+    <ExcludeFromPackageFiles Include="bin\*.dll.config;
+                             bin\Stratum.Publish.Website.dll;
+                             bin\Stratum.Publish.Website.pdb;
+                             bin\de;                             
+                             bin\Scriban.dll;
+                             bin\Spatial4n.Core.dll;
+                             bin\Newtonsoft.Json.dll;
+                             bin\Newtonsoft.Json.Bson.dll;
+                             bin\Microsoft.OData.Client.dll;
+                             bin\AjaxMin.dll;
+                             bin\Microsoft.Extensions.Caching.StackExchangeRedis.dll;
+                             bin\HtmlAgilityPack.dll;
+                             bin\Microsoft.Bcl.AsyncInterfaces.dll;
+                             bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll;
+                             bin\Microsoft.Extensions.DependencyInjection.dll;
+                             bin\Microsoft.Web.Infrastructure.dll;
+                             bin\System.Web.Helpers.dll;
+                             bin\System.Web.Mvc.dll;
+                             bin\System.Web.Razor.dll;
+                             bin\System.Web.Webpages.Deployment.dll;
+                             bin\System.Web.Webpages.dll;
+                             bin\System.Web.Webpages.Razor.dll;
+                             " />
+  
+    <!--The following code can be uncommented after the first deployment. We do not need these files in every publish-->
+    <!--<ExcludeFromPackageFiles Include="bin\ClosedXML.dll;
+                             -->
+  </ItemGroup>
+   
+</Project>
