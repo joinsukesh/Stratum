@@ -120,6 +120,7 @@
     <Content Include="Views\Stratum\PageContent\ProductsListing.cshtml" />
     <Content Include="Views\Stratum\PageContent\_ProductTiles.cshtml" />
     <Content Include="App_Config\Include\zzz.Stratum\Feature\Stratum.Solr.Index.Products.Master.config" />
+    <Content Include="App_Config\Include\zzz.Stratum\Feature\Stratum.Solr.Index.Products.Web.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
