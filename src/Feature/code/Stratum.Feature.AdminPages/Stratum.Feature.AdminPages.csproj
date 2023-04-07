@@ -72,7 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
-    <Compile Include="DbFactory\AppLogsDb.cs" />
     <Compile Include="DbFactory\ScFormReportDb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sitecore\admin\Stratum\Default.Master.cs">

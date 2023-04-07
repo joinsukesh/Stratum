@@ -306,3 +306,4 @@ D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Publish\Websit
 D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Publish\Website\code\Stratum.Publish.Website\obj\Debug\Package\PackageTmp\assets\stratum\css\vendor\fonts\bootstrap-icons.woff2
 D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Publish\Website\code\Stratum.Publish.Website\obj\Debug\Package\PackageTmp\assets\stratum\js\vendor\toastr.js.map
 D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Publish\Website\code\Stratum.Publish.Website\obj\Debug\Package\PackageTmp\App_Config\Include\zzz.Stratum\Feature\Stratum.Solr.Index.Products.Web.config
+D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Publish\Website\code\Stratum.Publish.Website\obj\Debug\Package\PackageTmp\App_Config\Include\zzz.Stratum\Foundation\Stratum.Foundation.Common.config

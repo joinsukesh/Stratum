@@ -38,6 +38,6 @@
     <ExcludeFromPackageFiles Include="bin\ClosedXML.dll;
                                       favicon.ico;
                                       Global.asax;
-                                      " />                             
-  </ItemGroup>   
+                                      " />
+ </ItemGroup>
 </Project>
