@@ -3,7 +3,7 @@
     using System;
     using System.Net;
     using System.Web;
-    //https://sitecore.stackexchange.com/questions/221/how-do-you-setup-a-404-and-500-error-page-for-missing-files-and-media-items
+    ///https://sitecore.stackexchange.com/questions/221/how-do-you-setup-a-404-and-500-error-page-for-missing-files-and-media-items
     public class Global : System.Web.HttpApplication
     {
 
