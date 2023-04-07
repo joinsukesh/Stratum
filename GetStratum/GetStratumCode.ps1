@@ -167,7 +167,10 @@ Function RemoveGitFiles{
     $solutionFolder = $global:outputDir + "\" + $global:newSolutionName
     Remove-Item (-join($solutionFolder, "\.git")) -Recurse -Force
     Remove-Item (-join($solutionFolder, "\.gitattributes"))  
-    Remove-Item (-join($solutionFolder, "\.gitignore"))    
+    Remove-Item (-join($solutionFolder, "\.gitignore"))  
+    
+    # Remove the 'GetStratum' folder
+    Remove-Item (-join($solutionFolder, "\GetStratum")) -Recurse -Force  
 }
 
 # Clone the git repo
