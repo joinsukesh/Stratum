@@ -5,7 +5,7 @@
         public struct Profile
         {
             ////sitecore/system/Settings/Security/Profiles/Stratum User
-            public static string ProfileItemId = "{92C4F61C-C9CE-48BE-8577-E03EEF82CE3C}";
+            public static string ProfileItemId = "{985A8C5D-234E-42D5-997D-ABD6AD04A375}";
 
             public struct ProfileProperties
             {

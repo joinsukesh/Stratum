@@ -15,7 +15,7 @@
     using System.Linq;
     using System.Web.Mvc;
     using Constants = Stratum.Feature.Accounts.Constants;
-    using SFA = Stratum.Foundation.Accounts;
+    using FA = Stratum.Foundation.Accounts;
 
     public class AccountsController : Controller
     {
@@ -69,8 +69,8 @@
                     ///create username
                     string usernameWithDomain = accService.ConvertEmailToUsernameWithDomain(model.Email, CommonConfigurations.Domain);
                     string signUpSecretKey = HelperUtility.GetRandomString(10);
-                    customProfileProperties.Add(new KeyValuePair<string, string>(SFA.Constants.Profile.ProfileProperties.SignUpSecretKey, signUpSecretKey));
-                    customProfileProperties.Add(new KeyValuePair<string, string>(SFA.Constants.Profile.ProfileProperties.IsSignUpComplete, "0"));
+                    customProfileProperties.Add(new KeyValuePair<string, string>(FA.Constants.Profile.ProfileProperties.SignUpSecretKey, signUpSecretKey));
+                    customProfileProperties.Add(new KeyValuePair<string, string>(FA.Constants.Profile.ProfileProperties.IsSignUpComplete, "0"));
                     accService.CreateUser(usernameWithDomain, model.FirstName, model.LastName, model.Email, model.Password, customProfileProperties, out userAlreadyExists);
 
                     if (!userAlreadyExists)

@@ -18,45 +18,45 @@
 
         public struct ActiveStatus
         {
-            public static readonly ID ID = new ID("{C3816D4C-016E-45A9-8C24-3F7FDCE539FB}");
+            public static readonly ID ID = new ID("{76F14742-2033-43A5-B0A5-9C16DCF411B0}");
 
             public struct Fields
             {
-                public static readonly ID IsActive = new ID("{3844EE29-DD02-420D-957B-1E8DD854738A}");
+                public static readonly ID IsActive = new ID("{89F162F8-13E0-40C0-ABAF-BA76492CA60A}");
             }
         }
 
         public struct BaseRenderingParameters
         {
-            public static readonly ID ID = new ID("{F2DB120D-EB7A-4AC8-A24A-F9D254899C15}");
+            public static readonly ID ID = new ID("{397E8ABE-EF26-4BA4-8802-0F28A442162B}");
 
             public struct Fields
             {
-                public static readonly ID SectionId = new ID("{576D1A8B-308E-4462-A764-4ACE817328D0}");
-                public static readonly ID AddDefaultBackgroundColor = new ID("{D7311633-DCF8-4367-A732-CF5E7D880A09}");
-                public static readonly ID BackgroundColor = new ID("{CA9C11F7-FB87-4672-9823-5C81A88A5617}");
+                public static readonly ID SectionId = new ID("{78BE52B1-2628-46DF-984C-54AB53B8CADE}");
+                public static readonly ID AddDefaultBackgroundColor = new ID("{09328E33-7A55-44FE-98F0-24461C7A8FFA}");
+                public static readonly ID BackgroundColor = new ID("{11DE13B9-F4EC-42D5-9366-F951D58ACDCB}");
             }
         }
 
         public struct BaseContent
         {
-            public static readonly ID ID = new ID("{DCF060E3-94C6-4078-B635-4B8DE70A25E1}");
+            public static readonly ID ID = new ID("{1F4A7579-A7E5-4160-97D6-6315A10EBA24}");
 
             public struct Fields
             {
-                public static readonly ID Title = new ID("{4651C31E-23B6-4352-93D2-15A12599FB81}");
-                public static readonly ID Description = new ID("{0AD95964-56C5-489A-9FE8-A6C7FE729E5A}");
+                public static readonly ID Title = new ID("{56EACD06-8389-44DB-A78B-D6B78FA11684}");
+                public static readonly ID Description = new ID("{127CCB6A-3AF8-4965-B27F-DE7A552A09C2}");
             }
         }
 
         public struct PaginationSettings
         {
-            public static readonly ID ID = new ID("{0C961468-90C3-43B3-94EF-47F5196BED9C}");
+            public static readonly ID ID = new ID("{3D6A3DD7-6B55-42B3-B4D9-F6A5742F1EF6}");
 
             public struct Fields
             {
-                public static readonly ID ShowPagination = new ID("{6C1F93A9-5F09-458E-91A7-EB7C5D88B1A8}");
-                public static readonly ID PageSize = new ID("{BB4ED4B7-295B-4C29-80C2-CF5DAF135611}");
+                public static readonly ID ShowPagination = new ID("{85068CEF-4F82-4C1F-A884-434F742BAA03}");
+                public static readonly ID PageSize = new ID("{0A33FB6A-C9E7-4C81-A94F-DB7975D30D42}");
             }
         }
 
@@ -67,26 +67,27 @@
 
         public struct BaseEmailTemplate
         {
-            public static readonly ID ID = new ID("{703D2083-7B0F-42B5-9804-3D69506069BE}");
+            public static readonly ID ID = new ID("{BEA9D87A-2B58-4DC1-923F-FB5CF7869715}");
 
             public struct Fields
             {
-                public static readonly ID FromEmail = new ID("{747E8772-4DBE-44D8-8155-E8343F9424ED}");
-                public static readonly ID ToEmails = new ID("{C8B14B2D-871A-4A50-AA69-A47C02A01D60}");
-                public static readonly ID Subject = new ID("{16F28161-CC7E-4E41-816B-F848CBE8D4A4}");
-                public static readonly ID Body = new ID("{7D510DC3-061F-48F4-B575-571535FB5378}");
-                public static readonly ID CCEmails = new ID("{4374FB84-F726-4BBD-8BB7-F7FCEBAAB5C5}");
-                public static readonly ID BCCEmails = new ID("{81F5C944-A135-4ECB-A2CA-047BCBFDC766}");
+                public static readonly ID FromEmail = new ID("{D64940E1-7838-42A4-A0AA-BFF3A5860BA2}");
+                public static readonly ID ToEmails = new ID("{0CC63E74-3BA1-477B-82F8-2B10707CD62F}");
+                public static readonly ID CCEmails = new ID("{B75FA825-82B7-4168-8D58-E72FA6557C70}");
+                public static readonly ID BCCEmails = new ID("{84BAAB2C-8533-45E9-9653-4572B4B2B471}");
+                public static readonly ID Subject = new ID("{2C59C452-9580-4588-AA12-F9F4857E819D}");
+                public static readonly ID Body = new ID("{AAFE9007-6CCD-49FD-BF8C-66C1195F5932}");
+                
             }
         }
 
         public struct Tag
         {
-            public static readonly ID ID = new ID("{10896EAA-9BAB-4B50-8577-EAB3495518AA}");
+            public static readonly ID ID = new ID("{E3624552-5ED9-42E4-9BF6-552EE27CF833}");
 
             public struct Fields
             {
-                public static readonly ID TagName = new ID("{72B389B1-23C4-4935-8D68-4F7DA1F53657}");
+                public static readonly ID TagName = new ID("{24B97149-7AB0-4D92-9C79-68733547D8D8}");
             }
         }
     }
