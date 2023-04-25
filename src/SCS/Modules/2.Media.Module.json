@@ -7,7 +7,7 @@
         "name": "media",
         "allowedPushOperations": "CreateOnly",
         "path": "/sitecore/media library/Stratum",
-		"scope": "ItemAndDescendants",
+		    "scope": "ItemAndDescendants",
         "alias": "media"
       }
     ]
