@@ -7,139 +7,137 @@ namespace Stratum.Feature.PageContent
     {
         public struct ColumnsSectionRenderingParameters
         {
-            public static readonly ID ID = new ID("{8177ABD8-707D-4D4D-8125-FD95F111CC3F}");
+            public static readonly ID ID = new ID("{3032B1E2-762F-47BC-B669-E9434A93C396}");
 
             public struct Fields
             {
-                public static readonly ID NumberOfColumns = new ID("{AF4C9B41-DB42-45E4-9E9C-BF99FEAA3B32}");
+                public static readonly ID NumberOfColumns = new ID("{382F3ABB-F899-416D-B111-9A4A146921FC}");
             }
         }
 
         public struct RichTextSection
         {
-            public static readonly ID ID = new ID("{4C6B06F7-4962-405D-9C0B-FB73C3205E03}");
+            public static readonly ID ID = new ID("{DC23F10F-8F25-427E-BB89-686188BFC7B4}");
 
             public struct Fields
             {
-                public static readonly ID Content = new ID("{500C7AAD-3596-4796-A103-3DAA84BEAD7C}");
+                public static readonly ID Content = new ID("{781AFC43-7ADB-4AE6-BBA7-6710F0FE9B2B}");
             }
         }
 
         public struct HeroBanner
         {
-            public static readonly ID ID = new ID("{651E3A86-870B-43BD-88C8-64D398F58960}");
+            public static readonly ID ID = new ID("{68967FB1-4AAA-4856-961B-92FCC387DEB5}");
 
             public struct Fields
             {
-                public static readonly ID BannerImage = new ID("{4350FA48-261C-49FB-BE61-A949FF0D3670}");
-                public static readonly ID Title = new ID("{F8C90ACE-DE00-4B7B-BDD0-5F6B9176DDD4}");
-                public static readonly ID Description = new ID("{91ABF899-71EF-4A57-B972-89844E82170E}");
-                public static readonly ID CTA = new ID("{10870063-17D9-48F6-9FA3-4574F6C36D68}");
+                public static readonly ID BannerImage = new ID("{D502633C-1EFE-486A-A1A4-98E4352C5A47}");
+                public static readonly ID CTA = new ID("{ED3310F8-8E1D-4627-81B2-9E03685492F6}");
             }
         }
 
         public struct Testimonial
         {
-            public static readonly ID ID = new ID("{788A578D-85D8-44E6-8080-6E521CFC8F46}");
+            public static readonly ID ID = new ID("{00A372FA-5623-4519-8BED-38AB7537D718}");
 
             public struct Fields
             {
-                public static readonly ID PersonName = new ID("{85DCEB86-FE66-49C5-B034-854DB9AA6721}");
-                public static readonly ID Designation = new ID("{0091404E-2AFD-40B0-B199-34663E3EE889}");
-                public static readonly ID Image = new ID("{F0C553EF-8132-49C0-9D5B-F7B7BC7192FE}");
-                public static readonly ID Comments = new ID("{38CC79E8-1B91-48B8-81AC-45424914E528}");
+                public static readonly ID PersonName = new ID("{866F1144-7976-4950-9145-002E20DB800C}");
+                public static readonly ID Designation = new ID("{E9BAB2D2-DDF8-48D7-83B9-19FF19FFB545}");
+                public static readonly ID Image = new ID("{952EB599-92B4-411A-8770-3B54BD63105A}");
+                public static readonly ID Comments = new ID("{C2A28C19-049C-4D86-9FFA-811D073B9490}");
             }
         }
 
         public struct TestimonialsSection
         {
-            public static readonly ID ID = new ID("{07AD3624-F7AC-45A1-836B-AC86871AED2B}");
+            public static readonly ID ID = new ID("{1AC88EDF-7673-4A93-8CDE-12C9C9D0C123}");
         }
 
         public struct NumberedGridTile
         {
-            public static readonly ID ID = new ID("{9CBF8323-B9DE-4B7D-A9B2-86E83D1FB885}");
+            public static readonly ID ID = new ID("{80DEED19-C441-43D2-A3B3-B299A100E4D6}");
         }
 
         public struct NumberedGridTilesSection
         {
-            public static readonly ID ID = new ID("{113D72A0-B150-43F7-890A-589B7B62E7C9}");
+            public static readonly ID ID = new ID("{897EDB7A-ABE2-46EE-AF56-3D721A9A37A4}");
 
             public struct Fields
             {
-                public static readonly ID ShowTileNumbers = new ID("{9B0A4F9F-E9F6-4CAA-BE7E-794CBFB4035A}");
+                public static readonly ID ShowTileNumbers = new ID("{42438F46-B49D-4D79-B783-4446B146853D}");
             }
         }
 
         public struct AccordionPanel
         {
-            public static readonly ID ID = new ID("{612899AE-85E5-49DC-B63A-2FEBA973A669}");
+            public static readonly ID ID = new ID("{A850D245-7C89-446D-B320-5FCB8CCD0BC0}");
         }
 
         public struct Accordion
         {
-            public static readonly ID ID = new ID("{E9DB87BC-9EC5-4C89-88A8-6462C1068DDC}");
+            public static readonly ID ID = new ID("{87E04431-63D7-4E87-94B1-4E72C0990799}");
         }
 
         public struct TeaserTile
         {
-            public static readonly ID ID = new ID("{B57139B4-A1C4-4BDC-ADE0-C14B33E15FEA}");
+            public static readonly ID ID = new ID("{3EBA1A1E-56A3-44A3-A7C0-E741FCFAE8CE}");
 
             public struct Fields
             {
-                public static readonly ID ContainerCssClass = new ID("{24527341-304D-43AC-AA8F-3634A38AA9A8}");
-                public static readonly ID IconCSSClass = new ID("{60BA6E00-CEA0-4FBB-8AB9-544F68E3A565}");
-                public static readonly ID CTA = new ID("{8165818E-653F-42A8-8CF1-8BD41B38BC06}");
+                public static readonly ID ContainerCssClass = new ID("{EB153899-F0FD-45F2-A390-8EC027199DFA}");
+                public static readonly ID IconCSSClass = new ID("{1AA4FD51-D455-4A26-892E-59292E9507A3}");
+                public static readonly ID CTA = new ID("{1E2814E1-4385-475A-9F89-42330BC7C53F}");
             }
         }
 
         public struct TeaserTilesSection
         {
-            public static readonly ID ID = new ID("{76E8616A-500C-4A7F-8D4B-DE02D2F34C49}");
+            public static readonly ID ID = new ID("{8B365BB6-69FE-447C-B21E-CD30762FA04C}");
         }
 
         public struct GalleryImage
         {
-            public static readonly ID ID = new ID("{DC5A7FCC-DE7B-4E62-BCA4-0048B567AC36}");
+            public static readonly ID ID = new ID("{874067F3-753D-47DD-B1C6-AAFE08AB43AF}");
 
             public struct Fields
             {
-                public static readonly ID Image = new ID("{7D6821AE-F56C-497C-B847-1C0734EB95ED}");
-                public static readonly ID CTA = new ID("{27C46797-EE9A-4DFB-A541-462AADBE2D1A}");
+                public static readonly ID Image = new ID("{20917D71-0843-4CB9-BA63-44B971246058}");
+                public static readonly ID CTA = new ID("{3C955A22-3968-4BD5-A786-B821088F8B8C}");
             }
         }
 
         public struct Gallery
         {
-            public static readonly ID ID = new ID("{2CD5BB0E-8A90-4E83-8AEE-6770A62224CA}");
+            public static readonly ID ID = new ID("{DB52B9AA-A816-4FAD-AFAC-F7C430968266}");
 
             public struct Fields
             {
-                public static readonly ID GalleryImagesFolder = new ID("{17F651FD-125E-4363-9602-72753C5D2E5F}");
+                public static readonly ID GalleryImageFolders = new ID("{6A93A7CC-C26C-44FD-B0B5-66AE5DFB5474}");
             }
         }
 
         public struct ProductDetails
         {
-            public static readonly ID ID = new ID("{1D565718-9033-4651-852B-C4CFAB7547D2}");
+            public static readonly ID ID = new ID("{310C0E99-8032-45FA-A873-DF9071C1FDF9}");
 
             public struct Fields
             {
-                public static readonly ID Image = new ID("{60F5922F-7D23-4446-844A-962631528226}");
-                public static readonly ID Category = new ID("{E9B64A12-BEA2-45A7-AD39-0F17BD1A0187}");
-                public static readonly ID Price = new ID("{B2C21E83-3C39-4BC5-AF68-C3BC6DE80FF8}");
-                public static readonly ID Tags = new ID("{FCCCB624-8455-4702-95A0-A2B7D3764494}");
+                public static readonly ID Image = new ID("{9A5CA56B-A6D9-410E-B38F-BF5064E3C7B1}");
+                public static readonly ID Category = new ID("{2B72B092-1ED1-4391-87AE-F450BBFBF91F}");
+                public static readonly ID Price = new ID("{6DA5C444-C4F6-404E-90DF-9D4F723AFA6F}");
+                public static readonly ID Tags = new ID("{73C614FA-7821-4D3C-92E4-FBC53D9E8840}");
             }
         }
 
         public struct ProductDetailsPage
         {
-            public static readonly ID ID = new ID("{8296C862-90B7-4FD9-AB29-68FC58CA2285}");
+            public static readonly ID ID = new ID("{73D13705-EE8B-4C57-A6E6-E44A658ECF4E}");
         }
 
         public struct ProductsListingRenderingParameters
         {
-            public static readonly ID ID = new ID("{6F0AB7B7-CD1C-48D7-8B0D-7B4AC558CEF9}");            
+            public static readonly ID ID = new ID("{1E6AA4A5-6034-4949-B3D3-DC26F6054117}");            
         }
 
     }

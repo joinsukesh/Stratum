@@ -18,6 +18,7 @@
         "alias": "templates-br"
       },
 	  {
+      ///Inherited 'Rendering Assets' template
         "name": "templates-sys-ren-cr",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/templates/System/Layout/Renderings/Controller rendering",
@@ -25,10 +26,11 @@
         "alias": "templates-srcr"
       },
 	  {
+      ///Inherited 'Rendering Assets' template
         "name": "templates-sys-ren-vr",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/templates/System/Layout/Renderings/View rendering",
-		"scope": "SingleItem",
+		     "scope": "SingleItem",
         "alias": "templates-srvr"
       }
     ]

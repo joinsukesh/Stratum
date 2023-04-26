@@ -36,7 +36,7 @@
         {
             get
             {
-                return Templates.HeroBanner.Fields.Title.ToString();
+                return CommonTemplates.BaseContent.Fields.Title.ToString();
             }
         }
 
@@ -44,7 +44,7 @@
         {
             get
             {
-                return InnerItem.GetString(Templates.HeroBanner.Fields.Title);
+                return InnerItem.GetString(CommonTemplates.BaseContent.Fields.Title);
             }
         }
 
@@ -52,15 +52,7 @@
         {
             get
             {
-                return Templates.HeroBanner.Fields.Description.ToString();
-            }
-        }
-
-        public string Description
-        {
-            get
-            {
-                return InnerItem.GetString(Templates.HeroBanner.Fields.Description);
+                return CommonTemplates.BaseContent.Fields.Description.ToString();
             }
         }
 

@@ -23,7 +23,7 @@
         {
             get
             {
-                return Templates.Gallery.Fields.GalleryImagesFolder.ToString();
+                return Templates.Gallery.Fields.GalleryImageFolders.ToString();
             }
         }
 

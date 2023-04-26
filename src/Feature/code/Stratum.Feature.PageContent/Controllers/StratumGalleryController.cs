@@ -138,7 +138,7 @@ namespace Stratum.Feature.PageContent.Controllers
             {
                 if (datasourceItem.HasChildren)
                 {
-                    Item[] selectedFolders = datasourceItem.GetMultilistFieldItems(Templates.Gallery.Fields.GalleryImagesFolder);
+                    Item[] selectedFolders = datasourceItem.GetMultilistFieldItems(Templates.Gallery.Fields.GalleryImageFolders);
 
                     if (selectedFolders != null && selectedFolders.Count() > 0)
                     {

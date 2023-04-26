@@ -154,7 +154,7 @@
 
                             if (accService.IsValidUser(usernameWithDomain))
                             {
-                                string profileSignUpSecretKey = System.Convert.ToString(accService.GetCustomProfilePropertyValue(usernameWithDomain, SFA.Constants.Profile.ProfileProperties.SignUpSecretKey));
+                                string profileSignUpSecretKey = System.Convert.ToString(accService.GetCustomProfilePropertyValue(usernameWithDomain, FA.Constants.Profile.ProfileProperties.SignUpSecretKey));
                                 isValidKey = secretKey == profileSignUpSecretKey;
                             }
                         }
@@ -169,7 +169,7 @@
             if (isValidKey)
             {
                 List<KeyValuePair<string, string>> customProfileProperties = new List<KeyValuePair<string, string>>();
-                customProfileProperties.Add(new KeyValuePair<string, string>(SFA.Constants.Profile.ProfileProperties.IsSignUpComplete, CommonConstants.One));
+                customProfileProperties.Add(new KeyValuePair<string, string>(FA.Constants.Profile.ProfileProperties.IsSignUpComplete, CommonConstants.One));
                 accService.SetCustomProfilePropertyValues(usernameWithDomain, customProfileProperties);
 
                 viewModel = new ConfirmSignUp();
@@ -327,8 +327,8 @@
                     {
                         List<KeyValuePair<string, string>> customProfileProperties = new List<KeyValuePair<string, string>>();
                         string forgotPasswordSecretKey = HelperUtility.GetRandomString(10);
-                        customProfileProperties.Add(new KeyValuePair<string, string>(SFA.Constants.Profile.ProfileProperties.ForgotPasswordSecretKey, forgotPasswordSecretKey));
-                        customProfileProperties.Add(new KeyValuePair<string, string>(SFA.Constants.Profile.ProfileProperties.HasResetPassword, "0"));
+                        customProfileProperties.Add(new KeyValuePair<string, string>(FA.Constants.Profile.ProfileProperties.ForgotPasswordSecretKey, forgotPasswordSecretKey));
+                        customProfileProperties.Add(new KeyValuePair<string, string>(FA.Constants.Profile.ProfileProperties.HasResetPassword, "0"));
                         accService.SetCustomProfilePropertyValues(usernameWithDomain, customProfileProperties);
 
                         Item forgotPasswordEmailTemplateItem = SitecoreUtility.GetItem(Constants.EmailTemplates.ForgotPassword);
@@ -414,13 +414,13 @@
 
                             if (accService.IsValidUser(usernameWithDomain))
                             {
-                                string forgotPasswordSecretKey = System.Convert.ToString(accService.GetCustomProfilePropertyValue(usernameWithDomain, SFA.Constants.Profile.ProfileProperties.ForgotPasswordSecretKey));
+                                string forgotPasswordSecretKey = System.Convert.ToString(accService.GetCustomProfilePropertyValue(usernameWithDomain, FA.Constants.Profile.ProfileProperties.ForgotPasswordSecretKey));
                                 isValidRequest = secretKey == forgotPasswordSecretKey;
 
                                 ///Also check if the "Has Reset Password" != 1
                                 if (isValidRequest)
                                 {
-                                    isValidRequest = System.Convert.ToString(accService.GetCustomProfilePropertyValue(usernameWithDomain, SFA.Constants.Profile.ProfileProperties.HasResetPassword)) != CommonConstants.One;
+                                    isValidRequest = System.Convert.ToString(accService.GetCustomProfilePropertyValue(usernameWithDomain, FA.Constants.Profile.ProfileProperties.HasResetPassword)) != CommonConstants.One;
                                 }
                             }
                         }
@@ -479,7 +479,7 @@
                     {
                         List<KeyValuePair<string, string>> keyValuePairs = new List<KeyValuePair<string, string>>
                         {
-                            new KeyValuePair<string, string>(SFA.Constants.Profile.ProfileProperties.HasResetPassword, CommonConstants.One)
+                            new KeyValuePair<string, string>(FA.Constants.Profile.ProfileProperties.HasResetPassword, CommonConstants.One)
                         };
 
                         if (accService.ResetPassword(usernameWithDomain, model.Password, keyValuePairs))

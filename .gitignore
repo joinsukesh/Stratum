@@ -13,5 +13,13 @@
 
 # Sitecore CLI files
 .sitecore/
-.sitecore\user.json
+.sitecore/user.json
 *.scindex
+
+# Solution files
+*.suo
+/src/Feature/code/Stratum.Feature.Accounts/bin/
+obj/
+Debug/
+Release/
+

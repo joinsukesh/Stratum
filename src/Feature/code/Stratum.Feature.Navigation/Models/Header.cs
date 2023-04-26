@@ -31,7 +31,7 @@ namespace Stratum.Feature.Navigation.Models
         {
             get
             {
-                return Templates.Header.Fields.LogoURL.ToString();
+                return Templates.Header.Fields.LogoTargetURL.ToString();
             }
         }
 
