@@ -139,6 +139,5 @@ namespace Stratum.Feature.PageContent
         {
             public static readonly ID ID = new ID("{1E6AA4A5-6034-4949-B3D3-DC26F6054117}");            
         }
-
     }
 }

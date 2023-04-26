@@ -46,7 +46,5 @@ namespace Stratum.Feature.Navigation
                 public static readonly ID CopyrightSection = new ID("{A9DBF7B3-CEA0-4477-8160-789C862BDE18}");
             }
         }
-
-
     }
 }
