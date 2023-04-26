@@ -1,0 +1,31 @@
+﻿---
+ID: "7de65a0e-6531-459e-90a8-0e1d26c0894c"
+Parent: "3032b1e2-762f-47bc-b669-e9434a93c396"
+Template: "3032b1e2-762f-47bc-b669-e9434a93c396"
+Path: /sitecore/templates/Stratum/Feature/PageContent/Columns Section Rendering Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T100730Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b51920f8-d81e-4889-b1af-7bf99b9698c0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T100730Z

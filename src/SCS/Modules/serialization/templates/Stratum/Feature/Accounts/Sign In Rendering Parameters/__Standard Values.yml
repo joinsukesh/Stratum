@@ -1,0 +1,34 @@
+﻿---
+ID: "111c7ff7-cf7c-498a-897f-0dd57e17ead5"
+Parent: "380e1a0d-3952-4631-8d9e-859afd375f38"
+Template: "380e1a0d-3952-4631-8d9e-859afd375f38"
+Path: /sitecore/templates/Stratum/Feature/Accounts/Sign In Rendering Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T093018Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6d57ab79-e307-42b1-b668-224b1622ef3b"
+      Hint: Forgot Password Label
+      Value: Forgot Password
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d04bf90b-f074-4ecf-97f0-eab6a1e0a2a9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T093817Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "c63deadd-a994-46a9-b87c-2e89a411d344"
+Parent: "4d48b5d9-4b4f-44ee-991f-1a67cf418da3"
+Template: "8b7cfa99-01bf-406c-9e47-0ffd72da7580"
+Path: /sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Accordions
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T112821Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ab5615c-84d9-474e-b448-7b17f8858ddd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T112821Z

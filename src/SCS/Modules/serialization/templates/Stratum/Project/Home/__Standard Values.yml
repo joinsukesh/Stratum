@@ -1,0 +1,23 @@
+﻿---
+ID: "2542b5e4-6e79-4204-a16f-a70ee4116a1c"
+Parent: "0e2cfd78-576f-4bf5-b45b-2d029345f1d0"
+Template: "0e2cfd78-576f-4bf5-b45b-2d029345f1d0"
+Path: /sitecore/templates/Stratum/Project/Home/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T074626Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4703f76a-953e-4657-a601-e825632ac873"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T074626Z

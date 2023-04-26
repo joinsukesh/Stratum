@@ -1,0 +1,23 @@
+﻿---
+ID: "526cfd2b-050b-4dd2-8604-2019359a1363"
+Parent: "4d48b5d9-4b4f-44ee-991f-1a67cf418da3"
+Template: "5d928685-926e-4d20-b89c-ece5c1d3a3e4"
+Path: /sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Testimonial Sections
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T112111Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a7e5970-8045-4b6f-922e-b8b154df28d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T112111Z

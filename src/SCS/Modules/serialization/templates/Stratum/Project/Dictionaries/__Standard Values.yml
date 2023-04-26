@@ -1,0 +1,29 @@
+﻿---
+ID: "d7a41fc6-22bc-4e8f-a0c1-94634fe5d43f"
+Parent: "a28f8311-06fd-4cd0-941b-f79cb713a674"
+Template: "a28f8311-06fd-4cd0-941b-f79cb713a674"
+Path: /sitecore/templates/Stratum/Project/Dictionaries/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A28F8311-06FD-4CD0-941B-F79CB713A674}
+    {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T105924Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7d159834-c0cd-46ff-b17f-26543ea399a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T110131Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "bf7e6a22-ede7-4370-a527-1d5b0ae7d7d7"
+Parent: "4d48b5d9-4b4f-44ee-991f-1a67cf418da3"
+Template: "c5cdc6f4-0753-4166-9332-5c37603e5fc2"
+Path: /sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Rich Text Sections
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T112054Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59a97790-1bbc-4b0e-abe5-1991649b71c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T112054Z

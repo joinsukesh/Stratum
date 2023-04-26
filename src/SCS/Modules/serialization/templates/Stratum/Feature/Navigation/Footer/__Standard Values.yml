@@ -1,0 +1,23 @@
+﻿---
+ID: "0373774a-48ac-4470-ac55-4d2b99809d3e"
+Parent: "20b3dc31-7ed7-432c-980d-0200a02e2b51"
+Template: "20b3dc31-7ed7-432c-980d-0200a02e2b51"
+Path: /sitecore/templates/Stratum/Feature/Navigation/Footer/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T100203Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c6bbd26-9983-43a8-a721-115517b300c1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T100203Z

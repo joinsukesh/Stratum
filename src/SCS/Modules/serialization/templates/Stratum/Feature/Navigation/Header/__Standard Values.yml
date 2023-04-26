@@ -1,0 +1,23 @@
+﻿---
+ID: "c48ad900-9858-45c9-a3ad-2c4162e7712f"
+Parent: "d38b2b55-41a5-4288-8b71-ba4fed92def3"
+Template: "d38b2b55-41a5-4288-8b71-ba4fed92def3"
+Path: /sitecore/templates/Stratum/Feature/Navigation/Header/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T095051Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21381e36-c3c3-4819-a890-1c3da275ae67"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T095051Z

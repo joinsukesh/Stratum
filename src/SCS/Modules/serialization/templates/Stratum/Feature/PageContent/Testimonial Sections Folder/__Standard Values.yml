@@ -1,0 +1,29 @@
+﻿---
+ID: "46b857ff-5315-4b27-b15c-c2b3830ae089"
+Parent: "5d928685-926e-4d20-b89c-ece5c1d3a3e4"
+Template: "5d928685-926e-4d20-b89c-ece5c1d3a3e4"
+Path: /sitecore/templates/Stratum/Feature/PageContent/Testimonial Sections Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {5D928685-926E-4D20-B89C-ECE5C1D3A3E4}
+    {1AC88EDF-7673-4A93-8CDE-12C9C9D0C123}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T103853Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "181e3050-b22e-4995-ac96-07beeb0a2a63"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T104502Z

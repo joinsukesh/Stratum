@@ -1,0 +1,23 @@
+﻿---
+ID: "6f7e2542-f8e0-4ab4-88b9-ab18dcb8cd04"
+Parent: "dfa67bc7-99a5-486d-ad48-3ee9521c18d7"
+Template: "3af80690-1573-4c9f-95ad-ff243bd2a664"
+Path: /sitecore/templates/Branches/Stratum/Project/Tenant/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T074718Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1dca6227-84b5-46ea-a410-4d62a6056db2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T074718Z

@@ -22,7 +22,7 @@
         "name": "templates-sys-ren-cr",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/templates/System/Layout/Renderings/Controller rendering",
-		"scope": "SingleItem",
+		    "scope": "SingleItem",
         "alias": "templates-srcr"
       },
 	  {

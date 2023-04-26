@@ -1,0 +1,31 @@
+﻿---
+ID: "a896168a-4fd2-407c-8c4d-750e5a03bebd"
+Parent: "2c75f786-e773-4634-8118-875ae29b1a0d"
+Template: "2c75f786-e773-4634-8118-875ae29b1a0d"
+Path: /sitecore/templates/Stratum/Foundation/Assets/Rendering Assets/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T070149Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee5825ac-5c4a-40d8-b9a2-84bc725a2549"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T071447Z

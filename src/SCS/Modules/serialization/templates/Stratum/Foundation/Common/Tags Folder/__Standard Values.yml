@@ -1,0 +1,29 @@
+﻿---
+ID: "a489a390-1695-467d-ad39-baac793f59a3"
+Parent: "1c2a6677-2b86-4648-bf6c-c032c872437e"
+Template: "1c2a6677-2b86-4648-bf6c-c032c872437e"
+Path: /sitecore/templates/Stratum/Foundation/Common/Tags Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {1C2A6677-2B86-4648-BF6C-C032C872437E}
+    {E3624552-5ED9-42E4-9BF6-552EE27CF833}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T121828Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72423f2f-0739-4fc2-b1a3-fc88a4e7f878"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T121849Z

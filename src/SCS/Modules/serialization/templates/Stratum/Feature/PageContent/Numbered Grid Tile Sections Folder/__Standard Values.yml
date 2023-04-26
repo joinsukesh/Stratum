@@ -1,0 +1,29 @@
+﻿---
+ID: "52312f71-adce-4c5d-be9a-37eeebf4dde4"
+Parent: "3a9625bf-d531-4d2f-a840-9ad5dbb6a100"
+Template: "3a9625bf-d531-4d2f-a840-9ad5dbb6a100"
+Path: /sitecore/templates/Stratum/Feature/PageContent/Numbered Grid Tile Sections Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3A9625BF-D531-4D2F-A840-9AD5DBB6A100}
+    {897EDB7A-ABE2-46EE-AF56-3D721A9A37A4}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T111301Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "beae4a05-c563-420e-a842-a9b8100af516"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T111314Z

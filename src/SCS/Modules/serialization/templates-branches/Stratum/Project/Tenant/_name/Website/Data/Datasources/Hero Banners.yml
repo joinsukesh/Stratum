@@ -1,0 +1,23 @@
+﻿---
+ID: "349810cb-5c44-4a8e-bc02-5b6a052c576a"
+Parent: "4d48b5d9-4b4f-44ee-991f-1a67cf418da3"
+Template: "f20ca1d4-c89b-4418-ae82-850da82fda5f"
+Path: /sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Datasources/Hero Banners
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T112021Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02b02b87-2229-4ffe-91e6-1d922b1c052e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T112021Z

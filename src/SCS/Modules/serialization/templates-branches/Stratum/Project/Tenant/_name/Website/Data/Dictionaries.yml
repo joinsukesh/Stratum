@@ -1,0 +1,23 @@
+﻿---
+ID: "4add6b09-e903-4ec1-aa03-3983f99255cc"
+Parent: "172ab185-f08b-4deb-8527-7ca20acdb06b"
+Template: "a28f8311-06fd-4cd0-941b-f79cb713a674"
+Path: /sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Dictionaries
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T110402Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3bc24afb-4ad3-497c-ae7c-2c198bdb4300"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T110402Z

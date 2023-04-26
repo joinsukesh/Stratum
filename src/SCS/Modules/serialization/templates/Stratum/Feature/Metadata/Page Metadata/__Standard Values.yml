@@ -1,0 +1,37 @@
+﻿---
+ID: "2ae62b09-da78-4414-8cef-5235a6a8a9df"
+Parent: "256ee919-060b-4f6d-85e3-43cae81e8125"
+Template: "256ee919-060b-4f6d-85e3-43cae81e8125"
+Path: /sitecore/templates/Stratum/Feature/Metadata/Page Metadata/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T080210Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "620a0ec2-503d-4457-a181-3949838d812b"
+      Hint: Generate Dynamic Canonical URL
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3563bd71-8e1f-4d94-aa25-46ceedcb447f"
+    - ID: "99f0cd4d-1eed-435c-90f1-ea6a86314302"
+      Hint: Index And Follow
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T080241Z

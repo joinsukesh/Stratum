@@ -1,0 +1,29 @@
+﻿---
+ID: "ef2697ed-fae2-471a-a3a8-9150d92d3831"
+Parent: "8b7cfa99-01bf-406c-9e47-0ffd72da7580"
+Template: "8b7cfa99-01bf-406c-9e47-0ffd72da7580"
+Path: /sitecore/templates/Stratum/Feature/PageContent/Accordions Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {8B7CFA99-01BF-406C-9E47-0FFD72DA7580}
+    {87E04431-63D7-4E87-94B1-4E72C0990799}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T112614Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "944991ec-9ebd-4b38-a867-b2c3a270a7c7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T112630Z

@@ -1,0 +1,27 @@
+﻿---
+ID: "8b0c6f1c-4792-4796-944a-6d0faea3b298"
+Parent: "38c2fa59-cfff-48c6-9041-5754134fa6f9"
+Template: "38c2fa59-cfff-48c6-9041-5754134fa6f9"
+Path: /sitecore/templates/Stratum/Feature/PageContent/Gallery Images Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{874067F3-753D-47DD-B1C6-AAFE08AB43AF}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T120139Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1b93ff7-98ed-49fd-925c-2040c999ca26"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T120203Z
