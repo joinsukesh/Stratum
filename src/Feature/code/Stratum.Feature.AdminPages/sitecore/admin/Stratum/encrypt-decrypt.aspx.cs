@@ -8,7 +8,7 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
     using System;
     using System.Web.Script.Serialization;
     using System.Web.Services;
-    using SFA = global::Stratum.Feature.AdminPages;
+    using FA = global::Stratum.Feature.AdminPages;
 
     public partial class encrypt_decrypt : System.Web.UI.Page
     {
@@ -24,7 +24,7 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
                 }
                 catch (Exception ex)
                 {
-                    Log.Error("", ex, SFA.Constants.Stratum_AdminPage_Error);
+                    Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
                 }
             }
             else
@@ -57,7 +57,7 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
             }
             catch (Exception ex)
             {
-                Log.Error("", ex, SFA.Constants.Stratum_AdminPage_Error);
+                Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
                 result.StatusCode = 0;
                 result.StatusMessage = Constants.GenericError;
                 result.ErrorMessage = ex.Message;
@@ -91,7 +91,7 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
             }
             catch (Exception ex)
             {
-                Log.Error("", ex, SFA.Constants.Stratum_AdminPage_Error);
+                Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
                 result.StatusCode = 0;
                 result.StatusMessage = Constants.GenericError;
                 result.ErrorMessage = ex.Message;

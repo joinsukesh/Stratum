@@ -1,15 +1,15 @@
-﻿using Sitecore.Data.Items;
-using Sitecore.Diagnostics;
-using Stratum.Feature.Base;
-using Stratum.Feature.Base.Controllers;
-using Stratum.Feature.Navigation.Models;
-using Stratum.Foundation.Common;
-using Stratum.Foundation.Common.Utilities;
-using System;
-using System.Web.Mvc;
-
+﻿
 namespace Stratum.Feature.Navigation.Controllers
 {
+    using Sitecore.Data.Items;
+    using Sitecore.Diagnostics;
+    using Stratum.Feature.Base;
+    using Stratum.Feature.Base.Controllers;
+    using Stratum.Feature.Navigation.Models;
+    using Stratum.Foundation.Common.Utilities;
+    using System;
+    using System.Web.Mvc;
+
     public class NavigationController : Controller
     {
         public ActionResult RenderHeader()

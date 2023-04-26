@@ -7,24 +7,22 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
     using global::Stratum.Foundation.Common;
     using global::Stratum.Foundation.Common.Extensions;
     using global::Stratum.Foundation.Common.Utilities;
-    using Sitecore;
     using Sitecore.Data.Items;
     using Sitecore.Diagnostics;
     using System;
     using System.Collections.Generic;
     using System.Data;
-    using System.Linq;
     using System.Text;
     using System.Web;
     using System.Web.Script.Serialization;
     using System.Web.Services;
-    using SFA = global::Stratum.Feature.AdminPages;
+    using FA = global::Stratum.Feature.AdminPages;
 
     public partial class scform_report : System.Web.UI.Page
     {
         private AccountsService accountsService = new AccountsService();
         private string SitecoreFormsFolderId = "{B701850A-CB8A-4943-B2BC-DDDB1238C103}";
-        private static int rowsPerPage = 10;
+        //private static int rowsPerPage = 10;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -37,12 +35,12 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
                 }
                 catch (Exception ex)
                 {
-                    Log.Error("", ex, SFA.Constants.Stratum_AdminPage_Error);
+                    Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
                 }
             }
             else
             {
-                Response.Redirect(SFA.Constants.Paths.LoginPagePath);
+                Response.Redirect(FA.Constants.Paths.LoginPagePath);
             }
         }
 
@@ -103,9 +101,9 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
             }
             catch (Exception ex)
             {
-                Log.Error("", ex, SFA.Constants.Stratum_AdminPage_Error);
+                Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
                 result.StatusCode = 0;
-                result.StatusMessage = SFA.Constants.GenericError;
+                result.StatusMessage = FA.Constants.GenericError;
                 result.ErrorMessage = ex.Message;
             }
 

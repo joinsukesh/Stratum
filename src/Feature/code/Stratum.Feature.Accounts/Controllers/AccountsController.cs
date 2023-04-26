@@ -331,7 +331,7 @@
                         customProfileProperties.Add(new KeyValuePair<string, string>(FA.Constants.Profile.ProfileProperties.HasResetPassword, "0"));
                         accService.SetCustomProfilePropertyValues(usernameWithDomain, customProfileProperties);
 
-                        Item forgotPasswordEmailTemplateItem = SitecoreUtility.GetItem(Constants.EmailTemplates.ForgotPassword);
+                        Item forgotPasswordEmailTemplateItem = SitecoreUtility.GetItem(Constants.EmailTemplates.ResetPassword);
 
                         if (forgotPasswordEmailTemplateItem != null)
                         {

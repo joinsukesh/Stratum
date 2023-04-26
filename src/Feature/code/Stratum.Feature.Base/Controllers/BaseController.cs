@@ -1,12 +1,10 @@
-﻿using Sitecore.Diagnostics;
-using Stratum.Foundation.Common;
-using Stratum.Foundation.Common.Utilities;
-using System;
-using System.Reflection;
-using System.Web.Mvc;
-
+﻿
 namespace Stratum.Feature.Base.Controllers
 {
+    using Sitecore.Diagnostics;
+    using System;
+    using System.Web.Mvc;
+
     public class BaseController : Controller
     {
         /// <summary>

@@ -7,7 +7,7 @@
         "name": "renderings",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/layout/Renderings/Stratum",
-		"scope": "ItemAndDescendants",
+		    "scope": "ItemAndDescendants",
         "alias": "renderings"
       }
     ]

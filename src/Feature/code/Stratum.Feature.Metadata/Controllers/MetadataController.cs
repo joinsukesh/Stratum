@@ -6,9 +6,7 @@ namespace Stratum.Feature.Metadata.Controllers
     using Stratum.Feature.Base.Controllers;
     using Stratum.Feature.Metadata.Models;
     using Stratum.Feature.Metadata.Services;
-    using Stratum.Foundation.Common;
     using Stratum.Foundation.Common.Utilities;
-    using System.Reflection;
     using System.Web.Mvc;
 
     public class MetadataController : BaseController

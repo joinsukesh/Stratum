@@ -7,7 +7,7 @@
         "name": "placeholders",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/layout/Placeholder Settings/Stratum",
-		"scope": "ItemAndDescendants",
+		    "scope": "ItemAndDescendants",
         "alias": "placeholders"
       }
     ]

@@ -1,18 +1,19 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using Sitecore.DependencyInjection;
-using Sitecore.Diagnostics;
-using Stratum.Feature.Base;
-using Stratum.Feature.Forms.Models;
-using Stratum.Foundation.Accounts.Services;
-using Stratum.Foundation.Common;
-using Stratum.Foundation.Forms.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Mvc;
-
+﻿
 namespace Stratum.Feature.Forms.Controllers
 {
+    using Microsoft.Extensions.DependencyInjection;
+    using Sitecore.DependencyInjection;
+    using Sitecore.Diagnostics;
+    using Stratum.Feature.Base;
+    using Stratum.Feature.Forms.Models;
+    using Stratum.Foundation.Accounts.Services;
+    using Stratum.Foundation.Common;
+    using Stratum.Foundation.Forms.Repositories;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Web.Mvc;
+
     public class ContactUsController : Controller
     {
         private readonly ISitecoreFormsRepository _formsRepo;

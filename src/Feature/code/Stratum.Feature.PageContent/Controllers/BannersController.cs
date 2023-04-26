@@ -6,7 +6,6 @@ namespace Stratum.Feature.PageContent.Controllers
     using Stratum.Feature.Base;
     using Stratum.Feature.Base.Controllers;
     using Stratum.Feature.PageContent.Models;
-    using Stratum.Foundation.Common;
     using Stratum.Foundation.Common.Utilities;
     using System;
     using System.Web.Mvc;

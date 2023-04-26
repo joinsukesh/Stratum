@@ -1,0 +1,23 @@
+﻿---
+ID: "64e2d07e-63a3-4942-aebd-164639e3ca6b"
+Parent: "1c28353b-76ff-4b71-ad74-4438fdfc75c0"
+Template: "bea9d87a-2b58-4dc1-923f-fb5cf7869715"
+Path: /sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Data/Configurations/Email Templates/Sign Up Complete
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T152357Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3ad712b-56d7-4a18-a00b-d6497188661f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T152357Z

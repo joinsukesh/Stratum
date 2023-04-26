@@ -237,7 +237,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{64D2FFAF-91C2-42C3-8C7C-1C63403EB2D7}";
+                    string itemId = "{56D39DAE-8C39-4177-B36B-3707F7EE8923}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
