@@ -19,6 +19,7 @@
 # Solution files
 *.suo
 #/src/Feature/code/Stratum.Feature.Accounts/bin/
+*.user
 bin/
 obj/
 Debug/

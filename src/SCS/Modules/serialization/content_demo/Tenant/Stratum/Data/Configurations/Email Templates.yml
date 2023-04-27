@@ -1,15 +1,12 @@
 ﻿---
-ID: "c4196cd7-6926-46b0-90ea-eadb9199c6db"
-Parent: "72362cb2-c047-402a-a68f-f29f8a387fe7"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Stratum/Feature/Accounts/Reset Password Rendering Parameters/Reset Password Rendering Parameters/Sign In Page
+ID: "4083acd0-132e-4973-945d-b04e91e10bdf"
+Parent: "57ee04f5-f261-4f11-8ab9-a06bd3356665"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Tenant/Stratum/Data/Configurations/Email Templates
 SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: General Link
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/folder_blue.png
 Languages:
 - Language: en
   Versions:
@@ -17,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230426T093138Z
+      Value: 20230426T151812Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +25,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "22663208-d961-46c9-b2a3-14f97272e208"
+      Value: "703230c0-2254-4f2b-98a4-e1db1085d0f8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T095826Z
+      Value: 20230426T151824Z

@@ -1,0 +1,79 @@
+﻿---
+ID: "b01688e5-e6c2-4f17-9dc5-0fa52c2a9a3e"
+Parent: "fd180550-9862-42e0-933f-d590e7e07981"
+Template: "70106775-721d-4592-b645-1dc5f6624fd6"
+Path: /sitecore/content/Tenant/Stratum
+BranchID: "dfa67bc7-99a5-486d-ad48-3ee9521c18d7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A97FC850-A8C9-47B4-9E69-7E04CA375818}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02f10eb0-4d8d-426d-817f-cba12050f667"
+      Hint: Meta Title Append
+      Value:  | Stratum
+    - ID: "0dbf7671-613a-423f-8332-83ae7aa5c691"
+      Hint: Global Scripts Body
+      Value: |
+        /assets/stratum/js/vendor/jquery-3.6.3.min.js
+        ,/assets/stratum/js/vendor/jquery.validate.min.js
+        ,/assets/stratum/js/vendor/jquery.validate.unobtrusive.min.js
+        ,/assets/stratum/js/vendor/jquery.unobtrusive-ajax.min.js
+        ,/assets/stratum/js/vendor/aos.js
+        ,/assets/stratum/js/vendor/bootstrap.bundle.min.js
+        ,/assets/stratum/js/vendor/glightbox.min.js
+        ,/assets/stratum/js/vendor/isotope.pkgd.min.js
+        ,/assets/stratum/js/vendor/swiper-bundle.min.js
+        ,/assets/stratum/js/vendor/toastr.min.js
+        ,/assets/stratum/js/dev.js
+    - ID: "15e324df-3fb5-4ced-baa3-37f8704b6e66"
+      Hint: Global Styles Head
+      Value: |
+        /assets/stratum/css/vendor/aos.css
+        ,/assets/stratum/css/vendor/bootstrap.min.css
+        ,/assets/stratum/css/vendor/bootstrap-icons.css
+        ,/assets/stratum/css/vendor/boxicons.min.css
+        ,/assets/stratum/css/vendor/glightbox.min.css
+        ,/assets/stratum/css/vendor/swiper-bundle.min.css
+        ,/assets/stratum/css/vendor/toastr.min.css
+        ,/assets/stratum/css/dev.css
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T074820Z
+    - ID: "29ab5d89-f07d-425c-8f3e-1b599ef205a8"
+      Hint: Global Style Snippets Head
+      Value: |
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    - ID: "66126436-dba8-4ffe-8531-bf73b7444555"
+      Hint: Global Script Snippets Body
+      Value: 
+    - ID: "6b368fde-dd40-455f-ab12-517c8a1c948f"
+      Hint: Global Media Styles Head
+      Value: "{1C019DD5-39B6-413D-8A93-890815D92BB8}"
+    - ID: "6c1771a1-5eb2-452d-aee7-9e7c6add5108"
+      Hint: Global Media Scripts Body
+      Value: "{BA42ED56-409B-4DE2-A591-2EC7B195625B}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8de07269-dddf-4cdf-9718-be30ad5be9c6"
+    - ID: "b1a9f408-d008-4d34-86ba-5eef1c6951ee"
+      Hint: Site Meta Tags
+      Value: |
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    - ID: "b200e399-fe15-4400-945a-7eb97c63e4c6"
+      Hint: Favicons
+      Value: |
+        <link href="-/media/17819203EA14410D8BBD77E7C7354953.ashx" rel="icon">
+        <link href="-/media/9847E736B4504BB88FA1AF3AB28178C9.ashx" rel="apple-touch-icon">
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230427T134926Z

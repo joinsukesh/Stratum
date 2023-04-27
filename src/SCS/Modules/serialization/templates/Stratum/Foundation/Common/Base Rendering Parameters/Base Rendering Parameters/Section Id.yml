@@ -1,6 +1,6 @@
 ﻿---
 ID: "78be52b1-2628-46df-984c-54ab53b8cade"
-Parent: "39795883-834e-4de9-bab1-2337cfcab686"
+Parent: "5c2289e5-1620-4c6f-b3a1-2ed00feae52b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Base Rendering Parameters/Section Id
 SharedFields:
@@ -28,11 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a76f4f8a-dce7-476b-95ca-679f8fc314f1"
+      Value: "6e1a39eb-9774-4865-a8e2-39568ad9c95c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230425T121131Z
+      Value: 20230427T151641Z

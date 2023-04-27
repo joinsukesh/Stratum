@@ -1,0 +1,42 @@
+﻿---
+ID: "50500bc7-120f-4f12-a9b7-f5d4939dce4b"
+Parent: "035a0108-571e-43b6-b79d-74d20b8cab2b"
+Template: "d38b2b55-41a5-4288-8b71-ba4fed92def3"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Headers/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1892b1c8-b22d-455c-a56a-a91902d53662"
+      Hint: Sign Out Page
+      Value: |
+        <link text="Sign Out" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{E67349EB-5790-4EB5-918E-C507E6548A1D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T111609Z
+    - ID: "299323ca-1c95-438b-abd8-fd40eefe6de1"
+      Hint: Logo
+      Value: <h1>Stratum</h1>
+    - ID: "3cdc6cf7-12ab-4fe7-b25f-8b0a102774d7"
+      Hint: Sign In Page
+      Value: |
+        <link text="Sign In" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9EF23853-63CF-4478-B64D-3E488561A3D4}" />
+    - ID: "4ae62c71-2038-40b1-a402-bf74cd724463"
+      Hint: Sign Up Page
+      Value: |
+        <link text="Sign Up" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{76F91621-4380-4E4D-8B30-10E73CF75492}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85588b14-ea8c-4f34-97e9-871adb15b3bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230427T144238Z
+    - ID: "f5fffad7-66ec-46d9-b527-b751ad0e577f"
+      Hint: Logo Target URL
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{65A44533-E9C5-4BC9-A369-DA4B133D80C6}" />

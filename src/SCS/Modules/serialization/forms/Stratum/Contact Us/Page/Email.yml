@@ -1,12 +1,19 @@
 ﻿---
-ID: "382f3abb-f899-416d-b111-9a4a146921fc"
-Parent: "c8289ece-7bae-4e3c-a881-c823e9b2fbb1"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Stratum/Feature/PageContent/Columns Section Rendering Parameters/Columns Section Rendering Parameters/Number Of Columns
+ID: "ecbfb546-a4d8-4da9-a881-91a1b2ecf6e8"
+Parent: "9b38cc23-9225-4d24-8793-67165835aadd"
+Template: "886adec1-abf8-40e1-9926-d9189c4e8e1b"
+Path: /sitecore/Forms/Stratum/Contact Us/Page/Email
 SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: "Single-Line Text"
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 942ABE072BF24F8F99E1AA373DE63796
+- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
+  Hint: Min Length
+  Value: 0
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
@@ -17,7 +24,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230426T100941Z
+      Value: 20230427T111913Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -26,13 +33,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Email
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9cb5fb78-3da5-4923-8e65-8f6f4cb25961"
+      Value: "bf12722c-ee52-42ec-a980-009c578aecd5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T100941Z
+      Value: 20230427T112112Z

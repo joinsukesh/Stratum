@@ -124,9 +124,9 @@
     <Content Include="App_Config\Include\zzz.Stratum\Project\Stratum.Project.Website.config" />
     <Content Include="assets\stratum\js\vendor\bootstrap.bundle.min.js.map" />
     <Content Include="assets\stratum\js\vendor\swiper-bundle.min.js.map" />
-    <Content Include="assets\stratum\css\fonts\boxicons.ttf" />
-    <Content Include="assets\stratum\css\fonts\boxicons.woff" />
-    <Content Include="assets\stratum\css\fonts\boxicons.woff2" />
+    <Content Include="assets\stratum\css\vendor\fonts\boxicons.ttf" />
+    <Content Include="assets\stratum\css\vendor\fonts\boxicons.woff" />
+    <Content Include="assets\stratum\css\vendor\fonts\boxicons.woff2" />
     <Content Include="assets\stratum\css\vendor\bootstrap.min.css.map" />
     <Content Include="assets\stratum\css\vendor\fonts\bootstrap-icons.woff" />
     <Content Include="assets\stratum\css\vendor\fonts\bootstrap-icons.woff2" />
@@ -153,6 +153,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="assets\stratum\css\fonts\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>

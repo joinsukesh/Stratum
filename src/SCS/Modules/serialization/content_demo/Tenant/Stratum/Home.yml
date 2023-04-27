@@ -1,0 +1,54 @@
+﻿---
+ID: "65a44533-e9c5-4bc9-a369-da4b133d80c6"
+Parent: "b01688e5-e6c2-4f17-9dc5-0fa52c2a9a3e"
+Template: "0e2cfd78-576f-4bf5-b45b-2d029345f1d0"
+Path: /sitecore/content/Tenant/Stratum/Home
+BranchID: "dfa67bc7-99a5-486d-ad48-3ee9521c18d7"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{9DE5181C-3392-424D-AFC0-B7E62740CF65}"
+          p:after="r[@uid='{AF89F04A-8D3D-4866-8522-87095CBBE7C6}']"
+          s:ds="{A36571F3-CE4C-49FB-9B0F-8198F868F991}"
+          s:id="{DF670EAB-BA4F-40D2-9089-A670D2684EE9}"
+          s:par="Section Id=hero&amp;Add Default Background Color&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A3EFE9C5-ACB8-46E9-BE35-3660793539F2}"
+          p:after="*[1=2]" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{79C920DD-2A8D-4FAC-8024-C0BC9AFBD493}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "083c5646-8d72-408c-aee8-3d7598245d02"
+      Hint: Meta Description
+      Value: Welcome to Maxim. We are team of talented designers making websites with Bootstrap
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T074820Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "593a80e8-b555-48b8-9b9f-75eb13d53cba"
+    - ID: "a201b976-5dee-4787-a901-c6638bf7e958"
+      Hint: Meta Title
+      Value: Home
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230427T151601Z

@@ -8,14 +8,14 @@
         {
             public struct ContactUs
             {
-                public static readonly string ID = "{287DE272-D2DA-4986-AE70-ECFF1E0AC5D6}";
+                public static readonly string ID = "{60EE0499-1D2C-4962-A63A-4626362D81B1}";
 
                 public struct Fields
                 {
-                    public static readonly string Name = "{CF50644C-B069-495A-A771-0040B55D9385}";
-                    public static readonly string Email = "{F76C4115-23B7-427C-827C-7451CFB70453}";
-                    public static readonly string Subject = "{CF0CE2C5-FC12-4ABD-8C6D-638EEC767826}";
-                    public static readonly string Message = "{3BE92D6E-5ADF-4A4B-BFAD-78C7721F9B07}";
+                    public static readonly string Name = "{1619FF15-7FBB-4134-B7C2-90F14FB8C50B}";
+                    public static readonly string Email = "{ECBFB546-A4D8-4DA9-A881-91A1B2ECF6E8}";
+                    public static readonly string Subject = "{14901A55-8F2D-4D98-8464-CCA18CCC6A78}";
+                    public static readonly string Message = "{6EF0BCF7-030B-41FF-B41B-05E2B26CF758}";
                 }
             }
         }

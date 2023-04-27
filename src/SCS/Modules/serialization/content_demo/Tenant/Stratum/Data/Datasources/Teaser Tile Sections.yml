@@ -1,0 +1,23 @@
+﻿---
+ID: "13b47d9f-0480-42ba-b364-416642c2ea87"
+Parent: "f53d50d9-ace9-4f2d-b53e-6d3713071f37"
+Template: "735d948e-10db-45f5-b2a6-b2f477c41f51"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Teaser Tile Sections
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T113517Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfbd06d0-5e04-469f-83f1-3060b128909f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T113517Z

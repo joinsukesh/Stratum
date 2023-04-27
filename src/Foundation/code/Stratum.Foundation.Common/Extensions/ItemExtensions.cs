@@ -241,6 +241,18 @@ namespace Stratum.Foundation.Common.Extensions
             return false;
         }
 
+        public static Item GetAncestorByTemplate(this Item item, ID ancestorTemplateId)
+        {
+            if (item != null && item.Parent != null)
+            {
+                return item.Axes.GetAncestors().Where(x => x.TemplateID == ancestorTemplateId).FirstOrDefault();
+            }
+            else
+            {
+                return null;
+            }
+        }
+
         #endregion
 
         #region LANGUAGE

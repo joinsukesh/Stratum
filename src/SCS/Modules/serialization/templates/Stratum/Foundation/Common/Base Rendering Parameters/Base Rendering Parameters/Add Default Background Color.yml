@@ -1,6 +1,6 @@
 ﻿---
 ID: "09328e33-7a55-44fe-98f0-24461c7a8ffa"
-Parent: "39795883-834e-4de9-bab1-2337cfcab686"
+Parent: "5c2289e5-1620-4c6f-b3a1-2ed00feae52b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Base Rendering Parameters/Add Default Background Color
 SharedFields:
@@ -28,11 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "832b8476-0352-46d7-9fd6-4fe33a52f887"
+      Value: "bb69c0c7-a510-4ee5-aa1f-10b253b46a8f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230425T121131Z
+      Value: 20230427T151641Z

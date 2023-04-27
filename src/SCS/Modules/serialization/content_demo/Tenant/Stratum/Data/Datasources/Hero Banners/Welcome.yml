@@ -1,0 +1,38 @@
+﻿---
+ID: "a36571f3-ce4c-49fb-9b0f-8198f868f991"
+Parent: "59829e03-1402-4ff6-a8b5-2fc8f591f7b1"
+Template: "68967fb1-4aaa-4856-961b-92fcc387deb5"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Hero Banners/Welcome
+SharedFields:
+- ID: "d502633c-1efe-486a-a1a4-98e4352c5a47"
+  Hint: Banner Image
+  Value: |
+    <image mediaid="{877C6A95-D081-4E99-A9EA-1C0610F14668}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "127ccb6a-3af8-4965-b27f-de7a552a09c2"
+      Hint: Description
+      Value: <h2>We are team of talented designers making websites with Bootstrap</h2>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230427T144622Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: <h1>Welcome to Maxim</h1>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1ed18e1-570d-4667-9396-050812d8bf0e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230427T144801Z
+    - ID: "ed3310f8-8e1d-4627-81b2-9e03685492f6"
+      Hint: CTA
+      Value: |
+        <link text="Get Started" linktype="anchor" url="about" anchor="about" title="" class="" />

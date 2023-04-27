@@ -1,7 +1,7 @@
 ﻿---
-ID: "d6862159-c6ef-4f77-9e3e-5273f5f1c542"
-Parent: "397e8abe-ef26-4ba4-8802-0f28a442162b"
-Template: "397e8abe-ef26-4ba4-8802-0f28a442162b"
+ID: "f3028024-bf78-4d7f-a0a8-4ecf79d14d3e"
+Parent: "37b76b46-c759-4c97-a22d-4556bae7f74c"
+Template: "37b76b46-c759-4c97-a22d-4556bae7f74c"
 Path: /sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/__Standard Values
 Languages:
 - Language: en
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230425T121002Z
+      Value: 20230427T151357Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "36483930-5d3f-42eb-a9ac-4561ad9ecad8"
+      Value: "f851399a-7951-4ace-9d52-2298dfc0d4f8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230425T121002Z
+      Value: 20230427T151357Z

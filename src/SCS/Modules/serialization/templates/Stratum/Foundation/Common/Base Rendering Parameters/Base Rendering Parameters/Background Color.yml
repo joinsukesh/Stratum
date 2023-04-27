@@ -1,6 +1,6 @@
 ﻿---
 ID: "11de13b9-f4ec-42d5-9366-f951d58acdcb"
-Parent: "39795883-834e-4de9-bab1-2337cfcab686"
+Parent: "5c2289e5-1620-4c6f-b3a1-2ed00feae52b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Base Rendering Parameters/Background Color
 SharedFields:
@@ -28,11 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3272cba1-b5d1-4bab-8469-a02ecd97caab"
+      Value: "beb02085-72b8-4c51-bd0e-be11cd4259c1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230425T121131Z
+      Value: 20230427T151641Z

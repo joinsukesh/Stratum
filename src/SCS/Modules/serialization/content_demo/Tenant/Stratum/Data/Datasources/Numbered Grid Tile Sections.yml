@@ -1,0 +1,23 @@
+﻿---
+ID: "ed016fa6-af9c-4441-99ac-8960ab51c760"
+Parent: "f53d50d9-ace9-4f2d-b53e-6d3713071f37"
+Template: "3a9625bf-d531-4d2f-a840-9ad5dbb6a100"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T111725Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2bdf143-68a2-45cb-8deb-ca225eee0d29"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T111725Z

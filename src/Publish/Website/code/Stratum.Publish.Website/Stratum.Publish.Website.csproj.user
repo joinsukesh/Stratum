@@ -9,7 +9,7 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>D:\OgilvyOneDrive\OneDrive - Ogilvy\Projects\Internal\Stratum\src\Publish\Website\code\Stratum.Publish.Website\Properties\PublishProfiles\Local.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>D:\Projects\Internal\Stratum\src\Publish\Website\code\Stratum.Publish.Website\Properties\PublishProfiles\Local.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

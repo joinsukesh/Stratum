@@ -7,7 +7,6 @@
     using Stratum.Foundation.Assets.Models;
     using Stratum.Foundation.Common;
     using Stratum.Foundation.Common.Extensions;
-    using Stratum.Foundation.Common.Utilities;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -21,7 +20,7 @@
         {
             get
             {
-                return SitecoreUtility.GetItem(CommonConstants.Items.Content.Website);
+                return Sitecore.Context.Item.GetAncestorByTemplate(CommonTemplates.Website.ID);
             }
         }
 
@@ -216,10 +215,12 @@
                 if (!string.IsNullOrWhiteSpace(fileAssetsFieldValue))
                 {
                     string[] arrAssets = fileAssetsFieldValue.Split(CommonConstants.Characters.Comma);
+                    string trimmedAsset = string.Empty;
 
                     foreach (string asset in arrAssets)
                     {
-                        assetUrls.Add(StringUtil.EnsurePrefix(CommonConstants.Characters.ForwardSlashChar, asset));
+                        trimmedAsset = asset.Trim();
+                        assetUrls.Add(StringUtil.EnsurePrefix(CommonConstants.Characters.ForwardSlashChar, trimmedAsset));
                     }
 
                     assetUrls = GetAssetReferenceTags(assetType, assetUrls);

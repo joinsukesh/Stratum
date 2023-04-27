@@ -304,7 +304,6 @@ namespace Stratum.Foundation.Common.Utilities
             }
 
             MainUtil.SendMail(mailMessage);
-        }
-
+        }        
     }
 }

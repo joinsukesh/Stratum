@@ -7,14 +7,14 @@
         "name": "templates",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/templates/Stratum",
-		"scope": "ItemAndDescendants",
+		    "scope": "ItemAndDescendants",
         "alias": "templates"
       },      
 	  {
         "name": "templates-branches",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/templates/Branches/Stratum",
-		"scope": "ItemAndDescendants",
+		    "scope": "ItemAndDescendants",
         "alias": "templates-br"
       },
 	  {

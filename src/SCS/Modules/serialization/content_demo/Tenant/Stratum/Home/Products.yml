@@ -1,0 +1,23 @@
+﻿---
+ID: "7c610233-d958-41aa-931f-34806d2e0c4e"
+Parent: "65a44533-e9c5-4bc9-a369-da4b133d80c6"
+Template: "5d3781de-495d-4552-8ff0-5da6737a0a30"
+Path: /sitecore/content/Tenant/Stratum/Home/Products
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T130930Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b12f5094-4a98-4743-a140-460dffbe5acc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T130930Z

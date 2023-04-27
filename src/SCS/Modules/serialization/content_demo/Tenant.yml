@@ -1,0 +1,28 @@
+﻿---
+ID: "fd180550-9862-42e0-933f-d590e7e07981"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "3af80690-1573-4c9f-95ad-ff243bd2a664"
+Path: /sitecore/content/Tenant
+BranchID: "dfa67bc7-99a5-486d-ad48-3ee9521c18d7"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6F7E2542-F8E0-4AB4-88B9-AB18DCB8CD04}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T074820Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c43d08fd-85bc-4f18-83fa-74128d7e066d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T075451Z

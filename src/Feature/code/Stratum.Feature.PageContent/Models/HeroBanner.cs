@@ -56,6 +56,14 @@
             }
         }
 
+        public string Description
+        {
+            get
+            {
+                return InnerItem.GetString(CommonTemplates.BaseContent.Fields.Description);
+            }
+        }
+
         public string CtaId
         {
             get

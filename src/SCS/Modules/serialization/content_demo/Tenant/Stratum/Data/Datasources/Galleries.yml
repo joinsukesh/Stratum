@@ -1,0 +1,23 @@
+﻿---
+ID: "512ec065-278c-4a96-aa8a-775676ae490e"
+Parent: "f53d50d9-ace9-4f2d-b53e-6d3713071f37"
+Template: "e631208a-90de-473b-9613-af1a2d680542"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Galleries
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T120505Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c21a9b4b-db85-49c6-8a7f-364809d6488b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T120505Z

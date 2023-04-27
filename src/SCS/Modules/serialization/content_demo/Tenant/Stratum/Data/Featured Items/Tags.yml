@@ -1,0 +1,23 @@
+﻿---
+ID: "7cbd7263-b211-42d2-9fc7-63b47d98fdad"
+Parent: "7f620134-46fb-49c9-a844-7b279f93cae0"
+Template: "1c2a6677-2b86-4648-bf6c-c032c872437e"
+Path: /sitecore/content/Tenant/Stratum/Data/Featured Items/Tags
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230426T121940Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b0edb46-7256-455d-b4e0-c13cb985bf60"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230426T121940Z

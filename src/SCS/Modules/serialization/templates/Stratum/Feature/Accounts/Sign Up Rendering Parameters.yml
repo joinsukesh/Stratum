@@ -6,7 +6,9 @@ Path: /sitecore/templates/Stratum/Feature/Accounts/Sign Up Rendering Parameters
 SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{8CA06D6A-B353-44E8-BC31-B528C7306971}"
+  Value: |
+    {1F4A7579-A7E5-4160-97D6-6315A10EBA24}
+    {37B76B46-C759-4C97-A22D-4556BAE7F74C}
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{B0CE6C97-A8B7-4F7F-BC4E-FEA8C4DA5B5D}"
@@ -28,11 +30,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "94bf772b-2521-45df-bbe4-03ea38770380"
+      Value: "c60fbdb8-ba9f-439b-af0c-3b4ae3b1ad42"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T093018Z
+      Value: 20230427T153811Z

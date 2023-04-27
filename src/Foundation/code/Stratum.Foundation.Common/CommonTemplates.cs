@@ -4,6 +4,14 @@
 
     public class CommonTemplates
     {
+        /// <summary>
+        ////sitecore/templates/Stratum/Project/Website
+        /// </summary>
+        public struct Website
+        {
+            public static ID ID => new ID("{70106775-721D-4592-B645-1DC5F6624FD6}");
+        }
+
         public struct DictionaryEntry
         {
             public static ID ID => new ID("{6D1CD897-1936-4A3A-A511-289A94C2A7B1}");
@@ -28,7 +36,7 @@
 
         public struct BaseRenderingParameters
         {
-            public static readonly ID ID = new ID("{397E8ABE-EF26-4BA4-8802-0F28A442162B}");
+            public static readonly ID ID = new ID("{37B76B46-C759-4C97-A22D-4556BAE7F74C}");
 
             public struct Fields
             {
