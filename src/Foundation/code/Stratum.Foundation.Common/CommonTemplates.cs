@@ -41,6 +41,7 @@
             public struct Fields
             {
                 public static readonly ID SectionId = new ID("{78BE52B1-2628-46DF-984C-54AB53B8CADE}");
+                public static readonly ID SectionCSSClass = new ID("{2D61F3F1-2A48-4791-9993-14140D550CB3}");
                 public static readonly ID AddDefaultBackgroundColor = new ID("{09328E33-7A55-44FE-98F0-24461C7A8FFA}");
                 public static readonly ID BackgroundColor = new ID("{11DE13B9-F4EC-42D5-9366-F951D58ACDCB}");
             }

@@ -15,7 +15,7 @@
 
 @if (Model != null)
 {
-    <section id="@brParams.SectionId" class="steps @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
+    <section id="@brParams.SectionId" class="steps @brParams.SectionCssClass @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
         <div class="container">
             <div class="row no-gutters">
                 @if ((Model.Tiles != null && Model.Tiles.Count > 0) || isExperienceEditor)

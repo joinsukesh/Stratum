@@ -41,6 +41,7 @@
                 viewModel.Title = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.SignUpRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Title));
                 viewModel.Description = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.SignUpRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Description));
                 viewModel.SectionId = SitecoreUtility.GetRenderingParameter(Templates.SignUpRenderingParameters.ID, CommonTemplates.BaseRenderingParameters.Fields.SectionId);
+                viewModel.SectionCssClass = SitecoreUtility.GetRenderingParameter(Templates.SignUpRenderingParameters.ID, CommonTemplates.BaseRenderingParameters.Fields.SectionCSSClass);
             }
             catch (Exception ex)
             {
@@ -196,6 +197,7 @@
                 viewModel.Title = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.SignInRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Title));
                 viewModel.Description = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.SignInRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Description));
                 viewModel.SectionId = SitecoreUtility.GetRenderingParameter(Templates.SignInRenderingParameters.ID, CommonTemplates.BaseRenderingParameters.Fields.SectionId);
+                viewModel.SectionCssClass = SitecoreUtility.GetRenderingParameter(Templates.SignInRenderingParameters.ID, CommonTemplates.BaseRenderingParameters.Fields.SectionCSSClass);
                 viewModel.ForgotPasswordLabel = SitecoreUtility.GetRenderingParameter(Templates.SignInRenderingParameters.ID, Templates.SignInRenderingParameters.Fields.ForgotPasswordLabel);
 
                 string forgotPasswordPageId = SitecoreUtility.GetRenderingParameter(Templates.SignInRenderingParameters.ID, Templates.SignInRenderingParameters.Fields.ForgotPasswordPage);
@@ -299,6 +301,7 @@
                 viewModel.Title = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.ForgotPasswordRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Title));
                 viewModel.Description = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.ForgotPasswordRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Description));
                 viewModel.SectionId = SitecoreUtility.GetRenderingParameter(Templates.ForgotPasswordRenderingParameters.ID, CommonTemplates.BaseRenderingParameters.Fields.SectionId);
+                viewModel.SectionCssClass = SitecoreUtility.GetRenderingParameter(Templates.ForgotPasswordRenderingParameters.ID, CommonTemplates.BaseRenderingParameters.Fields.SectionCSSClass);
             }
             catch (Exception ex)
             {
@@ -439,6 +442,7 @@
                 viewModel.Title = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.ResetPasswordRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Title));
                 viewModel.Description = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.ResetPasswordRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Description));
                 viewModel.SectionId = SitecoreUtility.GetRenderingParameter(Templates.ResetPasswordRenderingParameters.ID, CommonTemplates.BaseRenderingParameters.Fields.SectionId);
+                viewModel.SectionCssClass = SitecoreUtility.GetRenderingParameter(Templates.ResetPasswordRenderingParameters.ID, CommonTemplates.BaseRenderingParameters.Fields.SectionCSSClass);
                 viewModel.Email = accService.GetEmail(usernameWithDomain, false);
 
                 string signInPageId = SitecoreUtility.GetRenderingParameter(Templates.ResetPasswordRenderingParameters.ID, Templates.ResetPasswordRenderingParameters.Fields.SignInPage);

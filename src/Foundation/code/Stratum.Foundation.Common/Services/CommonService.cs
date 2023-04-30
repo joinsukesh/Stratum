@@ -163,6 +163,7 @@ namespace Stratum.Foundation.Common.Services
             BaseRenderingParams brParams = new BaseRenderingParams
             {
                 SectionId = GetSectionId(renderingParameterId),
+                SectionCssClass = GetSectionCssClass(renderingParameterId),
                 AddDefaultBackgroundColor = SitecoreUtility.GetRenderingParameter(renderingParameterId, CommonTemplates.BaseRenderingParameters.Fields.AddDefaultBackgroundColor) == CommonConstants.One,
                 BackgroundColor = SitecoreUtility.GetRenderingParameter(renderingParameterId, CommonTemplates.BaseRenderingParameters.Fields.BackgroundColor)
             };
@@ -181,6 +182,11 @@ namespace Stratum.Foundation.Common.Services
             }
 
             return sectionId;
+        }
+
+        public string GetSectionCssClass(ID renderingParameterId)
+        {
+            return SitecoreUtility.GetRenderingParameter(renderingParameterId, CommonTemplates.BaseRenderingParameters.Fields.SectionCSSClass);
         }
     }
 }

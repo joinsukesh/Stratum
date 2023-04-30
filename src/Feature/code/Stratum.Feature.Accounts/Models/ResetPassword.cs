@@ -32,5 +32,7 @@
         public MvcHtmlString Description { get; set; }
 
         public string SectionId { get; set; }
+
+        public string SectionCssClass { get; set; }
     }
 }

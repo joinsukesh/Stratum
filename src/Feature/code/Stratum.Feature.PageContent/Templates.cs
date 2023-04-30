@@ -12,6 +12,7 @@ namespace Stratum.Feature.PageContent
             public struct Fields
             {
                 public static readonly ID NumberOfColumns = new ID("{939A1933-39A6-44B2-9314-40F21D0C8B4C}");
+                public static readonly ID ColumnCSSClass = new ID("{BF15BFB0-C4CB-46F3-9B5C-EE5D5A740AC8}");
             }
         }
 

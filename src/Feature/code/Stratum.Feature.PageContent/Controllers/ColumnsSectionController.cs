@@ -22,12 +22,14 @@ namespace Stratum.Feature.PageContent.Controllers
             {
                 viewModel = new ColumnsSection();
                 viewModel.SectionId = new CommonService().GetSectionId(Templates.ColumnsSectionRenderingParameters.ID);
+                viewModel.SectionCssClass = new CommonService().GetSectionCssClass(Templates.ColumnsSectionRenderingParameters.ID);
                 viewModel.Title = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.ColumnsSectionRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Title));
                 viewModel.Description = new MvcHtmlString(SitecoreUtility.GetRenderingParameter(Templates.ColumnsSectionRenderingParameters.ID, CommonTemplates.BaseContent.Fields.Description));
+                viewModel.ColumnCssClass = SitecoreUtility.GetRenderingParameter(Templates.ColumnsSectionRenderingParameters.ID, Templates.ColumnsSectionRenderingParameters.Fields.ColumnCSSClass);
 
                 int columns = MainUtil.GetInt(SitecoreUtility.GetRenderingParameter(Templates.ColumnsSectionRenderingParameters.ID, Templates.ColumnsSectionRenderingParameters.Fields.NumberOfColumns), 1);
                 viewModel.NumberOfColumns = (columns < 1 || columns > 12) ? 1 : columns;
-                viewModel.ColumnWidth = 12 / viewModel.NumberOfColumns;                
+                viewModel.ColumnWidth = 12 / viewModel.NumberOfColumns;
             }
             catch (Exception ex)
             {

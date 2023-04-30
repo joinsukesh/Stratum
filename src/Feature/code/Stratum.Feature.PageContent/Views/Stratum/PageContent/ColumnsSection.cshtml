@@ -6,13 +6,11 @@
 @{
     Layout = null;
     bool isExperienceEditor = SitecoreUtility.IsExperienceEditorMode();
-    string columnCssClass = "col-lg-{0} d-flex align-items-stretch";
-    columnCssClass = Model != null ? string.Format(columnCssClass, Model.ColumnWidth) : string.Format(columnCssClass, 12);
 }
 
 @if (Model != null)
 {
-    <section id="@Model.SectionId">
+    <section id="@Model.SectionId" class="@Model.SectionCssClass">
         <div class="container">
             @if ((!MvcHtmlString.IsNullOrEmpty(Model.Title)) || (!MvcHtmlString.IsNullOrEmpty(Model.Description)) || isExperienceEditor)
             {
@@ -27,13 +25,13 @@
                     }
                 </div>
             }
-            <div class="row no-gutters justify-content-center" data-aos="fade-up">
+            <div class="row" data-aos="fade-up">
                 @Html.Sitecore().DynamicPlaceholder(new DynamicPlaceholderDefinition("col-section")
                        {
                            Count = Model.NumberOfColumns,
                            MaxCount = 12,
                            Seed = 1,
-                           OutputModifier = (input, context) => new HtmlString("<div class=" + columnCssClass + ">" + input + "</div>"),
+                           OutputModifier = (input, context) => new HtmlString("<div class=\"" + Model.ColumnCssClass + "\">" + input + "</div>"),
                        })
             </div>
         </div>

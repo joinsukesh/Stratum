@@ -12,7 +12,7 @@
 
 @if (Model != null)
 {
-    <section id="@brParams.SectionId" class="testimonials @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
+    <section id="@brParams.SectionId" class="testimonials @brParams.SectionCssClass @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
         <div class="container">
             @if ((!string.IsNullOrWhiteSpace(Model.Title)) ||
                 (!string.IsNullOrWhiteSpace(Model.Description)) || isExperienceEditor)

@@ -12,7 +12,7 @@
 
 @if (Model != null)
 {
-    <section id="@brParams.SectionId" class="d-flex flex-column justify-content-center align-items-center" style="@(isExperienceEditor ? "" : string.Format("background:url({0}) center center", Model.BannerImageUrl))">
+    <section id="@brParams.SectionId" class="d-flex flex-column justify-content-center align-items-center @brParams.SectionCssClass" style="@(isExperienceEditor ? "" : string.Format("background:url({0}) center center", Model.BannerImageUrl))">
         <div class="container text-center text-md-left" data-aos="fade-up">
             @if (isExperienceEditor)
             {

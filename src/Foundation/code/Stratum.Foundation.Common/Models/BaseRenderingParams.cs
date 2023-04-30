@@ -3,6 +3,7 @@
     public class BaseRenderingParams
     {
         public string SectionId { get; set; }
+        public string SectionCssClass { get; set; }
         public bool AddDefaultBackgroundColor { get; set; }
         public string BackgroundColor { get; set; }
     }
