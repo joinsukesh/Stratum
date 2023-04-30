@@ -359,7 +359,7 @@
                     }
                     else
                     {
-                        statusMessage = string.Format(DictionaryValues.Messages.Errors.AccountDoesNotExist, model.Email);
+                        statusMessage = string.Format(DictionaryValues.Messages.Errors.AccountUnavailable, model.Email);
                         statusCode = 2;
                     }
                 }
@@ -494,7 +494,7 @@
                     }
                     else
                     {
-                        statusMessage = string.Format(DictionaryValues.Messages.Errors.AccountDoesNotExist, model.Email);
+                        statusMessage = string.Format(DictionaryValues.Messages.Errors.AccountUnavailable, model.Email);
                         statusCode = 2;
                     }
                 }

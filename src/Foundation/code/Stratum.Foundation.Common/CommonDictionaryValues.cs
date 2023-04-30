@@ -13,7 +13,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{DF0E66B7-9AF9-440C-A1EA-68A83E5DF4E4}";
+                        string itemId = "{2309F53B-00C6-47F6-9F24-FDB007FFE4A6}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -26,7 +26,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{7CBFD7FF-0C45-4C3C-8697-91EFB4882CC8}";
+                        string itemId = "{3DE07CB0-DA04-445E-BCD8-618E73066C31}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -39,7 +39,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{BFC8E9FF-1ADF-472F-9254-F9D1C3D1DB67}";
+                        string itemId = "{73FF6BAB-26A2-46C0-A410-23C6DA8CE008}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -49,7 +49,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{AB5AE1BE-8E4B-416D-8D57-DAD0AE7A7EA8}";
+                        string itemId = "{946A610D-D118-4DAC-AEFC-D1165D835BE6}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -59,7 +59,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{7E6B8930-FF37-4EDC-88AE-343A5AD09F6E}";
+                        string itemId = "{075A52D2-1464-4262-8764-773E69FB5F1F}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -69,7 +69,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{EDC49502-CCCC-413B-B09F-6BDAE07C6AEE}";
+                        string itemId = "{6B03E16F-4E11-450F-BA76-49DCD2E30587}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -79,7 +79,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{EACD2F87-4A86-4820-9DBE-74FE21748BF0}";
+                        string itemId = "{C86933AD-B9C4-4E94-9CEE-C0059034C3B6}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -89,7 +89,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{C16F72FF-26EE-4E07-9954-17E6C1D55431}";
+                        string itemId = "{D0EABCF6-50B2-43E2-97F4-05663E284F4E}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -99,7 +99,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{0254A5DB-2A8E-48C4-B10E-143A55DA3035}";
+                        string itemId = "{C7FB011A-91BE-439F-96A0-9DB11025CB42}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -109,7 +109,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{ABF552A4-28B2-4DB7-A5F3-4CD623399CAC}";
+                        string itemId = "{F61CCE14-FEC3-45B8-ADAC-776A2945366E}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -119,7 +119,7 @@ namespace Stratum.Foundation.Common
                 {
                     get
                     {
-                        string itemId = "{D02A4F26-13ED-49F4-98FF-61F46EEB7B46}";
+                        string itemId = "{EE7A4F03-DABF-474F-8F9B-73AD0D73641E}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -133,7 +133,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{429115BE-9328-465A-9A85-A4BD09715F92}";
+                    string itemId = "{7E6DB217-95A7-4843-BF75-C0A2CEF8E740}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -143,7 +143,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{04437B70-871E-4C34-9271-88A5D427E670}";
+                    string itemId = "{27F2957D-08BA-4FCD-A763-784168A7109D}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -153,7 +153,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{4E8B710F-1FAE-4D44-A647-91A49320F8A6}";
+                    string itemId = "{36C22FC2-B57E-41CD-97C2-DA80883A3C2D}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -163,7 +163,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{E592B697-A011-457F-A20D-ED27A0297C05}";
+                    string itemId = "{BF9A0A7C-FF23-4386-896B-142FFA79318D}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -173,7 +173,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{1FE75D35-880C-49E2-B53C-12CB8494DD4C}";
+                    string itemId = "{F0AAA237-5A84-4DC3-A38E-753D93906D9F}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -183,7 +183,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{B81482F8-BEF1-48EC-BA2C-07C8F2AC3346}";
+                    string itemId = "{D634D755-69D2-4B6B-AEE6-EBF79E2A8C7F}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -193,7 +193,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{00DBDBB5-AC42-4FB1-AF1C-C8ED0E153155}";
+                    string itemId = "{BE64D56A-78C6-4933-B3A5-7CD128D991A6}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -203,7 +203,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{D240DB8C-B96D-4507-893C-BE96E64AA8C6}";
+                    string itemId = "{1E62FB5A-6662-4C65-85BB-D3F4FF174623}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -213,7 +213,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{1947B5AF-DAB6-4669-9207-D46764646A05}";
+                    string itemId = "{E3923EE9-0375-4805-8DFD-46340AD9D57E}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -223,7 +223,7 @@ namespace Stratum.Foundation.Common
             {
                 get
                 {
-                    string itemId = "{0F063D69-964B-4E79-9F88-A35CD962992A}";
+                    string itemId = "{C89CA148-B99F-4566-AF69-6F636245CFF3}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }

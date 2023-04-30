@@ -12,7 +12,7 @@
                 {
                     get
                     {
-                        string itemId = "{5F7BDCD1-9D2D-4750-A052-973A48F628ED}";
+                        string itemId = "{C20C7E49-E1DD-4157-A2EE-EA4CBC6A0D77}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -25,7 +25,7 @@
                 {
                     get
                     {
-                        string itemId = "{31EC5B0A-7D64-482F-9215-823CBA0B07C2}";
+                        string itemId = "{CF54C464-4F71-4763-96CF-B4EC3B3E831F}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }

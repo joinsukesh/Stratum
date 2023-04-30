@@ -1,8 +1,8 @@
 ﻿---
-ID: "3e37be75-c4cd-400f-9dac-1e4019c8ca8f"
-Parent: "2ffaf179-9cbe-4a5f-b2bc-050ecfa96464"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Stratum/Feature/Accounts/Confirm Sign Up Rendering Parameters/Confirm Sign Up Rendering Parameters
+ID: "92539cf1-500b-43e7-9026-7fc761c08079"
+Parent: "304152f7-7b75-4187-b6fa-d598a01d167b"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Stratum/Project/assets/css
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230426T093138Z
+      Value: 20230427T120157Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4d6985b2-99e3-4821-9d27-4275500a22bc"
+      Value: "e8557d49-1ff4-457a-ac48-975cff013aef"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T093919Z
+      Value: 20230427T120157Z

@@ -2,7 +2,7 @@
 ID: "78be52b1-2628-46df-984c-54ab53b8cade"
 Parent: "5c2289e5-1620-4c6f-b3a1-2ed00feae52b"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Base Rendering Parameters/Section Id
+Path: /sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Rendering Parameters/Section Id
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type

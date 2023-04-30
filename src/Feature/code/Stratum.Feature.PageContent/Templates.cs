@@ -7,11 +7,11 @@ namespace Stratum.Feature.PageContent
     {
         public struct ColumnsSectionRenderingParameters
         {
-            public static readonly ID ID = new ID("{3032B1E2-762F-47BC-B669-E9434A93C396}");
+            public static readonly ID ID = new ID("{83340986-5B20-4945-BCD0-F8C797CBE8A3}");
 
             public struct Fields
             {
-                public static readonly ID NumberOfColumns = new ID("{382F3ABB-F899-416D-B111-9A4A146921FC}");
+                public static readonly ID NumberOfColumns = new ID("{939A1933-39A6-44B2-9314-40F21D0C8B4C}");
             }
         }
 

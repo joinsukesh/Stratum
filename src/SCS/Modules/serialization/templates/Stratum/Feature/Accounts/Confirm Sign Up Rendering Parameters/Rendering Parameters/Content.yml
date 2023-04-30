@@ -1,17 +1,15 @@
 ﻿---
-ID: "3e05cffb-e865-4f62-b4f8-8c54c90016af"
-Parent: "573207cd-4aa1-4803-af26-6852bd5ad441"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Stratum/Feature/Accounts/Forgot Password Rendering Parameters
+ID: "3e46e8cf-ef80-42ab-8777-45f2d8850010"
+Parent: "3e37be75-c4cd-400f-9dac-1e4019c8ca8f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Stratum/Feature/Accounts/Confirm Sign Up Rendering Parameters/Rendering Parameters/Content
 SharedFields:
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Value: |
-    {37B76B46-C759-4C97-A22D-4556BAE7F74C}
-    {1F4A7579-A7E5-4160-97D6-6315A10EBA24}
-- ID: "f7d48a55-2158-4f02-9356-756654404f73"
-  Hint: __Standard values
-  Value: "{5E8F4248-78E9-4CA1-9D2E-3AD5FB2CB394}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -19,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230430T051844Z
+      Value: 20230426T093138Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -30,11 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fd4e2ec9-5bad-40e1-938c-c174413786a3"
+      Value: "cdac0cf6-8e33-403f-9fa0-cd62f0004f97"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230430T052101Z
+      Value: 20230426T093919Z

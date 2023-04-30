@@ -37,11 +37,11 @@
 
         public struct ForgotPasswordRenderingParameters
         {
-            public static readonly ID ID = new ID("{7EBFED6E-8263-4C7A-84B2-7C0B9EF9B741}");
+            public static readonly ID ID = new ID("{3E05CFFB-E865-4F62-B4F8-8C54C90016AF}");
 
             public struct Fields
             {
-                public static readonly ID ResetPasswordPage = new ID("{B4E04CAF-ACAC-4BD9-A916-F69049E4E10E}");
+                public static readonly ID ResetPasswordPage = new ID("{76575F7C-014D-480B-B9B4-61679C940441}");
             }
         }
 

@@ -1,8 +1,15 @@
 ﻿---
-ID: "b8f3f9d2-4f8a-4809-9ce3-fdc40d228f0d"
-Parent: "b03aa25c-8b03-4bd7-ad74-a24242601830"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Stratum/Feature/Accounts/Sign Up Rendering Parameters/Sign Up Rendering Parameters
+ID: "ef8ee554-04cb-45cc-932b-e7b1212bf0f0"
+Parent: "b8f3f9d2-4f8a-4809-9ce3-fdc40d228f0d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Stratum/Feature/Accounts/Sign Up Rendering Parameters/Rendering Parameters/Confirm Sign Up Page
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -21,7 +28,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "187809f1-91d1-4fee-a60f-1b2badaa4d61"
+      Value: "79ef3d18-32d0-402d-8932-4f87c5f49919"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

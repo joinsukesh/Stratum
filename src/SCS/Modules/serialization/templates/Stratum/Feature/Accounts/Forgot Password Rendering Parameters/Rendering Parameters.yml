@@ -1,8 +1,8 @@
 ﻿---
-ID: "347373db-af53-4615-b89e-99b2609849aa"
-Parent: "7ebfed6e-8263-4c7a-84b2-7c0b9ef9b741"
+ID: "29309f81-6600-495f-8a26-9f964fc15a8c"
+Parent: "3e05cffb-e865-4f62-b4f8-8c54c90016af"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Stratum/Feature/Accounts/Forgot Password Rendering Parameters/Forgot Password Rendering Parameters
+Path: /sitecore/templates/Stratum/Feature/Accounts/Forgot Password Rendering Parameters/Rendering Parameters
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230426T093138Z
+      Value: 20230430T051908Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e032e8c6-44e7-44ae-b5ae-d5b42e78b2fa"
+      Value: "6daeb482-0dd2-4950-8d0c-f7fdafdb488e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T153937Z
+      Value: 20230430T052045Z

@@ -1,15 +1,8 @@
 ﻿---
-ID: "6d57ab79-e307-42b1-b668-224b1622ef3b"
-Parent: "45148573-7966-421a-a1bf-22154623f13a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Stratum/Feature/Accounts/Sign In Rendering Parameters/Sign In Rendering Parameters/Forgot Password Label
-SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: "Single-Line Text"
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
+ID: "c2fa64af-989d-49b8-893a-9bf45902f05e"
+Parent: "304152f7-7b75-4187-b6fa-d598a01d167b"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Stratum/Project/assets/js
 Languages:
 - Language: en
   Versions:
@@ -17,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230426T093337Z
+      Value: 20230427T121004Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a4d66f3b-6ae9-40c8-8045-ef9fc429b52a"
+      Value: "35423117-89c3-4973-97d9-df0c38f0e973"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T153708Z
+      Value: 20230427T121004Z

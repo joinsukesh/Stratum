@@ -10,7 +10,7 @@
             {
                 get
                 {
-                    string itemId = "{A950FB01-BC4C-424C-870A-875733B5476E}";
+                    string itemId = "{D11DC25D-5930-4A49-8FC9-F8FC8B4C0FD6}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -20,7 +20,7 @@
             {
                 get
                 {
-                    string itemId = "{B8AB3701-E305-4660-A94D-A7C78F6255EC}";
+                    string itemId = "{D75B7250-D215-41D8-A71C-3485AA2727C0}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -30,7 +30,7 @@
             {
                 get
                 {
-                    string itemId = "{E8030853-601B-4811-89E5-5606B208957E}";
+                    string itemId = "{C9B12883-1E50-449E-989B-467978349510}";
                     string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                     return value;
                 }
@@ -41,11 +41,11 @@
         {
             public struct Errors
             {
-                public static string AccountDoesNotExist
+                public static string AccountUnavailable
                 {
                     get
                     {
-                        string itemId = "{F742C334-9BF4-4BBF-BB1B-3650B241579A}";
+                        string itemId = "{F2C55267-D914-4399-97E2-B45A869C5879}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -55,7 +55,7 @@
                 {
                     get
                     {
-                        string itemId = "{5CA9D4FB-6F03-4E69-A3E5-D9DA402A8213}";
+                        string itemId = "{29B38AAA-031A-4D7C-8DAB-D152893BEA29}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -65,7 +65,7 @@
                 {
                     get
                     {
-                        string itemId = "{39FAEE55-E49C-415B-865A-BA1AE4DA9C86}";
+                        string itemId = "{9B2D64C6-2DB4-4DE8-8FBE-50C658870A28}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -75,7 +75,7 @@
                 {
                     get
                     {
-                        string itemId = "{ED2F96BB-D1CA-44ED-86BE-E48F67DC0582}";
+                        string itemId = "{4CABB57E-2DD9-4FDB-B2B1-15701D87E774}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -88,7 +88,7 @@
                 {
                     get
                     {
-                        string itemId = "{519D593C-F9C3-4774-9131-DDD25B659D7C}";
+                        string itemId = "{42A21041-5894-4CFB-A411-4507B50065D3}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -98,7 +98,7 @@
                 {
                     get
                     {
-                        string itemId = "{6B640B48-2695-4704-9FC3-D62661A91700}";
+                        string itemId = "{7DE4AA61-E4C4-461D-A44B-7CC1273D45C6}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
@@ -108,7 +108,7 @@
                 {
                     get
                     {
-                        string itemId = "{38346402-D81C-4AAD-A4BB-4052EBE9975E}";
+                        string itemId = "{944A811A-452F-4929-80AA-21679FA585E4}";
                         string value = SitecoreUtility.GetDictionaryPhraseValue(itemId);
                         return value;
                     }
