@@ -1,0 +1,39 @@
+﻿---
+ID: "df9cf6c0-1adb-4cac-a32a-b3772122e8bc"
+Parent: "7b381284-0fb1-4d46-aead-5bdbed51b1cd"
+Template: "3eba1a1e-56a3-44a3-a7c0-e741fcfae8ce"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Teaser Tile Sections/Services/Magni Dolores
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "127ccb6a-3af8-4965-b27f-de7a552a09c2"
+      Hint: Description
+      Value: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+    - ID: "1aa4fd51-d455-4a26-892e-59292e9507a3"
+      Hint: Icon CSS Class
+      Value: "bx bx-tachometer"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T115117Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: Magni Dolores
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aff120cb-2b9c-48a3-867c-a4af61fa3628"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T115419Z
+    - ID: "eb153899-f0fd-45f2-a390-8ec027199dfa"
+      Hint: Container CSS Class
+      Value: "icon-box icon-box-green"

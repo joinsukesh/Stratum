@@ -1,0 +1,29 @@
+﻿---
+ID: "2d4d8aeb-0ea0-486f-9f32-b072ba011029"
+Parent: "dac1754d-acf2-429a-bba5-60261fe127eb"
+Template: "80deed19-c441-43d2-a3b3-b299a100e4d6"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/Step 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "127ccb6a-3af8-4965-b27f-de7a552a09c2"
+      Hint: Description
+      Value: <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T110748Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: <h4> Ad ad velit qui</h4>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "40e10aa2-64bf-498c-8289-8e06e13a7c8f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T110812Z

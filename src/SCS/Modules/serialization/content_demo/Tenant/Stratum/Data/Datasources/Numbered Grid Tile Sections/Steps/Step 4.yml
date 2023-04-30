@@ -1,0 +1,29 @@
+﻿---
+ID: "a1445143-83e4-4c3a-bd3c-7f266eeb2680"
+Parent: "dac1754d-acf2-429a-bba5-60261fe127eb"
+Template: "80deed19-c441-43d2-a3b3-b299a100e4d6"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections/Steps/Step 4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "127ccb6a-3af8-4965-b27f-de7a552a09c2"
+      Hint: Description
+      Value: <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T110821Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: <h4>Repellendus molestiae</h4>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b15437ae-aea2-49d2-8cbe-165948bb0c93"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T110839Z

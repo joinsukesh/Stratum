@@ -1,0 +1,46 @@
+﻿---
+ID: "2bbd3a9d-fd3d-405a-892b-a3cecea149ac"
+Parent: "183b7db6-4863-4c6c-9de5-cbed5906c850"
+Template: "dc23f10f-8f25-427e-bb89-686188bfc7b4"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/ContactUs/Address
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T135814Z
+    - ID: "781afc43-7adb-4ae6-bba7-6710f0fe9b2b"
+      Hint: Content
+      Value: |
+         <div class="info">
+                      <div class="address">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Location:</h4>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                      </div>
+        
+                      <div class="email mt-4">
+                        <i class="bi bi-envelope"></i>
+                        <h4>Email:</h4>
+                        <p>info@example.com</p>
+                      </div>
+        
+                      <div class="phone mt-4">
+                        <i class="bi bi-phone"></i>
+                        <h4>Call:</h4>
+                        <p>+1 5589 55488 55s</p>
+                      </div>
+        
+                    </div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00decd13-685f-4d45-9e36-d616b7c4da84"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T141748Z

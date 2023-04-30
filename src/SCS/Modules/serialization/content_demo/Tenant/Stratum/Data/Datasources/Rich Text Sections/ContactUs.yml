@@ -1,0 +1,23 @@
+﻿---
+ID: "183b7db6-4863-4c6c-9de5-cbed5906c850"
+Parent: "385df53f-46e4-4e8d-a9e6-83450db9391c"
+Template: "c5cdc6f4-0753-4166-9332-5c37603e5fc2"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/ContactUs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T135805Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a027b7b-6f03-4e74-9414-c545a78a3e54"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T135805Z

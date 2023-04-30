@@ -21,6 +21,70 @@ SharedFields:
           s:ph="main"
           s:ccb="Clear on publish" />
         <r
+          uid="{A6CAA0B9-A606-41C3-BDA5-BA540CED6836}"
+          p:after="r[@uid='{9DE5181C-3392-424D-AFC0-B7E62740CF65}']"
+          s:ds=""
+          s:id="{759FBB9D-6F3A-48B9-A2B4-33D07F13D839}"
+          s:par="Title&amp;Description&amp;Number Of Columns=2&amp;Section Id=about&amp;Add Default Background Color&amp;Column CSS Class=col-xl-6%20col-lg-6%20pt-5%20pt-lg-0&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A9E1B72F-D986-4457-8D8C-9789B0C49470}"
+          p:after="r[@uid='{A6CAA0B9-A606-41C3-BDA5-BA540CED6836}']"
+          s:ds="{DAC1754D-ACF2-429A-BBA5-60261FE127EB}"
+          s:id="{EF637A7A-3FEF-49AE-8FB1-85E722A4E4A1}"
+          s:par="Section Id=steps&amp;Section CSS Class=steps&amp;Add Default Background Color=1&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{A3A99B27-BEAC-4F8E-A581-ACCEED4EB306}"
+          p:after="r[@uid='{A9E1B72F-D986-4457-8D8C-9789B0C49470}']"
+          s:ds="{A2FBDF07-98A7-475B-A6FD-2CF7598FF617}"
+          s:id="{4D99AAA9-1924-4D34-B064-261870C373F4}"
+          s:par="Section Id=testimonials&amp;Section CSS Class&amp;Add Default Background Color&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{13A6EC86-D517-4982-849A-4DDC0D08F0DA}"
+          p:after="r[@uid='{A3A99B27-BEAC-4F8E-A581-ACCEED4EB306}']"
+          s:ds="{7B381284-0FB1-4D46-AEAD-5BDBED51B1CD}"
+          s:id="{8C74F824-0B75-4CFE-8A24-0CC0FDA36E23}"
+          s:par="Section Id=services&amp;Section CSS Class=services&amp;Add Default Background Color=1&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2FCF5C3C-DCF6-49B6-A30A-D1F1A126F6A1}"
+          p:after="r[@uid='{13A6EC86-D517-4982-849A-4DDC0D08F0DA}']"
+          s:ds="{6B941822-9E9F-47CA-AF7C-4629CA654C49}"
+          s:id="{F9E8E0F7-BE58-4740-A207-1D06A86AE2BA}"
+          s:par="Section Id=gallery&amp;Section CSS Class&amp;Add Default Background Color&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{6326CB29-1835-450D-BB17-2306DB714657}"
+          p:after="r[@uid='{2FCF5C3C-DCF6-49B6-A30A-D1F1A126F6A1}']"
+          s:ds="{05A7DC13-2157-4ECB-AC61-8636946CBADC}"
+          s:id="{F87B468B-088F-4A09-A787-6D81DDA5583C}"
+          s:par="Section Id=faq&amp;Section CSS Class=faq&amp;Add Default Background Color=1&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{DBD43E28-F857-4304-920C-3A245A6B08B4}"
+          p:after="r[@uid='{6326CB29-1835-450D-BB17-2306DB714657}']"
+          s:ds=""
+          s:id="{759FBB9D-6F3A-48B9-A2B4-33D07F13D839}"
+          s:par="Title=%3Ch2%3EContact%3C%2Fh2%3E&amp;Description=%3Cp%3EMagnam%20dolores%20commodi%20suscipit.%20Necessitatibus%20eius%20consequatur%20ex%20aliquid%20fuga%20eum%20quidem.%20Sit%20sint%20consectetur%20velit.%20Quisquam%20quos%20quisquam%20cupiditate.%20Et%20nemo%20qui%20impedit%20suscipit%20alias%20ea.%20Quia%20fugiat%20sit%20in%20iste%20officiis%20commodi%20quidem%20hic%20quas.%3C%2Fp%3E&amp;Number Of Columns=2&amp;Section Id=contact&amp;Section CSS Class=contact&amp;Add Default Background Color&amp;Column CSS Class=col-lg-5%20d-flex%20align-items-stretch&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{571F5657-C0D6-4EA2-8C53-383EA51EBEF4}"
+          p:after="r[@uid='{DBD43E28-F857-4304-920C-3A245A6B08B4}']"
+          s:ds=""
+          s:id="{D149748C-58DA-4419-954E-F7C812E9E65F}"
+          s:par="Section Id=contact-us-form&amp;Section CSS Class=contact%20php-email-form&amp;Add Default Background Color&amp;Background Color"
+          s:ph="main"
+          s:ccb="Clear on publish" />
+        <r
           uid="{A3EFE9C5-ACB8-46E9-BE35-3660793539F2}"
           p:after="*[1=2]" />
       </d>
@@ -33,6 +97,58 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{3CF06974-2352-40FD-85E8-E050D3DEF636}"
+              p:before="*"
+              s:ds="{7087EC77-B75C-425B-892D-A9BCAFAD0ADC}"
+              s:id="{D04169C9-C420-47AC-97EE-D329509DFD1B}"
+              s:par=""
+              s:ph="/main/col-section-{DBD43E28-F857-4304-920C-3A245A6B08B4}-2"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{8FA53E63-19BC-4889-B8F8-DEB922D6523D}"
+              p:after="r[@uid='{3CF06974-2352-40FD-85E8-E050D3DEF636}']"
+              s:ds="{2BBD3A9D-FD3D-405A-892B-A3CECEA149AC}"
+              s:id="{D04169C9-C420-47AC-97EE-D329509DFD1B}"
+              s:par=""
+              s:ph="/main/col-section-{DBD43E28-F857-4304-920C-3A245A6B08B4}-1"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{8C130208-0F09-4AD1-9B3B-C18C7B3D1062}"
+              p:after="r[@uid='{8FA53E63-19BC-4889-B8F8-DEB922D6523D}']"
+              s:ds="{80D735A7-DD44-463E-AD4B-7AA7A3A0DD04}"
+              s:id="{D04169C9-C420-47AC-97EE-D329509DFD1B}"
+              s:par=""
+              s:ph="/main/col-section-{A6CAA0B9-A606-41C3-BDA5-BA540CED6836}-2"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{2DBDDCFD-B4ED-4B33-95BA-BDB93E63514E}"
+              p:after="r[@uid='{8C130208-0F09-4AD1-9B3B-C18C7B3D1062}']"
+              s:ds="{CE9B1772-F515-4E1C-A89A-CA457A18D805}"
+              s:id="{D04169C9-C420-47AC-97EE-D329509DFD1B}"
+              s:par=""
+              s:ph="/main/col-section-{A6CAA0B9-A606-41C3-BDA5-BA540CED6836}-1"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{DB8071F0-9195-4747-8C09-342FAE1FE1BE}"
+              p:after="r[@uid='{9DE5181C-3392-424D-AFC0-B7E62740CF65}']"
+              s:ds="{CE9B1772-F515-4E1C-A89A-CA457A18D805}"
+              s:id="{D04169C9-C420-47AC-97EE-D329509DFD1B}"
+              s:par=""
+              s:ph="col-section-0"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
     - ID: "083c5646-8d72-408c-aee8-3d7598245d02"
       Hint: Meta Description
       Value: Welcome to Maxim. We are team of talented designers making websites with Bootstrap
@@ -41,7 +157,7 @@ Languages:
       Value: 20230426T074820Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "593a80e8-b555-48b8-9b9f-75eb13d53cba"
+      Value: "a5648318-f68f-4d8e-9a81-3e9ca8a23390"
     - ID: "a201b976-5dee-4787-a901-c6638bf7e958"
       Hint: Meta Title
       Value: Home
@@ -51,4 +167,4 @@ Languages:
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T151601Z
+      Value: 20230430T141719Z

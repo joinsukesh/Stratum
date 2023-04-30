@@ -1,0 +1,31 @@
+﻿---
+ID: "7dc0a198-6d24-4866-a56d-e988215fe880"
+Parent: "e693ce69-e978-43e5-8027-5d0dc91255ab"
+Template: "874067f3-753d-47dd-b1c6-aafe08ab43af"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Perfume
+SharedFields:
+- ID: "20917d71-0843-4cb9-ba63-44b971246058"
+  Hint: Image
+  Value: |
+    <image mediaid="{8ACB3A6D-1759-4691-B839-D44738540F1D}" alt="product" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T121407Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: Perfume
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e04c9a9-ec0c-4840-bc41-a30b4c51f496"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T121553Z

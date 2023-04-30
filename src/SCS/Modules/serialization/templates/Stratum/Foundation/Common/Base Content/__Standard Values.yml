@@ -15,17 +15,20 @@ Languages:
       Hint: __Owner
       Value: |
         sitecore\Admin
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: $name
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "203eccac-8d6f-40e8-829f-489acdb2b30c"
+      Value: "66e8d18b-082d-4e7a-8005-98623c68c166"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230425T121540Z
+      Value: 20230430T115001Z

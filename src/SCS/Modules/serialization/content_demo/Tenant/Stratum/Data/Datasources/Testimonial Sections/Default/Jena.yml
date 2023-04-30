@@ -1,0 +1,37 @@
+﻿---
+ID: "50a47813-3356-48a5-a5d6-5db234bcb534"
+Parent: "a2fbdf07-98a7-475b-a6fd-2cf7598ff617"
+Template: "00a372fa-5623-4519-8bed-38ab7537d718"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/Default/Jena
+SharedFields:
+- ID: "952eb599-92b4-411a-8770-3b54bd63105a"
+  Hint: Image
+  Value: |
+    <image mediaid="{F8026555-E2BC-4463-A303-BC4BCBEB39E8}" alt="testimonial" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T113610Z
+    - ID: "866f1144-7976-4950-9145-002e20db800c"
+      Hint: Person Name
+      Value: Jena Karlis
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd7b6d43-5ffb-469d-8967-02705b4c83a1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c2a28c19-049c-4d86-9ffa-811d073b9490"
+      Hint: Comments
+      Value: Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T114059Z
+    - ID: "e9bab2d2-ddf8-48d7-83b9-19ff19ffb545"
+      Hint: Designation
+      Value: Store Owner

@@ -4,6 +4,9 @@ Parent: "9c275cb8-c46f-436e-8f27-102b3ae9d866"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
 Path: /sitecore/layout/Renderings/Stratum/Feature/PageContent/Stratum Gallery
 SharedFields:
+- ID: "13f89250-ad6b-4548-882e-118a12c18094"
+  Hint: Parameters Template
+  Value: "{37B76B46-C759-4C97-A22D-4556BAE7F74C}"
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Stratum/Feature/PageContent/Gallery
@@ -40,11 +43,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "66fa3261-84b1-4933-ba3f-979b85ef11e5"
+      Value: "380fee8b-c618-4ac2-8309-de9d4c54efb1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T140547Z
+      Value: 20230430T130738Z
+    - ID: "fd4353f4-745a-4fcb-a7f6-e256abfcaf62"
+      Hint: Rendering Scripts Body
+      Value: /assets/stratum/js/gallery.js

@@ -1,0 +1,27 @@
+﻿---
+ID: "ce9b1772-f515-4e1c-a89a-ca457a18d805"
+Parent: "ffd8ed16-5f57-4b8e-aaf5-2d53c1a6667e"
+Template: "dc23f10f-8f25-427e-bb89-686188bfc7b4"
+Path: "/sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/About-Us/Image"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T072204Z
+    - ID: "781afc43-7adb-4ae6-bba7-6710f0fe9b2b"
+      Hint: Content
+      Value: |
+        <img alt="About us" src="-/media/C673F20946FE4DF8901FE801FC575ED3.ashx" class="img-fluid" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c21a545-6a8d-45fd-82b8-fe924b50b9d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T090226Z

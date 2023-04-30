@@ -4,12 +4,15 @@ Parent: "941a1847-07a8-4219-a178-7af57e66872c"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
 Path: /sitecore/layout/Renderings/Stratum/Feature/Forms/Contact Us
 SharedFields:
+- ID: "13f89250-ad6b-4548-882e-118a12c18094"
+  Hint: Parameters Template
+  Value: "{37B76B46-C759-4C97-A22D-4556BAE7F74C}"
 - ID: "1c0af338-70a8-455f-8366-173135e03be6"
   Hint: Placeholder
   Value: main
 - ID: "94069f66-609c-48b0-8281-521c30fb269d"
   Hint: Open Properties after Add
-  Value: 0
+  Value: 1
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: RenderContactUsForm
@@ -34,11 +37,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ec53c0e9-c38f-4cb3-8072-48e2ed91a3b8"
+      Value: "aaa667e8-08d6-4c6b-96db-d244d759b72e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T150507Z
+      Value: 20230430T135549Z

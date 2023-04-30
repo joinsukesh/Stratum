@@ -19,6 +19,10 @@
 }
 /*#endregion */
 
+.nav-link {
+    cursor: pointer !important;
+}
+
 .field-validation-error {
     color: red;
     font-size: 12px;

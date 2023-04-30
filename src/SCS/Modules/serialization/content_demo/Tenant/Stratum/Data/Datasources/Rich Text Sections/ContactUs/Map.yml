@@ -1,0 +1,27 @@
+﻿---
+ID: "7087ec77-b75c-425b-892d-a9bcafad0adc"
+Parent: "183b7db6-4863-4c6c-9de5-cbed5906c850"
+Template: "dc23f10f-8f25-427e-bb89-686188bfc7b4"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/ContactUs/Map
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T135857Z
+    - ID: "781afc43-7adb-4ae6-bba7-6710f0fe9b2b"
+      Hint: Content
+      Value: |
+         <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45f7391b-9961-44a7-8c8d-21dea115de4b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T141800Z

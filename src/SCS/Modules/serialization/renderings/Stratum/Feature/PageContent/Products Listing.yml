@@ -40,11 +40,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ce58912c-baec-4220-8da4-ccb925efa046"
+      Value: "7fce49f1-dc9c-4a64-9ad0-9827d16ed724"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T153951Z
+      Value: 20230430T130750Z
+    - ID: "fd4353f4-745a-4fcb-a7f6-e256abfcaf62"
+      Hint: Rendering Scripts Body
+      Value: /assets/stratum/js/products.js

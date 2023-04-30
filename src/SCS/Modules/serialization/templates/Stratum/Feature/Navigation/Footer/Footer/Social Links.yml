@@ -4,6 +4,9 @@ Parent: "07d2eab1-461e-4d9a-889d-3484b88aeb26"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Social Links
 SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "datasource={21329DDA-B575-44EA-A6A8-B172B6E9C738}&includetemplatesforselection=Nav Link"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: TreelistEx
@@ -28,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b4536234-1e23-4389-b461-0257bf630ba6"
+      Value: "fdd56cb1-78ea-4ea5-b5b8-e509342f18d5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T100348Z
+      Value: 20230430T144720Z

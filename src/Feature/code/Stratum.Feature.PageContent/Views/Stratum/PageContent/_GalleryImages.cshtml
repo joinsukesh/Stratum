@@ -36,10 +36,16 @@
                                     @Html.Sitecore().Field(gImage.DescriptionId, gImage.InnerItem)
                                 }
                                 <div class="portfolio-links">
-                                    <a href="@gImage.ImageUrl" data-gallery="portfolioGallery" class="portfolio-lightbox" title="@gImage.Title"><i class="bx bx-plus"></i></a>
-                                    @Html.Sitecore().BeginField(gImage.CtaId, gImage.InnerItem, new { haschildren = true })
-                                    <i class="bx bx-link"></i>
-                                    @Html.Sitecore().EndField()
+                                    @if (!string.IsNullOrWhiteSpace(gImage.ImageUrl))
+                                    {
+                                        <a href="@gImage.ImageUrl" data-gallery="portfolioGallery" class="portfolio-lightbox" title="@gImage.Title"><i class="bx bx-plus"></i></a>
+                                    }
+                                    @if (!string.IsNullOrWhiteSpace(gImage.CtaUrl))
+                                    {
+                                        @Html.Sitecore().BeginField(gImage.CtaId, gImage.InnerItem, new { haschildren = true })
+                                        <i class="bx bx-link"></i>
+                                        @Html.Sitecore().EndField()
+                                    }
                                 </div>
                             </div>
                         </div>

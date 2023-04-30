@@ -1,0 +1,31 @@
+﻿---
+ID: "9171e672-5698-40fd-b498-b739f9ec157f"
+Parent: "e693ce69-e978-43e5-8027-5d0dc91255ab"
+Template: "874067f3-753d-47dd-b1c6-aafe08ab43af"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Headphones
+SharedFields:
+- ID: "20917d71-0843-4cb9-ba63-44b971246058"
+  Hint: Image
+  Value: |
+    <image mediaid="{F77836A3-AEC4-48B0-89B3-41383CC73432}" alt="product" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T121016Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: Headphones
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0b800d8d-0b5e-43ae-912a-e72efb3a5163"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T121352Z

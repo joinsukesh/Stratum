@@ -1,0 +1,29 @@
+﻿---
+ID: "1921367e-957a-4d97-8913-032ac05155a1"
+Parent: "05a7dc13-2157-4ecb-ac61-8636946cbadc"
+Template: "a850d245-7c89-446d-b320-5fcb8ccd0bc0"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Accordions/FAQ/Panel 4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "127ccb6a-3af8-4965-b27f-de7a552a09c2"
+      Hint: Description
+      Value: <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T131647Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: "Tempus quam pellentesque nec nam aliquam sem et tortor consequat?"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95f7d8e9-5231-49c9-85f4-eac3810675eb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T132129Z

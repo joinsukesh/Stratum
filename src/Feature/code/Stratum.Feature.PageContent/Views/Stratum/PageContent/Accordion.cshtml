@@ -14,7 +14,7 @@
 
 @if (Model != null)
 {
-    <section id="@brParams.SectionId" class="faq @brParams.SectionCssClass @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
+    <section id="@brParams.SectionId" class="@brParams.SectionCssClass @(brParams.AddDefaultBackgroundColor ? "section-bg" : "")" style="@(brParams.AddDefaultBackgroundColor ? "" : string.Format("background-color:{0}", brParams.BackgroundColor))">
         <div class="container">
 
             @if ((!string.IsNullOrWhiteSpace(Model.Title)) ||
@@ -50,7 +50,7 @@
                                 if (panel != null)
                                 {
                                     <li data-aos="fade-up" data-aos-delay="@(index * delaySeconds)">
-                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#acc-list-@index" class="collapsed">@Html.Sitecore().Field(panel.TitleId, panel.InnerItem) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#acc-list-@index" class="@(index == 0 ? "collapse" : "collapsed")">@Html.Sitecore().Field(panel.TitleId, panel.InnerItem) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                         <div id="acc-list-@index" class="@(index == 0 ? "collapse show" : "collapse")" data-bs-parent=".faq-list">
                                             @Html.Sitecore().Field(panel.DescriptionId, panel.InnerItem)
                                         </div>

@@ -1,0 +1,37 @@
+﻿---
+ID: "c1744ed4-1a48-43a5-8efd-7e05540c1119"
+Parent: "a2fbdf07-98a7-475b-a6fd-2cf7598ff617"
+Template: "00a372fa-5623-4519-8bed-38ab7537d718"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections/Default/Sara
+SharedFields:
+- ID: "952eb599-92b4-411a-8770-3b54bd63105a"
+  Hint: Image
+  Value: |
+    <image mediaid="{8EA102E7-8953-4543-842C-7581BAE14C34}" alt="testimonial" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T113610Z
+    - ID: "866f1144-7976-4950-9145-002e20db800c"
+      Hint: Person Name
+      Value: Sara Wilson
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "054b54f0-5039-440a-b961-09474886997b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c2a28c19-049c-4d86-9ffa-811d073b9490"
+      Hint: Comments
+      Value: Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T114016Z
+    - ID: "e9bab2d2-ddf8-48d7-83b9-19ff19ffb545"
+      Hint: Designation
+      Value: Designer

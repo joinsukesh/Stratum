@@ -69,7 +69,8 @@
                                     }
                                     else
                                     {
-                                        <a href="@tile.CtaUrl" target="@tile.CtaTargetType">
+                                        if (string.IsNullOrWhiteSpace(tile.CtaUrl))
+                                        {
                                             <div class="icon-box @tile.ContainerCssClass">
                                                 @if (!string.IsNullOrWhiteSpace(tile.IconCssClass))
                                                 {
@@ -84,7 +85,26 @@
                                                     <p class="description">@tile.Description</p>
                                                 }
                                             </div>
-                                        </a>
+                                        }
+                                        else
+                                        {
+                                            <a href="@tile.CtaUrl" target="@tile.CtaTargetType">
+                                                <div class="icon-box @tile.ContainerCssClass">
+                                                    @if (!string.IsNullOrWhiteSpace(tile.IconCssClass))
+                                                    {
+                                                        <div class="icon"><i class="@tile.IconCssClass"></i></div>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(tile.Title))
+                                                    {
+                                                        <h4 class="title">@tile.Title</h4>
+                                                    }
+                                                    @if (!string.IsNullOrWhiteSpace(tile.Description))
+                                                    {
+                                                        <p class="description">@tile.Description</p>
+                                                    }
+                                                </div>
+                                            </a>
+                                        }
                                     }
                                 </div>
                             }

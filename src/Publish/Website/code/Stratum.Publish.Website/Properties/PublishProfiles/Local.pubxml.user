@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>c:\out\Stratum</_PublishTargetUrl>
-    <History>True|2023-04-30T06:26:20.4497142Z;True|2023-04-27T18:10:30.6309076+05:30;True|2023-04-05T10:13:46.3334392+05:30;True|2023-04-05T09:59:50.7435206+05:30;</History>
+    <History>True|2023-04-30T10:31:52.0706921Z;True|2023-04-30T11:56:20.4497142+05:30;True|2023-04-27T18:10:30.6309076+05:30;True|2023-04-05T10:13:46.3334392+05:30;True|2023-04-05T09:59:50.7435206+05:30;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Config/Include/zzz.Stratum/Feature/Stratum.Solr.Index.Products.Master.config">
@@ -141,49 +141,49 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>04/22/2023 16:45:02</publishTime>
     </File>
     <File Include="bin/Stratum.Feature.Accounts.dll">
-      <publishTime>04/30/2023 11:53:35</publishTime>
+      <publishTime>04/30/2023 15:57:57</publishTime>
     </File>
     <File Include="bin/Stratum.Feature.AdminPages.dll">
-      <publishTime>04/30/2023 11:53:39</publishTime>
+      <publishTime>04/30/2023 15:58:01</publishTime>
     </File>
     <File Include="bin/Stratum.Feature.Base.dll">
-      <publishTime>04/30/2023 11:53:28</publishTime>
+      <publishTime>04/30/2023 15:57:51</publishTime>
     </File>
     <File Include="bin/Stratum.Feature.Forms.dll">
-      <publishTime>04/30/2023 11:53:37</publishTime>
+      <publishTime>04/30/2023 15:57:58</publishTime>
     </File>
     <File Include="bin/Stratum.Feature.Metadata.dll">
-      <publishTime>04/30/2023 11:53:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/Stratum.Feature.Navigation.dll">
-      <publishTime>04/30/2023 11:53:37</publishTime>
+      <publishTime>04/30/2023 15:57:58</publishTime>
     </File>
     <File Include="bin/Stratum.Feature.PageContent.dll">
-      <publishTime>04/30/2023 11:53:43</publishTime>
+      <publishTime>04/30/2023 15:58:04</publishTime>
     </File>
     <File Include="bin/Stratum.Foundation.Accounts.dll">
-      <publishTime>04/30/2023 11:53:20</publishTime>
+      <publishTime>04/30/2023 15:57:45</publishTime>
     </File>
     <File Include="bin/Stratum.Foundation.Api.dll">
-      <publishTime>04/30/2023 11:53:31</publishTime>
+      <publishTime>04/30/2023 15:57:54</publishTime>
     </File>
     <File Include="bin/Stratum.Foundation.Assets.dll">
-      <publishTime>04/30/2023 11:53:28</publishTime>
+      <publishTime>04/30/2023 15:57:51</publishTime>
     </File>
     <File Include="bin/Stratum.Foundation.Common.dll">
-      <publishTime>04/30/2023 11:53:21</publishTime>
+      <publishTime>04/30/2023 15:57:45</publishTime>
     </File>
     <File Include="bin/Stratum.Foundation.Forms.dll">
-      <publishTime>04/30/2023 11:53:26</publishTime>
+      <publishTime>04/30/2023 15:57:49</publishTime>
     </File>
     <File Include="bin/Stratum.Foundation.Logging.dll">
       <publishTime>04/03/2023 11:40:42</publishTime>
     </File>
     <File Include="bin/Stratum.Foundation.Search.dll">
-      <publishTime>04/30/2023 11:53:21</publishTime>
+      <publishTime>04/30/2023 15:57:45</publishTime>
     </File>
     <File Include="bin/Stratum.Project.Website.dll">
-      <publishTime>04/30/2023 11:53:43</publishTime>
+      <publishTime>04/30/2023 15:58:04</publishTime>
     </File>
     <File Include="download/default.aspx">
       <publishTime>04/22/2023 16:45:24</publishTime>
@@ -216,16 +216,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>04/22/2023 16:45:22</publishTime>
     </File>
     <File Include="Views/Stratum/Accounts/ForgotPassword.cshtml">
-      <publishTime>04/22/2023 16:45:22</publishTime>
+      <publishTime>04/30/2023 15:43:46</publishTime>
     </File>
     <File Include="Views/Stratum/Accounts/ResetPassword.cshtml">
-      <publishTime>04/22/2023 16:45:22</publishTime>
+      <publishTime>04/30/2023 15:44:03</publishTime>
     </File>
     <File Include="Views/Stratum/Accounts/SignIn.cshtml">
-      <publishTime>04/22/2023 16:45:22</publishTime>
+      <publishTime>04/30/2023 15:45:44</publishTime>
     </File>
     <File Include="Views/Stratum/Accounts/SignUp.cshtml">
-      <publishTime>04/22/2023 16:45:22</publishTime>
+      <publishTime>04/30/2023 15:45:56</publishTime>
     </File>
     <File Include="Views/Stratum/Base/CommonError.cshtml">
       <publishTime>04/22/2023 16:45:24</publishTime>
@@ -237,7 +237,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>04/22/2023 16:45:24</publishTime>
     </File>
     <File Include="Views/Stratum/Forms/ContactUsForm.cshtml">
-      <publishTime>04/22/2023 16:45:25</publishTime>
+      <publishTime>04/30/2023 15:50:17</publishTime>
     </File>
     <File Include="Views/Stratum/Layouts/Default.cshtml">
       <publishTime>04/27/2023 17:57:41</publishTime>
@@ -249,34 +249,34 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>04/22/2023 16:45:27</publishTime>
     </File>
     <File Include="Views/Stratum/Navigation/Header.cshtml">
-      <publishTime>04/27/2023 20:10:10</publishTime>
+      <publishTime>04/30/2023 13:44:21</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/Accordion.cshtml">
-      <publishTime>04/22/2023 16:45:29</publishTime>
+      <publishTime>04/30/2023 15:51:21</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/ColumnsSection.cshtml">
-      <publishTime>04/22/2023 16:45:29</publishTime>
+      <publishTime>04/30/2023 15:53:25</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/Gallery.cshtml">
-      <publishTime>04/22/2023 16:45:29</publishTime>
+      <publishTime>04/30/2023 15:55:50</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/HeroBanner.cshtml">
-      <publishTime>04/22/2023 16:45:29</publishTime>
+      <publishTime>04/30/2023 15:56:21</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/NumberedGridTilesSection.cshtml">
-      <publishTime>04/22/2023 16:45:29</publishTime>
+      <publishTime>04/30/2023 15:56:34</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/ProductsListing.cshtml">
-      <publishTime>04/22/2023 16:45:29</publishTime>
+      <publishTime>04/30/2023 15:56:49</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/RichTextSection.cshtml">
       <publishTime>04/22/2023 16:45:29</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/TeaserTilesSection.cshtml">
-      <publishTime>04/22/2023 16:45:29</publishTime>
+      <publishTime>04/30/2023 15:57:18</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/TestimonialsSection.cshtml">
-      <publishTime>04/22/2023 16:45:29</publishTime>
+      <publishTime>04/30/2023 15:57:29</publishTime>
     </File>
     <File Include="Views/Stratum/PageContent/_GalleryImages.cshtml">
       <publishTime>04/22/2023 16:45:29</publishTime>

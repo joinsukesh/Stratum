@@ -1,0 +1,31 @@
+﻿---
+ID: "ac0010d3-9abe-4aca-9c2b-d9f5a7dab093"
+Parent: "e693ce69-e978-43e5-8027-5d0dc91255ab"
+Template: "874067f3-753d-47dd-b1c6-aafe08ab43af"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default/Products/Body Oil
+SharedFields:
+- ID: "20917d71-0843-4cb9-ba63-44b971246058"
+  Hint: Image
+  Value: |
+    <image mediaid="{21D6FB7B-5465-4E9B-A99B-941E0DA60441}" alt="product" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T121407Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: Body Oil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "339b40b1-0e4a-4a75-af44-fbdbe8b13df1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T121619Z

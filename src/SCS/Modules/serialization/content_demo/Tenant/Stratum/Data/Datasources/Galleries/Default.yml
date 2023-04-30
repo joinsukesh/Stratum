@@ -1,0 +1,35 @@
+﻿---
+ID: "6b941822-9e9f-47ca-af7c-4629ca654c49"
+Parent: "512ec065-278c-4a96-aa8a-775676ae490e"
+Template: "db52b9aa-a816-4fad-afac-f7c430968266"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Galleries/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0a33fb6a-c9e7-4c81-a94f-db7975d30d42"
+      Hint: Page Size
+      Value: 3
+    - ID: "127ccb6a-3af8-4965-b27f-de7a552a09c2"
+      Hint: Description
+      Value: <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T120410Z
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: <h2>Gallery</h2>
+    - ID: "6a93a7cc-c26c-44fd-b0b5-66ae5dfb5474"
+      Hint: Gallery Image Folders
+      Value: "{E693CE69-E978-43E5-8027-5D0DC91255AB}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a5e59cb0-299e-489c-9d2e-f3f9c25a6fc5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230430T130208Z

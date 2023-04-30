@@ -4,6 +4,9 @@ Parent: "07d2eab1-461e-4d9a-889d-3484b88aeb26"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Stratum/Feature/Navigation/Footer/Footer/Column 3 Links
 SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "datasource={21329DDA-B575-44EA-A6A8-B172B6E9C738}&includetemplatesforselection=Nav Link"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: TreelistEx
@@ -28,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bf33e333-c9aa-4bce-b01a-78301ce97f8a"
+      Value: "0b85dacd-e9ed-4ac7-8af3-2a16c3243958"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T100348Z
+      Value: 20230430T144720Z
