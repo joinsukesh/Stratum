@@ -1,0 +1,30 @@
+﻿---
+ID: "72af5d33-5632-4c3e-9313-98b81646882e"
+Parent: "2068d1ff-8d9b-494e-ab96-d346ab442465"
+Template: "fc1f3408-3f6f-4795-ac99-a7cbbb9b5cc4"
+Path: /sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Social/LinkedIn
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T031929Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "689a2fd2-1c36-4390-9fbd-e85a2f6e792d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T032641Z
+    - ID: "dd560f16-63ac-4b38-82a0-546367df27b9"
+      Hint: Link
+      Value: |
+        <link linktype="javascript" url="javascript:void(0)" anchor="" />
+    - ID: "eefdd316-9bc9-4de7-b32c-3d6ad51e4d16"
+      Hint: CSS Class
+      Value: "bx bxl-linkedin"

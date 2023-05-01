@@ -4,6 +4,9 @@ Parent: "4b95e2fe-4b26-42da-a1e0-455a565d3ec3"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Stratum/Feature/PageContent/Product Details/Product Details/Tags
 SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "datasource={7CBD7263-B211-42D2-9FC7-63B47D98FDAD}&includetemplatesforselection=Tag"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: TreelistEx
@@ -28,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5eeab5b4-3d2f-40ef-bf39-0a10d9505d1c"
+      Value: "26474ed2-080e-4b4b-8ca7-ea4c21340e87"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T121153Z
+      Value: 20230501T105200Z

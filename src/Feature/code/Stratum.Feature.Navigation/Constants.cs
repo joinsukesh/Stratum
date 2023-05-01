@@ -2,6 +2,6 @@
 {
     public class Constants
     {
-        public static string ViewsFolderPath = "~/Views/Stratum/Navigation/";
+        public static string ViewsFolderPath = "~/Views/_Stratum/Navigation/";
     }
 }

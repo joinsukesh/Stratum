@@ -9,7 +9,7 @@ namespace Stratum.Foundation.Common
         public static string One = "1";
         public static string Yes = "yes";
         public static string ParametersTemplate = "Parameters Template";        
-        public static string TagsFolderItemId = "{D6916BA4-0744-477E-B863-133E91FE6B76}";
+        public static string TagsFolderItemId = "{7CBD7263-B211-42D2-9FC7-63B47D98FDAD}";
 
         public struct Databases
         {
@@ -30,7 +30,6 @@ namespace Stratum.Foundation.Common
         {
             public static string Core = ConfigurationManager.ConnectionStrings[Databases.Core].ConnectionString;
             public static string ExperienceForms = ConfigurationManager.ConnectionStrings[Databases.ExperienceForms].ConnectionString;
-            public static string App_Logs = ConfigurationManager.ConnectionStrings[Databases.App_Logs].ConnectionString;
         }
 
         public struct HttpResponseContentTypes

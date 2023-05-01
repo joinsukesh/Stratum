@@ -1,7 +1,7 @@
 ﻿---
-ID: "86f23b8d-5ee7-4276-b330-044926accd71"
+ID: "5c1359fb-96e1-41a1-b8fd-18b7dc4817a5"
 Parent: "79c920dd-2a8d-4fac-8024-c0bc9afbd493"
-Template: "5d3781de-495d-4552-8ff0-5da6737a0a30"
+Template: "ce514933-6786-4f21-89f2-67d03749a4fb"
 Path: /sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/Products
 Languages:
 - Language: en
@@ -10,14 +10,14 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230426T131010Z
+      Value: 20230501T031259Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f45d9905-f4cd-4a3f-8dc5-9e1b2c8ac991"
+      Value: "304bcb5c-0a5a-47c8-adfd-a0682ee61358"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T131010Z
+      Value: 20230501T031259Z

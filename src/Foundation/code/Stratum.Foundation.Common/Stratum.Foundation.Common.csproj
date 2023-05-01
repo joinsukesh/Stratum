@@ -34,6 +34,9 @@
     <Reference Include="ClosedXML">
       <HintPath>..\..\..\..\lib\ClosedXML.dll</HintPath>
     </Reference>
+    <Reference Include="FastMember">
+      <HintPath>..\..\..\..\lib\FastMember.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\..\..\..\lib\HtmlAgilityPack.dll</HintPath>
     </Reference>
@@ -98,7 +101,10 @@
     <Compile Include="Utilities\SitecoreUtility.cs" />
     <Compile Include="Utilities\StringCipher.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz.Stratum\Foundation\Stratum.Foundation.Common.config" />
   </ItemGroup>

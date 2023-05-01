@@ -63,7 +63,7 @@
     </div>
     <script>
         $(document).ready(function () {
-            SetDefaultDates();
+            //SetDefaultDates();
 
             $("#btnSubmit").click(function () {
                 ClearResult();
@@ -77,7 +77,7 @@
                 setTimeout(function () {
                     app.DownloadData($("#hdnSessionId").val(), 1, $("#ddlForms option:selected").text());
                     app.HideWaitModal();
-                }, 1000);
+                }, 3000);
             });
         });
 

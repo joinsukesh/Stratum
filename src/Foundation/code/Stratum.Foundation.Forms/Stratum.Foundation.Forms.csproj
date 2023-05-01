@@ -59,5 +59,11 @@
       <Name>Stratum.Foundation.Common</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\zzz.Stratum\Foundation\Stratum.Foundation.Forms.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

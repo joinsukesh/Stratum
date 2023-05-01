@@ -1,0 +1,27 @@
+﻿---
+ID: "22a9793c-b004-4a17-8311-d79b3317ece3"
+Parent: "21329dda-b575-44ea-a6a8-b172b6e9c738"
+Template: "fc1f3408-3f6f-4795-ac99-a7cbbb9b5cc4"
+Path: /sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Testimonials
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230430T143004Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3925d098-676a-4283-aa2a-561d920edc14"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T030034Z
+    - ID: "dd560f16-63ac-4b38-82a0-546367df27b9"
+      Hint: Link
+      Value: |
+        <link text="Testimonials" linktype="anchor" url="testimonials" anchor="about" title="" class="" />

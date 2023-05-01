@@ -1,0 +1,63 @@
+﻿---
+ID: "9034c6c5-e0e5-4ab1-a283-d76a540eb485"
+Parent: "1aece430-66c7-48d0-a712-cf9e13009905"
+Template: "1aece430-66c7-48d0-a712-cf9e13009905"
+Path: /sitecore/templates/Stratum/Project/Sign Out Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{18C4558A-415B-49D3-AC32-859D927304DD}">
+        <r
+          ds="{50500BC7-120F-4F12-A9B7-F5D4939DCE4B}"
+          id="{5D758EBF-0B92-43CD-93FB-19D673798133}"
+          par=""
+          ph="header"
+          uid="{AF89F04A-8D3D-4866-8522-87095CBBE7C6}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{D491B7D8-F7E7-4A90-B7DA-FBA6B9D631C2}"
+          par=""
+          ph="main"
+          uid="{91E7E053-302E-43A0-AA3F-AC641BD89036}"
+          ccb="Clear on publish" />
+        <r
+          ds="{B6E37804-C9FE-4097-B758-953029B5FEF9}"
+          id="{12FF587F-B5E0-40CE-BA31-B38B6A9769B9}"
+          par=""
+          ph="footer"
+          uid="{A3EFE9C5-ACB8-46E9-BE35-3660793539F2}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T142928Z
+    - ID: "2f1c4393-cbd5-436e-acf8-92252834868d"
+      Hint: Page Scripts Body
+      Value: /assets/stratum/js/accounts.js
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42afc5a7-6c88-4926-a252-83605c755559"
+    - ID: "a201b976-5dee-4787-a901-c6638bf7e958"
+      Hint: Meta Title
+      Value: Sign Up
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T152633Z

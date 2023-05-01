@@ -54,6 +54,7 @@
                 ///filter by searchTerm
                 if (!string.IsNullOrWhiteSpace(searchTerm))
                 {
+                    ///filter by title
                     var titlePredicate = PredicateBuilder.False<ProductSearchResultItem>();
                     titlePredicate = titlePredicate.Or(x => x.Title.Like(searchTerm, 0.75f));
 
@@ -66,6 +67,21 @@
                     }
 
                     andPredicate = andPredicate.And(titlePredicate);
+
+                    ///filter by category
+                    var categoryPredicate = PredicateBuilder.False<ProductSearchResultItem>();
+                    categoryPredicate = categoryPredicate.Or(x => x.Category.Like(searchTerm, 0.75f));
+
+                    foreach (var t in searchTerm.Split(' '))
+                    {
+                        var tempTerm = t;
+                        categoryPredicate = categoryPredicate.Or(p => p.Category.MatchWildcard(tempTerm + "*").Boost(5.5f));
+                        categoryPredicate = categoryPredicate.Or(p => p.Category.MatchWildcard(tempTerm + "*"));
+                        categoryPredicate = categoryPredicate.Or(p => p.Category.Equals(tempTerm));
+                    }
+
+                    ///using the or condition here
+                    andPredicate = andPredicate.Or(categoryPredicate);
                 }
 
                 ///filter by tag

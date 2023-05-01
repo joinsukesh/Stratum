@@ -284,23 +284,41 @@ namespace Stratum.Foundation.Common.Utilities
 
             string[] toEmailIds = toEmails.Split(CommonConstants.Characters.Comma);
 
-            foreach (string email in toEmailIds)
+            if (toEmailIds != null && toEmailIds.Length > 0)
             {
-                mailMessage.To.Add(new MailAddress(email));
+                foreach (string email in toEmailIds)
+                {
+                    if (!string.IsNullOrWhiteSpace(email))
+                    {
+                        mailMessage.To.Add(new MailAddress(email)); 
+                    }
+                } 
             }
 
             string[] ccEmailIds = ccEmails.Split(CommonConstants.Characters.Comma);
 
-            foreach (string email in ccEmailIds)
+            if (ccEmailIds != null && ccEmailIds.Length > 0)
             {
-                mailMessage.CC.Add(new MailAddress(email));
+                foreach (string email in ccEmailIds)
+                {
+                    if (!string.IsNullOrWhiteSpace(email))
+                    {
+                        mailMessage.CC.Add(new MailAddress(email));
+                    }
+                }
             }
 
             string[] bccEmailIds = bccEmails.Split(CommonConstants.Characters.Comma);
 
-            foreach (string email in bccEmailIds)
+            if (bccEmailIds != null && bccEmailIds.Length > 0)
             {
-                mailMessage.Bcc.Add(new MailAddress(email));
+                foreach (string email in bccEmailIds)
+                {
+                    if (!string.IsNullOrWhiteSpace(email))
+                    {
+                        mailMessage.Bcc.Add(new MailAddress(email));
+                    }
+                }
             }
 
             MainUtil.SendMail(mailMessage);

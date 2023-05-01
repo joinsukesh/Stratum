@@ -11,13 +11,25 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230426T151901Z
+    - ID: "2c59c452-9580-4588-aa12-f9f4857e819d"
+      Hint: Subject
+      Value: Complete your Sign Up
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b3d15951-1ac4-473b-ab89-f18dc2195e7d"
+      Value: "3cc0ed4b-6f52-4976-b6e4-81d467c09631"
+    - ID: "aafe9007-6ccd-49fd-bf8c-66c1195f5932"
+      Hint: Body
+      Value: |
+        <p>Hello $$NAME$$,</p>
+        <br />
+        <p>Click <a rel="noopener noreferrer" target="_blank" href="$$LINK$$">here</a> to complete your Sign Up.</p>
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
+    - ID: "d64940e1-7838-42a4-a0aa-bff3a5860ba2"
+      Hint: From Email
+      Value: support@stratum.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T151901Z
+      Value: 20230501T155019Z

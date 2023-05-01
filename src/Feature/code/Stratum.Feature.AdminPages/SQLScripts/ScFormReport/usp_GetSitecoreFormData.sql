@@ -1,11 +1,15 @@
-﻿SET ANSI_NULLS ON
+﻿/*
+- Script to create a stored procedure to get sitecore form data
+- To be executed in the ExperienceForms database 
+*/
+SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 -- =============================================
 -- Description:	Get sitecore form data for a form by formid & date range
 -- =============================================
---exec usp_GetSitecoreFormData '287DE272-D2DA-4986-AE70-ECFF1E0AC5D6', '2023-01-26 00:00:00.000', '2023-01-26 00:00:00.000'
+--exec usp_GetSitecoreFormData '60EE0499-1D2C-4962-A63A-4626362D81B1', '2023-05-01 00:00:00.000', '2023-05-01 23:59:59.000'
 CREATE PROCEDURE [dbo].[usp_GetSitecoreFormData] 
 	@FormId uniqueidentifier,
 	@StartDate datetime,
@@ -14,9 +18,6 @@ AS
 BEGIN
 	
 	SET NOCOUNT ON;
-
-	--Add 1 day to the end date
-	SELECT @EndDate = DATEADD(DD, 1, @EndDate)
 
 	DECLARE @cols AS nvarchar(MAX),
     @query  AS nvarchar(MAX)

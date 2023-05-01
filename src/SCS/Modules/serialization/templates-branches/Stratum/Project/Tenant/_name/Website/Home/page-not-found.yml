@@ -1,0 +1,23 @@
+﻿---
+ID: "a997a731-4475-4d9e-8b2d-acd22af7a0eb"
+Parent: "79c920dd-2a8d-4fac-8024-c0bc9afbd493"
+Template: "31626f68-106a-4be4-9004-c3476d6289ec"
+Path: "/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/page-not-found"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T171508Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d41c817d-ed8f-4266-897c-64eb81c71019"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T171508Z

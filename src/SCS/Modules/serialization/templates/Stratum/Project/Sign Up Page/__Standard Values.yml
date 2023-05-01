@@ -1,0 +1,63 @@
+﻿---
+ID: "0dce12fb-777d-470c-8003-3ed7a039feb4"
+Parent: "8c3517d1-46ed-45c4-9834-b34359f9b7da"
+Template: "8c3517d1-46ed-45c4-9834-b34359f9b7da"
+Path: /sitecore/templates/Stratum/Project/Sign Up Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{18C4558A-415B-49D3-AC32-859D927304DD}">
+        <r
+          ds="{50500BC7-120F-4F12-A9B7-F5D4939DCE4B}"
+          id="{5D758EBF-0B92-43CD-93FB-19D673798133}"
+          par=""
+          ph="header"
+          uid="{AF89F04A-8D3D-4866-8522-87095CBBE7C6}"
+          ccb="Clear on publish" />
+        <r
+          ds=""
+          id="{747F2E67-4630-46CC-BB71-DBB10DBEF5FE}"
+          par="Title=%3Ch2%3ESign%20Up%3C%2Fh2%3E&amp;Description&amp;Confirm Sign Up Page=%3Clink%20text%3D%22%22%20anchor%3D%22%22%20linktype%3D%22internal%22%20class%3D%22%22%20title%3D%22%22%20target%3D%22%22%20querystring%3D%22%22%20id%3D%22%7B79D86E1E-66AE-402E-91F7-DAA67C9D7AE5%7D%22%20%2F%3E&amp;Section Id&amp;Section CSS Class&amp;Add Default Background Color&amp;Background Color"
+          ph="main"
+          uid="{16B9AE08-7B10-4911-A93A-D96455CD7CA2}"
+          ccb="Clear on publish" />
+        <r
+          ds="{B6E37804-C9FE-4097-B758-953029B5FEF9}"
+          id="{12FF587F-B5E0-40CE-BA31-B38B6A9769B9}"
+          par=""
+          ph="footer"
+          uid="{A3EFE9C5-ACB8-46E9-BE35-3660793539F2}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T142928Z
+    - ID: "2f1c4393-cbd5-436e-acf8-92252834868d"
+      Hint: Page Scripts Body
+      Value: /assets/stratum/js/accounts.js
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfd5ffe7-66db-4bb5-b047-d1c0183d14b5"
+    - ID: "a201b976-5dee-4787-a901-c6638bf7e958"
+      Hint: Meta Title
+      Value: Sign Up
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T144224Z

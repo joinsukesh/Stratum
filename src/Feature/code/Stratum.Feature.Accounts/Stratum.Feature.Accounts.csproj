@@ -91,11 +91,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\stratum\js\accounts.js" />
-    <Content Include="Views\Stratum\Accounts\SignUp.cshtml" />
-    <Content Include="Views\Stratum\Accounts\ConfirmSignUp.cshtml" />
-    <Content Include="Views\Stratum\Accounts\SignIn.cshtml" />
-    <Content Include="Views\Stratum\Accounts\ForgotPassword.cshtml" />
-    <Content Include="Views\Stratum\Accounts\ResetPassword.cshtml" />
+    <Content Include="Views\_Stratum\Accounts\SignUp.cshtml" />
+    <Content Include="Views\_Stratum\Accounts\ConfirmSignUp.cshtml" />
+    <Content Include="Views\_Stratum\Accounts\SignIn.cshtml" />
+    <Content Include="Views\_Stratum\Accounts\ForgotPassword.cshtml" />
+    <Content Include="Views\_Stratum\Accounts\ResetPassword.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

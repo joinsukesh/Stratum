@@ -22,7 +22,6 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
     {
         private AccountsService accountsService = new AccountsService();
         private string SitecoreFormsFolderId = "{B701850A-CB8A-4943-B2BC-DDDB1238C103}";
-        //private static int rowsPerPage = 10;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -133,6 +132,8 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
                 Guid gFormId = new Guid(formId);
                 DateTime dtFrom = System.Convert.ToDateTime(fromDate);
                 DateTime dtTo = System.Convert.ToDateTime(toDate);
+                ///The user input has only date and not time selection. So, modifying the end date for the correct range.
+                dtTo = (dtTo.AddDays(1)).AddSeconds(-1);
                 dt = new ScFormReportDb().GetFormData(gFormId, dtFrom, dtTo);
             }
 

@@ -88,7 +88,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Stratum\Metadata\Metadata.cshtml" />
+    <Content Include="Views\_Stratum\Metadata\Metadata.cshtml" />
     <None Include="Views\web.config" />
     <None Include="Web.config" />
   </ItemGroup>

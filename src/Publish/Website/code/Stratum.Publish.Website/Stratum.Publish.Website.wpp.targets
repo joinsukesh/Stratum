@@ -36,6 +36,7 @@
   
     <!--The following code can be uncommented after the first deployment. We do not need these files in every publish-->
     <!--<ExcludeFromPackageFiles Include="bin\ClosedXML.dll;
+                                      bin\FastMember.dll;
                                       favicon.ico;
                                       Global.asax;
                                       " />-->

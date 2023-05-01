@@ -8,7 +8,7 @@ Languages:
   Fields:
   - ID: "2ba3454a-9a9c-4cdf-a9f8-107fd484eb6e"
     Hint: Phrase
-    Value: Your registration was successful
+    Value: We have emailed you the link to complete your registration.
   Versions:
   - Version: 1
     Fields:
@@ -25,11 +25,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d23213f9-958f-4be0-9094-d41ad4f3042b"
+      Value: "4b622508-2e32-4c8a-b96b-1fdfa9ca523d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230430T061025Z
+      Value: 20230501T165726Z

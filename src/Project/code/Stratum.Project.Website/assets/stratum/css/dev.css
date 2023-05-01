@@ -42,6 +42,15 @@
     margin-bottom: 20px !important;
 }
 
+.contact .php-email-form button[type=button] {
+    background: #1bac91;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
 /*#region DATATABLE */
 .dataTable {
     border-top: 1px solid lightgrey;
@@ -52,5 +61,11 @@
 #tblFormData_wrapper {
     overflow-x: scroll;
     font-size: 12px;
+}
+/*#endregion */
+
+/*#region MARGINS*/
+.mt-20 {
+    margin-top: 20px;
 }
 /*#endregion */

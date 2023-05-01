@@ -1,6 +1,6 @@
 ﻿---
 ID: "4d9c5f8f-b190-40ff-a994-87155629db6f"
-Parent: "c9989ec7-2b81-44e8-b6f9-bd5a6648c56d"
+Parent: "85bb8858-33b7-46b4-9418-544281483130"
 Template: "daf085e8-602e-43a6-8299-038ff171349f"
 Path: "/sitecore/media library/Stratum/Project/Products/portfolio-details-2"
 SharedFields:
@@ -47,11 +47,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d9ffa4b4-f2eb-4d65-b631-6f405d04ea56"
+      Value: "29d5c73f-a58d-43fd-ac69-904d0712a8df"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230430T120925Z
+      Value: 20230501T104808Z

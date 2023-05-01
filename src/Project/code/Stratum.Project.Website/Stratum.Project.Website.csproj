@@ -119,7 +119,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="static\errors\500.html" />
-    <Content Include="Views\Stratum\Layouts\Default.cshtml" />
+    <Content Include="Views\_Stratum\Layouts\Default.cshtml" />
     <Content Include="App_Config\Include\zzz.Stratum\Project\Stratum.SiteDefinition.Classic.config" />
     <Content Include="App_Config\Include\zzz.Stratum\Project\Stratum.Project.Website.config" />
     <Content Include="assets\stratum\js\vendor\bootstrap.bundle.min.js.map" />

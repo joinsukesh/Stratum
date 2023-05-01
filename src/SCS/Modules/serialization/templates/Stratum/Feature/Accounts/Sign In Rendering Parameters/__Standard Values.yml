@@ -8,6 +8,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "1c7c9b1d-5811-4ad0-866f-3373a0649b7e"
+      Hint: Forgot Password Page
+      Value: "{48A4DFB2-4AE9-4583-812E-ADFBFC127944}"
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230426T093018Z
@@ -24,11 +27,11 @@ Languages:
       Value: Forgot Password
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "af173d04-8a03-4ab7-b75b-75e03e286083"
+      Value: "23cf2d80-dfbe-41d8-9b3e-0d5ff5670aad"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T153712Z
+      Value: 20230501T152253Z

@@ -9,7 +9,7 @@ SharedFields:
   Value: Apps/32x32/Holiday relevance.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: "{B0E484CE-A4DA-4A68-B9D8-AAF6ADC7EF9D}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{6489075B-B906-4F5B-92D0-6746A99ED67C}"
@@ -31,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6f99aa9b-854c-4c0b-87be-8be0cdbab358"
+      Value: "db1438bc-4ef4-483a-954d-799fac50b7d4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T121910Z
+      Value: 20230501T124336Z

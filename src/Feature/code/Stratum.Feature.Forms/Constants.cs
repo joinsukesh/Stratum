@@ -2,7 +2,7 @@
 {
     public class Constants
     {
-        public static string ViewsFolderPath = "~/Views/Stratum/Forms/";
+        public static string ViewsFolderPath = "~/Views/_Stratum/Forms/";
 
         public struct Forms
         {

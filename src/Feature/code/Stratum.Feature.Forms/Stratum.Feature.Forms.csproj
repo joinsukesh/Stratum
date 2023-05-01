@@ -95,7 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Stratum\Forms\ContactUsForm.cshtml" />
+    <Content Include="Views\_Stratum\Forms\ContactUsForm.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

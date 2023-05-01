@@ -1,0 +1,46 @@
+﻿---
+ID: "3160a844-10e5-44ef-87cc-6eb1fa24527a"
+Parent: "7c610233-d958-41aa-931f-34806d2e0c4e"
+Template: "73d13705-ee8b-4c57-a6e6-e44a658ecf4e"
+Path: /sitecore/content/Tenant/Stratum/Home/Products/Fluff
+SharedFields:
+- ID: "9a5ca56b-a6d9-410e-b38f-bf5064e3c7b1"
+  Hint: Image
+  Value: |
+    <image mediaid="{4D9C5F8F-B190-40FF-A994-87155629DB6F}" alt="product" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "127ccb6a-3af8-4965-b27f-de7a552a09c2"
+      Hint: Description
+      Value: <p>Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T101851Z
+    - ID: "2b72b092-1ed1-4391-87ae-f450bbfbf91f"
+      Hint: Category
+      Value: Candy
+    - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
+      Hint: Title
+      Value: fluff
+    - ID: "6da5c444-c4f6-404e-90df-9d4f723afa6f"
+      Hint: Price
+      Value: 20
+    - ID: "73c614fa-7821-4d3c-92e4-fbc53d9e8840"
+      Hint: Tags
+      Value: "{7FCE9E64-A097-403E-A02D-B580A96CD6A8}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4e0c179-971e-4495-b961-6107aa85c252"
+    - ID: "a201b976-5dee-4787-a901-c6638bf7e958"
+      Hint: Meta Title
+      Value: Fluff
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T105628Z

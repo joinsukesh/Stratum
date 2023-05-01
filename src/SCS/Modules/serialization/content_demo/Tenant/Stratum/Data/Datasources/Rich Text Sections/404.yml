@@ -1,0 +1,40 @@
+﻿---
+ID: "e25b6ad2-f2a2-426a-a3c8-0bf21dfb8df2"
+Parent: "385df53f-46e4-4e8d-a9e6-83450db9391c"
+Template: "dc23f10f-8f25-427e-bb89-686188bfc7b4"
+Path: /sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections/404
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T171620Z
+    - ID: "781afc43-7adb-4ae6-bba7-6710f0fe9b2b"
+      Hint: Content
+      Value: |
+        <div class="error-header"> </div>
+            <div class="container ">
+                <section class="error-container text-center">
+                    <h1>404</h1>
+                    <div class="error-divider">
+                        <h2>ooops!!</h2>
+                        <p class="description">PAGE NOT FOUND</p>
+                        <p>
+                            The page you are looking for is not available.
+                        </p>
+                    </div>
+                    <a href="/" class="return-btn"><i class="fa fa-home"></i>&nbsp;Home</a>
+                </section>
+            </div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "312a0781-7848-4d20-8659-42d62078d28a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T171720Z

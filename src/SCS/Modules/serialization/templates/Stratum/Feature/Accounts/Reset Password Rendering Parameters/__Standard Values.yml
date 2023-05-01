@@ -21,11 +21,14 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c69625f2-1240-4f99-9501-eb612444ef31"
+      Value: "5e3d2f01-fc13-42ad-ac06-630653c0be07"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
+    - ID: "c4196cd7-6926-46b0-90ea-eadb9199c6db"
+      Hint: Sign In Page
+      Value: "{9EF23853-63CF-4478-B64D-3E488561A3D4}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T153900Z
+      Value: 20230501T152328Z

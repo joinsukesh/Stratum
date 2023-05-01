@@ -11,13 +11,63 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230426T111545Z
+    - ID: "3649a55c-216b-46f7-96b4-df7bb7e80e7a"
+      Hint: Column 3 Title
+      Value: Our Services
+    - ID: "5ea73baa-3615-441f-a306-a275aab6d4d9"
+      Hint: Address
+      Value: |
+        <h3>Stratum</h3>
+                      <p>
+                        A108 Adam Street <br />
+                        NY 535022, USA<br /><br />
+                        <strong>Phone:</strong> +1 5589 55488 55<br />
+                        <strong>Email:</strong> info@example.com<br />
+                      </p>
+    - ID: "786ffb2e-2ba1-4c2c-a2b2-8d9b329b072d"
+      Hint: Column 3 Links
+      Value: |
+        {D50B0CBB-85D4-4E51-BD14-C6ECC568356F}
+        {40724FFB-5806-4642-A15B-EC3E955602C5}
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9fd1dc91-b5c2-457c-b97e-d11cc15ba36e"
+      Value: "4b4c26da-f31a-4d4e-988e-5e36d33b0895"
+    - ID: "a9dbf7b3-cea0-4477-8160-789c862bde18"
+      Hint: Copyright Section
+      Value: |
+        <div class="container">
+              <div class="copyright">
+                &copy; Copyright <strong><span>Stratum</span></strong>. All Rights Reserved
+              </div>
+              <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
+    - ID: "d96398ad-9397-47ed-9804-8c58cf433816"
+      Hint: Social Links
+      Value: |
+        {FF9714DB-7BF6-4F74-9F6E-D0005992B0A3}
+        {15F37EF0-E377-4E57-9519-D9FD03B1AE78}
+        {848E87BB-F60D-4205-910D-5C2D97D45907}
+        {72AF5D33-5632-4C3E-9313-98B81646882E}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T111545Z
+      Value: 20230501T032702Z
+    - ID: "e8f0c75f-be0c-4be7-a41e-922f3687de28"
+      Hint: Column 2 Links
+      Value: |
+        {6E19CB74-C85F-4A95-BA37-B2C585E9EC29}
+        {4630B8FB-AA33-4B09-A40D-1D0EE89711C0}
+        {7843BE8A-38B5-4800-AA98-1E885185275D}
+        {E48D77CF-B8D5-4783-BAB8-DE0E38D28A73}
+    - ID: "f0f95987-80fd-4fed-a5d5-22d8ffd807c8"
+      Hint: Column 2 Title
+      Value: Useful Links

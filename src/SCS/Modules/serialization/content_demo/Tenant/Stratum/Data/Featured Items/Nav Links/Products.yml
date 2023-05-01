@@ -1,0 +1,27 @@
+﻿---
+ID: "40724ffb-5806-4642-a15b-ec3e955602c5"
+Parent: "21329dda-b575-44ea-a6a8-b172b6e9c738"
+Template: "fc1f3408-3f6f-4795-ac99-a7cbbb9b5cc4"
+Path: /sitecore/content/Tenant/Stratum/Data/Featured Items/Nav Links/Products
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T030254Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "681072b4-64a3-4222-8cc9-2cdd4c05315e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T030317Z
+    - ID: "dd560f16-63ac-4b38-82a0-546367df27b9"
+      Hint: Link
+      Value: |
+        <link text="Products" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{7C610233-D958-41AA-931F-34806D2E0C4E}" />

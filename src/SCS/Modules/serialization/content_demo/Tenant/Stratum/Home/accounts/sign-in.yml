@@ -1,8 +1,21 @@
 ﻿---
 ID: "9ef23853-63cf-4478-b64d-3e488561a3d4"
 Parent: "2b282896-3269-4105-b75c-0d43c06eae3d"
-Template: "b2fe435b-eb77-4a1c-9725-f14739677114"
+Template: "873b2d15-5dbe-4129-afb6-a37cf3eba042"
 Path: "/sitecore/content/Tenant/Stratum/Home/accounts/sign-in"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B5DC8902-A589-4044-9F0D-9D2FA8E39BEC}"
+          s:par="Title=%3Ch2%3ESign%20In%3C%2Fh2%3E&amp;Description&amp;Forgot Password Page=%7B48A4DFB2-4AE9-4583-812E-ADFBFC127944%7D&amp;Section Id&amp;Section CSS Class&amp;Add Default Background Color&amp;Forgot Password Label=Forgot%20Password&amp;Background Color" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -13,11 +26,11 @@ Languages:
       Value: 20230427T113950Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "49559762-7044-4538-ae2b-6a00869e2a91"
+      Value: "2f324cd4-bbff-4441-b702-78f695d29d71"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T113950Z
+      Value: 20230501T152812Z

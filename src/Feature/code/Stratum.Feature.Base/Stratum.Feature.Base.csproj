@@ -89,9 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="download\default.aspx" />
-    <Content Include="Views\Stratum\Base\CommonError.cshtml" />
-    <Content Include="Views\Stratum\Base\_Pagination.cshtml" />
-    <Content Include="Views\Stratum\Base\_WaitImage.cshtml" />
+    <Content Include="Views\_Stratum\Base\CommonError.cshtml" />
+    <Content Include="Views\_Stratum\Base\_Pagination.cshtml" />
+    <Content Include="Views\_Stratum\Base\_WaitImage.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

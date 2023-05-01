@@ -1,0 +1,23 @@
+﻿---
+ID: "79d86e1e-66ae-402e-91f7-daa67c9d7ae5"
+Parent: "2b282896-3269-4105-b75c-0d43c06eae3d"
+Template: "401196c4-e7bb-4951-b0a9-a74ae31e33e6"
+Path: "/sitecore/content/Tenant/Stratum/Home/accounts/confirm-sign-up"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T144111Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d61abd5-4008-4c16-9f93-ae5700f4fefb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T152856Z

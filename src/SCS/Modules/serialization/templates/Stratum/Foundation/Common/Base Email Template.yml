@@ -9,7 +9,7 @@ SharedFields:
   Value: Apps/32x32/Market.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: "{B0E484CE-A4DA-4A68-B9D8-AAF6ADC7EF9D}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
   Value: "{6B19370F-6741-4E3A-AC91-C0E2B387BD5F}"
@@ -31,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3e6363aa-f068-4084-b693-5b6fb9226859"
+      Value: "031cdae3-c5be-4fa5-b185-d9bd952740d8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230426T151953Z
+      Value: 20230501T155019Z

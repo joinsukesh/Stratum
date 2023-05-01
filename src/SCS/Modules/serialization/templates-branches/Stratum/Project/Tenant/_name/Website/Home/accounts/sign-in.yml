@@ -1,0 +1,23 @@
+﻿---
+ID: "9ccde9cd-7dcd-4c19-8044-ca7f0419ff18"
+Parent: "b15521ab-a1e3-4bb7-9e7a-f00aaf318770"
+Template: "873b2d15-5dbe-4129-afb6-a37cf3eba042"
+Path: "/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/sign-in"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T145829Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b01cca9-0e16-4ba3-92c3-ea74acce19b7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T145829Z

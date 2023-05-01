@@ -2,7 +2,7 @@
 {
     public class Constants
     {
-        public static string ViewsFolderPath = "~/Views/Stratum/Accounts/";
+        public static string ViewsFolderPath = "~/Views/_Stratum/Accounts/";
         public static string ProductsParentItemId = "{7C610233-D958-41AA-931F-34806D2E0C4E}";
 
         public struct EmailTemplates

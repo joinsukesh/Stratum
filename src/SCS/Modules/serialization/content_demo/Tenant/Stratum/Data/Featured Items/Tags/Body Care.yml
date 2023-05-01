@@ -1,0 +1,26 @@
+﻿---
+ID: "b88cfaca-fb9e-4b85-bfaa-36406859c2e4"
+Parent: "7cbd7263-b211-42d2-9fc7-63b47d98fdad"
+Template: "e3624552-5ed9-42e4-9bf6-552ee27cf833"
+Path: /sitecore/content/Tenant/Stratum/Data/Featured Items/Tags/Body Care
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24b97149-7ab0-4d92-9c79-68733547d8d8"
+      Hint: Tag Name
+      Value: Body Care
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T104016Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9444c818-5e18-49c1-807f-091af4318ffa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T124337Z

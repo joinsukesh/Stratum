@@ -1,0 +1,23 @@
+﻿---
+ID: "39b58ec2-15ae-475d-ab23-746e87623f0b"
+Parent: "b15521ab-a1e3-4bb7-9e7a-f00aaf318770"
+Template: "401196c4-e7bb-4951-b0a9-a74ae31e33e6"
+Path: "/sitecore/templates/Branches/Stratum/Project/Tenant/$name/Website/Home/accounts/confirm-sign-up"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T145748Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "31a1a023-c8cd-4c2f-9a68-94a240f84524"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T145748Z

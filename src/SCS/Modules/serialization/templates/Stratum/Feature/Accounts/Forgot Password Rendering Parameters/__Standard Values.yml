@@ -11,13 +11,16 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230430T052101Z
+    - ID: "76575f7c-014d-480b-b9b4-61679c940441"
+      Hint: Reset Password Page
+      Value: "{4DFEE081-39EA-4775-8D5C-FEF368FC7BF8}"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5d626f86-00a7-4263-a901-58d7eaf0fff7"
+      Value: "2b389b6a-7e02-4bf3-b81c-d4fb30b29ecb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230430T052101Z
+      Value: 20230501T152401Z

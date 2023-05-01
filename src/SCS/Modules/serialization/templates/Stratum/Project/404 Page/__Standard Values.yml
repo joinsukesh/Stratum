@@ -1,0 +1,131 @@
+﻿---
+ID: "7b080895-4f42-47fe-ac0f-938c354aea56"
+Parent: "31626f68-106a-4be4-9004-c3476d6289ec"
+Template: "31626f68-106a-4be4-9004-c3476d6289ec"
+Path: /sitecore/templates/Stratum/Project/404 Page/__Standard Values
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{18C4558A-415B-49D3-AC32-859D927304DD}">
+        <r
+          ds="{50500BC7-120F-4F12-A9B7-F5D4939DCE4B}"
+          id="{5D758EBF-0B92-43CD-93FB-19D673798133}"
+          par=""
+          ph="header"
+          uid="{AF89F04A-8D3D-4866-8522-87095CBBE7C6}"
+          ccb="Clear on publish" />
+        <r
+          ds="{E25B6AD2-F2A2-426A-A3C8-0BF21DFB8DF2}"
+          id="{D04169C9-C420-47AC-97EE-D329509DFD1B}"
+          par=""
+          ph="main"
+          uid="{8BFF27D0-50BE-4496-A5C5-DF18258D81DE}"
+          ccb="Clear on publish" />
+        <r
+          ds="{B6E37804-C9FE-4097-B758-953029B5FEF9}"
+          id="{12FF587F-B5E0-40CE-BA31-B38B6A9769B9}"
+          par=""
+          ph="footer"
+          uid="{A3EFE9C5-ACB8-46E9-BE35-3660793539F2}"
+          ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230501T171031Z
+    - ID: "51fe4ec8-6b9f-4cd7-8889-01b3ff645d53"
+      Hint: Page Style Snippets Head
+      Value: |
+         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <style>
+                body {
+                    background-color: #39bbdb;
+                    color: #fff;
+                    padding-bottom: 0;
+                    min-height: 100%;
+                    font-family: 'Open Sans','Segoe UI';
+                    font-size: 13px;
+                }
+        
+                .error-header {            
+                    height: 70px;
+                }
+        
+                .error-container {
+                    background: rgba(0,0,0,.05);
+                    text-align: center;
+                }
+        
+                    .error-container h1 {
+                        color: #fff;
+                    }
+        
+                    .error-container h1 {
+                        font-size: 110px;
+                        font-weight: 600;
+                        margin: -103px 0 0 0;
+                        text-align: center;
+                    }
+        
+                .error-divider {
+                    margin-top: -27px;
+                    padding: 30px 0;
+                }
+        
+                .error-container h2 {
+                    font-size: 58px;
+                    font-weight: 300;
+                    margin: 0;
+                    text-transform: uppercase;
+                }
+        
+                .error-container p.description {
+                    color: #e5e5e5;
+                    font-size: 40px;
+                    margin: 0;
+                }
+        
+                .return-btn, .return-btn:hover {
+                    border: 1px solid rgba(255,255,255,.3);
+                    padding: 10px 15px;
+                    margin-top: 100px;
+                    margin-bottom: 30px;
+                    display: inline-block;
+                    -webkit-border-radius: 5px;
+                    -webkit-background-clip: padding-box;
+                    -moz-border-radius: 5px;
+                    -moz-background-clip: padding;
+                    border-radius: 5px;
+                    background-clip: padding-box;
+                    color: #fff;
+                    font-size: 16px;
+                    font-weight: 300;
+                    text-decoration: none;
+                }
+        
+                a:hover {
+                    text-decoration: none;
+                }
+            </style>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "424da5ee-750f-4b12-bc61-eb0537a3ed6e"
+    - ID: "a201b976-5dee-4787-a901-c6638bf7e958"
+      Hint: Meta Title
+      Value: Page Not Found
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230501T172118Z
