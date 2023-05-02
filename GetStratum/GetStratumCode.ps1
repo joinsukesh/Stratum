@@ -14,7 +14,7 @@ Function ProcessComplete{
 
 Function CopyFilesFromInstance{
     if(-not($global:instanceDir -notmatch "\S")){
-        Write-Host "Copying files from your instance to the Solution's Lib folder..."
+        Write-Host " Copying files from your instance to the Solution's Lib folder..." -ForegroundColor Cyan
         $instanceBinDir = $global:instanceDir + "\bin\" 
 
         if(Test-Path -Path $instanceBinDir){        
@@ -144,9 +144,10 @@ if($global:newSolutionName -ne $global:searchString){
         }
 
         Get-ChildItem -Path $global:srcDir -Recurse | ForEach-Object {
-        if(($_.Name -like (-join($global:searchString,"*"))) -or ($_.Name -like (-join("*",".", $global:searchString)))){
-          $newName = $_.Name -ireplace [regex]::Escape($global:searchString), $global:newSolutionName
-          Rename-Item -Path $_.FullName -NewName $newName -ErrorAction Stop
+        if(($_.Name -like (-join($global:searchString,"*"))) -or ($_.Name -like (-join("*", $global:searchString))) -or 
+            ($_.Name -like (-join("*",".", $global:searchString)))){
+            $newName = $_.Name -ireplace [regex]::Escape($global:searchString), $global:newSolutionName
+            Rename-Item -Path $_.FullName -NewName $newName -ErrorAction Stop
           }
         }
     }
