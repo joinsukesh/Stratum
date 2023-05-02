@@ -22,4 +22,13 @@ The following sections explain its key features, and might help you streamline y
 1. Download the latest version of <a target="_blank" href="https://github.com/sukesh-y/Downloads/tree/main/Stratum">GetStratum.zip</a> file, and extract its contents.
 2. Open Windows PowerShell, and change the directory to the extracted folder. Execute the <b>GetStratumCode.ps1</b> script.
 
+![stratum_1](https://user-images.githubusercontent.com/24619393/235687985-2cb64452-60b5-4f9c-a560-9e312aa990e7.png)
+
+3. Enter the inputs
+
+![stratum_2](https://user-images.githubusercontent.com/24619393/235688155-65c27536-cc23-41f6-85d7-162e04a31cc6.png)
+
+4. 
+
+
 
