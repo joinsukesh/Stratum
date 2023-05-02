@@ -68,7 +68,7 @@ Function CopyFilesFromInstance{
             #Write-Host ("Copying " + $fileName + "...")
             Copy-Item -Path (-join($instanceBinDir,$fileName)) -Destination $solnLibDir -Force
 
-            $fileName = "Sitecore.Mvc..Analytics.dll"
+            $fileName = "Sitecore.Mvc.Analytics.dll"
             #Write-Host ("Copying " + $fileName + "...")
             Copy-Item -Path (-join($instanceBinDir,$fileName)) -Destination $solnLibDir -Force
 
