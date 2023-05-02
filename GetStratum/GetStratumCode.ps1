@@ -103,27 +103,59 @@ Function UpdateFileContent{
                 $extension = (Get-Item $fileFullName).Extension
             }
             
-            if($fileFullName.EndsWith('\Views\web.config') -or ($filename -eq "gallery.js")){
-                $replaceStringInContent = $true
-            }
-            else{
-                if($filename -eq "packages.config" -or $filename -eq "web.config" -or
-                $filename -eq "web.config.debug" -or $filename -eq "web.config.release" -or 
-                $extension -eq ".js" -or $extension -eq ".css" -or $extension -eq ".sql" -or 
-                $extension -eq ".json" -or $extension -eq ".js" -or $extension -eq ".map" -or 
-                $extension -eq ".gif" -or $extension -eq ".woff2" -or $extension -eq ".woff" -or 
-                $extension -eq ".ttf" -or $extension -eq ".asax" -or $extension -eq ".ico" -or 
-                (Test-Path -Path $fileFullName -PathType Container)){
-                        $replaceStringInContent = $false  
-                }  
-                else {
-                   $replaceStringInContent = $true
+            if(-not($fileFullName -like -join("*","\SCS\Modules","*"))){
+                if($fileFullName.EndsWith('\Views\web.config') -or ($filename -eq "gallery.js")){
+                    $replaceStringInContent = $true
+                }
+                else{
+                    if($filename -eq "packages.config" -or $filename -eq "web.config" -or
+                    $filename -eq "web.config.debug" -or $filename -eq "web.config.release" -or 
+                    $extension -eq ".js" -or $extension -eq ".css" -or $extension -eq ".sql" -or 
+                    $extension -eq ".json" -or $extension -eq ".js" -or $extension -eq ".map" -or 
+                    $extension -eq ".gif" -or $extension -eq ".woff2" -or $extension -eq ".woff" -or 
+                    $extension -eq ".ttf" -or $extension -eq ".asax" -or $extension -eq ".ico" -or 
+                    (Test-Path -Path $fileFullName -PathType Container)){
+                            $replaceStringInContent = $false  
+                    }  
+                    else {
+                    $replaceStringInContent = $true
+                    }
                 }
             }
 
             if($replaceStringInContent){
-                $newContent = (Get-Content $file.FullName) -replace $global:searchString, $global:newSolutionName
-                Set-Content -Path $fileFullName -Value $newContent -ErrorAction Stop
+                $newContent = (Get-Content $file.FullName)
+
+                if($newContent -like -join("*",$global:searchString,"*")){
+                    $newContent = $newContent -replace $global:searchString, $global:newSolutionName
+                    Set-Content -Path $fileFullName -Value $newContent -ErrorAction Stop
+                }
+            }
+        }           
+    }
+}
+
+# Replace $global:searchString in cli file content with $global:newSolutionName
+Function UpdateCliFileContent{
+    if($global:newSolutionName -ne $global:searchString){
+        Write-Host " Updating cli file content..." -ForegroundColor Cyan
+        
+        $cliDir = -join($global:srcDir,"\SCS\Modules")
+        $files = Get-ChildItem -Path $cliDir -recurse
+
+        foreach ($file in $files)   
+        {
+            $fileFullName = $file.FullName
+            $filename = $file.Name  
+            Write-Host $fileFullName
+
+            if((-not (Test-Path -Path $fileFullName -PathType Container))){
+                $newContent = (Get-Content $file.FullName)
+                    
+                if($newContent -like -join("*",$global:searchString,"*")){
+                    $newContent = $newContent -replace $global:searchString, $global:newSolutionName
+                    Set-Content -Path $fileFullName -Value $newContent -ErrorAction Stop
+                }
             }
         }           
     }
@@ -220,6 +252,7 @@ try{
     RemoveGitFiles    
     DeleteBinAndObjFolders    
     RenameFiles    
+    UpdateCliFileContent
     UpdateFileContent
     CopyFilesFromInstance
     ProcessComplete
