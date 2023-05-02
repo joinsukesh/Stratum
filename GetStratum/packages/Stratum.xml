@@ -38,7 +38,7 @@
       </Converter>
       <Include />
       <Exclude />
-      <Name>core</Name>
+      <Name>core-launchpad-btns</Name>
     </xitems>
     <xitems>
       <Entries>
@@ -706,6 +706,127 @@
       <Include />
       <Exclude />
       <Name>content</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/System/Layout/Renderings/Controller rendering/{2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Layout/Renderings/View rendering/{99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>templates-ctrl-view-renderings</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Menues/Publish/Publish Site/{F7178B75-9AA6-48EA-A70B-97D59C54B033}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-pubsite-ribbon</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Documents and settings/All users/Start menu/Left/Publish Site/{CFBD6AF3-FB0D-46A9-B2F0-85C2D78B4E57}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-pubsite-startmenu</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Settings/Key Map/Ctrl-F9/{AABEB5F1-5DAF-40E1-AD67-6EC3D4822635}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Merge</ItemMode>
+                  <ItemMergeMode>Append</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-pubsite-keymap</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/templates/System/Security/Stratum User/{39A2CC73-B748-4F86-A572-EE90E7407844}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-template-sys-customuser</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Settings/Security/Profiles/Stratum User/{985A8C5D-234E-42D5-997D-ABD6AD04A375}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core-sys-customuser-profile</Name>
     </xitems>
   </Sources>
   <Converter>

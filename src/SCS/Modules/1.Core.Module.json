@@ -5,7 +5,7 @@
     "includes": [
       {
 	    ///For disabling the publish site option for all users except admin,
-		///by denying read access to these roles - "sitecore\Sitecore Client Users" & "siecore\Sitecore Client Publishing" 
+		///by denying read access to these roles - "sitecore\Sitecore Client Users" & "sitecore\Sitecore Client Publishing" 
         "name": "core-ribbon-publishsite",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/content/Applications/Content Editor/Menues/Publish/Publish Site",
@@ -14,7 +14,7 @@
       },
 	  {
 	    ///For disabling the publish site option for all users except admin,
-		///by denying read access to these roles "sitecore\Sitecore Client Users" & "siecore\Sitecore Client Publishing" 
+		///by denying read access to these roles "sitecore\Sitecore Client Users" & "sitecore\Sitecore Client Publishing" 
         "name": "core-startmenu-publishsite",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/content/Documents and settings/All users/Start menu/Left/Publish Site",
@@ -23,7 +23,7 @@
       },
 	  {
 	    ///For disabling the publish site option for all users except admin,
-		///by denying read access to these roles - "sitecore\Sitecore Client Users" & "siecore\Sitecore Client Publishing" 
+		///by denying read access to these roles - "sitecore\Sitecore Client Users" & "sitecore\Sitecore Client Publishing" 
         "name": "core-keymap-publishsite",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/system/Settings/Key Map/Ctrl-F9",
