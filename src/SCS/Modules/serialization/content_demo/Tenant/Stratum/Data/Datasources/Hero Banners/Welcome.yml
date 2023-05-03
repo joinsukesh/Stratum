@@ -21,17 +21,17 @@ Languages:
       Value: 20230427T144622Z
     - ID: "56eacd06-8389-44db-a78b-d6b78fa11684"
       Hint: Title
-      Value: <h1>Welcome to Maxim</h1>
+      Value: <h1>Welcome to Stratum</h1>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1ed18e1-570d-4667-9396-050812d8bf0e"
+      Value: "d671638a-51b6-4c18-8d4b-1827253eaa72"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T144801Z
+      Value: 20230503T081538Z
     - ID: "ed3310f8-8e1d-4627-81b2-9e03685492f6"
       Hint: CTA
       Value: |
