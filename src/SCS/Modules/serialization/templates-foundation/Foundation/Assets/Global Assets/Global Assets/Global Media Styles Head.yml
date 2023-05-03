@@ -15,6 +15,10 @@ SharedFields:
   Value: 200
 Languages:
 - Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Choose CSS files from the Media Library
   Versions:
   - Version: 1
     Fields:
@@ -31,11 +35,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "abc5536b-55b0-4317-8c12-0550b0da7cdf"
+      Value: "70b13bfb-3d38-4ca1-9651-4ff0fcd69827"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T122117Z
+      Value: 20230503T120712Z

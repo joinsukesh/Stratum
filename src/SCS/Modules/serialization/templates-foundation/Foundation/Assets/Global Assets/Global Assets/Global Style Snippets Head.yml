@@ -12,6 +12,10 @@ SharedFields:
   Value: 600
 Languages:
 - Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Add style snippets including the <style> tags
   Versions:
   - Version: 1
     Fields:
@@ -28,11 +32,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2af96cbe-7f40-4cb5-a9a7-28b6d6880ad1"
+      Value: "69b9f4f3-66c1-4d14-b501-9cb8cb61a88d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T120705Z
+      Value: 20230503T120943Z

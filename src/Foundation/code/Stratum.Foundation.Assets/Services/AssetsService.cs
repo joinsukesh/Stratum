@@ -16,6 +16,10 @@
 
     public class AssetsService
     {
+        /// <summary>
+        /// Returns the Website item (/sitecore/content/tenant/website)
+        /// The Site assets will be specified in this node
+        /// </summary>
         private Item WebsiteItem
         {
             get
@@ -24,6 +28,9 @@
             }
         }
 
+        /// <summary>
+        /// Returns the current page item. The page assets will be specified here
+        /// </summary>
         private Item PageItem
         {
             get
@@ -32,6 +39,9 @@
             }
         }
 
+        /// <summary>
+        /// Returns all the rendering items assigned in the current page
+        /// </summary>
         private List<Item> PageRenderingItems
         {
             get
@@ -51,6 +61,41 @@
             }
         }
 
+        /// <summary>
+        /// Returns formatted HtmlString of all the asset references of a page. The references will be in this order.
+        /// IN HEAD SECTION
+        /// 1. Global Styles Head
+        /// 2. Page Styles Head
+        /// 3. Global Media Styles Head
+        /// 4. Page Media Styles Head
+        /// 5. Rendering Styles Head
+        /// 6. Rendering Media Styles Head
+        /// 7. Global Scripts Head
+        /// 8. Page Scripts Head
+        /// 9. Global Media Scripts Head
+        /// 10. Page Media Scripts Head
+        /// 11. Rendering Scripts Head
+        /// 12. Rendering Media Scripts Head
+        /// 13. Global Style Snippets Head
+        /// 14. Page Style Snippets Head
+        /// 15. Rendering Style Snippets Head
+        /// 16. Global Script Snippets Head
+        /// 17. Page Script Snippets Head
+        /// 18. Rendering Script Snippets Head
+        /// 
+        /// IN BODY SECTION
+        /// 1. Global Scripts Body
+        /// 2. Page Scripts Body
+        /// 3. Global Media Scripts Body
+        /// 4. Page Media Scripts Body
+        /// 5. Rendering Scripts Body
+        /// 6. Rendering Media Scripts Body
+        /// 7. Global Script Snippets Body
+        /// 8. Page Script Snippets Body
+        /// 9. Rendering Script Snippets Body
+        /// </summary>
+        /// <param name="assetPosition"></param>
+        /// <returns></returns>
         public MvcHtmlString GetAssets(AssetPosition assetPosition)
         {
             StringBuilder sbAssets = new StringBuilder(string.Empty);
