@@ -1,8 +1,8 @@
 ﻿---
-ID: "92f7867c-5309-4a86-887d-d4981ee4f522"
-Parent: "c625db2f-6db2-4645-b7f7-733abfc2cac6"
-Template: "5ee505ee-8c0c-4cbd-8815-c1b7b1f06516"
-Path: /sitecore/client/Applications/Launchpad/PageSettings/Buttons/Stratum
+ID: "4205c472-8caa-46ae-abcc-6b182a7147e3"
+Parent: "83340986-5b20-4945-bcd0-f8c797cbe8a3"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Stratum/Feature/PageContent/Columns Section Rendering Parameters/Rendering Parameters
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230425T112624Z
+      Value: 20230430T052539Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,14 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8cd9b7fc-b531-4228-b5db-5df949c8846f"
-    - ID: "9d42566f-ef44-4c3a-b6b5-94d9397bc24d"
-      Hint: Title
-      Value: Stratum
+      Value: "732c1d73-3d67-4740-9d06-47a55354366a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230503T050914Z
+      Value: 20230430T091648Z

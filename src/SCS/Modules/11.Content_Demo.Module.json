@@ -1,0 +1,15 @@
+{
+  "namespace": "Content_Demo",
+  "references": [ "Media","Templates","Layouts","Renderings","Templates_Project" ],
+  "items": {
+    "includes": [      
+      {
+        "name": "content_demo",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/content/Tenant",
+		    "scope": "ItemAndDescendants",
+        "alias": "content_demo"
+      }
+    ]
+  }
+}

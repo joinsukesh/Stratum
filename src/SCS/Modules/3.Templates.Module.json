@@ -3,36 +3,43 @@
   "references": [ "" ],
   "items": {
     "includes": [      
-	  {
-        "name": "templates",
+      {
+        "name": "templates-root",
         "allowedPushOperations": "CreateAndUpdate",
         "path": "/sitecore/templates/Stratum",
-		    "scope": "ItemAndDescendants",
-        "alias": "templates"
-      },      
-	  {
-        "name": "templates-branches",
-        "allowedPushOperations": "CreateAndUpdate",
-        "path": "/sitecore/templates/Branches/Stratum",
-		    "scope": "ItemAndDescendants",
-        "alias": "templates-br"
-      },
-	  {
-      ///Inherited 'Rendering Assets' template
-        "name": "templates-sys-ren-cr",
-        "allowedPushOperations": "CreateAndUpdate",
-        "path": "/sitecore/templates/System/Layout/Renderings/Controller rendering",
 		    "scope": "SingleItem",
-        "alias": "templates-srcr"
-      },
-	  {
-      ///Inherited 'Rendering Assets' template
-        "name": "templates-sys-ren-vr",
+        "alias": "templates-root"
+      },      
+	    {
+        "name": "templates-foundation",
         "allowedPushOperations": "CreateAndUpdate",
-        "path": "/sitecore/templates/System/Layout/Renderings/View rendering",
-		     "scope": "SingleItem",
-        "alias": "templates-srvr"
-      }
+        "path": "/sitecore/templates/Stratum/Foundation",
+		    "scope": "ItemAndDescendants",
+        "alias": "templates-foundation"
+      },
+      {
+        "name": "templates-feature",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/templates/Stratum/Feature",
+		    "scope": "ItemAndDescendants",
+        "alias": "templates-feature"
+      },
+      {
+        ///Inherited 'Rendering Assets' template
+          "name": "templates-sys-ren-cr",
+          "allowedPushOperations": "CreateAndUpdate",
+          "path": "/sitecore/templates/System/Layout/Renderings/Controller rendering",
+          "scope": "SingleItem",
+          "alias": "templates-srcr"
+        },
+      {
+        ///Inherited 'Rendering Assets' template
+          "name": "templates-sys-ren-vr",
+          "allowedPushOperations": "CreateAndUpdate",
+          "path": "/sitecore/templates/System/Layout/Renderings/View rendering",
+          "scope": "SingleItem",
+          "alias": "templates-srvr"
+        }
     ]
   }
 }

@@ -21,7 +21,7 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f77e373-1450-4fdd-961d-3ed7c25b660e"
+      Value: "99ea973c-41dc-4e3f-98a7-05ca1809abd0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -31,4 +31,4 @@ Languages:
       Value: 20050414T082428Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230425T113951Z
+      Value: 20230503T060915Z

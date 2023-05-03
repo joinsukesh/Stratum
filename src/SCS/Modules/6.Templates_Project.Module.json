@@ -1,0 +1,22 @@
+{
+  "namespace": "Templates_Project",
+  "references": [ "Templates","Layouts","Renderings" ],
+  "items": {
+    "includes": [      
+	    {
+        "name": "templates-project",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/templates/Stratum/Project",
+		    "scope": "ItemAndDescendants",
+        "alias": "templates-project"
+      },
+      {
+        "name": "templates-branches",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/templates/Branches/Stratum",
+        "scope": "ItemAndDescendants",
+        "alias": "templates-br"
+      }	  
+    ]
+  }
+}

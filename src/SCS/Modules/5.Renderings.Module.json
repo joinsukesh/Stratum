@@ -1,0 +1,15 @@
+{
+  "namespace": "Renderings",
+  "references": [ "Templates" ],
+  "items": {
+    "includes": [      
+	  {
+        "name": "renderings",
+        "allowedPushOperations": "CreateAndUpdate",
+        "path": "/sitecore/layout/Renderings/Stratum",
+		    "scope": "ItemAndDescendants",
+        "alias": "renderings"
+      }
+    ]
+  }
+}

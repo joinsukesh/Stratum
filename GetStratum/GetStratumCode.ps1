@@ -147,7 +147,6 @@ Function UpdateCliFileContent{
         {
             $fileFullName = $file.FullName
             $filename = $file.Name  
-            Write-Host $fileFullName
 
             if((-not (Test-Path -Path $fileFullName -PathType Container))){
                 $newContent = (Get-Content $file.FullName)
@@ -208,6 +207,9 @@ Function RemoveGitFiles{
     
     # Remove the 'GetStratum' folder
     Remove-Item (-join($solutionFolder, "\GetStratum")) -Recurse -Force  
+
+    # Remove the '.config' folder
+    Remove-Item (-join($solutionFolder, "\.config")) -Recurse -Force 
 }
 
 # Clone the git repo

@@ -1,8 +1,15 @@
 ﻿---
-ID: "92f7867c-5309-4a86-887d-d4981ee4f522"
-Parent: "c625db2f-6db2-4645-b7f7-733abfc2cac6"
-Template: "5ee505ee-8c0c-4cbd-8815-c1b7b1f06516"
-Path: /sitecore/client/Applications/Launchpad/PageSettings/Buttons/Stratum
+ID: "09328e33-7a55-44fe-98f0-24461c7a8ffa"
+Parent: "5c2289e5-1620-4c6f-b3a1-2ed00feae52b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Stratum/Foundation/Common/Base Rendering Parameters/Rendering Parameters/Add Default Background Color
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -10,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230425T112624Z
+      Value: 20230425T121131Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,14 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8cd9b7fc-b531-4228-b5db-5df949c8846f"
-    - ID: "9d42566f-ef44-4c3a-b6b5-94d9397bc24d"
-      Hint: Title
-      Value: Stratum
+      Value: "8d60f877-fce6-4f05-87af-f9851cc6cc01"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230503T050914Z
+      Value: 20230430T101004Z

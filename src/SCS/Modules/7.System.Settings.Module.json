@@ -1,0 +1,15 @@
+{
+  "namespace": "SystemSettings",
+  "references": [ "Templates" ],
+  "items": {
+    "includes": [      
+	  {
+        "name": "sys-settings",
+        "allowedPushOperations": "CreateOnly",
+        "path": "/sitecore/system/Settings/Stratum",
+		    "scope": "ItemAndDescendants",
+        "alias": "sys-settings"
+      }
+    ]
+  }
+}
