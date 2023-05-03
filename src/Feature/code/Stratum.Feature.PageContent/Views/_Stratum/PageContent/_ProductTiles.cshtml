@@ -1,4 +1,4 @@
-﻿@using Stratum.Feature.Base
+@using Stratum.Feature.Base
 @using Stratum.Feature.PageContent.Models.Product
 @using Sitecore.Mvc
 @using Stratum.Foundation.Common
@@ -7,6 +7,7 @@
 @{
     Layout = null;
     bool isExperienceEditor = SitecoreUtility.IsExperienceEditorMode();
+    string imgUrl = "";
 }
 
 @if (Model != null)
@@ -26,7 +27,11 @@
                 {
                     <div class="col-lg-4 col-md-6 portfolio-item">
                         <div class="card">
-                            <img src="@pd.ProductImageUrl" class="card-img-top" />
+                            @{
+                                imgUrl = pd.ProductImageUrl;
+                                imgUrl = imgUrl.StartsWith("/sitecore/shell/") ? imgUrl.Replace("/sitecore/shell/", "/"): imgUrl;
+                            }
+                            <img src="@imgUrl" class="card-img-top" />
 
                             <div class="card-body">
                                 <h5 class="card-title">
