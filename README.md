@@ -93,7 +93,7 @@ The search functionality in the demo site uses custom Solr indexes. Here is how 
 
 ![image](https://user-images.githubusercontent.com/24619393/235883375-504abe36-c9f0-400e-be62-6d55793e372e.png)
 
-- In the two custom index folders that you have just created, Keep just the <code>conf</code> folder and its contents. Delete everything else including the <i>data</i> folder and the <i>core.properties<i> file.
+- In the two custom index folders that you have just created, Keep just the <code>conf</code> folder and its contents. Delete everything else including the <i>data</i> folder and the <i>core.properties</i> file.
 
 <b>4. Create Solr Cores</b>
   - Open the Solr portal, select <i>Core Admin</i>, click on <i>Add Core</i>, and create the <i>master</i> core like this, with the same names you have used in the previous step:
