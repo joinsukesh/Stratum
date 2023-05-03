@@ -63,13 +63,20 @@ This will open the CMS in a browser. Select the checkboxes and click on <b>Yes, 
 ![stratum_8](https://user-images.githubusercontent.com/24619393/235855845-e7282b3c-fb58-409b-9ad5-65b5d25cc204.png)
 
 
-## Step 3: Configurations
-1. Take a backup of your instance's webroot folder. 
-2. Navigate to this item - <code>/sitecore/system/Settings/MyCompany/Project/Site URL</code>, and update the <i>Phrase</i> field value to your instance URL. In this example, it is <i>https://sample.local</i>
+## Step 3: Configurations to View Demo Page
+<b>1. Backup</b>
+
+Take a backup of your instance's webroot folder. 
+
+<b>2. Configure domain URL</b> 
+
+Navigate to this item - <code>/sitecore/system/Settings/MyCompany/Project/Site URL</code>, and update the <i>Phrase</i> field value to your instance URL. In this example, it is <i>https://sample.local</i>
 
 This value will be used as link prefixes for email content.
 
-3. In your VS solution, copy the SQL scripts from here - <code>MyCompany.Feature.AdminPages > SQLScripts > ScFormReport</code>. Execute them in your instance's <b>ExperienceForms</b> database, in the following order.
+<b>3. Execute Form Report Scripts</b>
+
+In your VS solution, copy the SQL scripts from here - <code>MyCompany.Feature.AdminPages > SQLScripts > ScFormReport</code>. Execute them in your instance's <code>ExperienceForms</code> database, in the following order.
 
 <i>uv_ScFormData.sql</i> - This is a view for the Sitecore Form's data.
 
@@ -77,8 +84,33 @@ This value will be used as link prefixes for email content.
 
 These will be used in an admin page to view Form data, which is explained later in this document.
 
-4. 
+<b>4. Create Custom Solr Indexes</b>
 
+The search functionality in the demo site uses custom Solr indexes. Here is how to create them:
+
+- Navigate to the Solr sub folder where your default Sitecore indexes exist. In my case it was - <i>D:\Solr\Solr-8.11.2\server\solr</i>.
+- Make two copies of <i>sample_master_index</i> folder and rename them as <i>MyCompany_products_master_index</i> & <i>MyCompany_products_web_index</i>. Because, these will be the names that are specified in the Solr configs here - <code>MyCompany.Feature.PageContent > App_Config > Include > zzz.MyCompany > Feature</code>
+
+![image](https://user-images.githubusercontent.com/24619393/235883375-504abe36-c9f0-400e-be62-6d55793e372e.png)
+
+- In the two custom index folders that you have just created, Keep just the <code>conf</code> folder and its contents. Delete everything else including the <i>data</i> folder and the <i>core.properties<i> file.
+
+<b>5. Create Solr Cores</b>
+  - Open the Solr portal, select <i>Core Admin</i>, click on <i>Add Core</i>, and create the <i>master</i> core like this, with the same names you have used in the previous step:
+  
+  ![stratum_9](https://user-images.githubusercontent.com/24619393/235885512-7f45c266-984c-420e-9e0a-ed36350a0f63.png)
+
+  - Similarly create the core for <i>web</i>.
+  - Restart Solr Windows service.
+  
+  <b>6. Rebuild Indexes</b>
+  - Restart IIS and open CMS.
+  - Navigate to <code>Launch Pad > Control Panel > Indexing > Populate Solr Managed Schema</code>.
+  - Populate the schema for <i>sitecore_master_index</i> & <i>MyCompany_products_master_index</i>. 
+  - Open <code>Indexing Manager</code>.
+  - Rebuild indexes for <i>sitecore_master_index</i> & <i>MyCompany_products_master_index</i>.
+
+  
 
 
 
