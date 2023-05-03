@@ -116,6 +116,22 @@ The search functionality in the demo site uses custom Solr indexes. Here is how 
 - Open <code>Indexing Manager</code>.
 - Rebuild indexes for <i>sitecore_master_index</i> & <i>MyCompany_products_master_index</i>.
   
+  
+<b>7. Configure Fake SMTP</b>
+- This is to quickly test the email functionality in the demo page used in features like <i>User Registration</i> & <i>Forgot Password</i>.
+- Browse https://ethereal.email and click on <i>Create Ethereal Account</i>
+
+![image](https://user-images.githubusercontent.com/24619393/235899437-15ff0c84-e3d6-4975-9156-e9a52bc5b86d.png)
+
+- This will generate account details. Copy the <i>Host</i>, <i>Port</i>, <i>Username</i> & <i>Password</i> information.
+
+![image](https://user-images.githubusercontent.com/24619393/235899745-905e5cf4-4d91-445f-91ab-bee379685239.png)
+
+- In your instance webroot, navigate to <code>\App_config\Include\zzz.MyCompany\Project\MyCompany.Project.Website.config</code> and update the values in the respective settings.
+
+![image](https://user-images.githubusercontent.com/24619393/235900380-c1c59e40-0f8e-4fb2-8787-5d160f48656e.png)
+
+
 Thats it!!. Now browse your instance URL to view the demo page.
   
   ![image](https://user-images.githubusercontent.com/24619393/235892899-c8a4c07f-4f9d-401e-845a-a8a8dafe30cf.png)
