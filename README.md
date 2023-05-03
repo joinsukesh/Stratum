@@ -25,12 +25,26 @@ The following sections explain its key features, and could help you streamline y
 
 3. Enter the inputs. I chose to name my solution <i>MyCompany</i>. I had an existing fresh Sitecore instance named <i>sample.local</i>.
 
-![stratum_2](https://user-images.githubusercontent.com/24619393/235688155-65c27536-cc23-41f6-85d7-162e04a31cc6.png)
+![stratum_2](https://user-images.githubusercontent.com/24619393/235832661-2fa106f4-e3e6-40f0-8cc9-48d689d1b2a5.png)
 
 4. This will create the Visual Studio solution in the specified target directory. Once that is done, open the solution in Visual Studio and build it.
 
 
 ## Deploy Sitecore Items
+1. For this, you need to have Sitecore CLI setup in your instance. If not yet done, refer this <a target="_blank" href="https://saltandsitecore.wordpress.com/2023/04/24/setup-sitecore-cli/">article</a> and follow <b>Steps 1 to 4</b>. Ignore the rest of the steps in that article, as they are not needed for now.
+2. Once that is done, open <i>Windows Command Prompt</i> with administrator privileges and change the directory to your VS solutions folder. In my case <i>D:\Projects\Internal\MyCompany</i>.
+3. Execute this command to login to the CMS:
+
+<code>dotnet sitecore login --authority https://sample.identityserver.local --cm https://sample.local --allow-write true</code>
+
+![stratum_3](https://user-images.githubusercontent.com/24619393/235833861-319c9e5f-40ca-42bc-b650-61ab1bf8b640.png)
+
+This will open the CMS in a browser. Select the checkboxes and click on <b>Yes, Allow</b>.
+
+![stratum_4](https://user-images.githubusercontent.com/24619393/235833924-159d13b8-7ed2-4bb3-8d0a-6ef6d7cfbfd1.png)
+
+![stratum_5](https://user-images.githubusercontent.com/24619393/235833834-eba08dd8-c00a-4c45-bbad-423861f9cbd6.png)
+
 
 
 
