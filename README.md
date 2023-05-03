@@ -9,7 +9,9 @@ But that's not all. This module also includes serialized items for a demo page t
 
 The code is on .NET Framework 4.8. I have tested this module with <i>Sitecore 10.3</i>, but it might work with other versions too.
 
-The following sections explain its key features, and could help you streamline your Sitecore development process. So, let's get started!
+These are some of features included - Helix publishing pipeline, basic Solr search, User account functionalities like registration, login, forgot password & reset password, Admin pages to view & download Sitecore Form data, Encrypt & Decrypt strings, Site & Page Metadata feature, option to add assets at Site, Page & Rendering levels, common page components like Header, Footer, Banner, Accordion, Gallery etc.
+
+This module could help you streamline your Sitecore development process. So, let's get started!
 
 ## Prerequisites
 1. Visual Studio 2019 or later
