@@ -15,8 +15,11 @@ The following sections explain its key features, and could help you streamline y
 1. Visual Studio 2019 or later
 2. A Sitecore instance (Optional if you don't want to view the demo page)
 
+### NOTE: 
+I have used <i>MyCompany</i> as the VS Solution name, my instance name is <i>sample.local</i> and its webroot folder is <i>D:\inetpub\wwwroot\sample.local</i>.
+If you have chosen different settings, ensure to replace them while following the instructions.
 
-## Setup Visual Studio Solution
+## Step 1: Setup Visual Studio Solution
 
 1. Download the latest version of <a target="_blank" href="https://github.com/sukesh-y/Downloads/tree/main/Stratum">GetStratum.zip</a> file, and extract its contents.
 2. Open <i>Windows PowerShell</i> with administrator privileges, and change the directory to the extracted folder. Execute the <b>GetStratumCode.ps1</b> script.
@@ -30,13 +33,13 @@ The following sections explain its key features, and could help you streamline y
 4. This will create the Visual Studio solution in the specified target directory. Once that is done, open the solution in Visual Studio and build it.
 
 
-## Deploy Sitecore Items
+## Step 2: Deploy Sitecore Items
 1. For this, you need to have Sitecore CLI setup in your instance. If not yet done, refer this <a target="_blank" href="https://saltandsitecore.wordpress.com/2023/04/24/setup-sitecore-cli/">article</a> and follow <b>Steps 1 to 4</b>. 
 
 If you have already installed <i>Sitecore Management Services</i> in your instance, then just refer <b>Steps 3 and 4</b> in that article. 
 (Ignore the rest of the steps, as they are not needed for now).
 
-2. Once that is done, open <i>Windows Command Prompt</i> with administrator privileges and change the directory to your VS solutions folder. In my case <i>D:\Projects\Internal\MyCompany</i>.
+2. Once that is done, open <i>Windows Command Prompt</i> with administrator privileges and change the directory to your VS solutions folder. 
 3. Execute this command to login to the CMS:
 
 <code>dotnet sitecore login --authority https://sample.identityserver.local --cm https://sample.local --allow-write true</code>
@@ -58,6 +61,25 @@ This will open the CMS in a browser. Select the checkboxes and click on <b>Yes, 
 ![stratum_7](https://user-images.githubusercontent.com/24619393/235855821-9619db18-f161-4f29-866c-335cdd2a0cff.png)
 
 ![stratum_8](https://user-images.githubusercontent.com/24619393/235855845-e7282b3c-fb58-409b-9ad5-65b5d25cc204.png)
+
+
+## Step 3: Configurations
+1. Take a backup of your instance's webroot folder. 
+2. Navigate to this item - <code>/sitecore/system/Settings/MyCompany/Project/Site URL</code>, and update the <i>Phrase</i> field value to your instance URL. In this example, it is <i>https://sample.local</i>
+
+This value will be used as link prefixes for email content.
+
+3. In your VS solution, copy the SQL scripts from here - <code>MyCompany.Feature.AdminPages > SQLScripts > ScFormReport</code>. Execute them in your instance's <b>ExperienceForms</b> database, in the following order.
+
+<i>uv_ScFormData.sql</i> - This is a view for the Sitecore Form's data.
+
+<i>usp_GetSitecoreFormData.sql</i> - This stored procedure is to fetch data of a Sitecore Form submitted by FormId and date range, from the view.
+
+These will be used in an admin page to view Form data, which is explained later in this document.
+
+4. 
+
+
 
 
 
