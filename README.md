@@ -7,28 +7,30 @@ Introducing <b>Stratum</b>, a boilerplate Visual Studio solution for your Siteco
 
 But that's not all. This module also includes serialized items for a demo page that showcases the code included in the solution. This could be a useful starting point for your own development, allowing you to focus on customizing and refining the code rather than building everything from scratch.
 
-I have tested this module with <i>Sitecore 10.3</i>, but it might work with other versions also.
+I have tested this module with <i>Sitecore 10.3</i>, but it might work with other versions too.
 
-The following sections explain its key features, and might help you streamline your Sitecore development process. So, let's get started!
+The following sections explain its key features, and could help you streamline your Sitecore development process. So, let's get started!
 
 ## Prerequisites
-1. Visual Studio 2019+
-2. A Sitecore instance (Optional if you don't want to view the demo page). 
-3. PowerShell Extensions installed in your instance.
+1. Visual Studio 2019 or later
+2. A Sitecore instance (Optional if you don't want to view the demo page)
 
 
 ## Setup Visual Studio Solution
 
 1. Download the latest version of <a target="_blank" href="https://github.com/sukesh-y/Downloads/tree/main/Stratum">GetStratum.zip</a> file, and extract its contents.
-2. Open Windows PowerShell, and change the directory to the extracted folder. Execute the <b>GetStratumCode.ps1</b> script.
+2. Open <i>Windows PowerShell</i> with administrator privileges, and change the directory to the extracted folder. Execute the <b>GetStratumCode.ps1</b> script.
 
 ![stratum_1](https://user-images.githubusercontent.com/24619393/235687985-2cb64452-60b5-4f9c-a560-9e312aa990e7.png)
 
-3. Enter the inputs
+3. Enter the inputs. I chose to name my solution <i>MyCompany</i>. I had an existing fresh Sitecore instance named <i>sample.local</i>.
 
 ![stratum_2](https://user-images.githubusercontent.com/24619393/235688155-65c27536-cc23-41f6-85d7-162e04a31cc6.png)
 
-4. 
+4. This will create the Visual Studio solution in the specified target directory. Once that is done, open the solution in Visual Studio and build it.
+
+
+## Deploy Sitecore Items
 
 
 
