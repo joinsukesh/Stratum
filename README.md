@@ -7,7 +7,7 @@ Introducing <b>Stratum</b>, a boilerplate Visual Studio solution for your Siteco
 
 But that's not all. This module also includes serialized items for a demo page that showcases the code included in the solution. This could be a useful starting point for your own development, allowing you to focus on customizing and refining the code rather than building everything from scratch.
 
-I have tested this module with <i>Sitecore 10.3</i>, but it might work with other versions too.
+The code is on .NET Framework 4.8. I have tested this module with <i>Sitecore 10.3</i>, but it might work with other versions too.
 
 The following sections explain its key features, and could help you streamline your Sitecore development process. So, let's get started!
 
