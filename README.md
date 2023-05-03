@@ -31,7 +31,10 @@ The following sections explain its key features, and could help you streamline y
 
 
 ## Deploy Sitecore Items
-1. For this, you need to have Sitecore CLI setup in your instance. If not yet done, refer this <a target="_blank" href="https://saltandsitecore.wordpress.com/2023/04/24/setup-sitecore-cli/">article</a> and follow <b>Steps 1 to 4</b>. Ignore the rest of the steps in that article, as they are not needed for now.
+1. For this, you need to have Sitecore CLI setup in your instance. If not yet done, refer this <a target="_blank" href="https://saltandsitecore.wordpress.com/2023/04/24/setup-sitecore-cli/">article</a> and follow <b>Steps 1 to 4</b>. 
+
+If you have already installed <i>Sitecore Management Services</i> in your instance, then just refer <b>Steps 3 and 4</b> in that article. 
+(Ignore the rest of the steps, as they are not needed for now).
 2. Once that is done, open <i>Windows Command Prompt</i> with administrator privileges and change the directory to your VS solutions folder. In my case <i>D:\Projects\Internal\MyCompany</i>.
 3. Execute this command to login to the CMS:
 
