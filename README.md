@@ -64,17 +64,13 @@ This will open the CMS in a browser. Select the checkboxes and click on <b>Yes, 
 
 
 ## Step 3: Configurations to View Demo Page
-<b>1. Backup</b>
-
-Take a backup of your instance's webroot folder. 
-
-<b>2. Configure domain URL</b> 
+<b>1. Configure domain URL</b> 
 
 Navigate to this item - <code>/sitecore/system/Settings/MyCompany/Project/Site URL</code>, and update the <i>Phrase</i> field value to your instance URL. In this example, it is <i>https://sample.local</i>
 
 This value will be used as link prefixes for email content.
 
-<b>3. Execute Form Report Scripts</b>
+<b>2. Execute Form Report Scripts</b>
 
 In your VS solution, copy the SQL scripts from here - <code>MyCompany.Feature.AdminPages > SQLScripts > ScFormReport</code>. Execute them in your instance's <code>ExperienceForms</code> database, in the following order.
 
@@ -84,7 +80,7 @@ In your VS solution, copy the SQL scripts from here - <code>MyCompany.Feature.Ad
 
 These will be used in an admin page to view Form data, which is explained later in this document.
 
-<b>4. Create Custom Solr Indexes</b>
+<b>3. Create Custom Solr Indexes</b>
 
 The search functionality in the demo site uses custom Solr indexes. Here is how to create them:
 
@@ -95,7 +91,7 @@ The search functionality in the demo site uses custom Solr indexes. Here is how 
 
 - In the two custom index folders that you have just created, Keep just the <code>conf</code> folder and its contents. Delete everything else including the <i>data</i> folder and the <i>core.properties<i> file.
 
-<b>5. Create Solr Cores</b>
+<b>4. Create Solr Cores</b>
   - Open the Solr portal, select <i>Core Admin</i>, click on <i>Add Core</i>, and create the <i>master</i> core like this, with the same names you have used in the previous step:
   
   ![stratum_9](https://user-images.githubusercontent.com/24619393/235885512-7f45c266-984c-420e-9e0a-ed36350a0f63.png)
@@ -103,12 +99,24 @@ The search functionality in the demo site uses custom Solr indexes. Here is how 
   - Similarly create the core for <i>web</i>.
   - Restart Solr Windows service.
   
-  <b>6. Rebuild Indexes</b>
-  - Restart IIS and open CMS.
-  - Navigate to <code>Launch Pad > Control Panel > Indexing > Populate Solr Managed Schema</code>.
-  - Populate the schema for <i>sitecore_master_index</i> & <i>MyCompany_products_master_index</i>. 
-  - Open <code>Indexing Manager</code>.
-  - Rebuild indexes for <i>sitecore_master_index</i> & <i>MyCompany_products_master_index</i>.
+<b>5. Publish Code Files</b>
+- Take a backup of your instance's webroot folder. 
+- Open VS Solution and navaigate to <code>Publish > Website > MyCompany.Publish.Website</code>. Publish this project.
+- This will publish files from all the projects to <i>C:\out\MyCompany</i>. If the publish doesn't complete for more than a minute, cancel it publish again.
+- Copy all the files in <i>C:\out\MyCompany</i> and paste them in your instance webroot folder.   
+  
+<b>6. Rebuild Indexes</b>
+- Restart IIS and open CMS.
+- Navigate to <code>Launch Pad > Control Panel > Indexing > Populate Solr Managed Schema</code>.
+- Populate the schema for <i>sitecore_master_index</i> & <i>MyCompany_products_master_index</i>. 
+- Open <code>Indexing Manager</code>.
+- Rebuild indexes for <i>sitecore_master_index</i> & <i>MyCompany_products_master_index</i>.
+  
+Thats it!!. Now browse your instance URL to view the demo page.
+  
+  ![image](https://user-images.githubusercontent.com/24619393/235892899-c8a4c07f-4f9d-401e-845a-a8a8dafe30cf.png)
+
+  
 
   
 
