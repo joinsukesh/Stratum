@@ -21,6 +21,8 @@ These are some of the features included:
 
 This module could help you streamline your Sitecore development process. So, let's get started!
 
+[The document appears lengthy, but it's only 3 steps. The rest of it expains the projects and their purpose. 😄]
+
 ## Prerequisites
 1. Visual Studio 2019 or later
 2. A Sitecore instance (Optional if you don't want to view the demo page)
