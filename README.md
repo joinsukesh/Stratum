@@ -31,7 +31,7 @@ This module could help you streamline your Sitecore development process. So, let
 I have used <i>MyCompany</i> as the VS Solution name, my instance name is <i>sample.local</i> and its webroot folder is <i>D:\inetpub\wwwroot\sample.local</i>.
 If you have chosen different settings, ensure to replace them while following the instructions.
 
-## Step 1: Setup Visual Studio Solution
+## Step :one:: Setup Visual Studio Solution
 
 1. Download the latest version of <a target="_blank" href="https://github.com/sukesh-y/Downloads/tree/main/Stratum">GetStratum.zip</a> file, and extract its contents.
 2. Open <i>Windows PowerShell</i> with administrator privileges, and change the directory to the extracted folder. Execute the <b>GetStratumCode.ps1</b> script.
@@ -45,7 +45,7 @@ If you have chosen different settings, ensure to replace them while following th
 4. This will create the Visual Studio solution in the specified target directory. Once that is done, open the solution file in Visual Studio and build it.
 
 
-## Step 2: Deploy Sitecore Items
+## Step :two:: Deploy Sitecore Items
 1. For this, you need to have Sitecore CLI setup in your instance. If not yet done, refer this <a target="_blank" href="https://saltandsitecore.wordpress.com/2023/04/24/setup-sitecore-cli/">article</a> and follow <b>Steps 1 to 4</b>. 
 
 If you have already installed <i>Sitecore Management Services</i> in your instance, then just refer <b>Steps 3 and 4</b> in that article. 
@@ -77,7 +77,7 @@ This will open the CMS in a browser. Select the checkboxes and click on <b>Yes, 
 5. That would create all the Sitecore items in the CMS. There is no need to publish as the demo site uses the <i>master</i> database.
 
 
-## Step 3: Configurations to View Demo Page
+## Step :three:: Configurations to View Demo Page
 <b>1. Configure domain URL</b> 
 
 Navigate to this item - <code>/sitecore/system/Settings/MyCompany/Project/Site URL</code>, and update the <i>Phrase</i> field value to your instance URL. In this example, it is <i>https://sample.local</i>
