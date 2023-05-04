@@ -7,9 +7,17 @@ Introducing <b>Stratum</b>, a boilerplate Visual Studio solution for your Siteco
 
 But that's not all. This module also includes serialized items for a demo page that showcases the code included in the solution. This could be a useful starting point for your own development, allowing you to focus on customizing and refining the code rather than building everything from scratch.
 
-The code is on .NET Framework 4.8. I have tested this module with <i>Sitecore 10.3</i>, but it might work with other versions too.
+The code is on <b>.NET Framework 4.8</b>. I have tested this module with <i>Sitecore 10.3</i>, but it might work with other versions too.
 
-These are some of features included - Helix publishing pipeline, basic Solr search, User account functionalities like registration, login, forgot password & reset password, Admin pages to view & download Sitecore Form data, Encrypt & Decrypt strings, Site & Page Metadata feature, option to add assets at Site, Page & Rendering levels, common page components like Header, Footer, Banner, Accordion, Gallery etc.
+These are some of the features included:
+- Helix publishing pipeline
+- Basic Solr search
+- User account functionalities like registration, login, forgot password & reset password
+- Admin pages to view & download Sitecore Form data, Encrypt & Decrypt strings
+- Site & Page level Metadata feature
+- Option to add assets at Site, Page & Rendering levels
+- Common page components like Header, Footer, Banner, Accordion, Gallery
+- Frequently used helper methods & Item extensions in code
 
 This module could help you streamline your Sitecore development process. So, let's get started!
 
