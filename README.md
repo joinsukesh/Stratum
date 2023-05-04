@@ -210,4 +210,20 @@ If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link
   ### Form  
 <b>Project:</b> <i>Feature.Forms</i>  
   <b>Rendering:</b> <i>Contact Us</i>  
-  I have created a <i>Sitecore Form</i> with 4 fields. The 
+  I have created a <i>Sitecore Form</i> with 4 fields here - <i>/sitecore/client/Applications/FormsBuilder/Pages/Forms</i>. This would create content items in CMS. 
+
+![image](https://user-images.githubusercontent.com/24619393/236162053-4a264f7d-ae01-487d-8d95-107eb5aabbc3.png)
+
+  Copied those Item IDs & hardcoded in code. When the form is submitted, the logic in code (<code>SaveContactUsFormData()</code>)will save the field values and the respective Form Field Ids in the database.  
+  You can view the submitted data in the admin page - <i>/sitecore/admin/MyCompany/scform-report.aspx</i>  
+  
+  
+ ### Footer  
+<b>Project:</b> <i>Feature.Navigation</i>  
+  <b>Rendering:</b> <i>Footer</i>  
+  
+  <hr>
+  
+  ## Projects Explained
+  
+  
