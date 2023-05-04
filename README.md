@@ -17,6 +17,7 @@ These are some of the features included :gift::
 - Site & Page level Metadata feature.
 - Option to add assets at Site, Page & Rendering levels.
 - Common page components like Header, Footer, Banner, Accordion, Gallery.
+- Contains serialized items for <i>core</i> database to disable the "Publish Site" option, and also custom User & User Profile items, with which users can be created. 
 - Frequently used helper methods & Item extensions in code.
 
 The document appears lengthy, but it's only a few steps I promise 😄. The rest of it expains the projects and their purpose.  
@@ -210,9 +211,9 @@ If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link
   ### Form  
 <b>Project:</b> <i>Feature.Forms</i>  
   <b>Rendering:</b> <i>Contact Us</i>  
-  I have created a <i>Sitecore Form</i> with 4 fields here - <i>/sitecore/client/Applications/FormsBuilder/Pages/Forms</i>. This would create content items in CMS. 
+  I have created a <i>Sitecore Form</i> with 4 fields here - <i>/sitecore/client/Applications/FormsBuilder/Pages/Forms</i>. This would create content items in CMS.   
 
-![image](https://user-images.githubusercontent.com/24619393/236162053-4a264f7d-ae01-487d-8d95-107eb5aabbc3.png)
+![image](https://user-images.githubusercontent.com/24619393/236162053-4a264f7d-ae01-487d-8d95-107eb5aabbc3.png)  
 
   Copied those Item IDs & hardcoded in code. When the form is submitted, the logic in code (<code>SaveContactUsFormData()</code>)will save the field values and the respective Form Field Ids in the database.  
   You can view the submitted data in the admin page - <i>/sitecore/admin/MyCompany/scform-report.aspx</i>  
@@ -255,5 +256,42 @@ If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link
   <hr>
   
   ## Projects Explained
+  
+  ### Feature.AdminPages  
+  <b>Page:</b> Sitecore Form Report  
+  <b>URL:</b> /sitecore/admin/MyComponent/scform-report.aspx  
+  A button for this page is also available in the Launch Pad.  
+  
+  
+  <b>Page:</b> Encrypt & Decrypt 
+  <b>URL:</b> /sitecore/admin/MyComponent/encrypt-decrypt.aspx  
+  Use this page to encrypt or decrypt a string. 
+
+  ### Feature.Base
+  This project is created to host any functionality that can be common for <i>Feaure Projects</i>. 
+  The <i>Feature.Base<i> project is refereneced in all <i>Feature Projects</i>.  
+  One use case could be, if you want a certain logic to be triggered for any request to any <i>Controller</i>, then inherit <i>BaseController<i> to that controller.  
+  
+  ### Foundation.Api  
+  The <code>ApiServiceManger</code> class has helper methods for the general GET, POST and PATCH requests, including a API request-response logging functionality.  
+  
+  ### Foundation.Common  
+  Has commonly used helper methods, extensions etc to be used across all projects.  
+  
+  ### Foundation.Search 
+  Has the logic for implementing basic Solr search
+  
+  ### Publish.Website  
+  This is the project with the <i>Helix publishing pipeline</i>. Publishing this project will publish all the code files, views & assets from all projects to the output directory.  
+  After the initial publish, we can exclude a few items like <i>Global.asax<i>, <i>favicon.ico</i> which are needed for every publish.  
+  Open the <i>Publish.Website.wpp.targets</i>, and uncomment the last section to exclude such files from publish.    
+  
+  ![image](https://user-images.githubusercontent.com/24619393/236172124-c41b7ef8-a267-4861-bd0f-74bacaffca37.png)  
+
+  ### CLI Module Files
+  These will be located in your solution folder - <i>/src/SCS/Modules</i>.  
+I have included the <i>Content</i> items also for the demo page, but that is not suggested for a real-time project.  
+
+Thats it for now :triumph:. Thank you for reading !!!
   
   
