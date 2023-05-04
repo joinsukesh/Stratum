@@ -131,7 +131,16 @@ The search functionality in the demo site uses custom Solr indexes. Here is how 
 
 ![image](https://user-images.githubusercontent.com/24619393/235900380-c1c59e40-0f8e-4fb2-8787-5d160f48656e.png)
 
+<b>8. Add appSetting keys</b>
 
+- Add these two keys in your instance's <i>web.config</i>, inside the <code><appSettings</code> node.
+
+````
+    <add key="ClientValidationEnabled" value="true" />  
+    <add key="UnobtrusiveJavaScriptEnabled" value="true" /> 
+````
+   
+   
 Thats it!!. Now browse your instance URL to view the demo page.
   
   ![image](https://user-images.githubusercontent.com/24619393/235892899-c8a4c07f-4f9d-401e-845a-a8a8dafe30cf.png)
