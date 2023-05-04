@@ -269,8 +269,8 @@ If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link
 
   ### Feature.Base
   This project is created to host any functionality that can be common for <i>Feaure Projects</i>. 
-  The <i>Feature.Base<i> project is refereneced in all <i>Feature Projects</i>.  
-  One use case could be, if you want a certain logic to be triggered for any request to any <i>Controller</i>, then inherit <i>BaseController<i> to that controller.  
+  The <i>Feature.Base</i> project is refereneced in all <i>Feature Projects</i>.  
+  One use case could be, if you want a certain logic to be triggered for any request to any <i>Controller</i>, then inherit <i>BaseController</i> to that controller.  
   
   ### Foundation.Api  
   The <code>ApiServiceManger</code> class has helper methods for the general GET, POST and PATCH requests, including a API request-response logging functionality.  
@@ -292,6 +292,8 @@ If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link
   These will be located in your solution folder - <i>/src/SCS/Modules</i>.  
 I have included the <i>Content</i> items also for the demo page, but that is not suggested for a real-time project.  
 
+  <hr>  
+  
 Thats it for now :triumph:. Thank you for reading !!!
   
   
