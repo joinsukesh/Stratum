@@ -162,14 +162,27 @@ Thats it!!. Now browse your instance URL to view the demo page.
 These are the components in order as they appear.
   
 ### Header  
-<b>Project:</b> Feature.Navigation  
+<b>Project:</b> <i>Feature.Navigation</i>  
+  <b>Rendering:</b> <i>Header</i>  
 This is the first component on the page. Displays the Menu items. The last item is a dropdown with user icon. It has two links which open respective pages - <i>Sign In</i> & <i>Sign Up</i>.    
 If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link.  
   Clicking on any link in the Header menu will scroll to the respective section on the page.
   
 
+### Banner  
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>Hero Banner</i>  
 
-
+### About  
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>Columns Section</i>  
+  This rendering has a dynamic placeholder and hence can be used only from <i>Experience Editor</i>. The number of columns can be specified as <i>Rendering Parameters</i>. Each column here uses the <i>Rich Text Section</i> rendering.  
+  
+  
+### Steps  
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>Numbered Grid Tiles</i>  
+  
 
 
 
