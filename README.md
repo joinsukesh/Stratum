@@ -19,9 +19,9 @@ These are some of the features included :gift::
 - Common page components like Header, Footer, Banner, Accordion, Gallery.
 - Frequently used helper methods & Item extensions in code.
 
-This module could help you streamline your Sitecore development process. So, let's get started!
+The document appears lengthy, but it's only a few steps I promise 😄. The rest of it expains the projects and their purpose.  
+This module could help you streamline your Sitecore development process. So, let's get started :construction_worker:!
 
-[The document appears lengthy, but it's only 3 steps. The rest of it expains the projects and their purpose. 😄]
 
 ## Prerequisites
 1. Visual Studio 2019 or later
