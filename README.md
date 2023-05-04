@@ -183,8 +183,31 @@ If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link
 <b>Project:</b> <i>Feature.PageContent</i>  
   <b>Rendering:</b> <i>Numbered Grid Tiles</i>  
   
+### Testimonials  
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>Testimonials</i>  
 
 
+### Services  
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>Teaser Tiles</i>  
 
 
-
+  ### Gallery  
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>MyCompany Gallery</i>  
+  The gallery has pagination whose settings can be configured in the datasource.  
+  
+  ### FAQ  
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>Accordion</i>  
+  
+  ### Contact  
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>Columns Section</i>  
+  Similar to the <i>About</i> section, here too I have used the same rendering and each column has the <i>Rich Text Section</i> rendering.  
+  
+  ### Form  
+<b>Project:</b> <i>Feature.Forms</i>  
+  <b>Rendering:</b> <i>Contact Us</i>  
+  I have created a <i>Sitecore Form</i> with 4 fields. The 
