@@ -155,8 +155,17 @@ Thats it!!. Now browse your instance URL to view the demo page.
   
   ![image](https://user-images.githubusercontent.com/24619393/235892899-c8a4c07f-4f9d-401e-845a-a8a8dafe30cf.png)
 
+<hr>
   
-
+## Demo Page 📃 Explained
+  
+These are the components in order as they appear.
+  
+### Header  
+<b>Project:</b> Feature.Navigation  
+This is the first component on the page. Displays the Menu items. The last item is a dropdown with user icon. It has two links which open respective pages - <i>Sign In</i> & <i>Sign Up</i>.    
+If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link.  
+  Clicking on any link in the Header menu will scroll to the respective section on the page.
   
 
 
