@@ -222,6 +222,36 @@ If the user is signed in, then this dropdown only shows the <i>Sign Out</i> link
 <b>Project:</b> <i>Feature.Navigation</i>  
   <b>Rendering:</b> <i>Footer</i>  
   
+  ### Products Listing  (https://sample.local/products)
+<b>Project:</b> <i>Feature.PageContent</i>  
+  <b>Rendering:</b> <i>Products Listing</i>  
+  This page will list the available 3 products and uses Solr search to fecth them.  If you do not see the products, populate the schema & rebuild the indexes again.  
+  The backend logic uses Solr search to fetch the products. You can find the code in <code>RenderProductsListing()</code>.
+  
+  
+  ### Sign Up  
+<b>Project:</b> <i>Feature.Accounts</i>  
+  <b>Rendering:</b> <i>Sign Up</i>  
+  Register a new user by providing any email & password.  
+  Login to https://ethereal.email with your Ethereal credentials that you have created in <b>Step 3.7</b>  
+  You will see the registration email in the inbox. Click the link to complete the registration. 
+  
+  ### Sign In  
+<b>Project:</b> <i>Feature.Accounts</i>  
+  <b>Rendering:</b> <i>Sign In</i>  
+  You can use the new user credentials to log into the demo site.
+  
+  ### Forgot Password 
+<b>Project:</b> <i>Feature.Accounts</i>  
+  <b>Rendering:</b> <i>Forgot Password</i>  
+  Provide an existing user email and click on Submit. This will send an email with a link, that you can check in your Ethereal account. Clicking on the link will redirect you to the <i>Reset Password</i> where you can reset your password.
+  
+  
+  ### Reset Password 
+<b>Project:</b> <i>Feature.Accounts</i>  
+  <b>Rendering:</b> <i>Reset Password</i>  
+  
+  
   <hr>
   
   ## Projects Explained
