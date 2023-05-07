@@ -18,7 +18,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/Tenant/Stratum/Data/Datasources/Hero Banners
+  Value: "query:/sitecore/content//*[@@templateid='{F20CA1D4-C89B-4418-AE82-850DA82FDA5F}']"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: RenderHeroBanner
@@ -43,11 +43,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "78944519-b375-4bd1-b069-e6b7f4814f23"
+      Value: "c0820930-047a-4134-8011-09c1903589fc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T151544Z
+      Value: 20230507T062235Z

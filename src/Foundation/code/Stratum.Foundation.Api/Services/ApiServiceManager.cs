@@ -1,19 +1,17 @@
 ﻿
 namespace Stratum.Foundation.Api.Services
 {
+    using Newtonsoft.Json;
+    using Sitecore.Diagnostics;
     using Stratum.Foundation.Api.Models;
     using Stratum.Foundation.Common;
-    using Stratum.Foundation.Common.Utilities;
-    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Linq;
     using System.Net.Http;
-    using System.Reflection;
     using System.Text;
     using System.Threading.Tasks;
-    using Sitecore.Diagnostics;
 
     public class ApiServiceManager
     {

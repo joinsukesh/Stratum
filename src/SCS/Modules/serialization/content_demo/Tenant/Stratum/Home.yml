@@ -151,13 +151,13 @@ Languages:
         </r>
     - ID: "083c5646-8d72-408c-aee8-3d7598245d02"
       Hint: Meta Description
-      Value: Welcome to Maxim. We are team of talented designers making websites with Bootstrap
+      Value: Welcome to Stratum. We are team of talented designers making websites with Bootstrap
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230426T074820Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a5648318-f68f-4d8e-9a81-3e9ca8a23390"
+      Value: "1bf7f73f-733a-4ceb-bd54-cd75615f7584"
     - ID: "a201b976-5dee-4787-a901-c6638bf7e958"
       Hint: Meta Title
       Value: Home
@@ -167,4 +167,4 @@ Languages:
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230430T141719Z
+      Value: 20230506T063705Z

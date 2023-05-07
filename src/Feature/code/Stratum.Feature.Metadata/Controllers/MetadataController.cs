@@ -8,7 +8,6 @@ namespace Stratum.Feature.Metadata.Controllers
     using Stratum.Feature.Metadata.Services;
     using Stratum.Foundation.Common;
     using Stratum.Foundation.Common.Extensions;
-    using Stratum.Foundation.Common.Utilities;
     using System.Web.Mvc;
 
     public class MetadataController : BaseController
@@ -27,7 +26,7 @@ namespace Stratum.Feature.Metadata.Controllers
                 if (viewModel != null)
                 {
                     viewModel.FinalMetaTitle = viewModel.MetaTitle;
-                    Item websiteItem = Sitecore.Context.Item.GetAncestorByTemplate(CommonTemplates.Website.ID);
+                    Item websiteItem = Sitecore.Context.Item.GetAncestorByTemplate(CommonTemplates.Website.ID, true);
 
                     if (websiteItem != null)
                     {

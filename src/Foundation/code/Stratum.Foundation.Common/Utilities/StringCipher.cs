@@ -2,10 +2,10 @@
 namespace Stratum.Foundation.Common.Utilities
 {
     using System;
-    using System.Text;
-    using System.Security.Cryptography;
     using System.IO;
     using System.Linq;
+    using System.Security.Cryptography;
+    using System.Text;
 
     public static class StringCipher 
     {

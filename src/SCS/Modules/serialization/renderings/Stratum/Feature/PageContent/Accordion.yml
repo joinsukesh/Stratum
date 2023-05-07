@@ -18,7 +18,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/Tenant/Stratum/Data/Datasources/Accordions
+  Value: "query:/sitecore/content//*[@@templateid='{8B7CFA99-01BF-406C-9E47-0FFD72DA7580}']"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: RenderAccordion
@@ -43,11 +43,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d894d215-4d3a-499f-8ef0-ed52539cfada"
+      Value: "47b73a10-6d48-410a-9fa1-c77704c8ca75"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230430T132254Z
+      Value: 20230507T062252Z

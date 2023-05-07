@@ -18,7 +18,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/Tenant/Stratum/Data/Datasources/Testimonial Sections
+  Value: "query:/sitecore/content//*[@@templateid='{5D928685-926E-4D20-B89C-ECE5C1D3A3E4}']"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: RenderTestimonialsSection
@@ -43,11 +43,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2e70e0b1-ea15-4405-9882-4272264a7b90"
+      Value: "25673409-70ce-4ce0-931f-bb958532f209"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230430T115909Z
+      Value: 20230507T062057Z

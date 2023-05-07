@@ -15,7 +15,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/Tenant/Stratum/Data/Datasources/Footers
+  Value: "query:/sitecore/content//*[@@templateid='{66C2FDBC-6137-430E-9F13-DA9FD83185D7}']"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: RenderFooter
@@ -40,11 +40,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "84e1c3fa-8742-4b6e-a83c-6b10f3438d54"
+      Value: "b4ced180-1e58-4bed-9381-6ea2ac8eeb31"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T140345Z
+      Value: 20230506T064757Z

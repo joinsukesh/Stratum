@@ -1,10 +1,9 @@
 ﻿namespace Stratum.Foundation.Assets.Models
 {
-    using Sitecore;
     using Sitecore.Data.Items;
+    using Stratum.Foundation.Common.Extensions;
     using System.Collections.Generic;
     using System.Web.Mvc;
-    using Stratum.Foundation.Common.Extensions;
 
     public class GlobalAssets : CustomItem
     {

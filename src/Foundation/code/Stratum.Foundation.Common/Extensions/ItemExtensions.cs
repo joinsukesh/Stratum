@@ -241,16 +241,49 @@ namespace Stratum.Foundation.Common.Extensions
             return false;
         }
 
-        public static Item GetAncestorByTemplate(this Item item, ID ancestorTemplateId)
+        public static Item GetAncestorByTemplate(this Item item, ID ancestorTemplateId, bool checkBaseTemplates = false)
         {
+            Item ancestorItem = null;
+
             if (item != null && item.Parent != null)
             {
-                return item.Axes.GetAncestors().Where(x => x.TemplateID == ancestorTemplateId).FirstOrDefault();
+                ancestorItem = item.Axes.GetAncestors().Where(x => x.TemplateID == ancestorTemplateId).FirstOrDefault();
+
+                if (ancestorItem == null && checkBaseTemplates)
+                {
+                    ancestorItem = item.GetAncestorByBaseTemplate(ancestorTemplateId);
+                }
+
+                return ancestorItem;
             }
             else
             {
                 return null;
             }
+        }
+
+        public static Item GetAncestorByBaseTemplate(this Item item, ID baseTemplateId)
+        {
+            TemplateItem baseTemplate = Sitecore.Context.Database.GetTemplate(baseTemplateId);
+
+            if (baseTemplate == null)
+            {
+                return null;
+            }
+
+            Item currentItem = item;
+
+            while (currentItem != null)
+            {
+                if (currentItem.HasTemplateOrBaseTemplate(baseTemplateId))
+                {
+                    return currentItem;
+                }
+
+                currentItem = currentItem.Parent;
+            }
+
+            return null;
         }
 
         #endregion
@@ -847,6 +880,30 @@ namespace Stratum.Foundation.Common.Extensions
             }
 
             return false;
+        }
+
+        /// <summary>
+        /// True if the template associated with the item
+        /// or any of its base templates
+        /// is the template specified by ID.
+        /// </summary>
+        /// <param name="me">The item for which to check
+        /// the template and base templates.</param>
+        /// <param name="templateID">The ID of the template
+        /// for which to check.</param>
+        /// <returns>
+        /// True if the template associated with the item
+        /// or any of its base templates
+        /// is the template specified by ID.
+        /// </returns>
+        public static bool HasTemplateOrBaseTemplate(
+          this Item me,
+          ID templateID)
+        {
+            return me.Template.HasBaseTemplate(
+              templateID,
+              true /*includeSelf*/,
+              true /*recursive*/);
         }
 
         /// <summary>

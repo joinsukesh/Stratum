@@ -15,7 +15,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/Tenant/Stratum/Data/Datasources/Rich Text Sections
+  Value: "query:/sitecore/content//*[@@templateid='{C5CDC6F4-0753-4166-9332-5C37603E5FC2}']"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: Render404Section
@@ -40,11 +40,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bead0226-4789-4981-869e-a2a09caa3d8e"
+      Value: "2f5924af-fe0c-49cc-b6ff-c3a88a96c1c3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230427T140513Z
+      Value: 20230507T062206Z

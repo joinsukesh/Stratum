@@ -1,6 +1,5 @@
 ﻿namespace Stratum.Foundation.Assets.Models
 {
-    using Sitecore;
     using Sitecore.Data.Items;
     using System.Collections.Generic;
     using System.Web.Mvc;

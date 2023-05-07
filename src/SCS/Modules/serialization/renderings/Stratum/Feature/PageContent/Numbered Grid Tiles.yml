@@ -18,7 +18,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/Tenant/Stratum/Data/Datasources/Numbered Grid Tile Sections
+  Value: "query:/sitecore/content//*[@@templateid='{3A9625BF-D531-4D2F-A840-9AD5DBB6A100}']"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: RenderNumberedGridTilesSection
@@ -43,11 +43,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "acd3fc9b-7c04-4686-b401-0f5bb5bb4339"
+      Value: "b9e4bb4a-561f-42d5-9e71-2cdeb3196047"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230430T111323Z
+      Value: 20230507T062220Z

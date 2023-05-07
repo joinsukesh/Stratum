@@ -4,8 +4,6 @@
     using Sitecore.Diagnostics;
     using Sitecore.Pipelines.RenderField;
     using System;
-    using System.Reflection;
-    using System.Text.RegularExpressions;
 
     public class RemoveImageAttributes
     {

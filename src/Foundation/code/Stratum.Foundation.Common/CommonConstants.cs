@@ -1,8 +1,8 @@
-﻿using Sitecore.Configuration;
-using System.Configuration;
-
+﻿
 namespace Stratum.Foundation.Common
 {
+    using System.Configuration;
+
     public class CommonConstants
     {
         public static string GenericError = "A problem occurred while processing your request. Please try again later.";

@@ -89,6 +89,7 @@
     <Compile Include="Extensions\HtmlHelpers.cs" />
     <Compile Include="Extensions\ItemExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="FieldTypes\MultiRootTreeList.cs" />
     <Compile Include="Models\BaseEmailTemplate.cs" />
     <Compile Include="Models\BaseRenderingParams.cs" />
     <Compile Include="Models\Geolocation.cs" />

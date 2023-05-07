@@ -1,9 +1,6 @@
 ﻿namespace Stratum.Project.Website.Pipelines.HttpRequest
 {
-    using Sitecore.Data.Items;
     using Sitecore.Pipelines.HttpRequest;
-    using Stratum.Foundation.Common;
-    using Stratum.Foundation.Common.Extensions;
     using Stratum.Project.Website.Services;
     using System;
 
