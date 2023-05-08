@@ -45,6 +45,8 @@ If you have chosen different settings, ensure to replace them while following th
 
 4. This will create the Visual Studio solution in the specified target directory. Once that is done, open the solution file in Visual Studio and build it.
 
+![image](https://user-images.githubusercontent.com/24619393/236735287-ebe7ac06-ba72-4c9c-aaeb-f8beef92dec0.png)
+
 
 ## Step :two:: Deploy Sitecore Items
 1. For this, you need to have Sitecore CLI setup in your instance. If not yet done, refer this <a target="_blank" href="https://saltandsitecore.wordpress.com/2023/04/24/setup-sitecore-cli/">article</a> and follow <b>Steps 1 to 4</b>. 
