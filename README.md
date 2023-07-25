@@ -34,7 +34,7 @@ If you have chosen different settings, ensure to replace them while following th
 
 ## Step :one:: Setup Visual Studio Solution
 
-1. Download the latest version of <a target="_blank" href="https://github.com/sukesh-y/Downloads/tree/main/Stratum">GetStratum.zip</a> file, and extract its contents.
+1. Download the latest version of <a target="_blank" href="https://github.com/joinsukesh/Downloads/blob/main/Stratum/GetStratum_v1.zip">GetStratum.zip</a> file, and extract its contents.
 2. Open <i>Windows PowerShell</i> with administrator privileges, and change the directory to the extracted folder. Execute the <b>GetStratumCode.ps1</b> script.
 
 ![stratum_1](https://user-images.githubusercontent.com/24619393/235687985-2cb64452-60b5-4f9c-a560-9e312aa990e7.png)
