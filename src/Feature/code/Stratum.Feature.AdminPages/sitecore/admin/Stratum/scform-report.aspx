@@ -11,7 +11,10 @@
     <div class="row">
         <div class="col-12">
             <form runat="server">
+                <asp:ScriptManager ID="ScriptManger1" runat="Server"></asp:ScriptManager>
                 <asp:HiddenField ID="hdnSessionId" runat="server" ClientIDMode="Static" />
+                <asp:HiddenField ID="hdnIsPostBack" runat="server" ClientIDMode="Static" Value="0"/>
+                
                 <div class="mb-3">
                     <div class="row g-3 align-items-center">
                         <div class="col-auto">
@@ -31,45 +34,60 @@
                             <label class="col-form-label">From Date</label>
                         </div>
                         <div class="col-auto">
-                            <input type="date" id="txtFromDate" class="form-control">
+                            <asp:TextBox ID="txtFromDate" runat="server" ClientIDMode="Static" type="date" CssClass="form-control" EnableViewState="true"></asp:TextBox>
                         </div>
                         <div class="col-auto">
                             <label class="col-form-label">To Date</label>
                         </div>
                         <div class="col-auto">
-                            <input type="date" id="txtToDate" class="form-control">
+                            <asp:TextBox ID="txtToDate" runat="server" ClientIDMode="Static" type="date" CssClass="form-control" EnableViewState="true"></asp:TextBox>
                         </div>
-                        <div class="col-auto">
+                        <div class="">
                             <span id="spDates" class="validation-msg">Invalid date(s). From & To dates cannot be later than today. 'To' date should be later than 'From' date.</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="mb-3 clearfix">
-                    <button type="button" id="btnSubmit" class="btn btn-primary float-end">Submit</button>
+                    <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" ClientIDMode="Static" CssClass="btn btn-primary float-end" Text="SUBMIT" />
                 </div>
                 <hr />
                 <div class="mb-3 divError" id="divError">
-                    <label class="font-red">Error</label>
-                    <span id="spError" class="spError"></span>
+                    <label class="font-red">ERROR: </label>
+                    <asp:Label ID="lblError" runat="server" ForeColor="Red"></asp:Label>
                 </div>
-                 <div id="divDownload" class="mb-3 clearfix" style="display:none">
-                    <button type="button" id="btnDownload" class="btn btn-warning float-end">Download</button>
+                <div id="divDownload" class="mb-3 clearfix">
+                    <asp:Button ID="btnDownload" runat="server" ClientIDMode="Static" CssClass="btn btn-warning float-end" Text="DOWNLOAD" Visible="false" />
                 </div>
-                <div class="mb-3" id="divResult">
+                <div class="mb-3" id="divResult_FormData">
+                    <asp:UpdatePanel ID="upFormData" runat="server" UpdateMode="Conditional">
+                        <ContentTemplate>
+                            <asp:GridView ID="gvFormData" runat="server" AutoGenerateColumns="true" CssClass="table table-bordered table-sm table-striped thead-dark"
+                                ClientIDMode="Static" Width="100%" ShowHeaderWhenEmpty="true" EnableViewState="true" OnRowCreated="gvForData_RowCreated"
+                                AllowPaging="true" OnPageIndexChanging="gvFormData_PageIndexChanging" PageSize="10" AllowSorting="true" OnSorting="OnSorting">
+                                <EmptyDataTemplate>
+                                    <div align="center">No records found</div>
+                                </EmptyDataTemplate>
+                                <PagerSettings Mode="NumericFirstLast" Position="TopAndBottom" FirstPageText="First" LastPageText="Last" PageButtonCount="5" />
+                            </asp:GridView>
+                        </ContentTemplate>
+                        <Triggers>
+                            <asp:AsyncPostBackTrigger ControlID="btnSubmit" EventName="Click" />
+                            <asp:AsyncPostBackTrigger ControlID="gvFormData" EventName="PageIndexChanging" />
+                            <asp:AsyncPostBackTrigger ControlID="gvFormData" EventName="Sorting" />
+                        </Triggers>
+                    </asp:UpdatePanel>
                 </div>
             </form>
         </div>
     </div>
     <script>
         $(document).ready(function () {
-            //SetDefaultDates();
+            SetDefaultDates();
 
             $("#btnSubmit").click(function () {
                 ClearResult();
-                if (IsValidData()) {
-                    GetFormData($("#ddlForms").val(), $("#txtFromDate").val(), $("#txtToDate").val());
-                }                
+                return IsValidData();
             });
 
             $("#btnDownload").click(function () {
@@ -77,16 +95,25 @@
                 setTimeout(function () {
                     app.DownloadData($("#hdnSessionId").val(), 1, $("#ddlForms option:selected").text());
                     app.HideWaitModal();
-                }, 3000);
+                }, 5000);
             });
+        });
+
+        Date.prototype.toDateInputValue = (function () {
+            var local = new Date(this);
+            local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
+            return local.toJSON().slice(0, 10);
         });
 
         ///set default dates in mm/dd/yyyy format
         function SetDefaultDates() {
-            var d = new Date().toLocaleDateString().split('/');
-            var dateValue = d[2] + "-" + ("0" + d[0]).slice(-2) + "-" + ("0" + d[1]).slice(-2);
-            $("#txtFromDate").val(dateValue);
-            $("#txtToDate").val(dateValue);
+            var isPostBack = $("#hdnIsPostBack").val();
+
+            /// set current date only on initial page load.
+            if (isPostBack == 0) {
+                $('#txtFromDate').val(new Date().toDateInputValue());
+                $('#txtToDate').val(new Date().toDateInputValue());
+            }
         }
 
         function IsValidData() {
@@ -113,62 +140,15 @@
                 var fromDate = new Date(fromDate).setHours(0, 0, 0, 0);
                 var toDate = new Date(toDate).setHours(0, 0, 0, 0);
                 areDatesValid = fromDate <= today && fromDate <= toDate && toDate <= today;
-            }            
+            }
 
             return areDatesValid;
         }
 
         function ClearResult() {
             $(".validation-msg").hide();
-            $("#divDownload").hide();
-            $("#divResult").html("");
+            $("#btnDownload").hide();
         }
 
-        function GetFormData(selectedFormId, selectedFromDate, selectedToDate) {
-            var submitSessionId = $("#hdnSessionId").val();
-            $.ajax({
-                type: "POST",
-                url: "scform-report.aspx/GetData",
-                data: JSON.stringify({ formId: selectedFormId, fromDate: selectedFromDate, toDate: selectedToDate, sessionId: submitSessionId }),
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                async: "true",
-                cache: "false",
-                beforeSend: function () {
-                    app.ShowWaitModal();
-                },
-                success: function (data) {
-                    data = JSON.parse(data.d);
-
-                    if (data != null && data != undefined) {
-                        if (data.StatusCode == 0) {
-                            app.HideWaitModal();
-                            $("#spError").html(data.StatusMessage);
-                            $("#divError").show();
-                            console.log(data);
-                        }
-                        else if (data.StatusCode == 1) {
-                            app.HideWaitModal();
-                            $("#divResult").html(data.StatusMessage);
-
-                            if ($('#tblFormData').length) {
-                                $('#tblFormData').DataTable();
-                                $("#divDownload").show();
-                            }
-                        }
-                        else if (data.StatusCode == 2) {
-                            window.location = "/sitecore/login";
-                        }
-                    }
-                    else {
-                        app.HideWaitModal();
-                    }
-                },
-                error: function (data) {
-                    app.HideWaitModal();
-                    console.log(data);
-                }
-            });
-        }
     </script>
 </asp:Content>

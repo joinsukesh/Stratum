@@ -15,6 +15,15 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
     {
 
         /// <summary>
+        /// ScriptManger1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.ScriptManager ScriptManger1;
+
+        /// <summary>
         /// hdnSessionId control.
         /// </summary>
         /// <remarks>
@@ -24,6 +33,15 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
         protected global::System.Web.UI.WebControls.HiddenField hdnSessionId;
 
         /// <summary>
+        /// hdnIsPostBack control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hdnIsPostBack;
+
+        /// <summary>
         /// ddlForms control.
         /// </summary>
         /// <remarks>
@@ -31,5 +49,68 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlForms;
+
+        /// <summary>
+        /// txtFromDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFromDate;
+
+        /// <summary>
+        /// txtToDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtToDate;
+
+        /// <summary>
+        /// btnSubmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
+
+        /// <summary>
+        /// lblError control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
+
+        /// <summary>
+        /// btnDownload control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDownload;
+
+        /// <summary>
+        /// upFormData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UpdatePanel upFormData;
+
+        /// <summary>
+        /// gvFormData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvFormData;
     }
 }
