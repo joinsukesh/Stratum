@@ -2,7 +2,6 @@
 namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
 {
     using global::Stratum.Feature.AdminPages.DbFactory;
-    using global::Stratum.Feature.Base.Models;
     using global::Stratum.Foundation.Accounts.Services;
     using global::Stratum.Foundation.Common;
     using global::Stratum.Foundation.Common.Extensions;
@@ -12,10 +11,7 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
     using System;
     using System.Collections.Generic;
     using System.Data;
-    using System.Text;
     using System.Web;
-    using System.Web.Script.Serialization;
-    using System.Web.Services;
     using System.Web.UI.WebControls;
     using FA = global::Stratum.Feature.AdminPages;
 
@@ -124,13 +120,21 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
             {
                 DataTable dt = GetFormData(ddlForms.SelectedValue, txtFromDate.Text, txtToDate.Text, hdnSessionId.Value);
 
-                if (dt != null && dt.Rows.Count > 0 && sortExpression != null)
+                if (dt != null && dt.Rows.Count > 0)
                 {
-                    DataView dv = dt.AsDataView();
-                    this.SortDirection = this.SortDirection == Constants.ASC ? Constants.DESC : Constants.ASC;
+                    if (sortExpression != null)
+                    {
+                        DataView dv = dt.AsDataView();
+                        this.SortDirection = this.SortDirection == Constants.ASC ? Constants.DESC : Constants.ASC;
 
-                    dv.Sort = sortExpression + " " + this.SortDirection;
-                    gvFormData.DataSource = dv;
+                        dv.Sort = sortExpression + " " + this.SortDirection;
+                        gvFormData.DataSource = dv; 
+                    }
+                    else
+                    {
+                        gvFormData.DataSource = dt;
+                    }
+
                     btnDownload.Visible = true;
                 }
                 else
