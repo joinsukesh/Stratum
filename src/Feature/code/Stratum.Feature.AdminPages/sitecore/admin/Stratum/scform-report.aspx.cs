@@ -16,6 +16,7 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
     using System.Web;
     using System.Web.Script.Serialization;
     using System.Web.Services;
+    using System.Web.UI.WebControls;
     using FA = global::Stratum.Feature.AdminPages;
 
     public partial class scform_report : System.Web.UI.Page
@@ -23,23 +24,129 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
         private AccountsService accountsService = new AccountsService();
         private string SitecoreFormsFolderId = "{B701850A-CB8A-4943-B2BC-DDDB1238C103}";
 
+        private string SortDirection
+        {
+            get { return ViewState[Constants.SortDirection] != null ? ViewState[Constants.SortDirection].ToString() : Constants.ASC; }
+            set { ViewState[Constants.SortDirection] = value; }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (accountsService.IsAdministrator())
             {
                 try
                 {
-                    hdnSessionId.Value = HelperUtility.GetRandomString(7);
-                    BindFormsList();
+                    if (!IsPostBack)
+                    {
+                        hdnSessionId.Value = HelperUtility.GetRandomString(7);
+                        BindFormsList();
+                    }
                 }
                 catch (Exception ex)
                 {
                     Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
+                    lblError.Text = ex.Message;
                 }
             }
             else
             {
                 Response.Redirect(FA.Constants.Paths.LoginPagePath);
+            }
+        }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (accountsService.IsAdministrator())
+                {
+                    HttpContext.Current.Session[hdnSessionId.Value] = null;
+                    BindFormData(true, true);
+                }
+                else
+                {
+                    Response.Redirect(FA.Constants.Paths.LoginPagePath);
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
+                lblError.Text = ex.Message;
+            }
+        }
+
+        protected void gvForData_RowCreated(object sender, GridViewRowEventArgs e)
+        {
+            try
+            {
+                if (e.Row.RowIndex == 0)
+                {
+                    e.Row.RowType = DataControlRowType.Header;
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
+                lblError.Text = ex.Message;
+            }
+        }
+
+        protected void gvFormData_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            try
+            {
+                gvFormData.PageIndex = e.NewPageIndex;
+                BindFormData(true, false);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
+                lblError.Text = ex.Message;
+            }
+        }
+
+        protected void OnSorting(object sender, GridViewSortEventArgs e)
+        {
+            try
+            {
+                BindFormData(true, false, e.SortExpression);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
+                lblError.Text = ex.Message;
+            }
+        }
+
+        private void BindFormData(bool isPostBack, bool isSubmitClick, string sortExpression = null)
+        {
+            if (isPostBack)
+            {
+                DataTable dt = GetFormData(ddlForms.SelectedValue, txtFromDate.Text, txtToDate.Text, hdnSessionId.Value);
+
+                if (dt != null && dt.Rows.Count > 0 && sortExpression != null)
+                {
+                    DataView dv = dt.AsDataView();
+                    this.SortDirection = this.SortDirection == Constants.ASC ? Constants.DESC : Constants.ASC;
+
+                    dv.Sort = sortExpression + " " + this.SortDirection;
+                    gvFormData.DataSource = dv;
+                    btnDownload.Visible = true;
+                }
+                else
+                {
+                    gvFormData.DataSource = dt;
+                }
+
+                if (isSubmitClick)
+                {
+                    SetSessionData(dt, hdnSessionId.Value);
+                }
+
+                gvFormData.DataBind();
+                upFormData.Update();
+
+                hdnIsPostBack.Value = CommonConstants.One;
             }
         }
 
@@ -75,39 +182,6 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
                     ddlForms.DataBind();
                 }
             }
-        }
-
-        [WebMethod(EnableSession = true)]
-        public static string GetData(string formId, string fromDate, string toDate, string sessionId)
-        {
-            AccountsService accountsService = new AccountsService();
-            string output = "";
-            BaseResponse result = new BaseResponse();
-            HttpContext.Current.Session[sessionId] = null;
-
-            try
-            {
-                if (accountsService.IsAuthenticated())
-                {
-                    DataTable dt = GetFormData(formId, fromDate, toDate, sessionId);
-                    result.StatusMessage = GetTableHtml(dt);
-                    result.StatusCode = 1;
-                }
-                else
-                {
-                    result.StatusCode = 2;
-                }
-            }
-            catch (Exception ex)
-            {
-                Log.Error("", ex, FA.Constants.Stratum_AdminPage_Error);
-                result.StatusCode = 0;
-                result.StatusMessage = FA.Constants.GenericError;
-                result.ErrorMessage = ex.Message;
-            }
-
-            output = new JavaScriptSerializer().Serialize(result);
-            return output;
         }
 
         /// <summary>
@@ -149,55 +223,16 @@ namespace Stratum.Feature.AdminPages.sitecore.admin.Stratum
             return dt;
         }
 
-        private static string GetTableHtml(DataTable dt)
+        private void SetSessionData(DataTable dt, string sessionId)
         {
-            string tableHtml = string.Empty;
-
             if (dt != null && dt.Rows.Count > 0)
             {
-                int columnsCount = dt.Columns.Count;
-                StringBuilder sbTable = new StringBuilder(string.Empty);
-                sbTable.AppendLine("<table id=\"tblFormData\" class=\"table table-bordered table-striped\">");
-                sbTable.AppendLine("<thead class=\"table-dark\"><tr>");
-
-                ///Adding the first column for row number
-                sbTable.AppendLine("<th scope=\"col\">#</th>");
-
-                foreach (DataColumn dc in dt.Columns)
-                {
-                    sbTable.AppendLine("<th scope=\"col\">" + dc.ColumnName + "</th>");
-                }
-
-                sbTable.AppendLine("</tr></thead>");
-                sbTable.AppendLine("<tbody>");
-
-                int rowDisplayNum = 1;
-                foreach (DataRow dr in dt.Rows)
-                {
-                    sbTable.AppendLine("<tr>");
-
-                    ///Adding the value first column i.e. RowNum
-                    sbTable.AppendLine("<td  scope=\"row\">" + rowDisplayNum + "</td>");
-
-                    foreach (DataColumn dc in dt.Columns)
-                    {
-                        sbTable.AppendLine("<td>" + dr[dc.ColumnName] + "</td>");
-                    }
-
-                    sbTable.AppendLine("</tr>");
-                    rowDisplayNum++;
-                }
-
-                sbTable.AppendLine("</tbody>");
-                sbTable.AppendLine("</table>");
-                tableHtml = sbTable.ToString();
+                HttpContext.Current.Session[sessionId] = dt;
             }
             else
             {
-                tableHtml = "No results found";
+                HttpContext.Current.Session[sessionId] = null;
             }
-
-            return tableHtml;
         }
     }
 }

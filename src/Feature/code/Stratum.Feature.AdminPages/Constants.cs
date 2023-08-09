@@ -12,5 +12,8 @@ namespace Stratum.Feature.AdminPages
 
         public static string Stratum_AdminPage_Error = "STRATUM_ADMIN_PAGE_ERROR";
         public static string GenericError = CommonDictionaryValues.Messages.Errors.Generic;
+        public static string SortDirection = "SortDirection";
+        public static string ASC = "ASC";
+        public static string DESC = "DESC";
     }
 }

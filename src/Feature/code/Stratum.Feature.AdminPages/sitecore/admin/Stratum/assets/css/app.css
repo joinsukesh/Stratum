@@ -69,4 +69,18 @@ label {
     overflow-x: scroll;
     font-size: 12px;
 }
+
+.table th {
+    text-align: center;
+}
+
+.thead-dark th {
+    background-color: #343a40;
+    color: white;
+    border: 1px solid black;
+}
+
+    .thead-dark th a {
+        color: white;
+    }
 /*#endregion */

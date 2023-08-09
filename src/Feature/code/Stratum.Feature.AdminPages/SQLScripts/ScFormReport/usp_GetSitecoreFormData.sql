@@ -32,12 +32,12 @@ BEGIN
 					).value('.', 'nvarchar(MAX)') 
 					,1,1,'')
     --print @cols
-	SET @query = N'SELECT ContactId, ' + @cols + N'
+	SET @query = N'SELECT ContactId, ' + @cols + ', Created' + N'
 	            FROM 
 				(
-					SELECT EntryId, ContactId, FieldName, FieldValue
+					SELECT EntryId, ContactId, FieldName, FieldValue, Created
 					FROM uv_ScFormData (NOLOCK)
-					WHERE FormId = ''' + CONVERT(varchar(50), @FormId) + ''' AND Created BETWEEN ''' + CONVERT(varchar(50), @StartDate) + ''' AND ''' + CONVERT(varchar(50), @EndDate) + '''
+					WHERE FormId = ''' + CONVERT(varchar(50), @FormId) + ''' AND Created BETWEEN ''' + CONVERT(varchar(50), @StartDate) + ''' AND ''' + CONVERT(varchar(50), @EndDate) + '''					
 				) cols
 				PIVOT 
 				(
